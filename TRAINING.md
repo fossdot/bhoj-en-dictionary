@@ -19,10 +19,19 @@ bho→en / en→bho zero-shot first, pick the strongest starting point):
 - Qwen family
 - Indic-focused models: Sarvam, AI4Bharat/Airavata lineage, Krutrim
 
-Tokenizer fertility matters more than benchmark scores: measure
-tokens-per-word on `mono/all-dedup.txt` for each candidate's tokenizer. A
-model that needs 6 tokens per Devanagari word will underperform one that
-needs 2.5, at equal quality.
+Tokenizer fertility matters more than benchmark scores. Measured on this
+corpus (`pipeline/measure_fertility.py`, 20k-line sample):
+
+| tokenizer | tokens/word | chars/token |
+|---|---:|---:|
+| IndicBERTv2 (encoder — reference point, not a chat base) | 1.48 | 3.46 |
+| Sarvam-1 | 1.77 | 2.90 |
+| Qwen3 | 4.71 | 1.09 |
+
+A Sarvam-class Indic tokenizer fits ~2.7× more Bhojpuri into a context
+window than Qwen3, which shreds Devanagari near byte level. Gemma/Llama
+tokenizers are gated on HF — drop their `tokenizer.json` into
+`data/raw/tokenizers/` and rerun to compare.
 
 ### 2. Continued pretraining (CPT)
 
