@@ -26,7 +26,8 @@ needs 2.5, at equal quality.
 
 ### 2. Continued pretraining (CPT)
 
-- Data: `mono/all-dedup.txt` (~28M tokens) + optionally the bho side of
+- Data: `mono/all-dedup-lid-bho.txt` (LID-filtered, ~26M tokens; the unfiltered
+  `all-dedup.txt` is ~28M) + optionally the bho side of
   parallel data. Mix in 5–15% Hindi + English replay data to prevent
   catastrophic forgetting.
 - 2–4 epochs over the bho data is defensible at this scale; watch held-out

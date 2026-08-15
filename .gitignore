@@ -13,3 +13,4 @@ data/training/sft*.jsonl
 .DS_Store
 __pycache__/
 .venv/
+data/lid/model.joblib
