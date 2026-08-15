@@ -48,9 +48,9 @@ needs 2.5, at equal quality.
 
 - Use NLLB-200 (which supports bho_Deva) or the CPT model itself to translate
   Hindi corpora → Bhojpuri; filter with round-trip agreement + the
-  `pipeline/audit_language.py` marker heuristic (or a proper LID classifier
-  trained on `data/raw/vardial2018` — 5-way Hindi/Braj/Awadhi/Bhojpuri/Magahi,
-  Apache-2.0).
+  trained LID classifier (`pipeline/train_lid.py`: 5-way
+  Hindi/Braj/Awadhi/Bhojpuri/Magahi on VarDial 2018, 87.9% test accuracy —
+  see `data/lid/REPORT.md`; `pipeline/filter_lid.py` applies it).
 - Native speakers correcting synthetic text through the dictpress submission
   queue is far cheaper than authoring from scratch — that's the
   dictionary ↔ LLM loop paying for itself.
