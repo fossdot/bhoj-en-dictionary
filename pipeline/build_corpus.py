@@ -190,6 +190,23 @@ def hplt() -> None:
     write_mono("hplt", lines(), "CC0 (HPLT v2; underlying web text rights vary)")
 
 
+def vardial() -> None:
+    """VarDial 2018 ILI shared task (Apache-2.0): ~15k bho sentences from
+    literature. The full 5-language set doubles as LID training data."""
+    d = RAW / "vardial2018" / "dataset"
+    if not d.exists():
+        return
+
+    def lines():
+        for split in ("train.txt", "dev.txt", "gold.txt"):
+            for ln in (d / split).read_text(errors="replace").splitlines():
+                parts = ln.split("\t")
+                if len(parts) == 2 and parts[1].strip() == "BHO":
+                    yield parts[0]
+
+    write_mono("vardial-bho", lines(), "Apache-2.0")
+
+
 def ud_bhtb() -> None:
     d = RAW / "UD_Bhojpuri-BHTB"
     if not d.exists():
@@ -214,6 +231,7 @@ def main() -> None:
     bhltr()
     madlad()
     hplt()
+    vardial()
     ud_bhtb()
 
     # bhwiki.txt is produced by extract_bhwiki.py — include it in the stats
@@ -228,7 +246,7 @@ def main() -> None:
     seen: set[str] = set()
     n = 0
     with (MONO / "all-dedup.txt").open("w") as out:
-        for name in ("bhwiki", "ud-bhtb", "hplt", "madlad-clean", "madlad-noisy"):
+        for name in ("bhwiki", "ud-bhtb", "vardial-bho", "hplt", "madlad-clean", "madlad-noisy"):
             f = MONO / f"{name}.txt"
             if not f.exists():
                 continue
