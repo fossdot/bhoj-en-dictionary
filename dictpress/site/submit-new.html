@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ t(key="public.submitEntry") }}</h2>
+<hr />
+<form method="post" action="" class="form-submit">
+    <div>
+        <div class="row">
+            <div class="col-3">
+                <label for="entry-lang">{{ t(key="public.suggestEntryLang") }}</label>
+                <select name="entry_lang" id="entry-lang">
+                {% for id, l in langs %}
+                    <option value="{{ id }}">{{ l.name }}</option>
+                {% endfor %}
+                </select>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-8">
+                <label for="entry-content">{{ t(key="public.suggestContent") }}</label>
+                <textarea name="entry_content" id="entry-content" required minlength="3"></textarea>
+            </div>
+        </div>
+        <fieldset>
+            <label>{{ t(key="public.suggestPhones") }}</label>
+            <input type="text" name="phones" placeholder="{{ t(key="public.suggestPhonesPlaceholder") }}" />
+        </fieldset>
+
+        <br />
+        <h3>{{ t(key="public.suggestDefsTitle") }}</h3>
+        <ol class="add-relations card">
+            <li class="row">
+                <div class="col-3" data-relation-controls>
+                    <label>{{ t(key="public.suggestDefLang") }}</label>
+                    <select name="relation_lang">
+                    {% for id, l in langs %}
+                        <option value="{{ id }}">{{ l.name }}</option>
+                    {% endfor %}
+                    </select>
+
+                    <select name="relation_type" aria-label="Definition type">
+                    {% for lid, l in langs %}
+                        {% for tid, typ in l.types %}
+                            <option data-lang="{{ lid }}" value="{{ tid }}">{{ typ }}</option>
+                        {% endfor %}
+                    {% endfor %}
+                    </select>
+
+                    <br />
+                    <a href="#" class="btn-remove-relation">{{ t(key="global.btnDelete") }}</a>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-8">
+                    <label for="definition-content">{{ t(key="public.suggestContent") }}</label>
+                    <textarea name="relation_content" required minlength="3"></textarea>
+                </div>
+            </li>
+        </ol>
+        <p class="align-right">
+            <a href="#" class="btn-add-relation">+ {{ t(key="public.suggestAddDefBtn") }}</a>
+        </p>
+
+        <br />
+        <p>
+            <button type="submit">{{ t(key="public.suggestSubmitBtn") }}</button>
+        </p>
+    </div>
+</form>
+
+<script>
+    (() => { window.setTimeout(() => { document.querySelector('#entry-content').focus() }, 10); })();
+</script>
+{% endblock %}

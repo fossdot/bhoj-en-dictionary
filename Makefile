@@ -36,7 +36,7 @@ dict:
 	  ./dictpress --config ../config.toml --db ../data.db import --file ../import.csv"
 	docker run -d --name bhoj-dict --restart unless-stopped -p 9000:9000 \
 	  -v "$(PWD)/$(DICT):/work" -w /work/app alpine \
-	  ./dictpress --config ../config.toml --db ../data.db --site site
+	  ./dictpress --config ../config.toml --db ../data.db --site ../site
 	@echo "dictionary → http://localhost:9000  admin → http://localhost:9000/admin"
 
 eval-test:

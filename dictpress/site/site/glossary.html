@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="content glossary">
+    {% if not initials or initials | length == 0 %}
+        <h2>{{ t(key="public.glossaryTitle") }}</h2>
+        <p>{{ t(key="public.noResults") }}</p>
+    {% else %}
+        <menu class="index buttons" aria-label="Alphabetical index">
+            {% for a in initials %}
+            <li><a href="{{ consts.root_url }}/glossary/{{ glossary.from_lang }}/{{ glossary.to_lang }}/{{ a | urlencode }}" class="button {% if a == initial %}small{% else %}ghost small{% endif %}">{{ a }}</a></li>
+            {% endfor %}
+        </menu>
+
+        <nav class="pagination top align-center mb-6" aria-label="Top pagination">{% include "pagination.html" %}</nav>
+
+        {% include "glossary-words.html" %}
+
+        <nav class="pagination bottom align-center mt-6" aria-label="Bottom pagination">{% include "pagination.html" %}</nav>
+    {% endif %}
+</section>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="content results">
+    {% if not results.entries or results.entries | length == 0 %}
+        <h2>{{ t(key="public.noResultsTitle") }}</h2>
+        <p>
+            {{ t(key="public.noResults") }}
+        </p>
+    {% else %}
+        {% include "results.html" %}
+    {% endif %}
+</section>
+{% endblock %}

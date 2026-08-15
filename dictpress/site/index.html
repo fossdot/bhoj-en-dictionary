@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="stats align-center" aria-label="Statistics">
+  <dl class="stats-list hstack justify-center">
+  {%- for lang_code, count in consts.stats.languages -%}
+    {%- set lang_name = langs[lang_code].name -%}
+    <div><dt>{{ lang_name }}</dt> <dd><strong>{{ count }}</strong> {{ t(key="public.statsEntries") }}</dd></div>
+  {%- endfor -%}
+    <div><dt>{{ t(key="public.statsDefs") }}</dt> <dd><strong>{{ consts.stats.relations }}</strong></dd></div>
+  </dl>
+</section>
+{% endblock %}

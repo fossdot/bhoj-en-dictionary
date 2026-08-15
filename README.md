@@ -68,8 +68,11 @@ docker run --rm -v "$PWD:/work" -w /work/app alpine \
 docker run --rm -v "$PWD:/work" -w /work/app alpine \
   ./dictpress --config ../config.toml --db ../data.db import --file ../import.csv
 docker run -d --name bhoj-dict -p 9000:9000 -v "$PWD:/work" -w /work/app alpine \
-  ./dictpress --config ../config.toml --db ../data.db --site site
+  ./dictpress --config ../config.toml --db ../data.db --site ../site
 ```
+
+(or just `make dict`; `dictpress/site/` is the committed theme — the upstream
+default with Bhoj branding in `lang.json`)
 
 Then open <http://localhost:9000> (site) or <http://localhost:9000/admin>
 (admin, credentials in `dictpress/config.toml` — change them). Search
@@ -98,6 +101,8 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 | [HPLT v2](https://hplt-project.org) `bho_Deva` | 6.6M words (prob≥0.9 + Devanagari filter) | CC0 (web text) |
 | [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) `bho` clean+noisy | 2.7M + 6.9M words ("noisy" tier is decent bho journalism) | ODC-BY |
 | [Bhojpuri Wikipedia](https://bh.wikipedia.org) dump | 1.19M words | CC BY-SA 4.0 |
+| [NLLB-Seed](https://github.com/facebookresearch/flores/tree/main/nllb_seed) | 6,193 professionally translated pairs (training-grade) | CC BY-SA 4.0 |
+| [NLLB-MD](https://github.com/facebookresearch/flores/tree/main/nllb_md) chat/news/health | 8,809 pro pairs (test splits kept EVAL-ONLY) | CC BY-SA 4.0 |
 | [OPUS NLLB](https://opus.nlpl.eu) mined bho–en bitext | 8.7k pairs @LASER≥1.15, 121k @≥1.10 (of 2.43M raw) | ODC-BY |
 | [FLORES-200](https://github.com/facebookresearch/flores) dev+devtest | 2,009 pro-translated pairs — **EVAL ONLY, never train** | CC BY-SA 4.0 |
 | OPUS wikimedia / translatewiki / Tatoeba | 1,982 / 2,243 / 42 pairs | CC BY-SA / CC BY / CC BY |
@@ -105,8 +110,10 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 | [UD Bhojpuri BHTB](https://github.com/UniversalDependencies/UD_Bhojpuri-BHTB) | 268 sentences (+POS trees) | CC BY-SA 4.0 |
 
 **Bottom line: `mono/all-dedup.txt` = 12.77M words (335k lines) of
-deduplicated, commercial-safe Bhojpuri text; ~165k parallel pairs; 120k-example
-SFT bundle (`sft.jsonl`), 149k with NC sources (`sft-nc.jsonl`).**
+deduplicated, commercial-safe Bhojpuri text; ~180k parallel pairs (incl.
+15k professionally translated); 133k-example SFT bundle (`sft.jsonl`),
+163k with NC sources (`sft-nc.jsonl`). Language audit in
+`data/corpus/QUALITY.md` (`pipeline/audit_language.py`).**
 
 Dead ends checked so far: kaikki.org (no bho extract), IndicCorpV2/Sangraha/BPCC
 (bho not a scheduled language, excluded), eBible (no open bho scripture),

@@ -1,0 +1,100 @@
+{% set max_content_items = consts.site_max_content_items %}
+{% set num_results = results.entries | length %}
+{% if num_results > 10 %}{% set num_results = 10 %}{% endif %}
+
+<div class="row">
+    <div class="col-8">
+        <ol class="entries unstyled">
+            {% for r in results.entries | slice(end=num_results) %}
+            {% set shareGuid = "s" ~ r.guid | split(pat="-") | first %}
+            <li class="entry card" id="{{ shareGuid }}" data-head="{{ r.content | join(sep=", ") }}" data-lang="{{ r.lang }}">
+                <header class="head hstack justify-between">
+                    <div>
+                        <div class="title-wrap hstack items-center gap-2">
+                            <h3 class="title">{{ r.content | join(sep=", ") }}</h3>
+                            {% if r.meta.audio %}
+                                <button type="button" class="audio" data-audio data-src="{{ r.meta.audio }}">
+                                    <img src="/static/audio.svg?v={{ asset_ver }}" alt="{{ t(key="public.playAudio") }}">
+                                </button>
+                            {% endif %}
+                        </div>
+
+                        {% if r.phones and r.phones | length > 0 %}
+                            <span class="pronun text-light">&#9834; {{ r.phones | join(sep=",") }}</span>
+                        {% endif %}
+                    </div>
+
+                    <div class="meta hstack items-center">
+                        {% if r.tags and r.tags | length > 0 %}
+                            <span class="tags">
+                                {% for tag in r.tags %}
+                                    <span class="badge outline" {% if tag is starting_with("src:") %} title="{{ t(key="public.sourceTag") }}"{% endif %}>{{ tag }}</span>
+                                {% endfor %}
+                            </span>
+                        {% endif %}
+
+                        <div class="toolbar">
+                            {% if consts.enable_submissions %}
+                            <button class="ghost edit item" data-edit-from="{{ r.guid }}" title="{{ t(key="public.suggestEdit") }}"><img src="/static/edit.svg?v={{ asset_ver }}" alt="{{ t(key="public.suggestEdit") }}"></button>
+                            {% endif %}
+                            <button class="ghost share item" data-share-entry="{{ shareGuid }}" title="{{ t(key="public.shareSnapshot") }}"><img src="/static/export.svg?v={{ asset_ver }}" alt="{{ t(key="public.shareSnapshot") }}"></button>
+                        </div>
+                    </div>
+                </header>
+
+                {% if r.relations and r.relations | length > 0 %}
+                    {%- set_global last_type = "" -%}
+                    {%- for d in r.relations -%}
+                        {%- set types = d.relation.types | default(value=[]) | join(sep=", ") -%}
+
+                        {%- if last_type != types or loop.first -%}
+                            {% if not loop.first %}</ol>{% endif %}
+                            <ol class="defs">
+                                <li class="types">
+                                    {%- for t in d.relation.types | default(value=[]) -%}
+                                        {%- if t != "" -%}
+                                        <span>
+                                            {%- set type_label = langs[d.lang].types | get(key=t, default="") -%}
+                                            {%- if type_label %}{{ type_label }}
+                                            {%- else %}({{ t }}){% endif -%}
+                                        </span>
+                                        {%- endif -%}
+                                    {%- endfor -%}
+                                </li>
+                        {%- endif %}
+
+                        <li><div data-guid="{{ d.guid }}" class="def" data-lang="{{ d.lang }}">
+                            {{ d.content | join(sep=", ") }}
+                            {% if d.content_length > max_content_items or d.meta.synonyms %}
+                                <a href="#" class="more-toggle" data-id="{{ r.guid }}-{{ d.guid }}" title="{{ t(key="public.viewMore") }}"
+                                    data-entry-guid="{{ d.guid }}" data-from-lang="{{ r.lang }}" data-to-lang="{{ d.lang }}"
+                                    role="button" aria-expanded="false" aria-controls="{{ r.guid }}-{{ d.guid }}">
+                                </a>
+                            {% endif %}
+                            {% if consts.enable_submissions %}
+                                <button type="button" data-edit-from="{{ r.guid }}" data-edit-to="{{ d.guid }}" class="edit" title="{{ t(key="public.suggestEdit") }}">
+                                    <img src="/static/edit.svg?v={{ asset_ver }}" alt="{{ t(key="public.suggestEdit") }}">
+                                </button>
+                            {% endif %}
+
+                            <div class="more" id="{{ r.guid }}-{{ d.guid }}" role="region" aria-hidden="true"></div>
+
+                        </div></li>
+                        {%- set_global last_type = types -%}
+                    {%- endfor -%}
+                    </ol>
+                {% endif %}
+
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+    <nav class="col-3 offset-1 related" aria-label="{{ t(key='public.similarTitle') }}">
+        {% if results.entries | length > num_results %}
+            <h3>{{ t(key="public.similarTitle") }}</h3>
+            {% for r in results.entries | slice(start=num_results) %}
+                <a href="{{ consts.root_url }}/dictionary/{{ from_lang }}/{{ to_lang }}/{{ r.content.0 | urlencode }}" class="word">{{ r.content.0 }}</a>
+            {% endfor %}
+        {% endif %}
+    </nav>
+</div>
