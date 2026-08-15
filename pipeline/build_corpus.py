@@ -109,6 +109,30 @@ def nllb() -> None:
         write_pairs(name, rows, "ODC-BY (NLLB mined)", extra="score")
 
 
+def nllb_seed_md() -> None:
+    """NLLB-Seed and NLLB-MD: professionally translated, CC-BY-SA 4.0.
+    Unlike FLORES these are meant for training (MD test splits kept eval-only)."""
+    seed = RAW / "nllb-seed" / "NLLB-Seed" / "bho_Deva-eng_Latn"
+    if seed.exists():
+        bho = (seed / "bho_Deva").read_text().splitlines()
+        en = (seed / "eng_Latn").read_text().splitlines()
+        write_pairs("nllb-seed", zip(bho, en), "CC-BY-SA 4.0")
+    md = RAW / "nllb-md" / "NLLB-MD"
+    if md.exists():
+        for domain in ("chat", "news", "health"):
+            for split in ("train", "valid", "test"):
+                b = md / domain / f"{split}.eng_Latn-bho_Deva.bho_Deva"
+                e = md / domain / f"{split}.eng_Latn-bho_Deva.eng_Latn"
+                if not b.exists():
+                    continue
+                suffix = "-EVAL-ONLY" if split == "test" else ""
+                write_pairs(
+                    f"nllb-md-{domain}-{split}{suffix}",
+                    zip(b.read_text().splitlines(), e.read_text().splitlines()),
+                    "CC-BY-SA 4.0",
+                )
+
+
 def bhltr() -> None:
     d = RAW / "bho-resources"
     if not d.exists():
@@ -186,6 +210,7 @@ def main() -> None:
     opus_simple("wikimedia", "wikimedia", "CC-BY-SA 3.0")
     translatewiki()
     nllb()
+    nllb_seed_md()
     bhltr()
     madlad()
     hplt()
