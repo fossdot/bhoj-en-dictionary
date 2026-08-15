@@ -80,6 +80,18 @@ def opus_simple(dirname: str, prefix: str, license_: str) -> None:
     write_pairs(dirname, zip(bho, en), license_)
 
 
+def translatewiki() -> None:
+    d = RAW / "opus" / "translatewiki"
+    if not d.exists():
+        return
+    bho = (d / "translatewiki.bho-en.bho").read_text().splitlines()
+    en = (d / "translatewiki.bho-en.en").read_text().splitlines()
+    # UI strings: drop rows with template syntax or placeholders on either side
+    bad = re.compile(r"\{\{|\}\}|\$\d|<[a-z/]|&\w+;|^\W*$")
+    pairs = [(b, e) for b, e in zip(bho, en) if not bad.search(b) and not bad.search(e)]
+    write_pairs("translatewiki", pairs, "CC-BY 3.0 (translatewiki.net)")
+
+
 def nllb() -> None:
     d = RAW / "opus" / "nllb"
     if not d.exists():
@@ -172,6 +184,7 @@ def main() -> None:
     flores()
     opus_simple("tatoeba", "Tatoeba", "CC-BY 2.0 FR")
     opus_simple("wikimedia", "wikimedia", "CC-BY-SA 3.0")
+    translatewiki()
     nllb()
     bhltr()
     madlad()
