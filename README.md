@@ -88,7 +88,8 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 |---|---|---|
 | [en-Wiktionary bho lemmas](https://en.wiktionary.org/wiki/Category:Bhojpuri_lemmas) | 421 entries, 477 senses, 32 example pairs | CC BY-SA 4.0 |
 | en-Wiktionary translation tables (711 pages mined) | 742 bho words, 768 pairs | CC BY-SA 4.0 |
-| **merged** | **998 headwords, 1,239 definitions** | |
+| [GATITOS](https://huggingface.co/datasets/google/smol) (Google SMOL) | 3,488 headwords, 7,982 pairs — core vocab + phrases | CC BY 4.0 |
+| **merged** | **4,124 headwords, 5,537 definitions** | |
 
 ### Corpus (→ `data/corpus/`, see `STATS.md` for exact counts)
 
@@ -99,18 +100,35 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 | [Bhojpuri Wikipedia](https://bh.wikipedia.org) dump | 1.19M words | CC BY-SA 4.0 |
 | [OPUS NLLB](https://opus.nlpl.eu) mined bho–en bitext | 8.7k pairs @LASER≥1.15, 121k @≥1.10 (of 2.43M raw) | ODC-BY |
 | [FLORES-200](https://github.com/facebookresearch/flores) dev+devtest | 2,009 pro-translated pairs — **EVAL ONLY, never train** | CC BY-SA 4.0 |
-| OPUS wikimedia / Tatoeba | 1,194 / 42 pairs | CC BY-SA / CC BY |
+| OPUS wikimedia / translatewiki / Tatoeba | 1,982 / 2,243 / 42 pairs | CC BY-SA / CC BY / CC BY |
 | [BHLTR (JNU)](https://github.com/shashwatup9k/bho-resources) | 29.5k parallel + 43k mono lines — kept in `-NC` files | CC BY-**NC**-SA ⚠ |
 | [UD Bhojpuri BHTB](https://github.com/UniversalDependencies/UD_Bhojpuri-BHTB) | 268 sentences (+POS trees) | CC BY-SA 4.0 |
 
 **Bottom line: `mono/all-dedup.txt` = 12.77M words (335k lines) of
-deduplicated, commercial-safe Bhojpuri text; ~160k parallel pairs; 114k-example
-SFT bundle (`sft.jsonl`), 143k with NC sources (`sft-nc.jsonl`).**
+deduplicated, commercial-safe Bhojpuri text; ~165k parallel pairs; 120k-example
+SFT bundle (`sft.jsonl`), 149k with NC sources (`sft-nc.jsonl`).**
 
 Dead ends checked so far: kaikki.org (no bho extract), IndicCorpV2/Sangraha/BPCC
 (bho not a scheduled language, excluded), eBible (no open bho scripture),
-OLDI-seed (no bho), Leipzig + StoryWeaver (bot-walled), Wikimedia incubator
-Wt/bho (~30 stubs), Wikidata lexemes (30, subset of Wiktionary).
+OLDI-seed (no bho), SMOL doc/sent (no bho — only GATITOS), HPLT bitexts (none),
+Leipzig + StoryWeaver (bot-walled), Wikimedia incubator Wt/bho (~30 stubs),
+Wikidata lexemes (30, subset of Wiktionary), CC-100 (no bh split online),
+FLEURS/CommonVoice/XLSum/PMIndia (no bho).
+
+### Public-domain OCR leads (archive.org, future work)
+
+The deepest untapped lexical sources are 19th-century and out of copyright.
+OCRing 1880s Devanagari is a project of its own, but the payoff is thousands
+of entries + parallel specimens:
+
+- `acomparativedic00griegoog` — Grierson, *A Comparative Dictionary of the
+  Bihārī Language* (1885)
+- `sevengrammarsofd04grie` — Grierson, *Seven Grammars of the Dialects and
+  Subdialects of the Bihárí Language* (1883–87; includes Bhojpuri vocabulary)
+- `in.ernet.dli.2015.32104` — *Linguistic Survey of India* Vol. 5 Pt. 2
+  (1903; Bhojpuri specimen passages **with aligned English translations**)
+- `hindustani-proverbs-dictionary-marwari-punjabi-maggah-bhojpuri-tirhuti` —
+  Fallon, *A Dictionary of Hindustani Proverbs* (1886; incl. Bhojpuri)
 
 Notes for LLM work:
 
@@ -148,11 +166,16 @@ dictpress/
 ## Rebuild everything
 
 ```sh
-python3 pipeline/fetch_wiktionary.py
-python3 pipeline/fetch_wiktionary_translations.py
-python3 pipeline/extract_bhwiki.py          # needs data/raw/bhwiki dump
-python3 pipeline/build_corpus.py            # needs data/raw/{opus,flores,madlad,hplt,bho-resources,UD_Bhojpuri-BHTB}
-python3 pipeline/to_dictpress.py data/canonical/*.jsonl > dictpress/import.csv
-python3 pipeline/to_training.py data/canonical/*.jsonl
-python3 pipeline/assemble_sft.py            # add --include-nc for the NC bundle
+make fetch   # Wiktionary + GATITOS → canonical JSONL
+make data    # corpus + dictionary CSV + training exports (needs data/raw/ downloads)
+make dict    # fresh DB + import + restart the dictpress container
 ```
+
+(See the Makefile for the underlying `pipeline/*.py` commands; raw-source
+download URLs are documented in each fetcher/processor script.)
+
+## Evaluation
+
+FLORES-200 bho files are the benchmark — never train on them. See
+`eval/README.md` for the protocol and `eval/score.py` for a dependency-free
+chrF2 scorer.
