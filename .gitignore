@@ -12,3 +12,4 @@ data/training/sft*.jsonl
 
 .DS_Store
 __pycache__/
+.venv/

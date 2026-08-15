@@ -1,6 +1,6 @@
 # From this data to a Bhojpuri LLM
 
-What exists here (as of 2026-08): ~13.1M words (~20M tokens) of deduplicated
+What exists here (as of 2026-08): ~19.1M words (~28M tokens) of deduplicated
 monolingual Bhojpuri, ~180k parallel bho–en pairs of mixed quality including
 ~15k professional translations, a 5.6k-pair lexicon, and a held-out FLORES +
 NLLB-MD-test benchmark. That is enough for **adaptation**, not from-scratch
@@ -26,7 +26,7 @@ needs 2.5, at equal quality.
 
 ### 2. Continued pretraining (CPT)
 
-- Data: `mono/all-dedup.txt` (~20M tokens) + optionally the bho side of
+- Data: `mono/all-dedup.txt` (~28M tokens) + optionally the bho side of
   parallel data. Mix in 5–15% Hindi + English replay data to prevent
   catastrophic forgetting.
 - 2–4 epochs over the bho data is defensible at this scale; watch held-out

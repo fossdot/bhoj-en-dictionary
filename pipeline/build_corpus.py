@@ -190,6 +190,14 @@ def hplt() -> None:
     write_mono("hplt", lines(), "CC0 (HPLT v2; underlying web text rights vary)")
 
 
+def parquet_extracts() -> None:
+    """FineWeb-2 / finepdfs text pre-extracted by pipeline/extract_parquet.py."""
+    for name, license_ in (("fineweb2", "ODC-BY (FineWeb-2)"), ("finepdfs", "ODC-BY (finepdfs)")):
+        f = RAW / name / "extracted.txt"
+        if f.exists():
+            write_mono(name, f.open(), license_)
+
+
 def vardial() -> None:
     """VarDial 2018 ILI shared task (Apache-2.0): ~15k bho sentences from
     literature. The full 5-language set doubles as LID training data."""
@@ -231,6 +239,7 @@ def main() -> None:
     bhltr()
     madlad()
     hplt()
+    parquet_extracts()
     vardial()
     ud_bhtb()
 
@@ -246,7 +255,7 @@ def main() -> None:
     seen: set[str] = set()
     n = 0
     with (MONO / "all-dedup.txt").open("w") as out:
-        for name in ("bhwiki", "ud-bhtb", "vardial-bho", "hplt", "madlad-clean", "madlad-noisy"):
+        for name in ("bhwiki", "ud-bhtb", "vardial-bho", "fineweb2", "hplt", "madlad-clean", "madlad-noisy", "finepdfs"):
             f = MONO / f"{name}.txt"
             if not f.exists():
                 continue
