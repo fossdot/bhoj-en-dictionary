@@ -1,0 +1,898 @@
+-,,-गो,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,A generic measure word,english,सातगो केरा — seven bananas,default:english,,,,classifier,
+-,,-𑂅𑂪𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,added to form possessive adjectives from substantives,english,𑂞𑂷𑂢𑂅𑂪𑂰 — A pot bellied man,default:english,,,,suffix,
+-,,अगुआ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"leader, head",english,,default:english,,,,noun,
+-,,अचार,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,achar,english,,default:english,,,,noun,
+-,,अमचुर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,amchur,english,,default:english,,,,noun,
+-,,अमवसा,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,new moon,english,,default:english,,,,noun,
+^,,(Hinduism) Amavasya,english,,default:english,,,,noun,
+-,,अमौसा,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,alternative form of अमवसा,english,,default:english,,,,noun,
+-,,अरुई,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,taro,english,,default:english,,,,noun,
+-,,अलग,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"different, separate",english,,default:english,,,,adjective,
+-,,अस्नान,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bathing; bath,english,,default:english,,,,noun,
+-,,आ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,and,english,,default:english,,,,conjunction,
+-,,आइल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to come,english,,default:english,,,,verb,
+-,,आगि,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fire,english,,default:english,,,,noun,
+-,,आगी,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fire,english,,default:english,,,,noun,
+-,,आजा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,paternal grandfather,english,,default:english,,,,noun,
+-,,आजी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,paternal grandmother,english,,default:english,,,,noun,
+-,,आटा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,flour of unspecified kind or wholegrain,english,,default:english,,,,noun,
+-,,आठ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,eight,english,,default:english,,,,numeral,
+-,,आभाव,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,lack,english,,default:english,,,,noun,
+-,,आम,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,mango,english,,default:english,,,,noun,
+-,,ई,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,this,english,ई पानी — this water,default:english,,,,determiner,
+-,,उज्जर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,white,english,,default:english,,,,adjective,
+-,,उपन्यास,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,novel (a work of fiction),english,,default:english,,,,noun,
+-,,उमिर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,age,english,,default:english,,,,noun,
+-,,उरुआ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,owl,english,,default:english,,,,noun,
+-,,ऊखि,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sugarcane,english,,default:english,,,,noun,
+-,,एगो,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,one,english,,default:english,,,,numeral,
+-,,ओधी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,plant,english,,default:english,,,,noun,
+-,,औसत,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"average, mean",english,,default:english,,,,noun,
+^,,"average, mean",english,,default:english,,,,adjective,
+-,,कइल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,कईल,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to do,english,,default:english,,,,verb,
+^,,an auxiliary verb,english,,default:english,,,,verb,
+-,,ककही,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,comb,english,,default:english,,,,noun,
+-,,कचरस,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sugarcane juice,english,,default:english,,,,noun,
+-,,कटहर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,jackfruit,english,,default:english,,,,noun,
+-,,कट्ठा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"katha, one-twentieth of a bigha and twenty dhurs",english,,default:english,,,,noun,
+-,,कनेली,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,king quail,english,,default:english,,,,noun,
+-,,करल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to do,english,,default:english,,,,verb,
+^,,an auxiliary verb,english,,default:english,,,,verb,
+-,,करिया,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,black,english,,default:english,,,,adjective,
+-,,करुआर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"bamboo oar, paddle",english,,default:english,,,,noun,
+^,,the iron clamp used to prevent the ploughshare from falling off,english,,default:english,,,,noun,
+-,,कलाकृति,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"artwork, work of art",english,,default:english,,,,noun,
+-,,कसइली,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,areca nut,english,,default:english,,,,noun,
+-,,कागज,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,paper,english,,default:english,,,,noun,
+-,,काटल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to slice, chop",english,,default:english,,,,verb,
+^,,to bite,english,,default:english,,,,verb,
+-,,किसिम,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,cultivar,english,,default:english,,,,noun,
+-,,कीप,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,funnel,english,,default:english,,,,noun,
+-,,कुचकुचवा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,little owl,english,,default:english,,,,noun,
+-,,कुहेसा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,mist,english,,default:english,,,,noun,
+-,,केंचुआ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,earthworm,english,,default:english,,,,noun,
+-,,केराइ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,pea,english,,default:english,,,,noun,
+-,,कोइली,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"pit, stone of a fruit",english,,default:english,,,,noun,
+-,,कोहरा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fog,english,,default:english,,,,noun,
+-,,खाइल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to eat,english,,default:english,,,,verb,
+-,,खार पानी,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,salt water,english,,default:english,,,,noun,
+-,,खारा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"salty, saline",english,,default:english,,,,adjective,
+-,,खारा पानी,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,salt water,english,,default:english,,,,noun,
+-,,खारापन,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,saltiness,english,,default:english,,,,noun,
+^,,salinity,english,,default:english,,,,noun,
+-,,खिड़की,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,window,english,,default:english,,,,noun,
+^,,a small backdoor,english,,default:english,,,,noun,
+-,,खींचल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,pull,english,,default:english,,,,verb,
+-,,खुँटहरा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,an old plough,english,,default:english,,,,noun,
+-,,खेंढ़ी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,notch carved into a tree as a hold for climbing,english,,default:english,,,,noun,
+^,,the notches on the beam of a plough by which the ploughshare is raised or lowered,english,,default:english,,,,noun,
+-,,खेलकूद,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sport,english,,default:english,,,,noun,
+^,,"sports, athletics",english,,default:english,,,,noun,
+-,,खेलल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to play,english,,default:english,,,,verb,
+-,,गंगला,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Asian openbill,english,,default:english,,,,noun,
+-,,गंगा मैना,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bank myna,english,,default:english,,,,noun,
+-,,गईल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to go, leave",english,,default:english,,,,verb,
+-,,गहिरा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,gahirā,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,deep,english,,default:english,,,,adjective,
+^,,"dark, deep (in color)",english,,default:english,,,,adjective,
+-,,गाँड़,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,anus,english,,default:english,,,,noun,
+-,,गाजर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,carrot,english,,default:english,,,,noun,
+-,,गाय,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,cow,english,,default:english,,,,noun,
+-,,गुरुत्वाकर्षण,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,gravity,english,,default:english,,,,noun,
+-,,गैंडा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,rhinoceros,english,,default:english,,,,noun,
+-,,गोडावण,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,great Indian bustard,english,,default:english,,,,noun,
+-,,गोर सुग्गा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,red-breasted parakeet,english,,default:english,,,,noun,
+-,,गोहूँ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,wheat,english,,default:english,,,,noun,
+-,,गौरइया,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"sparrow, particularly the house sparrow",english,,default:english,,,,noun,
+-,,घीव,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,ghee,english,,default:english,,,,noun,
+-,,घुसल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to enter,english,,default:english,,,,verb,
+-,,घोंघा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,snail,english,,default:english,,,,noun,
+-,,चानी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,silver,english,,default:english,,,,noun,
+-,,चार,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,four,english,,default:english,,,,numeral,
+-,,चाहे,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,or,english,,default:english,,,,conjunction,
+-,,चिड़ियाघर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,zoo,english,,default:english,,,,noun,
+-,,चिरई,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bird,english,,default:english,,,,noun,
+-,,चीन्हा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,symbol,english,,default:english,,,,noun,
+-,,चूसल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to suck; sip,english,,default:english,,,,verb,
+-,,चैली,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,": small strip of bamboo, small stick",english,,default:english,,,,noun,
+^,,secondary wedge fixing the beam of the plough to its body,english,,default:english,,,,noun,
+-,,चोटी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,top,english,,default:english,,,,noun,
+^,,summit,english,,default:english,,,,noun,
+-,,छव,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,six,english,,default:english,,,,numeral,
+-,,छोट,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,small,english,,default:english,,,,adjective,
+-,,छोटा लउआ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,rock bush quail,english,,default:english,,,,noun,
+-,,छोहारा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(fruit) dry date,english,,default:english,,,,noun,
+-,,जमीन,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,land,english,,default:english,,,,noun,
+-,,जरि,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,root (of a tree),english,,default:english,,,,noun,
+-,,जल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,water,english,,default:english,,,,noun,
+-,,जलनिकाय,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,body of water,english,,default:english,,,,noun,
+-,,जलभंडार,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,body of water,english,,default:english,,,,noun,
+-,,जाँघिल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,painted stork,english,,default:english,,,,noun,
+-,,जाँता,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"handmill, quernstone",english,,default:english,,,,noun,
+-,,जीवन,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"life, existence",english,,default:english,,,,noun,
+-,,जुआठ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"yoke (frame at the necks of two bullocks, by which they pull a plough or cart)",english,,default:english,,,,noun,
+-,,झंडा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,flag,english,,default:english,,,,noun,
+-,,झरना,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,waterfall; cascade,english,,default:english,,,,noun,
+^,,"fountain, spring",english,,default:english,,,,noun,
+^,,"a kind of sieve, perforated skimmer",english,,default:english,,,,noun,
+-,,झींगा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"shrimp, prawn",english,,default:english,,,,noun,
+-,,झींसा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"a drizzle, a shower",english,,default:english,,,,noun,
+-,,झींसी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"a drizzle, a light shower",english,,default:english,,,,noun,
+-,,झील,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(geography) lake,english,,default:english,,,,noun,
+^,,lagoon,english,,default:english,,,,noun,
+^,,pool,english,,default:english,,,,noun,
+^,,swamp,english,,default:english,,,,noun,
+-,,टोरा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(agriculture) sole, slade (the lower part of the handle of a plough)",english,,default:english,,,,noun,
+-,,ढेंकुआरि,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,aloe vera,english,,default:english,,,,noun,
+-,,तमासा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"exhibition, drama",english,,default:english,,,,noun,
+-,,ताँमा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,copper,english,,default:english,,,,noun,
+-,,तापमान,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,temperature,english,,default:english,,,,noun,
+-,,तिरंगा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,tricolor,english,,default:english,,,,adjective,
+-,,तिहुआर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"festival, celebration",english,,default:english,,,,noun,
+-,,तीन,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,tīn,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,three (3),english,,default:english,,,,numeral,
+-,,तीन कठिया,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(historical) the practice, during the British Raj, of forcing farmers in Bihar to grow indigo on three kathas for every twenty kathas they owned",english,,default:english,,,,noun,
+-,,तूड़ल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to break,english,,default:english,,,,verb,
+-,,तेलहा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,oily,english,,default:english,,,,adjective,
+-,,दस,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,das,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,ten (10),english,,default:english,,,,numeral,
+-,,दिघोंच,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,northern pintail,english,,default:english,,,,noun,
+-,,दिल्ली,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,/d̪ɪl.li/|[d̪ɪl.li],,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Delhi,english,,default:english,,,,propernoun,
+-,,दुइ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,dui,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,two,english,,default:english,,,,numeral,
+-,,दुनिया,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,world,english,,default:english,,,,noun,
+-,,दू,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,dū,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,two (2),english,,default:english,,,,numeral,
+-,,देस,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,country,english,,default:english,,,,noun,
+-,,नदी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,river,english,,default:english,,,,noun,
+-,,नद्दी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,alternative form of नदी,english,,default:english,,,,noun,
+-,,नमी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"humidity, moisture",english,,default:english,,,,noun,
+-,,नया,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,new,english,,default:english,,,,adjective,
+-,,नव,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,nine,english,,default:english,,,,numeral,
+-,,नांव,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,name,english,,default:english,,,,noun,
+-,,नील,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(plant) indigo,english,,default:english,,,,noun,
+-,,नून,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,salt,english,,default:english,,,,noun,
+-,,नूनहा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,salty,english,,default:english,,,,adjective,
+-,,नेनुआ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sponge gourd,english,,default:english,,,,noun,
+-,,नौठा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,a new plough,english,,default:english,,,,noun,
+-,,पकावल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to cook,english,,default:english,,,,verb,
+-,,पठार,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"plateau, highland",english,,default:english,,,,noun,
+-,,पड़ल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to fall, to fall down, to drop",english,,default:english,,,,verb,
+^,,"to lie, be strewn about",english,,default:english,,,,verb,
+^,,to be hot or cold (of the weather),english,,default:english,,,,verb,
+^,,"to occur, happen",english,,default:english,,,,verb,
+^,,"to befall, happen to",english,,default:english,,,,verb,
+^,,"(modal, _, auxiliary) must",english,,default:english,,,,verb,
+-,,पढ़ल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to read, study",english,,default:english,,,,verb,
+-,,पढ़ावल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to teach,english,,default:english,,,,verb,
+-,,पनडुब्बी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Indian darter,english,,default:english,,,,noun,
+-,,पन्ना,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,page,english,,default:english,,,,noun,
+^,,"paper, sheet",english,,default:english,,,,noun,
+-,,परिहथ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,the handle of a plough,english,,default:english,,,,noun,
+-,,पल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,moment,english,,default:english,,,,noun,
+-,,पहाड़ी टुइयाँ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,slaty headed parakeet,english,,default:english,,,,noun,
+-,,पहिनावा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,clothing,english,,default:english,,,,noun,
+-,,पहिला,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,first,english,,default:english,,,,adjective,
+-,,पाँच,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,five,english,,default:english,,,,numeral,
+-,,पाचड़,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(Shahabad) secondary wedge fixing the beam of the plough to its body,english,,default:english,,,,noun,
+-,,पाट,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(agriculture) the wedge fixing the beam to the body of the plough,english,,default:english,,,,noun,
+^,,the width of a river,english,,default:english,,,,noun,
+^,,silk; cushion,english,,default:english,,,,noun,
+-,,पान,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,/pɑn/|[pɑn],,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,leaf,english,,default:english,,,,noun,
+-,,पानी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,water,english,,default:english,,,,noun,
+-,,पिंजरा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,cage,english,,default:english,,,,noun,
+-,,पिअल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to drink,english,,default:english,,,,verb,
+-,,पियास,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,thirst,english,,default:english,,,,noun,
+-,,पियोरी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,hill partridge,english,,default:english,,,,noun,
+-,,पीठा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,cake,english,,default:english,,,,noun,
+-,,पीपर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"bodhi tree, sacred fig",english,,default:english,,,,noun,
+^,,(medicine) a kind of medicine,english,,default:english,,,,noun,
+-,,पीयर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,yellow,english,,default:english,,,,adjective,
+-,,पीलिया,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,jaundice,english,,default:english,,,,noun,
+-,,पुल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bridge,english,,default:english,,,,noun,
+-,,पुल्ली,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,spot-winged starling,english,,default:english,,,,noun,
+-,,पृथ्वी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Earth,english,,default:english,,,,noun,
+^,,"ground, earth",english,,default:english,,,,noun,
+-,,पेड़,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,tree,english,,default:english,,,,noun,
+-,,पौधा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,plant,english,,default:english,,,,noun,
+-,,प्यास,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,thirst,english,,default:english,,,,noun,
+-,,प्रणाम,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,hello,english,,default:english,,,,interjection,
+-,,फगुवा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(Hinduism) Holi,english,,default:english,,,,propernoun,
+-,,फार,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,ploughshare (blade of the plough),english,,default:english,,,,noun,
+-,,फेड़,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,tree,english,,default:english,,,,noun,
+-,,बईठल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to sit,english,,default:english,,,,verb,
+-,,बटेर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,quail,english,,default:english,,,,noun,
+-,,बड़की आंत,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,large intestine,english,,default:english,,,,noun,
+-,,बड़हन,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,big,english,,default:english,,,,adjective,
+-,,बन,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,forest,english,,default:english,,,,noun,
+-,,बनस्पति,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,vegetation,english,,default:english,,,,noun,
+-,,बरखा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,barkhā,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,rain,english,,default:english,,,,noun,
+-,,बरदान,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"boon, gift",english,,default:english,,,,noun,
+-,,बरफ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,ice,english,,default:english,,,,noun,
+-,,बरफबारी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,snowfall,english,,default:english,,,,noun,
+-,,बरिस,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,year,english,,default:english,,,,noun,
+-,,बर्खा,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,rain,english,,default:english,,,,noun,
+-,,बहुकोशिकीय,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(biology) multicellular,english,,default:english,,,,adjective,
+-,,बाघ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,tiger,english,,default:english,,,,noun,
+-,,बाढ़ि,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,flood,english,,default:english,,,,noun,
+-,,बादर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,cloud,english,,default:english,,,,noun,
+-,,बाप,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,father,english,,default:english,,,,noun,
+-,,बारिश,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"rain, rainfall",english,,default:english,,,,noun,
+-,,बालू,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sand,english,,default:english,,,,noun,
+-,,बिआह,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,marriage,english,,default:english,,,,noun,
+-,,बिज्ञान,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,science,english,,default:english,,,,noun,
+-,,बिबिध,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"various, miscellaneous",english,,default:english,,,,adjective,
+-,,बिस्व,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,world,english,,default:english,,,,noun,
+^,,universe,english,,default:english,,,,noun,
+-,,बीया,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,seed,english,,default:english,,,,noun,
+-,,बुन्नी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"drop, droplet",english,,default:english,,,,noun,
+-,,बुर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,vagina,english,,default:english,,,,noun,
+-,,बेल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bael fruit,english,,default:english,,,,noun,
+-,,बैगन,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,eggplant,english,,default:english,,,,noun,
+-,,बोलल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to speak, say",english,,default:english,,,,verb,
+-,,भउर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fire,english,,default:english,,,,noun,
+-,,भतुआ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,winter melon,english,,default:english,,,,noun,
+-,,भविष्यवाणी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,prediction,english,,default:english,,,,noun,
+-,,भा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,or,english,,default:english,,,,conjunction,
+-,,भाप,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"water vapor, steam",english,,default:english,,,,noun,
+-,,भाषा,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,language,english,भोजपुरी भाषा — Bhojpuri language,default:english,,,,noun,
+-,,भुँइडोल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,earthquake,english,,default:english,,,,noun,
+-,,भुरुकुआ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"morning star, Venus",english,,default:english,,,,noun,
+-,,भेजल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to send,english,,default:english,,,,verb,
+-,,भेली,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,jaggery,english,,default:english,,,,noun,
+-,,भोरा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,vernal hanging parakeet,english,,default:english,,,,noun,
+-,,मकड़ी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,spider,english,,default:english,,,,noun,
+-,,मछरी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fish,english,,default:english,,,,noun,
+-,,मछरेंगा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,kingfisher,english,,default:english,,,,noun,
+-,,मधु,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,honey,english,,default:english,,,,noun,
+-,,मधुछत्ता,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,honeycomb,english,,default:english,,,,noun,
+-,,मधुमाखी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,honeybee,english,,default:english,,,,noun,
+-,,महतारी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,mother,english,,default:english,,,,noun,
+-,,महादीप,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,continent,english,,default:english,,,,noun,
+-,,महादेस,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,continent,english,,default:english,,,,noun,
+-,,महासागर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,ocean,english,,default:english,,,,noun,
+-,,माँड़,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,/mãɽ/|[mãɽ],,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"gruel, starch",english,,default:english,,,,noun,
+-,,माई,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,mother,english,,default:english,,,,noun,
+-,,माहवारी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,menstruation,english,,default:english,,,,noun,
+-,,मीठ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sweet,english,,default:english,,,,adjective,
+-,,मीठा पानी,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,freshwater,english,,default:english,,,,noun,
+-,,मुरई,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,radish,english,,default:english,,,,noun,
+-,,मूंगा चट्टान,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,coral reef,english,,default:english,,,,noun,
+-,,मूठ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,knob at the end of the handle on a plough,english,,default:english,,,,noun,
+^,,state of clenching the fingers; fist,english,,default:english,,,,noun,
+^,,(agriculture) the very first sowing of seeds,english,,default:english,,,,noun,
+-,,मोट,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,leather bucket used to hold water for irrigation,english,,default:english,,,,noun,
+-,,मोम,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,wax,english,,default:english,,,,noun,
+-,,मोर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,peacock,english,,default:english,,,,noun,
+-,,मौसम,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,weather,english,,default:english,,,,noun,
+-,,रंग,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,color,english,,default:english,,,,noun,
+-,,राजहंस,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,flamingo,english,,default:english,,,,noun,
+-,,राजा मैना,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,golden-crested myna,english,,default:english,,,,noun,
+-,,राति,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,night,english,,default:english,,,,noun,
+-,,रूप,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,form,english,,default:english,,,,noun,
+^,,"shape, appearance",english,,default:english,,,,noun,
+-,,रेगिस्तान,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,desert,english,,default:english,,,,noun,
+-,,रेशम,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,silk,english,,default:english,,,,noun,
+-,,लइका,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,boy,english,,default:english,,,,noun,
+-,,लइकी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,girl,english,,default:english,,,,noun,
+-,,लउआ,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,jungle bush quail,english,,default:english,,,,noun,
+-,,लच्छन,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"sign, characteristic, trait",english,,default:english,,,,noun,
+-,,लाँड़,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,penis,english,,default:english,,,,noun,
+-,,लाल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,red,english,,default:english,,,,adjective,
+-,,लालकंठी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,red-throated,english,,default:english,,,,adjective,
+-,,लिंगानुपात,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sex ratio,english,,default:english,,,,noun,
+-,,लिखल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to write,english,,default:english,,,,verb,
+-,,लिखाई,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,writing,english,,default:english,,,,noun,
+-,,लेटल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to lie down,english,,default:english,,,,verb,
+-,,लोमड़ी,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fox,english,,default:english,,,,noun,
+-,,वायुमंडल,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,atmosphere,english,,default:english,,,,noun,
+-,,वायुमंडलीय,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,vāyumaṇḍalīya,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,atmospheric,english,,default:english,,,,adjective,
+-,,शहर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,city,english,,default:english,,,,noun,
+-,,शिव हंस,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,great crested grebe,english,,default:english,,,,noun,
+-,,सदाबहार,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,sadābahār,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,evergreen,english,,default:english,,,,adjective,
+-,,सबेर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,morning,english,,default:english,,,,noun,
+-,,समुंद्र,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,samundra,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sea,english,,default:english,,,,noun,
+-,,समुंद्री,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,samundrī,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"oceanic, marine",english,,default:english,,,,adjective,
+-,,समुंद्री जल,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,seawater,english,,default:english,,,,noun,
+-,,समुद्र,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,alternative form of समुंद्र,english,,default:english,,,,noun,
+-,,समुन्द्र,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,samundra,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,alternative form of समुंद्र,english,,default:english,,,,noun,
+-,,सागर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sea,english,,default:english,,,,noun,
+-,,सिराति,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Mahashivaratri,english,,default:english,,,,noun,
+-,,सिरोई,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,pied myna,english,,default:english,,,,noun,
+-,,सुग्गा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,parrot,english,,default:english,,,,noun,
+-,,सुनल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to listen,english,,default:english,,,,verb,
+^,,to hear,english,,default:english,,,,verb,
+-,,सुरुज,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sun,english,,default:english,,,,noun,
+-,,सूखा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,drought,english,,default:english,,,,noun,
+-,,सूगा,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,parrot,english,"मारबो रे सुगवा धनूख से, सूगा गिरीहें मुरुछाइ — O Parrot, I will hit you with a bow, the parrot will fall down getting unconscious.",default:english,,,,noun,
+-,,सोरि,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,root (of a tree),english,,default:english,,,,noun,
+-,,सौ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,sau,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,one hundred (100),english,,default:english,,,,numeral,
+-,,स्वाद,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"taste, flavor",english,,default:english,,,,noun,
+-,,हजार,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,thousand,english,,default:english,,,,numeral,
+-,,हम,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,I,english,,default:english,,,,pronoun,
+-,,हर,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,plough,english,,default:english,,,,noun,
+-,,हरियर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,green,english,,default:english,,,,adjective,
+-,,हरिस,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,beam (central bar of a plough),english,,default:english,,,,noun,
+-,,हवा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,air,english,,default:english,,,,noun,
+-,,हवा की नाँव,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(poetic) wind,english,,default:english,,,,noun,
+-,,हिमानी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,glacier,english,,default:english,,,,noun,
+-,,हिरामन सुग्गा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Alexandrine parakeet,english,,default:english,,,,noun,
+-,,𑂃𑂏𑂳𑂄,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of अगुआ,english,,default:english,,,,noun,
+-,,𑂃𑂒𑂰𑂩,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of अचार,english,,default:english,,,,noun,
+-,,𑂃𑂧𑂒𑂳𑂩,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of अमचुर,english,,default:english,,,,noun,
+-,,𑂃𑂧𑂸𑂮𑂰,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of अमौसा,english,,default:english,,,,noun,
+-,,𑂃𑂨𑂹𑂨𑂴𑂥𑂹,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(Islam) Ayoub, the nabi mentioned in the Quran and was cured from severe illness as sign of Allah",english,,default:english,,,,propernoun,
+^,,A male name taken from Arabic,english,,default:english,,,,propernoun,
+-,,𑂃𑂩𑂳𑂆,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,taro,english,,default:english,,,,noun,
+-,,𑂃𑂪𑂏,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"different, separate",english,,default:english,,,,adjective,
+-,,𑂃𑂪𑂰𑂫,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bonfire,english,,default:english,,,,noun,
+-,,𑂃𑂮𑂹𑂢𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bathing; bath,english,,default:english,,,,noun,
+-,,𑂃𑂯𑂟𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"place, position, location",english,,default:english,,,,noun,
+-,,𑂄,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,and,english,,default:english,,,,conjunction,
+-,,𑂄𑂏𑂱,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fire,english,,default:english,,,,noun,
+-,,𑂄𑂔,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,āj,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,today,english,"𑂄𑂔 𑂥𑂱𑂠𑂵𑂮𑂲 𑂍𑂵 𑂞𑂧𑂰𑂮𑂰 𑂯𑂷𑂅𑂯𑂢 — Today, the play of Bidesi will be staged",default:english,,,,noun,
+-,,𑂄𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,mango,english,,default:english,,,,noun,
+-,,𑂅𑂢𑂰𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,ināra,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,well,english,𑂅𑂢𑂰𑂩 𑂧𑂵 𑂥𑂵𑂑𑂹𑂏 𑂥𑂰 — There is a frog in the well,default:english,,,,noun,
+-,,𑂅𑂮𑂹𑂧𑂰𑂆𑂪𑂹,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(Islam) Ismail, the nabi who was sacrificed according to Quran",english,,default:english,,,,propernoun,
+-,,𑂇𑂧𑂱𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,age,english,,default:english,,,,noun,
+-,,𑂈𑂔𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,ūjar,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,white,english,𑂠𑂳𑂡 𑂈𑂔𑂩 𑂯𑂷𑂪𑂰 — Milk is white,default:english,,,,noun,
+-,,𑂈𑂣𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"On, Upon",english,𑂞𑂷𑂯𑂩𑂰 𑂈𑂣𑂩' 𑂯𑂧 𑂥𑂚𑂰 𑂃𑂢𑂩𑂰𑂔 𑂥𑂰𑂢𑂲𑃀 — I am very much angry on you.,default:english,,,,adverb,
+-,,𑂈𑂣𑂰𑂮,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,upās,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fast,english,,default:english,,,,noun,
+-,,𑂌𑂮𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"average, mean",english,,default:english,,,,noun,
+^,,"average, mean",english,,default:english,,,,adjective,
+-,,𑂍𑂁𑂫𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,kamala,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,lotus,english,,default:english,,,,noun,
+-,,𑂍𑂆𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to do,english,,default:english,,,,verb,
+^,,an auxiliary verb,english,,default:english,,,,verb,
+-,,𑂍𑂒𑂩𑂮,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sugarcane juice,english,,default:english,,,,noun,
+-,,𑂍𑂗𑂯𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,jackfruit,english,,default:english,,,,noun,
+-,,𑂍𑂚𑂳𑂄,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,kar̤uā,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bitter,english,𑂆 𑂎𑂰𑂉 𑂧𑂵 𑂍𑂚𑂳𑂄 𑂥𑂰 — It is bitter in taste,default:english,,,,noun,
+-,,𑂍𑂢𑂍,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,gold,english,,default:english,,,,noun,
+-,,𑂍𑂢𑂣𑂗𑂹𑂗𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(anatomy) temple,english,,default:english,,,,noun,
+-,,𑂍𑂩𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to do,english,,default:english,,,,verb,
+^,,an auxiliary verb,english,,default:english,,,,verb,
+-,,𑂍𑂩𑂵𑂔𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(organ) liver,english,,default:english,,,,noun,
+^,,(metaphorically) heart,english,,default:english,,,,noun,
+-,,𑂍𑂰𑂔,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,kāj,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,work,english,𑂆 𑂯𑂧𑂰𑂩 𑂍𑂰𑂔 𑂢𑂅𑂎𑂵 — This is not my work,default:english,,,,noun,
+-,,𑂍𑂰𑂘,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,kāṭha,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,wood,english,,default:english,,,,noun,
+-,,𑂍𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(anatomy) ear,english,,default:english,,,,noun,
+-,,𑂍𑂰𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,kām,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,work,english,𑂍𑂯𑂰𑂁 𑂍𑂰𑂧 𑂍𑂩𑂵𑂪ऽ — where do you work,default:english,,,,noun,
+-,,𑂍𑂱𑂩𑂱𑂄,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"swearing, oath",english,,default:english,,,,noun,
+-,,𑂍𑂳𑂁𑂫𑂰𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,kumāra,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"unmarried, virgin",english,𑂯𑂧 𑂍𑂳𑂁𑂫𑂰𑂩 𑂯𑂅𑂁 — I am unmarried,default:english,,,,noun,
+-,,𑂍𑂶𑂮𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,how (quality),english,,default:english,,,,adverb,
+^,,how,english,,default:english,,,,adjective,
+-,,𑂍𑂸𑂚𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,bonfire,english,,default:english,,,,noun,
+-,,𑂎𑂱𑂚𑂍𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,window,english,,default:english,,,,noun,
+^,,a small backdoor,english,,default:english,,,,noun,
+-,,𑂎𑂴𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,khūra,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,hoof,english,,default:english,,,,noun,
+-,,𑂎𑂷𑂀𑂞𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,nest,english,,default:english,,,,noun,
+-,,𑂏𑂁𑂏𑂪𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Asian openbill,english,,default:english,,,,noun,
+-,,𑂏𑂆𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Kaithi spelling of गईल,english,,default:english,,,,verb,
+-,,𑂏𑂰𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,gāl,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,cheek,english,𑂋𑂍𑂩 𑂏𑂰𑂪 𑂣ऽ 𑂥𑂩𑂹𑂩𑂵 𑂦𑂅𑂪 𑂥𑂰 — There is a pimple on her face,default:english,,,,noun,
+-,,𑂏𑂷𑂚,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,goṛ,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"foot, leg",english,𑂋𑂍𑂩 𑂏𑂷𑂚 𑂠𑂳𑂎𑂰𑂞 𑂯ऽ — His leg hurts,default:english,,,,noun,
+-,,𑂏𑂷𑂩𑂴,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,gorū,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"cow, cattle",english,𑂏𑂷𑂩𑂴 𑂒𑂩𑂵 𑂏𑂅𑂪𑂲 𑂮ऽ? — cows went to graze,default:english,,,,noun,
+-,,𑂏𑂷𑂯𑂴𑂀,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,wheat,english,,default:english,,,,noun,
+-,,𑂐𑂰𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,ghām,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"sunshine, sunlight",english,𑂐𑂰𑂧 𑂧𑂵 𑂒𑂪𑂥𑂵? — will you come in the sunlight,default:english,,,,noun,
+-,,𑂐𑂲𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,ghīn,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,abhorrence,english,,default:english,,,,noun,
+-,,𑂐𑂲𑂫,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,ghee,english,,default:english,,,,noun,
+-,,𑂐𑂵𑂀𑂗,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(anatomy) neck,english,,default:english,,,,noun,
+-,,𑂐𑂷𑂚𑂮𑂰𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,ghor̤asāla,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Horse Stable,english,,default:english,,,,noun,
+-,,𑂒𑂰𑂢𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,silver,english,,default:english,,,,noun,
+-,,𑂒𑂰𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,cāma,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"skin, leather",english,,default:english,,,,noun,
+-,,𑂒𑂰𑂯𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to want,english,,default:english,,,,verb,
+-,,𑂒𑂰𑂯𑂵,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,or,english,,default:english,,,,conjunction,
+-,,𑂓𑂰𑂞𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,chātā,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,umbrella,english,𑂍𑂵𑂍𑂩 𑂓𑂰𑂞𑂰 𑂯𑂗𑂵 — Whose umbrella is this,default:english,,,,noun,
+-,,𑂔𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,water,english,,default:english,,,,noun,
+-,,𑂔𑂰𑂀𑂞𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"handmill, quernstone",english,,default:english,,,,noun,
+-,,𑂔𑂲𑂫𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"life, existence",english,,default:english,,,,noun,
+-,,𑂔𑂳𑂪𑂹⸱𑂍𑂱𑂤𑂹𑂪𑂹,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(Islam) Dhul-Kifl, a nabi mentioned in the Quran",english,,default:english,,,,propernoun,
+-,,𑂕𑂩𑂢𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,waterfall,english,,default:english,,,,noun,
+-,,𑂕𑂲𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(geography) lake,english,,default:english,,,,noun,
+^,,lagoon,english,,default:english,,,,noun,
+^,,pool,english,,default:english,,,,noun,
+^,,swamp,english,,default:english,,,,noun,
+-,,𑂕𑂷𑂀𑂗,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,a lock of hair,english,,default:english,,,,noun,
+-,,𑂙𑂷𑂩𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,thread,english,,default:english,,,,noun,
+-,,𑂛𑂷𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,dhola,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Drum,english,𑂈 𑂡𑂷𑂪 𑂥𑂔𑂰𑂫ऽ𑂞𑂰 — He is playing a Drum,default:english,,,,noun,
+-,,𑂞𑂴𑂚𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,to break,english,,default:english,,,,verb,
+-,,𑂞𑂵𑂪𑂯𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,oily,english,,default:english,,,,adjective,
+-,,𑂟𑂰𑂍𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to become tired, exhausted",english,,default:english,,,,verb,
+-,,𑂠𑂯𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,dahī,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,curd,english,𑂠𑂯𑂲 𑂎𑂅𑂥𑂵 — will you eat some curd,default:english,,,,noun,
+-,,𑂠𑂰𑂀𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,dām̐ta,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Tooth,english,𑂧𑂰𑂢𑂳𑂮 𑂍𑂵 𑂥𑂞𑂹𑂞𑂱𑂮 𑂏𑂷 𑂠𑂀𑂞 𑂯𑂷𑂪𑂰 — Human have thirty-two teeth,default:english,,,,noun,
+-,,𑂠𑂴𑂥𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,dūbar,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"weak, lean",english,,default:english,,,,noun,
+-,,𑂠𑂵𑂮,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,country,english,,default:english,,,,noun,
+-,,𑂢𑂩𑂱𑂨𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,nariyara,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,coconut,english,𑂯𑂧𑂍𑂵 𑂓𑂘 𑂥𑂠𑂵 𑂢𑂩𑂱𑂃𑂩 𑂍𑂲𑂢𑂵 𑂍𑂵 𑂯ऽ — I have to buy coconut for Chhath,default:english,,,,noun,
+-,,𑂢𑂩𑂵𑂗𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(anatomy) throat,english,,default:english,,,,noun,
+-,,𑂢𑂱𑂨𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,niyara,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,near,english,,default:english,,,,noun,
+-,,𑂢𑂴𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,salt,english,,default:english,,,,noun,
+-,,𑂢𑂴𑂯𑂹,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,nūh,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"Nuh, the nabi who survived the flood according to Qur'an",english,,default:english,,,,propernoun,
+^,,(uncountable) The 71st sura (chapter) of the Qur'an,english,,default:english,,,,propernoun,
+-,,𑂣𑂢𑂮𑂷𑂎𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,rainbow,english,,default:english,,,,noun,
+-,,𑂣𑂢𑂹𑂢𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,page,english,,default:english,,,,noun,
+^,,"paper, sheet",english,,default:english,,,,noun,
+-,,𑂣𑂩𑂰𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,morning,english,,default:english,,,,noun,
+-,,𑂣𑂩𑂵𑂫𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,pigeon,english,,default:english,,,,noun,
+-,,𑂣𑂯𑂱𑂪𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,first,english,,default:english,,,,adjective,
+-,,𑂣𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,pān,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,betel leaf,english,,default:english,,,,noun,
+-,,𑂣𑂱𑂨𑂰𑂮,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of पियास,english,,default:english,,,,noun,
+-,,𑂣𑂳𑂩𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,purāna,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"old, ancient",english,,default:english,,,,noun,
+-,,𑂣𑂵𑂗,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,peṭa,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"belly, stomach",english,𑂯𑂧𑂰𑂩 𑂣𑂵𑂗 𑂠𑂳𑂎𑂰𑂞 𑂥𑂰 — His Stomach is aching,default:english,,,,noun,
+-,,𑂥𑂎𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bakhān,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,expound,english,𑂋𑂍𑂩 𑂏𑂷𑂚 𑂠𑂳𑂎𑂰𑂞 𑂯ऽ — His Leg is paining,default:english,,,,noun,
+-,,𑂥𑂒𑂹𑂒𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,child,english,,default:english,,,,noun,
+-,,𑂥𑂞𑂹𑂞𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,light,english,𑂥𑂞𑂹𑂞𑂲⸱𑂥𑂳𑂞𑂰𑂫𑂪 — to turn off a light,default:english,,,,noun,
+^,,"wick, fuse (of a candle)",english,,default:english,,,,noun,
+-,,𑂥𑂩𑂠𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"boon, gift",english,,default:english,,,,noun,
+-,,𑂥𑂰𑂍𑂱𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"but, however",english,,default:english,,,,conjunction,
+-,,𑂥𑂰𑂐,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,tiger,english,,default:english,,,,noun,
+-,,𑂥𑂰𑂜𑂱,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,flood,english,,default:english,,,,noun,
+-,,𑂥𑂰𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bāt,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"talk, matter, affair",english,𑂍𑂰 𑂥𑂰𑂞 𑂯ऽ — what's the matter,default:english,,,,noun,
+-,,𑂥𑂰𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(Eastern) pubic hair, pubes",english,,default:english,,,,noun,
+^,,(Western) hair,english,,default:english,,,,noun,
+-,,𑂥𑂰𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(uncommon, literary) boy",english,,default:english,,,,noun,
+-,,𑂥𑂰𑂪𑂴,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sand,english,,default:english,,,,noun,
+-,,𑂥𑂱𑂏𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,(transitive) to throw,english,,default:english,,,,verb,
+^,,"(transitive) to trash, to throw out",english,,default:english,,,,verb,
+^,,"(figuratively, pejorative, intransitive) to bluff, to brag falsely",english,,default:english,,,,verb,
+^,,"(figuratively, intransitive) to make false promise",english,,default:english,,,,verb,
+-,,𑂥𑂱𑂪𑂰𑂉𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"to disappear, vanish",english,,default:english,,,,verb,
+-,,𑂥𑂱𑂯𑂰𑂢,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bihān,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,morning,english,,default:english,,,,noun,
+-,,𑂥𑂲𑂏,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"bluff, brag",english,,default:english,,,,noun,
+^,,a throw,english,,default:english,,,,noun,
+-,,𑂥𑂲𑂏𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,alternative form of 𑂥𑂱𑂏𑂪,english,,default:english,,,,verb,
+-,,𑂦𑂇𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,fire,english,,default:english,,,,noun,
+-,,𑂦𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,or,english,,default:english,,,,conjunction,
+-,,𑂦𑂰𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bhāt,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"boiled rice, cooked rice",english,𑂦𑂰𑂞 𑂥𑂢𑂪? — is the rice cooked,default:english,,,,noun,
+-,,𑂦𑂰𑂣,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"water vapor, steam",english,,default:english,,,,noun,
+-,,𑂦𑂰𑂩𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bhārat,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,India,english,,default:english,,,,propernoun,
+-,,𑂦𑂱𑂎𑂰𑂩𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bhikhārī,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,beggar,english,𑂈 𑂉𑂏𑂷 𑂦𑂱𑂎𑂰𑂩𑂲 𑂯𑂗𑂵 — He is a beggar,default:english,,,,noun,
+-,,𑂦𑂱𑂢𑂮𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,morning,english,,default:english,,,,noun,
+-,,𑂦𑂲𑂞𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bhītara,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,inside,english,𑂦𑂲𑂞𑂩 𑂍𑂵 𑂯ऽ? — Who is inside,default:english,,,,adverb,
+-,,𑂦𑂴𑂁𑂆,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,bhūṃī,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"land, earth",english,,default:english,,,,noun,
+-,,𑂦𑂷𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,morning,english,,default:english,,,,noun,
+-,,𑂧𑂡𑂳,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,honey,english,,default:english,,,,noun,
+-,,𑂧𑂢𑂹𑂠𑂱𑂪,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,temple,english,,default:english,,,,noun,
+-,,𑂧𑂯𑂞𑂰𑂩𑂲,bhojpuri,,lua:indicphone_hi.lua,,gender:f|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of महतारी,english,,default:english,,,,noun,
+-,,𑂧𑂯𑂰𑂠𑂲𑂣,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,continent,english,,default:english,,,,noun,
+-,,𑂧𑂯𑂰𑂠𑂵𑂮,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,continent,english,,default:english,,,,noun,
+-,,𑂧𑂳𑂯𑂧𑂹𑂧𑂠𑂹,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,muhammad,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(historical, uncountable) Muhammad, the nabi to whom the Qur'an was revealed",english,,default:english,,,,propernoun,
+^,,(uncountable) The 47th sura (chapter) of the Qur'an,english,,default:english,,,,propernoun,
+^,,(often abbreviated initially as ),english,,default:english,,,,propernoun,
+-,,𑂧𑂷𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,wax,english,,default:english,,,,noun,
+-,,𑂧𑂷𑂧𑂥𑂞𑂹𑂞𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,candle,english,,default:english,,,,noun,
+-,,𑂧𑂸𑂮𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,weather,english,,default:english,,,,noun,
+-,,𑂩𑂰𑂞𑂱,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,night,english,,default:english,,,,noun,
+-,,𑂩𑂳𑂎𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,squirrel,english,,default:english,,,,noun,
+-,,𑂩𑂴𑂣𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,silver,english,,default:english,,,,noun,
+-,,𑂪𑂧𑂯𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"long (of objects, duration, etc)",english,,default:english,,,,adjective,
+-,,𑂪𑂰𑂔,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,lāj,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,shame,english,𑂆 𑂪𑂰𑂔 𑂍𑂵 𑂥𑂰𑂞 𑂯ऽ — It's a matter of shame,default:english,,,,noun,
+-,,𑂪𑂰𑂧,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"long (of objects, duration, etc)",english,,default:english,,,,adjective,
+-,,𑂪𑂱𑂁𑂏𑂰𑂢𑂳𑂣𑂰𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,sex ratio,english,,default:english,,,,noun,
+-,,𑂮𑂣𑂹𑂞𑂰𑂯,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,week,english,,default:english,,,,noun,
+-,,𑂮𑂰𑂀𑂕,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,sāṃjh,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,evening,english,𑂯𑂧 𑂮𑂰𑂁𑂕𑂵 𑂄𑂅𑂥 — I will come in the evening,default:english,,,,noun,
+-,,𑂮𑂰𑂁𑂒,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,sāṃca,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,truth,english,𑂯𑂧 𑂮𑂰𑂁𑂒 𑂍𑂯𑂞 𑂯𑂅𑂁 — I am speaking the truth,default:english,,,,noun,
+-,,𑂮𑂳𑂅,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,needle,english,,default:english,,,,noun,
+^,,pin,english,,default:english,,,,noun,
+^,,syringe,english,,default:english,,,,noun,
+-,,𑂮𑂳𑂏𑂹𑂏𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,parrot,english,,default:english,,,,noun,
+-,,𑂮𑂳𑂪𑂵𑂧𑂰𑂢𑂹,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,"(Islam) Sulaiman, a nabi mentioned in the Quran and son of rasul Dawud",english,,default:english,,,,propernoun,
+^,,A male name taken from Arabic,english,,default:english,,,,propernoun,
+-,,𑂮𑂴𑂞,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,sūt,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,thread,english,,default:english,,,,noun,
+-,,𑂯𑂩,bhojpuri,,lua:indicphone_hi.lua,,gender:m|script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of हर,english,,default:english,,,,noun,
+-,,𑂯𑂫𑂰,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,script variant of हवा,english,,default:english,,,,noun,
+-,,𑂯𑂰𑂟𑂱𑂮𑂰𑂩,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,hāthisāra,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Elephant Stable,english,,default:english,,,,noun,
+-,,𑂯𑂱𑂢𑂹𑂠𑂲,bhojpuri,,lua:indicphone_hi.lua,,script:Kthi,,,"{""source"": ""en.wiktionary.org"", ""license"": ""CC BY-SA 4.0""}"
+^,,Hindi,english,,default:english,,,,noun,

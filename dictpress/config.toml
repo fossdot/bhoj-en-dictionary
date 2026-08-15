@@ -1,0 +1,100 @@
+# dictpress config for the Bhoj dictionary (Bhojpuri → English)
+
+[app]
+address = "0.0.0.0:9000"
+admin_username = "admin"
+admin_password = "admin123"
+root_url = "http://localhost:9000"
+admin_assets = []
+enable_pages = true
+
+# Public submissions queue for native-speaker crowdsourcing (admin reviews before publish).
+enable_submissions = true
+
+enable_autocomplete = true
+num_autocomplete_results = 10
+tokenizers_dir = "tokenizers"
+
+dicts = [["bhojpuri", "english"]]
+
+[db]
+max_conns = 100
+
+[cache]
+enabled = false
+ttl = "72h"
+mode = "hybrid"
+max_memory_mb = 128
+max_disk_mb = 512
+dir = "/tmp/dictpress-cache"
+
+[api_results]
+per_page = 10
+max_per_page = 20
+
+[site_results]
+per_page = 10
+max_per_page = 20
+num_page_nums = 10
+max_entry_relations_per_type = 5
+max_entry_content_items = 5
+
+[glossary]
+enabled = true
+default_per_page = 100
+max_per_page = 100
+num_page_nums = 10
+
+################################################################################
+
+[lang.bhojpuri]
+name = "भोजपुरी"
+# Phonetic hashing for Devanagari via the bundled IndicPhone Hindi tokenizer —
+# Bhojpuri is written in Devanagari, so this gives fuzzy/phonetic search for free.
+tokenizer = "lua:indicphone_hi.lua"
+config = {}
+
+[lang.bhojpuri.types]
+noun = "Noun"
+propernoun = "Proper noun"
+verb = "Verb"
+adjective = "Adjective"
+adverb = "Adverb"
+pronoun = "Pronoun"
+conjunction = "Conjunction"
+postposition = "Postposition"
+preposition = "Preposition"
+interjection = "Interjection"
+numeral = "Numeral"
+determiner = "Determiner"
+particle = "Particle"
+classifier = "Classifier"
+phrase = "Phrase"
+proverb = "Proverb"
+suffix = "Suffix"
+prefix = "Prefix"
+
+[lang.english]
+name = "English"
+tokenizer = "default:english"
+config = {}
+
+[lang.english.types]
+noun = "Noun"
+propernoun = "Proper noun"
+verb = "Verb"
+adjective = "Adjective"
+adverb = "Adverb"
+pronoun = "Pronoun"
+conjunction = "Conjunction"
+postposition = "Postposition"
+preposition = "Preposition"
+interjection = "Interjection"
+numeral = "Numeral"
+determiner = "Determiner"
+particle = "Particle"
+classifier = "Classifier"
+phrase = "Phrase"
+proverb = "Proverb"
+suffix = "Suffix"
+prefix = "Prefix"

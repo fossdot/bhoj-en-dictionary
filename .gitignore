@@ -1,0 +1,13 @@
+# raw source pulls are reproducible via pipeline/fetch_*.py — keep out of git
+data/raw/
+
+# dictpress runtime (binary + theme from upstream release) and generated DB
+dictpress/app/
+dictpress/data.db
+dictpress/data.db-*
+
+# large generated corpora (regenerate from data/raw)
+data/corpus/
+
+.DS_Store
+__pycache__/
