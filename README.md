@@ -82,37 +82,77 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 
 ## Data sources
 
-| Source | Status | Size | License |
-|---|---|---|---|
-| [English Wiktionary bho lemmas](https://en.wiktionary.org/wiki/Category:Bhojpuri_lemmas) | ✅ imported | 421 entries, 477 senses, 32 example pairs | CC BY-SA 4.0 |
-| en-Wiktionary translation tables (en→bho) | planned | unknown | CC BY-SA 4.0 |
-| [Bhojpuri Wikipedia](https://bh.wikipedia.org) | planned | ~1.8M words | CC BY-SA |
-| [BHLTR (JNU)](https://github.com/shashwatup9k/bho-resources) | planned | 45k mono sents + en-bho parallel | CC BY-**NC**-SA ⚠ non-commercial |
-| Native-speaker submissions | planned | — | via dictpress submission queue |
+### Dictionary (→ `data/canonical/`, all in dictpress)
+
+| Source | Yield | License |
+|---|---|---|
+| [en-Wiktionary bho lemmas](https://en.wiktionary.org/wiki/Category:Bhojpuri_lemmas) | 421 entries, 477 senses, 32 example pairs | CC BY-SA 4.0 |
+| en-Wiktionary translation tables (711 pages mined) | 742 bho words, 768 pairs | CC BY-SA 4.0 |
+| **merged** | **998 headwords, 1,239 definitions** | |
+
+### Corpus (→ `data/corpus/`, see `STATS.md` for exact counts)
+
+| Source | Yield | License |
+|---|---|---|
+| [HPLT v2](https://hplt-project.org) `bho_Deva` | 6.6M words (prob≥0.9 + Devanagari filter) | CC0 (web text) |
+| [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) `bho` clean+noisy | 2.7M + 6.9M words ("noisy" tier is decent bho journalism) | ODC-BY |
+| [Bhojpuri Wikipedia](https://bh.wikipedia.org) dump | 1.19M words | CC BY-SA 4.0 |
+| [OPUS NLLB](https://opus.nlpl.eu) mined bho–en bitext | 8.7k pairs @LASER≥1.15, 121k @≥1.10 (of 2.43M raw) | ODC-BY |
+| [FLORES-200](https://github.com/facebookresearch/flores) dev+devtest | 2,009 pro-translated pairs — **EVAL ONLY, never train** | CC BY-SA 4.0 |
+| OPUS wikimedia / Tatoeba | 1,194 / 42 pairs | CC BY-SA / CC BY |
+| [BHLTR (JNU)](https://github.com/shashwatup9k/bho-resources) | 29.5k parallel + 43k mono lines — kept in `-NC` files | CC BY-**NC**-SA ⚠ |
+| [UD Bhojpuri BHTB](https://github.com/UniversalDependencies/UD_Bhojpuri-BHTB) | 268 sentences (+POS trees) | CC BY-SA 4.0 |
+
+**Bottom line: `mono/all-dedup.txt` = 12.77M words (335k lines) of
+deduplicated, commercial-safe Bhojpuri text; ~160k parallel pairs; 114k-example
+SFT bundle (`sft.jsonl`), 143k with NC sources (`sft-nc.jsonl`).**
+
+Dead ends checked so far: kaikki.org (no bho extract), IndicCorpV2/Sangraha/BPCC
+(bho not a scheduled language, excluded), eBible (no open bho scripture),
+OLDI-seed (no bho), Leipzig + StoryWeaver (bot-walled), Wikimedia incubator
+Wt/bho (~30 stubs), Wikidata lexemes (30, subset of Wiktionary).
 
 Notes for LLM work:
 
-- Bhojpuri is **not** in IndicCorpV2 or Sangraha (not one of the 22
-  scheduled languages) — the corpus has to be assembled here.
-- NLLB/FLORES-200 and MADLAD-400 do cover `bho` — useful for MT
-  bootstrapping and synthetic data later.
 - Realistic model path: continued pretraining / fine-tuning of a
   Hindi-strong open base (Devanagari, high lexical overlap), not
   pretraining from scratch.
+- FLORES-200 files are named `*-EVAL-ONLY` for a reason: they're the
+  benchmark. Keep them out of every training set.
+- NLLB `bho` side and web crawls carry Awadhi/Hindi/Magahi contamination;
+  the LASER-score tiers and Devanagari filters here are first-pass cleanup,
+  not the last word.
 
 ## Layout
 
 ```
 pipeline/
-  fetch_wiktionary.py   Wiktionary → canonical JSONL (raw pages cached in data/raw/)
-  to_dictpress.py       canonical JSONL → dictpress import CSV
-  to_training.py        canonical JSONL → lexicon.tsv / parallel.jsonl / instructions.jsonl
+  fetch_wiktionary.py               en-Wiktionary bho lemma pages → canonical JSONL
+  fetch_wiktionary_translations.py  en-Wiktionary translation tables → canonical JSONL
+  extract_bhwiki.py                 bhwiki XML dump → data/corpus/mono/bhwiki.txt
+  build_corpus.py                   all raw sources → data/corpus/{parallel,mono} + STATS.md
+  to_dictpress.py                   canonical JSONL (merged by headword) → dictpress import CSV
+  to_training.py                    canonical JSONL → lexicon.tsv / parallel.jsonl / instructions.jsonl
+  assemble_sft.py                   instructions + corpus parallel → sft.jsonl (--include-nc → sft-nc.jsonl)
 data/
-  raw/                  raw source pulls (cache)
+  raw/                  raw source pulls (gitignored; refetch via pipeline + URLs in scripts)
   canonical/            canonical JSONL, one file per source
-  training/             generated LLM exports
+  corpus/               normalized corpora (gitignored; rebuild with build_corpus.py)
+  training/             LLM exports (large sft*.jsonl gitignored)
 dictpress/
   config.toml           dictpress v5 config (bhojpuri → english)
   import.csv            generated import file
   app/                  dictpress binary + theme (gitignored, see Quick start)
+```
+
+## Rebuild everything
+
+```sh
+python3 pipeline/fetch_wiktionary.py
+python3 pipeline/fetch_wiktionary_translations.py
+python3 pipeline/extract_bhwiki.py          # needs data/raw/bhwiki dump
+python3 pipeline/build_corpus.py            # needs data/raw/{opus,flores,madlad,hplt,bho-resources,UD_Bhojpuri-BHTB}
+python3 pipeline/to_dictpress.py data/canonical/*.jsonl > dictpress/import.csv
+python3 pipeline/to_training.py data/canonical/*.jsonl
+python3 pipeline/assemble_sft.py            # add --include-nc for the NC bundle
 ```

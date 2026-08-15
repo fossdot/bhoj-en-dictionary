@@ -114,18 +114,44 @@ def bhltr() -> None:
 
 
 def madlad() -> None:
-    shard = RAW / "madlad" / "bho_clean_0000.jsonl.gz"
-    if not shard.exists():
-        return
     import gzip
 
-    def lines():
-        for doc in gzip.open(shard, "rt"):
-            # MADLAD stores documents with literal "\n" two-char separators
-            for ln in json.loads(doc)["text"].split("\\n"):
-                yield ln
+    for tier in ("clean", "noisy"):
+        shard = RAW / "madlad" / f"bho_{tier}_0000.jsonl.gz"
+        if not shard.exists():
+            continue
 
-    write_mono("madlad-clean", lines(), "ODC-BY (MADLAD-400)")
+        def lines(shard=shard, tier=tier):
+            for doc in gzip.open(shard, "rt"):
+                # MADLAD stores documents with literal "\n" two-char separators
+                for ln in json.loads(doc)["text"].split("\\n"):
+                    # the noisy tier needs the Devanagari filter (nav debris, English)
+                    if tier == "clean" or len(DEVANAGARI_RE.findall(ln)) > len(ln) * 0.4:
+                        yield ln
+
+        write_mono(f"madlad-{tier}", lines(), "ODC-BY (MADLAD-400)")
+
+
+DEVANAGARI_RE = re.compile(r"[ऀ-ॿ]")
+
+
+def hplt() -> None:
+    shard = RAW / "hplt" / "bho_Deva_1.jsonl"
+    if not shard.exists():
+        return
+
+    def lines():
+        for doc in shard.open():
+            d = json.loads(doc)
+            p = d["prob"]
+            if (p[0] if isinstance(p, list) else p) < 0.9:  # language-ID confidence
+                continue
+            for ln in d["text"].splitlines():
+                # drop lines that aren't mostly Devanagari (nav debris, English)
+                if len(DEVANAGARI_RE.findall(ln)) > len(ln) * 0.4:
+                    yield ln
+
+    write_mono("hplt", lines(), "CC0 (HPLT v2; underlying web text rights vary)")
 
 
 def ud_bhtb() -> None:
@@ -149,6 +175,7 @@ def main() -> None:
     nllb()
     bhltr()
     madlad()
+    hplt()
     ud_bhtb()
 
     # bhwiki.txt is produced by extract_bhwiki.py — include it in the stats
@@ -156,6 +183,25 @@ def main() -> None:
     if bhwiki.exists():
         n = sum(1 for ln in bhwiki.open() if ln.strip())
         stats.append(("mono/bhwiki", n, "CC-BY-SA 4.0"))
+
+    # cross-source exact-line dedup (web crawls overlap; HPLT mirrors Wikipedia).
+    # priority order: curated first, crawls after — first occurrence wins.
+    # excludes -NC files so the aggregate stays commercial-safe.
+    seen: set[str] = set()
+    n = 0
+    with (MONO / "all-dedup.txt").open("w") as out:
+        for name in ("bhwiki", "ud-bhtb", "hplt", "madlad-clean", "madlad-noisy"):
+            f = MONO / f"{name}.txt"
+            if not f.exists():
+                continue
+            for ln in f.open():
+                ln = ln.strip()
+                if ln and ln not in seen:
+                    seen.add(ln)
+                    out.write(ln + "\n")
+                    n += 1
+    stats.append(("mono/all-dedup", n, "aggregate, commercial-safe sources only"))
+    print(f"  all-dedup: {n} lines", file=sys.stderr)
 
     lines = ["# Corpus stats", "", "| file | lines | license |", "|---|---:|---|"]
     lines += [f"| {n} | {c} | {l} |" for n, c, l in stats]
