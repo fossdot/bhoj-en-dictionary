@@ -82,9 +82,14 @@ def main() -> None:
         for row in sorted(set(lexicon)):
             f.write("\t".join(row) + "\n")
     for name, rows in (("parallel.jsonl", parallel), ("instructions.jsonl", instructions)):
+        seen = set()
         with (OUT_DIR / name).open("w") as f:
             for r in rows:
-                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+                key = json.dumps(r, ensure_ascii=False, sort_keys=True)
+                if key in seen:
+                    continue
+                seen.add(key)
+                f.write(key + "\n")
 
     print(
         f"lexicon: {len(set(lexicon))} pairs | parallel: {len(parallel)} sentence pairs | "

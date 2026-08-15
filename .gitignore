@@ -8,6 +8,7 @@ dictpress/data.db-*
 
 # large generated corpora (regenerate from data/raw)
 data/corpus/
+data/training/sft*.jsonl
 
 .DS_Store
 __pycache__/

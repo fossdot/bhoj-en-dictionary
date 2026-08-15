@@ -54,21 +54,37 @@ def entry_rows(e: dict) -> list[list[str]]:
     return rows
 
 
+def merge(entries: list[dict]) -> dict:
+    """Merge duplicate headwords from different sources into one entry."""
+    base = entries[0]
+    for other in entries[1:]:
+        for field in ("translit", "phones", "tags"):
+            base[field] = list(dict.fromkeys(base.get(field, []) + other.get(field, [])))
+        seen = {s["gloss"].lower() for s in base["senses"]}
+        base["senses"] += [s for s in other["senses"] if s["gloss"].lower() not in seen]
+    return base
+
+
 def main() -> None:
     paths = [Path(p) for p in sys.argv[1:]]
     if not paths:
         sys.exit("usage: to_dictpress.py <canonical.jsonl> [...]")
 
-    w = csv.writer(sys.stdout)
-    n_entries = n_defs = 0
+    # group by headword across all source files (file order = source priority)
+    by_word: dict[str, list[dict]] = {}
     for path in paths:
         with path.open() as f:
             for line in f:
-                rows = entry_rows(json.loads(line))
-                w.writerows(rows)
-                n_entries += 1
-                n_defs += len(rows) - 1
-    print(f"{n_entries} entries, {n_defs} definitions", file=sys.stderr)
+                e = json.loads(line)
+                by_word.setdefault(e["word"], []).append(e)
+
+    w = csv.writer(sys.stdout)
+    n_defs = 0
+    for word in sorted(by_word):
+        rows = entry_rows(merge(by_word[word]))
+        w.writerows(rows)
+        n_defs += len(rows) - 1
+    print(f"{len(by_word)} entries, {n_defs} definitions", file=sys.stderr)
 
 
 if __name__ == "__main__":
