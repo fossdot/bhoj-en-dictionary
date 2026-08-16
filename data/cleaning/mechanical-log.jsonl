@@ -1,0 +1,984 @@
+{"fix": "dedupe-sense", "file": "wiktionary-bho", "word": "औसत", "detail": "average, mean"}
+{"fix": "dedupe-sense", "file": "wiktionary-bho", "word": "𑂌𑂮𑂞", "detail": "average, mean"}
+{"fix": "dedupe-sense", "file": "wiktionary-bho", "word": "𑂍𑂶𑂮𑂢", "detail": "how"}
+{"fix": "dedupe-sense", "file": "wiktionary-translations-bho", "word": "𑂥𑂱𑂯𑂰𑂩𑂲", "detail": "Bihari (A group of Indo-Aryan languages spoken in Bihar and "}
+{"fix": "dedupe-sense", "file": "wiktionary-translations-bho", "word": "दुमका", "detail": "Dumka (district)"}
+{"fix": "dedupe-sense", "file": "wiktionary-translations-bho", "word": "नलगोंडा", "detail": "Nalgonda (city in India)"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "ढेंकुआरि", "detail": "aloe vera (''Aloe vera'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "घीकुवाँरि", "detail": "aloe vera (''Aloe vera'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "सेव", "detail": "apple (fruit of ''Malus domestica'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "उबाल", "detail": "boil ((''transitive'') heat (a liquid) until it begins to tu"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "गाजर", "detail": "carrot (''Daucus carota'' ssp. ''sativus'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "तिलेर मैना", "detail": "common starling (''Sturnus vulgaris'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "गाय", "detail": "cow (adult female of species ''Bos taurus'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "सोवा", "detail": "dill (herb of the species ''Anethum graveolens'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "केंचुआ", "detail": "earthworm (worm (''animal''))"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "𑂎𑂱𑂎𑂱𑂩", "detail": "fox (''Vulpes'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "लोमड़ी", "detail": "fox (''Vulpes'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "बढ़ल", "detail": "grow ((''intransitive'') to become bigger)"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "गौरइया", "detail": "house sparrow (''Passer domesticus'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "मक्का", "detail": "maize (corn; a type of grain of the species ''Zea mays'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "आम", "detail": "mango (tropical fruit tree ''[[Mangifera indica]]'')"}
+{"fix": "dedupe-sense", "file": "wiktionary-translations-bho", "word": "आम", "detail": "mango (fruit)"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "गोह", "detail": "monitor lizard (lizard of the genus ''Varanus'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "सजुवन", "detail": "moringa (tree of the genus ''Moringa'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "मूस", "detail": "mouse (rodent of the genus ''Mus'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "हरसिंगार", "detail": "night jasmine (''N. arbor-tristis'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "दिघोंच", "detail": "northern pintail (''Anas acuta'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "𑂣𑂱𑂄𑂔", "detail": "onion (''Allium cepa'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "मोर", "detail": "peacock (pheasant of one of the genera ''Pavo'' and ''Afropa"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "बेर", "detail": "plum (fruit of ''Prunus domestica'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "अनार", "detail": "pomegranate (fruit of the ''Punica granatum'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "मूली", "detail": "radish (plant ''Raphanus sativus var. sativus'')"}
+{"fix": "dedupe-sense", "file": "wiktionary-translations-bho", "word": "लाल", "detail": "red (having red as its colour)"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "घोंघा", "detail": "snail (any animal of the class ''Gastropoda'' having a shell"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "बाघ", "detail": "tiger (The mammal ''Panthera tigris'')"}
+{"fix": "markup", "file": "wiktionary-translations-bho", "word": "शलजम", "detail": "turnip (white root of ''Brassica rapa'')"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "घड़ी", "detail": "→ घड़ी"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "कड़ा", "detail": "→ कड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "अकड़ू", "detail": "→ अकड़ू"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "के छोड़ि के", "detail": "→ के छोड़ि के"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बड़हन", "detail": "→ बड़हन"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "लजकोकड़", "detail": "→ लजकोकड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बूढ़", "detail": "→ बूढ़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "कूड़ा", "detail": "→ कूड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "हम बढ़िया बानीं", "detail": "→ हम बढ़िया बानीं"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "पकड़ायिल", "detail": "→ पकड़ायिल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "पढ़ाई-लिखाई", "detail": "→ पढ़ाई-लिखाई"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "कपड़ा", "detail": "→ कपड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "छोड़ीं", "detail": "→ छोड़ीं"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "पकड़ल", "detail": "→ पकड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बढ़ावल", "detail": "→ बढ़ावल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "पढ़ाई", "detail": "→ पढ़ाई"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बढ़ल", "detail": "→ बढ़ल"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "बढ़ल", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "होड़", "detail": "→ होड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "छड़ी", "detail": "→ छड़ी"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "आगे बढ़ल", "detail": "→ आगे बढ़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "भीड़भाड़", "detail": "→ भीड़भाड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "गोड़", "detail": "→ गोड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "डड़ार", "detail": "→ डड़ार"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "से जुड़ल", "detail": "→ से जुड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बड़ाई कयिल", "detail": "→ बड़ाई कयिल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जाड़ा", "detail": "→ जाड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "भीड़भाड़ वाला", "detail": "→ भीड़भाड़ वाला"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "पतझड़", "detail": "→ पतझड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "दौड़", "detail": "→ दौड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "चौड़ाई", "detail": "→ चौड़ाई"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बाढ़ि", "detail": "→ बाढ़ि"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "छोकड़ा", "detail": "→ छोकड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जोड़ल", "detail": "→ जोड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जुड़ल", "detail": "→ जुड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "ठाड़ रहऽ", "detail": "→ ठाड़ रहऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "गाड़ी चलावऽ", "detail": "→ गाड़ी चलावऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "दाढ़ी", "detail": "→ दाढ़ी"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जुड़ाव", "detail": "→ जुड़ाव"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "हड़ताल", "detail": "→ हड़ताल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "मुठभेड़", "detail": "→ मुठभेड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "अक्खड़", "detail": "→ अक्खड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "टुकड़ा", "detail": "→ टुकड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "लकड़ी", "detail": "→ लकड़ी"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जोड़ा", "detail": "→ जोड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "सुन्न पड़ गईल", "detail": "→ सुन्न पड़ गईल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बढ़ावा दिहल", "detail": "→ बढ़ावा दिहल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बहुत बढ़िया", "detail": "→ बहुत बढ़िया"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बढ़ावा", "detail": "→ बढ़ावा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "छोड़ दिहल", "detail": "→ छोड़ दिहल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "राम राम, कईसन बाड़ऽ", "detail": "→ राम राम, कईसन बाड़ऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "उड़ल", "detail": "→ उड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "का ओहिजा तू बाड़ऽ", "detail": "→ का ओहिजा तू बाड़ऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "छोड़ दऽ", "detail": "→ छोड़ दऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "आगे बढ़ऽ", "detail": "→ आगे बढ़ऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "चमड़ा", "detail": "→ चमड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "फूहड़", "detail": "→ फूहड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "सड़क", "detail": "→ सड़क"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "भीड़", "detail": "→ भीड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "कीड़ा", "detail": "→ कीड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "कड़ाही", "detail": "→ कड़ाही"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "बढ़ावल", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "उड़ान भरल", "detail": "→ उड़ान भरल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "आंकड़ा", "detail": "→ आंकड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जान पड़ल", "detail": "→ जान पड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बढ़ावऽ", "detail": "→ बढ़ावऽ"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "बहुत बढ़िया", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "जोड़ा", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "का तू व्यस्त बाड़ऽ", "detail": "→ का तू व्यस्त बाड़ऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "जोड़", "detail": "→ जोड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "हम तोहके बड़ा ईयाद करिले", "detail": "→ हम तोहके बड़ा ईयाद करिले"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "सिकुड़ल", "detail": "→ सिकुड़ल"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "खाड़ी", "detail": "→ खाड़ी"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "पकड़ल", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "गड़गड़ाहट", "detail": "→ गड़गड़ाहट"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "काफी पुरान गाड़ी", "detail": "→ काफी पुरान गाड़ी"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "बेधड़क बोले वाला", "detail": "→ बेधड़क बोले वाला"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "रुढ़िवादी", "detail": "→ रुढ़िवादी"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "निचोड़", "detail": "→ निचोड़"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "लड़ाई-झगड़ा", "detail": "→ लड़ाई-झगड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "झगड़ा", "detail": "→ झगड़ा"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "पकड़", "detail": "→ पकड़"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "पकड़", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "खिड़की", "detail": "→ खिड़की"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "मांस के टुकड़ा", "detail": "→ मांस के टुकड़ा"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "कीड़ा", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "जोड़", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "घड़ी", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "टुकड़ा", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "अबहीं तू का कर रहल बाड़ऽ", "detail": "→ अबहीं तू का कर रहल बाड़ऽ"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "कपड़ा", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "जोड़ल", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "का तू खा लेले बाड़ऽ", "detail": "→ का तू खा लेले बाड़ऽ"}
+{"fix": "dupe-entry", "file": "gatitos-bho", "word": "छड़ी", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "तू का चाहत बाड़ऽ", "detail": "→ तू का चाहत बाड़ऽ"}
+{"fix": "nfc", "file": "gatitos-bho", "word": "का तू अभियो ओहिजा बाड़ऽ", "detail": "→ का तू अभियो ओहिजा बाड़ऽ"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अंगूरी", "detail": "grape (color/colour)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अंग्रेज", "detail": "nuqtaless form of अंग्रेज़ (aṅgrez) → spelling variant of अंग्रेज़: English person (Englishman or "}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अंग्रेजी", "detail": "nuqtaless form of अंग्रेज़ी (aṅgrezī) → spelling variant of अंग्रेज़ी: English; British; of or perta"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अंग्रेजी", "detail": "nuqtaless form of अंग्रेज़ी (aṅgrezī) → spelling variant of अंग्रेज़ी: English; British; of or perta"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अंग्रेजी", "detail": "spelling variant of अंग्रेज़ी: English; British; of or perta"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अंदाज", "detail": "nuqtaless form of अंदाज़ (andāz) → spelling variant of अंदाज़: style, manner"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अकाली", "detail": "an Akali (proponent of the Akali Dal party)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अखबार", "detail": "nuqtaless form of अख़बार (axbār) → spelling variant of अख़बार: newspaper"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अगवा", "detail": "nuqtaless form of अग़वा (aġvā) → spelling variant of अग़वा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अग्नि", "detail": "Agni (missile)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अनंतपुर", "detail": "Anantapur (a city in Anantapur district, Andhra Pradesh, Ind"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अनिश्चितकाल", "detail": "indefinitely"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अफगानिस्तान", "detail": "nuqtaless form of अफ़ग़ानिस्तान (afġānistān) → spelling variant of अफ़ग़ानिस्तान: Afghanistan"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अफसर", "detail": "nuqtaless form of अफ़सर (afsar) → spelling variant of अफ़सर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अफसोस", "detail": "nuqtaless form of अफ़सोस (afsos) → spelling variant of अफ़सोस: regret, remorse"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अफीम", "detail": "nuqtaless form of अफ़ीम (afīm) → spelling variant of अफ़ीम"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अमेरिकन", "detail": "American (person)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अय्यूब", "detail": "Job (a book of the Old Testament and the Hebrew Tanakh)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अरोड़ा", "detail": "Arora (member of the Arora caste)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "अर्जी", "detail": "nuqtaless form of अर्ज़ी (arzī) → spelling variant of अर्ज़ी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अशोक", "detail": "Ashoka (an emperor of the Mauryan Empire)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अहिंसक", "detail": "non-violent (produced or done in a non-violent manner)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "आकर्षण", "detail": "attraction (point of interest)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आखरी", "detail": "nuqtaless form of आख़री (āxrī) → spelling variant of आख़री"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आखिर", "detail": "nuqtaless form of आख़िर (āxir) → spelling variant of आख़िर: after all"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आखिर", "detail": "nuqtaless form of आख़िर (āxir) → spelling variant of आख़िर: after all"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "आखिर", "detail": "spelling variant of आख़िर: after all"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आखिरी", "detail": "nuqtaless form of आख़िरी (āxirī) → spelling variant of आख़िरी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आगजनी", "detail": "nuqtaless form of आगज़नी (āgzanī) → spelling variant of आगज़नी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आगा", "detail": "nuqtaless form of आग़ा (āġā) → spelling variant of आग़ा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "आज", "detail": "today"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आजमाइश", "detail": "nuqtaless form of आज़माइश (āzmāiś) → spelling variant of आज़माइश"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आजाद", "detail": "nuqtaless form of आज़ाद (āzād) → spelling variant of आज़ाद: free; independent"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आजादी", "detail": "nuqtaless form of आज़ादी (āzādī) → spelling variant of आज़ादी: freedom"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आतिशबाजी", "detail": "nuqtaless form of आतिशबाज़ी (ātiśbāzī) → spelling variant of आतिशबाज़ी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आफत", "detail": "nuqtaless form of आफ़त (āfat) → spelling variant of आफ़त"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आफताब", "detail": "nuqtaless form of आफ़ताब (āftāb) → spelling variant of आफ़ताब"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आवाज", "detail": "nuqtaless form of आवाज़ (āvāz) → spelling variant of आवाज़: voice; call, cry"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "आशिकी", "detail": "nuqtaless form of आशिक़ी (āśiqī) → spelling variant of आशिक़ी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "इंदौर", "detail": "Indore (a district of Madhya Pradesh, India, containing the "}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इकबाल", "detail": "nuqtaless form of इक़बाल (iqbāl) → spelling variant of इक़बाल: confession"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इजाजत", "detail": "nuqtaless form of इजाज़त (ijāzat) → spelling variant of इजाज़त"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इज्जत", "detail": "nuqtaless form of इज़्ज़त (izzat) → spelling variant of इज़्ज़त"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "इटालियन", "detail": "Italian (of or relating to Italy)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "इटालियन", "detail": "Italian (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "इथियोपिया", "detail": "Ethiopia (sub-Saharan Africa, especially the parts south of "}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इलाका", "detail": "nuqtaless form of इलाक़ा (ilāqā) → spelling variant of इलाक़ा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इश्क", "detail": "nuqtaless form of इश्क़ (iśq) → spelling variant of इश्क़: love"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "इसराइल", "detail": "Israel (an ancient kingdom in Western Asia, roughly coextens"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इस्कूल", "detail": "Prothetic form of स्कूल (skūl, “school”) → spelling variant of स्कूल: school"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "इस्टेशन", "detail": "Prothetic form of स्टेशन (sṭeśan, “station”) → spelling variant of स्टेशन: station"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ईसाई", "detail": "Christian"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "उज्जैन", "detail": "Ujjain (a district of Madhya Pradesh, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "उड़न", "detail": "flying"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "उन्नाव", "detail": "Unnao (a district of Uttar Pradesh, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "उर्फ", "detail": "nuqtaless form of उर्फ़ (urf) → spelling variant of उर्फ़: also known as"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "एस्तेर", "detail": "Esther (the heroine of the Book of Esther)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ऑस्ट्रेलियाई", "detail": "Australian"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ओझा", "detail": "Ojha (member of the Vedic Brahmin Clan/Caste)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "औजार", "detail": "nuqtaless form of औज़ार (auzār) → spelling variant of औज़ार"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "औरंगाबाद", "detail": "Aurangabad (a city in Bihar, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "औसत", "detail": "average, mean"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कठुआ", "detail": "Kathua (a district of Jammu and Kashmir, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कतल", "detail": "nuqtaless form of क़तल (qatal) → spelling variant of क़तल"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कतार", "detail": "nuqtaless form of क़तार (qatār) → spelling variant of क़तार"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कत्ल", "detail": "nuqtaless form of क़त्ल (qatl) → spelling variant of क़त्ल"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कदम", "detail": "nuqtaless form of क़दम (qadam) → spelling variant of क़दम: footstep, pace"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कदर", "detail": "nuqtaless form of क़द्र (qadra) → spelling variant of क़द्र"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कन्नौज", "detail": "Kannauj (a historical region of Uttar Pradesh, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कबूल", "detail": "nuqtaless form of क़बूल (qabūl) → spelling variant of क़बूल"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कमर", "detail": "nuqtaless form of क़मर (qamar, “moon”) → spelling variant of क़मर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कयामत", "detail": "nuqtaless form of क़यामत (qayāmat) → spelling variant of क़यामत: Judgement Day in Islam"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "करीब", "detail": "nuqtaless form of क़रीब (qarīb) → spelling variant of क़रीब"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "करीब", "detail": "nuqtaless form of क़रीब (qarīb) → spelling variant of क़रीब"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "करीब", "detail": "spelling variant of क़रीब"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "करीब", "detail": "nuqtaless form of क़रीब (qarīb) → spelling variant of क़रीब"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "करीब", "detail": "spelling variant of क़रीब"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कर्क", "detail": "Cancer"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कलम", "detail": "nuqtaless form of क़लम (qalam) → spelling variant of क़लम"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कश्मीरी", "detail": "Kashmiri"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कश्मीरी", "detail": "Kashmiri (language)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कसम", "detail": "nuqtaless form of क़सम (qasam) → spelling variant of क़सम"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कसाई", "detail": "nuqtaless form of क़साई (qasāī) → spelling variant of क़साई"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कसूर", "detail": "nuqtaless form of क़सूर (qasūr) → spelling variant of क़सूर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कहर", "detail": "nuqtaless form of क़हर (qahar) → spelling variant of क़हर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कहवा", "detail": "nuqtaless form of क़हवा (qahvā) → spelling variant of क़हवा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कागज", "detail": "nuqtaless form of काग़ज़ (kāġaz) → spelling variant of काग़ज़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कागज़", "detail": "nuqtaless form of काग़ज़ (kāġaz) → spelling variant of काग़ज़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कानून", "detail": "nuqtaless form of क़ानून (qānūn) → spelling variant of क़ानून: law, statute"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "काफी", "detail": "nuqtaless form of काफ़ी (kāfī) → spelling variant of काफ़ी: enough, sufficient"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "काफी", "detail": "nuqtaless form of काफ़ी (kāfī) → spelling variant of काफ़ी: enough, sufficient"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "काफी", "detail": "spelling variant of काफ़ी: enough, sufficient"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "काबुल", "detail": "Kabul (a river in Afghanistan and Pakistan)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कायदा", "detail": "nuqtaless form of क़ायदा (qāydā) → spelling variant of क़ायदा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कायम", "detail": "nuqtaless form of क़ायम (qāyam) → spelling variant of क़ायम"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कायस्थ", "detail": "Kayastha (member of the Kayastha caste)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कारखाना", "detail": "nuqtaless form of कारख़ाना (kārxānā) → spelling variant of कारख़ाना"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कारवाँ", "detail": "caravan (furnished vehicle towed behind car etc.)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "काला", "detail": "black (having dark skin)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कालीन", "detail": "nuqtaless form of क़ालीन (qālīn) → spelling variant of क़ालीन"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "किला", "detail": "nuqtaless form of क़िला (qilā) → spelling variant of क़िला"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "किस्म", "detail": "nuqtaless form of क़िस्म (qism) → spelling variant of क़िस्म"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कीमत", "detail": "nuqtaless form of क़ीमत (qīmat) → spelling variant of क़ीमत"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कुर्बानी", "detail": "nuqtaless form of क़ुर्बानी (qurbānī) → spelling variant of क़ुर्बानी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कुशीनगर", "detail": "Kushinagar (a historical city in Uttar Pradesh, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कैंची", "detail": "nuqtaless form of क़ैंची (qa͠icī) → spelling variant of क़ैंची"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "कॉफी", "detail": "nuqtaless form of कॉफ़ी (kŏfī) → spelling variant of कॉफ़ी: coffee"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कोरियाई", "detail": "Korean (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कोरोनावायरस", "detail": "coronavirus (disease caused by this virus)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "कोलंबिया", "detail": "Columbia (numerous cities, towns, unincorporated communities"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "क्रांतिकारी", "detail": "revolutionary"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "क्षत्रिय", "detail": "kshatriya (member of the kshatriya caste)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खजाना", "detail": "nuqtaless form of ख़ज़ाना (xazānā) → spelling variant of ख़ज़ाना"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खत", "detail": "nuqtaless form of ख़त (xat) → spelling variant of ख़त"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खतरा", "detail": "nuqtaless form of ख़तरा (xatrā) → spelling variant of ख़तरा: danger, risk"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "खनिज", "detail": "mineral"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खबर", "detail": "nuqtaless form of ख़बर (xabar) → spelling variant of ख़बर: news"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खयाल", "detail": "nuqtaless form of ख़याल (xayāl) → spelling variant of ख़याल"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खरगोश", "detail": "nuqtaless form of ख़रगोश (xargoś) → spelling variant of ख़रगोश"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खराब", "detail": "nuqtaless form of ख़राब (xarāb) → spelling variant of ख़राब: spoiled, ruined"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खरीद", "detail": "nuqtaless form of ख़रीद (xarīd) → spelling variant of ख़रीद"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खर्च", "detail": "nuqtaless form of ख़र्च (xarc) → spelling variant of ख़र्च"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खलासी", "detail": "nuqtaless form of ख़लासी (xalāsī) → spelling variant of ख़लासी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ख़ामोश", "detail": "quiet, silent"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खाक", "detail": "nuqtaless form of ख़ाक (xāk) → spelling variant of ख़ाक"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खाकी", "detail": "nuqtaless form of ख़ाकी (xākī) → spelling variant of ख़ाकी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खाली", "detail": "nuqtaless form of ख़ाली (xālī) → spelling variant of ख़ाली: empty, vacant"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खास", "detail": "nuqtaless form of ख़ास (xās) → spelling variant of ख़ास: distinguished (from others)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खासकर", "detail": "nuqtaless form of ख़ासकर (xāskar) → spelling variant of ख़ासकर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खिलाफ", "detail": "nuqtaless form of ख़िलाफ़ (xilāf) → spelling variant of ख़िलाफ़: against, opposed"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खिलाफ़", "detail": "nuqtaless form of ख़िलाफ़ (xilāf) → spelling variant of ख़िलाफ़: against, opposed"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुद", "detail": "nuqtaless form of ख़ुद (xud) → spelling variant of ख़ुद: reflexive pronoun: oneself"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुदकुशी", "detail": "nuqtaless form of ख़ुदकुशी (xudkuśī) → spelling variant of ख़ुदकुशी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुराक", "detail": "nuqtaless form of ख़ुराक (xurāk) → spelling variant of ख़ुराक"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुलासा", "detail": "nuqtaless form of ख़ुलासा (xulāsā) → spelling variant of ख़ुलासा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुश", "detail": "nuqtaless form of ख़ुश (xuś) → spelling variant of ख़ुश: happy, glad, gay, pleased, merry, "}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुशबू", "detail": "nuqtaless form of ख़ुशबू (xuśbū) → spelling variant of ख़ुशबू"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खुशी", "detail": "nuqtaless form of ख़ुशी (xuśī) → spelling variant of ख़ुशी: happiness"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खूंखार", "detail": "nuqtaless form of ख़ूँख़ार (xū̃xār) → spelling variant of ख़ूँख़ार"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खून", "detail": "nuqtaless form of ख़ून (xūn) → spelling variant of ख़ून: blood"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खूब", "detail": "nuqtaless form of ख़ूब (xūb) → spelling variant of ख़ूब: many, much, a lot"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खूब", "detail": "nuqtaless form of ख़ूब (xūb) → spelling variant of ख़ूब: many, much, a lot"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "खूब", "detail": "spelling variant of ख़ूब: many, much, a lot"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खैर", "detail": "nuqtaless form of ख़ैर (xair) → spelling variant of ख़ैर: well, anyway"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खैर", "detail": "nuqtaless form of ख़ैर (xair) → spelling variant of ख़ैर: well, anyway"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "खैर", "detail": "spelling variant of ख़ैर: well, anyway"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "खैरात", "detail": "nuqtaless form of ख़ैरात (xairāt) → spelling variant of ख़ैरात"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "ख्वाब", "detail": "nuqtaless form of ख़्वाब (xvāb) → spelling variant of ख़्वाब"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "गढ़वाल", "detail": "Garhwal (a former district of Kumaon, United Provinces, Indi"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "गढ़वाल", "detail": "Garhwal (a princely state)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गनीमत", "detail": "nuqtaless form of ग़नीमत (ġanīmat, “booty; plunder”) → spelling variant of ग़नीमत"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गफलत", "detail": "nuqtaless form of ग़फ़लत (ġaflat) → spelling variant of ग़फ़लत"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गम", "detail": "nuqtaless form of ग़म (ġam) → spelling variant of ग़म: grief, sorrow"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गरीब", "detail": "nuqtaless form of ग़रीब (ġarīb) → spelling variant of ग़रीब"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गरीबी", "detail": "nuqtaless form of ग़रीबी (ġarībī) → spelling variant of ग़रीबी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गर्लफ्रेंड", "detail": "nuqtaless form of गर्लफ़्रेंड (garlafreṇḍ) → spelling variant of गर्लफ़्रेंड"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गलत", "detail": "nuqtaless form of ग़लत (ġalat) → spelling variant of ग़लत"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गलती", "detail": "nuqtaless form of ग़लती (ġaltī) → spelling variant of ग़लती"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गायब", "detail": "nuqtaless form of ग़ायब (ġāyab, ġāyb) → spelling variant of ग़ायब"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "गिनी", "detail": "Guinea (a country in West Africa)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "गिलगित", "detail": "Gilgit (a river in Pakistan)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "गुजराती", "detail": "Gujarati (language)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गुब्बारा", "detail": "nuqtaless form of ग़ुब्बारा (ġubbārā) → spelling variant of ग़ुब्बारा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गुलाम", "detail": "nuqtaless form of ग़ुलाम (ġulām) → spelling variant of ग़ुलाम"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गुलेल", "detail": "nuqtaless form of ग़ुलेल (ġulel) → spelling variant of ग़ुलेल"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गुस्सा", "detail": "nuqtaless form of ग़ुस्सा (ġussā) → spelling variant of ग़ुस्सा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गुस्सा", "detail": "nuqtaless form of ग़ुस्सा (ġussā) → spelling variant of ग़ुस्सा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "गुस्सा", "detail": "spelling variant of ग़ुस्सा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "गैर", "detail": "nuqtaless form of ग़ैर (ġair) → spelling variant of ग़ैर"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "घन", "detail": "cube (mathematical operation)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चंद्रमा", "detail": "The Moon"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "चरखा", "detail": "nuqtaless form of चरख़ा (carxā) → spelling variant of चरख़ा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "चाकू", "detail": "nuqtaless form of चाक़ू (cāqū) → spelling variant of चाक़ू"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "चिक", "detail": "nuqtaless form of चिक़ (ciq) → spelling variant of चिक़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "चीज", "detail": "nuqtaless form of चीज़ (cīz) → spelling variant of चीज़: thing, object, item"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चेक", "detail": "Czech (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चेन्नई", "detail": "Chennai (a district of Tamil Nadu, India, containing most of"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चौकोर", "detail": "square"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चौगुना", "detail": "quadruple (four times the number, amount, size, etc.)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चौपाई", "detail": "chaupai (kind of Sikh prayer)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जंग", "detail": "nuqtaless form of ज़ंग (zaṅg) → spelling variant of ज़ंग"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जंजीर", "detail": "nuqtaless form of ज़ंजीर (zañjīr) → spelling variant of ज़ंजीर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जज्बा", "detail": "nuqtaless form of जज़्बा (jazbā) → spelling variant of जज़्बा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जनरल", "detail": "general"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जफर", "detail": "nuqtaless form of ज़फ़र (zafar) → spelling variant of ज़फ़र"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जबरदस्त", "detail": "nuqtaless form of ज़बरदस्त (zabardast) → spelling variant of ज़बरदस्त: overwhelming"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जबरदस्ती", "detail": "nuqtaless form of ज़बरदस्ती (zabardastī) → spelling variant of ज़बरदस्ती"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जबान", "detail": "nuqtaless form of ज़बान (zabān) → spelling variant of ज़बान"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जमीन", "detail": "nuqtaless form of ज़मीन (zamīn) → spelling variant of ज़मीन: ground"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जमीनी", "detail": "nuqtaless form of ज़मीनी (zamīnī) → spelling variant of ज़मीनी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जम्मू", "detail": "Jammu (the southern region of the union territory of Jammu a"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जयपुर", "detail": "Jaipur (a district of Rajasthan, India, containing the city "}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जर", "detail": "nuqtaless form of ज़र (zar) → spelling variant of ज़र"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जरूर", "detail": "nuqtaless form of ज़रूर (zarūr) → spelling variant of ज़रूर: certainly, surely"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जरूर", "detail": "nuqtaless form of ज़रूर (zarūr) → spelling variant of ज़रूर: certainly, surely"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जरूर", "detail": "spelling variant of ज़रूर: certainly, surely"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जरूरत", "detail": "nuqtaless form of ज़रूरत (zarūrat) → spelling variant of ज़रूरत: necessity"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जरूरी", "detail": "nuqtaless form of ज़रूरी (zarūrī) → spelling variant of ज़रूरी: necessary"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जहर", "detail": "nuqtaless form of ज़हर (zahar) → spelling variant of ज़हर: poison"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जहाज", "detail": "nuqtaless form of जहाज़ (jahāz) → spelling variant of जहाज़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जाट", "detail": "Jat (member of the Jat caste)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जापानी", "detail": "Japanese (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जावा", "detail": "Java (programming language)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जिंदा", "detail": "nuqtaless form of ज़िंदा (zindā) → spelling variant of ज़िंदा: alive"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जिन्दा", "detail": "nuqtaless form of ज़िन्दा (zindā) → spelling variant of ज़िन्दा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जिला", "detail": "nuqtaless form of ज़िला (zilā) → spelling variant of ज़िला: district"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जीन", "detail": "nuqtaless form of ज़ीन (zīn) → spelling variant of ज़ीन"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जुड़वाँ", "detail": "twin"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जुबान", "detail": "nuqtaless form of ज़ुबान (zubān) → spelling variant of ज़ुबान"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जॉर्जिया", "detail": "Georgia (a state in the Southern United States)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जोकर", "detail": "Joker (fictional character)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जोर", "detail": "nuqtaless form of ज़ोर (zor) → spelling variant of ज़ोर: powerfully"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जोर", "detail": "nuqtaless form of ज़ोर (zor) → spelling variant of ज़ोर: powerfully"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जोर", "detail": "spelling variant of ज़ोर: powerfully"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "जोरदार", "detail": "nuqtaless form of ज़ोरदार (zordār) → spelling variant of ज़ोरदार"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "ज्यादा", "detail": "nuqtaless form of ज़्यादा (zyādā) → spelling variant of ज़्यादा: more, very many"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "झेलम", "detail": "Jhelum (a river of the Punjab flowing through both India and"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "टिफिन", "detail": "nuqtaless form of टिफ़िन (ṭifin) → spelling variant of टिफ़िन"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "टेलीग्राफ", "detail": "nuqtaless form of टेलीग्राफ़ (ṭelīgrāf) → spelling variant of टेलीग्राफ़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "टेलीफोन", "detail": "nuqtaless form of टेलीफ़ोन (ṭelīfon) → spelling variant of टेलीफ़ोन"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तकदीर", "detail": "nuqtaless form of तक़दीर (taqdīr) → spelling variant of तक़दीर"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तक्षशिला", "detail": "Taxila (a modern city in Rawalpindi district, Punjab, Pakist"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तख्त", "detail": "nuqtaless form of तख़्त (taxt) → spelling variant of तख़्त"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तरक्की", "detail": "nuqtaless form of तरक़्क़ी (taraqqī) → spelling variant of तरक़्क़ी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तरफ", "detail": "nuqtaless form of तरफ़ (taraf) → spelling variant of तरफ़: direction, side"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तरीका", "detail": "nuqtaless form of तरीक़ा (tarīqā) → spelling variant of तरीक़ा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तलाक", "detail": "nuqtaless form of तलाक़ (talāq) → spelling variant of तलाक़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ताइवान", "detail": "Taiwan (an island between the Taiwan Strait and Philippine S"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "ताजा", "detail": "nuqtaless form of ताज़ा (tāzā) → spelling variant of ताज़ा: fresh, just made"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "तारीफ", "detail": "nuqtaless form of तारीफ़ (tārīf) → spelling variant of तारीफ़: praise, commendation"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "ताल्लुक", "detail": "nuqtaless form of ताल्लुक़ (tālluq) → spelling variant of ताल्लुक़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तिब्बत", "detail": "Tibet (an autonomous region of China)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तिब्बत", "detail": "Tibet (a former country in East Asia that existed from 1912 "}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तिब्बती", "detail": "Tibetan (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तिरंगा", "detail": "tricolor"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तिरुवनंतपुरम", "detail": "Thiruvananthapuram (a district of Kerala, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "तेहरान", "detail": "Tehran (a province of Iran)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "त्रिपोली", "detail": "Tripoli (a city in Lebanon, originally jointly administered "}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "त्रिपोली", "detail": "Tripoli (a city in Peloponnese, Greece)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "थाई", "detail": "Thai"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दक्षिण", "detail": "right (side)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "दफतर", "detail": "nuqtaless form of दफ़तर (daftar) → spelling variant of दफ़तर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "दरवाजा", "detail": "nuqtaless form of दरवाज़ा (darvāzā) → spelling variant of दरवाज़ा: door"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दलित", "detail": "Dalit (member of the Dalit caste)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दलित", "detail": "Dalit"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "दवाखाना", "detail": "nuqtaless form of दवाख़ाना (davāxānā) → spelling variant of दवाख़ाना"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "दिक्कत", "detail": "nuqtaless form of दिक़्क़त (diqqat) → spelling variant of दिक़्क़त"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दिन", "detail": "day (any period of twenty-four hours)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "दिमाग", "detail": "nuqtaless form of दिमाग़ (dimāġ) → spelling variant of दिमाग़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दुबई", "detail": "Dubai (the capital city of Dubai emirate, United Arab Emirat"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दूना", "detail": "double (twice the number, amount, size, etc.)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "दे", "detail": "De (member of the De caste)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "धनबाद", "detail": "Dhanbad (a district of Jharkhand, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "धानी", "detail": "light green (colour)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "धोखेबाज", "detail": "nuqtaless form of धोखेबाज़ (dhokhebāz) → spelling variant of धोखेबाज़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नक्शा", "detail": "nuqtaless form of नक़्शा (naqśā) → spelling variant of नक़्शा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नजर", "detail": "nuqtaless form of नज़र (nazar) → spelling variant of नज़र: sight, vision, glance, look"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नफरत", "detail": "nuqtaless form of नफ़रत (nafrat) → spelling variant of नफ़रत: hatred, loathing; aversion, disgu"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नब्ज", "detail": "nuqtaless form of नब्ज़ (nabz) → spelling variant of नब्ज़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नवजात", "detail": "newborn"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नहीं", "detail": "no, not (used for negation of statements in the indicative a"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नागपुर", "detail": "Nagpur (a district of Maharashtra, India, containing the cit"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नाच", "detail": "dance (a social occasion in which people dance)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नारंगी", "detail": "orange (color/colour)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नालायक", "detail": "nuqtaless form of नालायक़ (nālāyaq) → spelling variant of नालायक़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नालायक", "detail": "nuqtaless form of नालायक़ (nālāyaq) → spelling variant of नालायक़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नालायक", "detail": "spelling variant of नालायक़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "निकट", "detail": "near, close"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नुकसान", "detail": "nuqtaless form of नुक़सान (nuqsān) → spelling variant of नुक़सान"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "नुस्खा", "detail": "nuqtaless form of नुस्ख़ा (nusxā) → spelling variant of नुस्ख़ा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "नोटबुक", "detail": "notebook (a kind of small laptop, notebook computer)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पंजाब", "detail": "Punjab (a state in northern India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पंजाब", "detail": "Punjab (a province in Pakistan)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पंजाबी", "detail": "Punjabi (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पठानकोट", "detail": "Pathankot (a district of Punjab, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "परिसर", "detail": "range (of a function)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पर्थ", "detail": "Perth (a city in Scotland)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पार्टी", "detail": "party (social gathering)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पालम", "detail": "Palam (a town and tehsil in Parbhani district, Maharashtra, "}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पीत", "detail": "yellow (colour)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पीरियड", "detail": "period (female menstruation)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "पेशावर", "detail": "Peshawar (a city in Nuristan, Afghanistan)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "पैगंबर", "detail": "nuqtaless form of पैग़ंबर (paiġambar) → spelling variant of पैग़ंबर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "प्याज", "detail": "nuqtaless form of प्याज़ (pyāz) → spelling variant of प्याज़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "प्रतिद्वंद्वी", "detail": "rival, opponent"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "प्रोग्राम", "detail": "program (software application)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फकीर", "detail": "nuqtaless form of फ़क़ीर (faqīr) → spelling variant of फ़क़ीर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फन", "detail": "nuqtaless form of फ़न (fan) → spelling variant of फ़न"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फरक", "detail": "nuqtaless form of फ़रक़ (faraq) → spelling variant of फ़रक़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फरवरी", "detail": "nuqtaless form of फ़रवरी (farvarī) → spelling variant of फ़रवरी: February"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फरार", "detail": "nuqtaless form of फ़रार (farār) → spelling variant of फ़रार"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फरीदाबाद", "detail": "nuqtaless form of फ़रीदाबाद (farīdābād) → spelling variant of फ़रीदाबाद"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फर्क", "detail": "nuqtaless form of फ़र्क़ (farq) → spelling variant of फ़र्क़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फर्ज", "detail": "nuqtaless form of फ़र्ज़ (farz) → spelling variant of फ़र्ज़: Fard"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फलक", "detail": "nuqtaless form of फ़लक (falak) → spelling variant of फ़लक"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फसल", "detail": "nuqtaless form of फ़सल (fasal) → spelling variant of फ़सल"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "फ़ारसी", "detail": "Persian (language)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फाजिल", "detail": "nuqtaless form of फाज़िल (phāzil) → spelling variant of फाज़िल"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फायदा", "detail": "nuqtaless form of फ़ायदा (fāydā) → spelling variant of फ़ायदा: benefit, advantage"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फालतू", "detail": "nuqtaless form of फ़ालतू (fāltū) → spelling variant of फ़ालतू"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फिल्म", "detail": "nuqtaless form of फ़िल्म (film) → spelling variant of फ़िल्म: film, movie"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फिल्मी", "detail": "nuqtaless form of फ़िल्मी (filmī) → spelling variant of फ़िल्मी: movie, film"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फिल्मी", "detail": "nuqtaless form of फ़िल्मी (filmī) → spelling variant of फ़िल्मी: movie, film"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "फिल्मी", "detail": "spelling variant of फ़िल्मी: movie, film"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फुरसत", "detail": "nuqtaless form of फ़ुरसत (fursat) → spelling variant of फ़ुरसत"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फेसबुक", "detail": "nuqtaless form of फ़ेसबुक (fesbuk) → spelling variant of फ़ेसबुक"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फैसला", "detail": "nuqtaless form of फ़ैसला (faislā) → spelling variant of फ़ैसला: decision; judgment"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फोटोग्राफर", "detail": "nuqtaless form of फ़ोटोग्रफ़र (foṭografar) → spelling variant of फ़ोटोग्रफ़र"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फोन", "detail": "nuqtaless form of फ़ोन (fon) → spelling variant of फ़ोन: phone"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फौज", "detail": "nuqtaless form of फ़ौज (fauj) → spelling variant of फ़ौज: force, army, military"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फ्रांस", "detail": "nuqtaless form of फ़्रांस (frāns) → spelling variant of फ़्रांस: France (a country located prima"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फ्रांसीसी", "detail": "nuqtaless form of फ़्रांसीसी (frānsīsī) → spelling variant of फ़्रांसीसी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फ्रांसीसी", "detail": "nuqtaless form of फ़्रांसीसी (frānsīsī) → spelling variant of फ़्रांसीसी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "फ्रांसीसी", "detail": "spelling variant of फ़्रांसीसी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "फ्रांसीसी", "detail": "nuqtaless form of फ़्रांसीसी (frānsīsī) → spelling variant of फ़्रांसीसी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "फ्रांसीसी", "detail": "spelling variant of फ़्रांसीसी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बंगला", "detail": "Bengali"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बंदूक", "detail": "nuqtaless form of बंदूक़ (bandūq) → spelling variant of बंदूक़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बकर", "detail": "nuqtaless form of बक़र (baqar) → spelling variant of बक़र"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बख्शी", "detail": "nuqtaless form of बख़्शी (baxśī, “paymaster”) → spelling variant of बख़्शी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बगावत", "detail": "nuqtaless form of बग़ावत (baġāvat) → spelling variant of बग़ावत: rebellion, revolt"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बगीचा", "detail": "nuqtaless form of बग़ीचा (baġīcā) → spelling variant of बग़ीचा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बटन", "detail": "button (presser)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बत्तख", "detail": "nuqtaless form of बत्तख़ (battax) → spelling variant of बत्तख़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बन्दूक", "detail": "nuqtaless form of बन्दूक़ (bandūq) → spelling variant of बन्दूक़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बर्मिंघम", "detail": "Birmingham (a city, the county seat of Jefferson County, Ala"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बर्लिन", "detail": "Berlin (a state of Germany, containing the capital city)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बहन", "detail": "sister (term of address between women)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बहाई", "detail": "Baháʼí"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बाकी", "detail": "nuqtaless form of बाक़ी (bāqī) → spelling variant of बाक़ी: remaining, left over"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बाग", "detail": "nuqtaless form of बाग़ (bāġ) → spelling variant of बाग़: garden"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बाजार", "detail": "nuqtaless form of बाज़ार (bāzār) → spelling variant of बाज़ार: market; bazaar"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बाजी", "detail": "nuqtaless form of बाज़ी (bāzī), bet, wager → spelling variant of बाज़ी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "बाजीगर", "detail": "nuqtaless form of बाज़ीगर (bāzīgar) → spelling variant of बाज़ीगर: juggler, magician, trickster"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बार्सिलोना", "detail": "Barcelona (a province of Catalonia, Spain)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बार्सिलोना", "detail": "Barcelona (the capital city of the state of Anzoátegui, Vene"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बिहारी", "detail": "Bihari (pertaining to Bihar)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "भारत", "detail": "India (a region of South Asia, traditionally delimited by th"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "भूरा", "detail": "brown"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "भोपाल", "detail": "Bhopal (a district of Madhya Pradesh, India, containing the "}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मंजूर", "detail": "nuqtaless form of मंज़ूर (manzūr) → spelling variant of मंज़ूर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मंजूरी", "detail": "nuqtaless form of मंज़ूरी (manzūrī) → spelling variant of मंज़ूरी"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मजबूत", "detail": "nuqtaless form of मज़बूत (mazbūt) → spelling variant of मज़बूत: firm"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मजमून", "detail": "nuqtaless form of मज़मून (mazmūn) → spelling variant of मज़मून"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मजहब", "detail": "nuqtaless form of मज़हब (mazhab) → spelling variant of मज़हब"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मथुरा", "detail": "Mathura (a Lok Sabha constituency in Uttar Pradesh, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मदीना", "detail": "Medina (a province of Saudi Arabia)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मदुरई", "detail": "Madurai (a district of Tamil Nadu, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मराठा", "detail": "Maratha (member of the Maratha caste)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मरीज", "detail": "nuqtaless form of मरीज़ (marīz) → spelling variant of मरीज़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मर्ज", "detail": "nuqtaless form of मर्ज़ (marz) → spelling variant of मर्ज़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मर्जी", "detail": "nuqtaless form of मर्ज़ी (marzī) → spelling variant of मर्ज़ी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मलय", "detail": "Malay (person)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मसीही", "detail": "Christian"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "महफिल", "detail": "nuqtaless form of महफ़िल (mahfil) → spelling variant of महफ़िल: gathering, assembly"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "महल्ला", "detail": "a alternative form of मुहल्ला (muhallā) → spelling variant of मुहल्ला: a neighborhood, suburb, localit"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "माओवादी", "detail": "Maoist"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मारवाड़ी", "detail": "Marwari (a person from Marwar in Rajasthan)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "माल्टा", "detail": "Malta (the largest island in the Maltese Archipelago)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मिलान", "detail": "Milan (a metropolitan city of Lombardy, established in 2015;"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मिस्र", "detail": "Egypt (a civilization based around the river Nile, on its lo"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मीरपुर", "detail": "Mirpur (a union council in Abbottabad district, Khyber Pakht"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मुताबिक", "detail": "nuqtaless form of मुताबिक़ (mutābiq) → spelling variant of मुताबिक़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मुसाफिर", "detail": "nuqtaless form of मुसाफ़िर (musāfir) → spelling variant of मुसाफ़िर"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मेज", "detail": "nuqtaless form of मेज़ (mez) → spelling variant of मेज़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मैनचेस्टर", "detail": "Manchester (a city in New Hampshire, United States)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मोजा", "detail": "nuqtaless form of मोज़ा (mozā) → spelling variant of मोज़ा"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मोहल्ला", "detail": "a alternative form of मुहल्ला (muhallā) → spelling variant of मुहल्ला: a neighborhood, suburb, localit"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "मौका", "detail": "nuqtaless form of मौक़ा (mauqā) → spelling variant of मौक़ा: chance, opportunity"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मौसम", "detail": "season"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मौसम", "detail": "weather"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "यकीन", "detail": "nuqtaless form of यक़ीन (yaqīn) → spelling variant of यक़ीन"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "यशायाह", "detail": "Isaiah (a book of the Old Testament of the Bible, and of the"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "यही", "detail": "this very – emphatic form of यह (yah, “this”) → spelling variant of यह: this one; he; she; it (proximal thir"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "यहोशू", "detail": "Joshua (the sixth book of the Old Testament of the Bible, an"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "यूक्रेनी", "detail": "Ukrainian"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "योना", "detail": "Jonah (a book of the Old Testament and the Hebrew Tanakh)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रजत", "detail": "white"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "रमजान", "detail": "nuqtaless form of रमज़ान (ramzān, “Ramadan”) → spelling variant of रमज़ान"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "राजकोट", "detail": "Rajkot (a district of Gujarat, India)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "राजशाही", "detail": "Rajshahi (one of the eight administrative divisions of Bangl"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "राजी", "detail": "nuqtaless form of राज़ी (rāzī) → spelling variant of राज़ी"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "राष्ट्र", "detail": "nation (community of people having a common identity)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रिकॉर्ड", "detail": "record (vinyl disc)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "रिवाज़", "detail": "hyperforeign form of रिवाज (rivāj) → spelling variant of रिवाज: custom"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रूढ़िवादी", "detail": "conservative, traditionalist"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रूसी", "detail": "Russian (person from Russia)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रूसी", "detail": "Russian (language)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "रोज", "detail": "nuqtaless form of रोज़ (roz) → spelling variant of रोज़: daily, everyday; always"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "रोज", "detail": "nuqtaless form of रोज़ (roz) → spelling variant of रोज़: daily, everyday; always"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रोज", "detail": "spelling variant of रोज़: daily, everyday; always"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "लंदन", "detail": "London (a city in Ontario, Canada)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "लायक", "detail": "nuqtaless form of लायक़ (lāyaq) → spelling variant of लायक़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "लाल", "detail": "red (color/colour)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "लुधियाना", "detail": "Ludhiana (a district of Punjab, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "लेफ्टिनेंट", "detail": "nuqtaless form of लेफ़्टिनेंट (lefṭineṇṭ) → spelling variant of लेफ़्टिनेंट"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "लेबनान", "detail": "Lebanon (a mountain range in the country of Lebanon, West As"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "वक्त", "detail": "nuqtaless form of वक़्त (vaqt) → spelling variant of वक़्त: time"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "वाकिफ", "detail": "nuqtaless form of वाक़िफ़ (vāqif) → spelling variant of वाक़िफ़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "वैशाली", "detail": "Vaishali (a city in Bihar, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "शख्स", "detail": "nuqtaless form of शख़्स (śaxs) → spelling variant of शख़्स"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "शख्सियत", "detail": "nuqtaless form of शख़्सियत (śaxsiyat) → spelling variant of शख़्सियत"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "शमूएल", "detail": "Samuel (one of two books of the Old Testament and the Hebrew"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "शराफत", "detail": "nuqtaless form of शराफ़त (śarāfat) → spelling variant of शराफ़त"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "शासनकाल", "detail": "duration of reign, government, law"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "श्रावस्ती", "detail": "Shravasti (an ancient city in Uttar Pradesh, India)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सख्त", "detail": "nuqtaless form of सख़्त (saxt) → spelling variant of सख़्त"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सड़क", "detail": "road"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सफेद", "detail": "nuqtaless form of सफ़ेद (safed) → spelling variant of सफ़ेद: white (color)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सबक", "detail": "nuqtaless form of सबक़ (sabaq) → spelling variant of सबक़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सरगना", "detail": "nuqtaless form of सरग़ना (sarġanā) → spelling variant of सरग़ना"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सराफा", "detail": "nuqtaless form of सराफ़ा (sarāfā) → spelling variant of सराफ़ा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सरी", "detail": "Surrey (a city in Lower Mainland, British Columbia, Canada)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सर्राफ", "detail": "nuqtaless form of सर्राफ़ (sarrāf) → spelling variant of सर्राफ़"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सर्राफा", "detail": "nuqtaless form of सर्राफ़ा (sarrāfā) → spelling variant of सर्राफ़ा"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सवा", "detail": "one and a quarter"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "साफ", "detail": "nuqtaless form of साफ़ (sāf) → spelling variant of साफ़: clean"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सिंधी", "detail": "Sindhi (language)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सिंहली", "detail": "Sinhalese"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सिक्किम", "detail": "Sikkim (a former country in South Asia that existed from the"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सिर्फ", "detail": "nuqtaless form of सिर्फ़ (sirf) → spelling variant of सिर्फ़: only, just"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सिर्फ", "detail": "nuqtaless form of सिर्फ़ (sirf) → spelling variant of सिर्फ़: only, just"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सिर्फ", "detail": "spelling variant of सिर्फ़: only, just"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सुकरात", "detail": "nuqtaless form of सुक़रात (suqrāt) → spelling variant of सुक़रात"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "सुराग", "detail": "nuqtaless form of सुराग़ (surāġ) → spelling variant of सुराग़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "स्क्रिप्ट", "detail": "a script"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "हकीकत", "detail": "nuqtaless form of हक़ीक़त (haqīqat) → spelling variant of हक़ीक़त"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "हज़ार", "detail": "a thousand"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "हरफ", "detail": "nuqtaless form of हरफ़ (haraf) → spelling variant of हरफ़"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "हरा", "detail": "green (colour)"}
+{"fix": "crossref", "file": "hindi-cognates-bho", "word": "हुजूर", "detail": "nuqtaless form of हुज़ूर (huzūr) → spelling variant of हुज़ूर"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "हैदराबाद", "detail": "Hyderabad (a city in Sindh, Pakistan)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "हैम्बर्ग", "detail": "Hamburg (a state of Germany containing the city of the same "}
+{"fix": "nfc", "file": "aligned-bho", "word": "एंप्फ़िंगेन", "detail": "→ एंप्फ़िंगेन"}
+{"fix": "nfc", "file": "aligned-bho", "word": "कपड़ा", "detail": "→ कपड़ा"}
+{"fix": "nfc", "file": "aligned-bho", "word": "करोड़", "detail": "→ करोड़"}
+{"fix": "nfc", "file": "aligned-bho", "word": "कीड़ा", "detail": "→ कीड़ा"}
+{"fix": "nfc", "file": "aligned-bho", "word": "कॉफ़ी", "detail": "→ कॉफ़ी"}
+{"fix": "nfc", "file": "aligned-bho", "word": "खिड़की", "detail": "→ खिड़की"}
+{"fix": "dupe-entry", "file": "aligned-bho", "word": "खिड़की", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "aligned-bho", "word": "खड़ा", "detail": "→ खड़ा"}
+{"fix": "nfc", "file": "aligned-bho", "word": "गोत्ज़ेल", "detail": "→ गोत्ज़ेल"}
+{"fix": "nfc", "file": "aligned-bho", "word": "घोड़ा", "detail": "→ घोड़ा"}
+{"fix": "dupe-entry", "file": "aligned-bho", "word": "घोड़ा", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "aligned-bho", "word": "टेलीविज़न", "detail": "→ टेलीविज़न"}
+{"fix": "nfc", "file": "aligned-bho", "word": "पहाड़", "detail": "→ पहाड़"}
+{"fix": "nfc", "file": "aligned-bho", "word": "पीढ़ी", "detail": "→ पीढ़ी"}
+{"fix": "dupe-entry", "file": "aligned-bho", "word": "पीढ़ी", "detail": "dropped later duplicate within file"}
+{"fix": "nfc", "file": "aligned-bho", "word": "पढ़ाई", "detail": "→ पढ़ाई"}
+{"fix": "nfc", "file": "aligned-bho", "word": "पढ़े", "detail": "→ पढ़े"}
+{"fix": "nfc", "file": "aligned-bho", "word": "फेफड़ा", "detail": "→ फेफड़ा"}
+{"fix": "nfc", "file": "aligned-bho", "word": "बढ़े", "detail": "→ बढ़े"}
+{"fix": "nfc", "file": "aligned-bho", "word": "मज़ाक", "detail": "→ मज़ाक"}
+{"fix": "nfc", "file": "aligned-bho", "word": "ज़िम्बाब्वे", "detail": "→ ज़िम्बाब्वे"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अखिल (गायक)", "detail": "→ अखिल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आल्हा (बीर)", "detail": "→ आल्हा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "आल्हा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अलोक कुमार (सिंगर)", "detail": "→ अलोक कुमार"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अलफांसो (आम)", "detail": "→ अलफांसो"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अमर सिंह (राजनीतिज्ञ)", "detail": "→ अमर सिंह"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अमरावती (बहुअर्थी)", "detail": "→ अमरावती"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अमेजन (कंपनी)", "detail": "→ अमेजन"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "अमेजन", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आम्रपाली (आम)", "detail": "→ आम्रपाली"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "अमरावती", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अन्नपूर्णा I (मुख्य)", "detail": "→ अन्नपूर्णा I"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अनुपकुमार (अभिनेता)", "detail": "→ अनुपकुमार"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अनुपमा (धारावाहिक)", "detail": "→ अनुपमा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "एक्वाडक्ट (पुल)", "detail": "→ एक्वाडक्ट"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "एक्वाडक्ट", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आर्काइव (आइडेंटिफायर)", "detail": "→ आर्काइव"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आर्डेइया (जीनस)", "detail": "→ आर्डेइया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आरा (बहुअर्थी)", "detail": "→ आरा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "आरा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आर्टिकल (ग्रामर)", "detail": "→ आर्टिकल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आर्य (अभिनेता)", "detail": "→ आर्य"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अशोकनगर (कल्याणगढ़)", "detail": "→ अशोकनगर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गंगला (चिरई)", "detail": "→ गंगला"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "एस्पिरेंट्स (वेब सीरीज)", "detail": "→ एस्पिरेंट्स"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वायुमंडल (सामान्य)", "detail": "→ वायुमंडल"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "वायुमंडल", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ऑडरे (पत्रिका)", "detail": "→ ऑडरे"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आस्ट्रेलिया (महादीप)", "detail": "→ आस्ट्रेलिया"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "आस्ट्रेलिया", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बदलापुर (थाणे)", "detail": "→ बदलापुर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बगहा (बिधानसभा क्षेत्र)", "detail": "→ बगहा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "बगहा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "झिल्ली (चिरई)", "detail": "→ झिल्ली"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बेटा (फिलिम)", "detail": "→ बेटा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बेतिया (बिधानसभा क्षेत्र)", "detail": "→ बेतिया"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "बेतिया", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "भरत (सम्राट)", "detail": "→ भरत"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "भारत (जन)", "detail": "→ भारत"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "भूमि (देवी)", "detail": "→ भूमि"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बिदेसिया (फिलिम)", "detail": "→ बिदेसिया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बिदेसिया (तमासा)", "detail": "→ बिदेसिया"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "बिदेसिया", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बिन्दू (एक्ट्रेस)", "detail": "→ बिन्दू"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ब्लॉक (जिला उपबिभाग)", "detail": "→ ब्लॉक"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ब्लॉगर (सर्विस)", "detail": "→ ब्लॉगर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बोरियम (तत्व)", "detail": "→ बोरियम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बोकारो (थर्मल)", "detail": "→ बोकारो"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बोरा (हवा)", "detail": "→ बोरा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "बोरियम", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बाउन्ड्री (क्रिकेट)", "detail": "→ बाउन्ड्री"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ब्राउजर (बहुअर्थी)", "detail": "→ ब्राउजर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बुर (बहुअर्थी)", "detail": "→ बुर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सी (प्रोग्रामिंग भाषा)", "detail": "→ सी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सीआईडी (धारावाहिक)", "detail": "→ सीआईडी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कैश (कंप्यूटिंग)", "detail": "→ कैश"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "केप (भूगोल)", "detail": "→ केप"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कैप्टन मार्वल (फिलिम)", "detail": "→ कैप्टन मार्वल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कोष (जीवविज्ञान)", "detail": "→ कोष"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सेंट्रल यूनिवर्सिटी (भारत)", "detail": "→ सेंट्रल यूनिवर्सिटी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सीरीस (बउना गरह)", "detail": "→ सीरीस"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चालबाज (फिलिम)", "detail": "→ चालबाज"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चंपा (बहुअर्थी)", "detail": "→ चंपा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चनपटिया (बिधानसभा क्षेत्र)", "detail": "→ चनपटिया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चौपाल (सार्वजनिक जगह)", "detail": "→ चौपाल"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "चौपाल", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "छंद (उत्तर भारतीय)", "detail": "→ छंद"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मुर्गा (खाना)", "detail": "→ मुर्गा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चर्च (संस्था)", "detail": "→ चर्च"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "क्रिसमस आइलैंड (बहुअर्थी)", "detail": "→ क्रिसमस आइलैंड"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "चर्च", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चर्च (बिल्डिंग)", "detail": "→ चर्च"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "चर्च", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सिटाडेल (टीवी सीरीज)", "detail": "→ सिटाडेल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वर्ग (जीव बिज्ञान)", "detail": "→ वर्ग"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कोक (जलावन)", "detail": "→ कोक"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कॉलोनी (जीव बिज्ञान)", "detail": "→ कॉलोनी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कॉमन सेंस (पम्फलेट)", "detail": "→ कॉमन सेंस"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "ब्लॉक", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "व्यंजन (वर्ण)", "detail": "→ व्यंजन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "संविधान दिवस (भारत)", "detail": "→ संविधान दिवस"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पकवान (इस्टाइल)", "detail": "→ पकवान"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हौसिल (डालमेशियन पेलिकन)", "detail": "→ हौसिल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "दर्शन (एक्टर)", "detail": "→ दर्शन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "दीवाना (फिलिम)", "detail": "→ दीवाना"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "डिग्री (कोण)", "detail": "→ डिग्री"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गेना (क्रिकेट)", "detail": "→ गेना"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "गेना", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "देव दीपावली (बनारस)", "detail": "→ देव दीपावली"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "देव (हिंदू धर्म)", "detail": "→ देव"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "देवी (हिंदू धर्म)", "detail": "→ देवी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "दिल (फिलिम)", "detail": "→ दिल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "निकास (हाइड्रोलॉजी)", "detail": "→ निकास"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अधिजगत (जीव बिज्ञान)", "detail": "→ अधिजगत"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "डॉन नदी (रूस)", "detail": "→ डॉन नदी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "राजकुमार (अभिनेता)", "detail": "→ राजकुमार"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "डक्टाइलिटी (पृथ्वी बिज्ञान)", "detail": "→ डक्टाइलिटी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इलेक्ट्रिक ट्रेन (बहुअर्थी)", "detail": "→ इलेक्ट्रिक ट्रेन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "एमिरेट्स (हवाई सेवा)", "detail": "→ एमिरेट्स"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "एमिरेट्स", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पर्यावरण (बहुअर्थी)", "detail": "→ पर्यावरण"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "पर्यावरण", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इस्टेट्स जनरल (फ्रांस)", "detail": "→ इस्टेट्स जनरल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "परिवार (जीव बिज्ञान)", "detail": "→ परिवार"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फराह (एक्ट्रेस)", "detail": "→ फराह"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फेयनमन (बहुअर्थी)", "detail": "→ फेयनमन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अँगुरियावल (सेक्स)", "detail": "→ अँगुरियावल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फ्लिक (समय)", "detail": "→ फ्लिक"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बँसुरी (बिबिध प्रकार)", "detail": "→ बँसुरी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "बँसुरी", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फुट (इकाई)", "detail": "→ फुट"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रूप (बनस्पति बिज्ञान)", "detail": "→ रूप"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फंक्शन (गणित)", "detail": "→ फंक्शन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गंगा (बहुअर्थी)", "detail": "→ गंगा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जाति (जीव बिज्ञान)", "detail": "→ जाति"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जॉर्जिया (अमेरिकी राज्य)", "detail": "→ जॉर्जिया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जॉर्जिया (देश)", "detail": "→ जॉर्जिया"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "जॉर्जिया", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गिरीश तिवारी (गिर्दा)", "detail": "→ गिरीश तिवारी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गर्ल राइजिंग (फिलिम)", "detail": "→ गर्ल राइजिंग"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "गर्ल राइजिंग", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गोविंदगंज (बिधानसभा क्षेत्र)", "detail": "→ गोविंदगंज"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ग्रैंडमास्टर (शतरंज)", "detail": "→ ग्रैंडमास्टर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ग्रोक (एआइ चैटबॉट)", "detail": "→ ग्रोक"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हरसिद्धि (बिधानसभा क्षेत्र)", "detail": "→ हरसिद्धि"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "दिल", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हेलेन (एक्ट्रेस)", "detail": "→ हेलेन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हिंदी मीडियम (फिलिम)", "detail": "→ हिंदी मीडियम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हिंदू (बहुअर्थी)", "detail": "→ हिंदू"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "हिंदू", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हिन्दुस्तान (अखबार)", "detail": "→ हिन्दुस्तान"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "होलीपुर (सैदपुर)", "detail": "→ होलीपुर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हाउस (बिधा)", "detail": "→ हाउस"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "हुमा कुरैशी (एक्ट्रेस)", "detail": "→ हुमा कुरैशी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मरद (रिश्ता)", "detail": "→ मरद"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सुई (इंजेक्शन)", "detail": "→ सुई"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "स्वतंत्रता दिवस (भारत)", "detail": "→ स्वतंत्रता दिवस"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "भारत", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "भारत (बहुअर्थी)", "detail": "→ भारत"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "भारत", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इंडिया (गठबंधन)", "detail": "→ इंडिया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इण्डिका (मेगस्थनीज)", "detail": "→ इण्डिका"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इनफ्लो (हाइड्रोलॉजी)", "detail": "→ इनफ्लो"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इन्नोसेंट (एक्टर)", "detail": "→ इन्नोसेंट"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इंटरव्यू (पत्रिका)", "detail": "→ इंटरव्यू"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जैक जॉनसन (संगीतकार)", "detail": "→ जैक जॉनसन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जगदीश चतुर्वेदी (लेखक)", "detail": "→ जगदीश चतुर्वेदी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जय भीम (फिलिम)", "detail": "→ जय भीम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जमुना (बहुअर्थी)", "detail": "→ जमुना"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जनता दल (युनाइटेड)", "detail": "→ जनता दल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जापानी (बहुअर्थी)", "detail": "→ जापानी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जाति (बहुअर्थी)", "detail": "→ जाति"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "जाति", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जॉन अब्राहम (अभिनेता)", "detail": "→ जॉन अब्राहम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जुबिली ब्रिज (भारत)", "detail": "→ जुबिली ब्रिज"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जूलियस सीज़र (नाटक)", "detail": "→ जूलियस सीज़र"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जस्टिस पार्टी (भारत)", "detail": "→ जस्टिस पार्टी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ज्योतिष (बहुअर्थी)", "detail": "→ ज्योतिष"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "जाति", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कैथी (युनिकोड ब्लॉक)", "detail": "→ कैथी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "कैथी", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कल्याणपुर(बिधानसभा क्षेत्र)", "detail": "→ कल्याणपुर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कान्तिपुर (दैनिक)", "detail": "→ कान्तिपुर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कपिलवस्तु (बहुअर्थी)", "detail": "→ कपिलवस्तु"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "कपिलवस्तु", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कार्तिकेय (फिलिम)", "detail": "→ कार्तिकेय"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "कार्तिकेय", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "काश्मीर (बहुअर्थी)", "detail": "→ काश्मीर"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "काश्मीर", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "काठमांडौ (बहुअर्थी)", "detail": "→ काठमांडौ"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "केदारनाथ (परबत)", "detail": "→ केदारनाथ"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "केनेडी (फिलिम)", "detail": "→ केनेडी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "केसरिआ (बिधानसभा क्षेत्र)", "detail": "→ केसरिआ"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "खजुराहो (शहर)", "detail": "→ खजुराहो"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "खजुराहो", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "खिलाड़ी (फिलिम)", "detail": "→ खिलाड़ी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कीनाराम (संत)", "detail": "→ कीनाराम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "जगत (जीव बिज्ञान)", "detail": "→ जगत"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अल्बर्ट झील (अफिरका)", "detail": "→ अल्बर्ट झील"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ललितपुर जिला (भारत)", "detail": "→ ललितपुर जिला"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "ललितपुर जिला", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "लउरिया (बिधानसभा क्षेत्र)", "detail": "→ लउरिया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "लक्ष्मी (फिलिम)", "detail": "→ लक्ष्मी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "लक्ष्मी", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "लेवांत (हवा)", "detail": "→ लेवांत"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सीमा (गणित)", "detail": "→ सीमा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "लिंग (बहुअर्थी)", "detail": "→ लिंग"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "लाटरी (डिसीजन थियरी)", "detail": "→ लाटरी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "लाटरी", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "लूसिफ़र (टीवी सीरीज)", "detail": "→ लूसिफ़र"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "लूसिफ़र", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मेडागास्कर (फिलिम)", "detail": "→ मेडागास्कर"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मेडागास्कर", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मधु (अभिनेता)", "detail": "→ मधु"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मधु", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "माघ (कवी)", "detail": "→ माघ"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "माघ", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "महागठबंधन (बिहार)", "detail": "→ महागठबंधन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "महाराजगंज, सिवान (अनुमंडल)", "detail": "→ महाराजगंज, सिवान"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "महारानी (वेब सीरीज)", "detail": "→ महारानी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मरद", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मानगो (जमशेदपुर)", "detail": "→ मानगो"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मटका (जुआ)", "detail": "→ मटका"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मक्का (शहर)", "detail": "→ मक्का"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "डाक्टरी (बिद्या)", "detail": "→ डाक्टरी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "भूमध्य (बहुअर्थी)", "detail": "→ भूमध्य"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मेलविले दीप (आस्ट्रेलिया)", "detail": "→ मेलविले दीप"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "बुध (ग्रह)", "detail": "→ बुध"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मीटर (कबितई)", "detail": "→ मीटर"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मीटर", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रक्षामंत्री (भारत)", "detail": "→ रक्षामंत्री"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शिक्षा मंत्री (भारत)", "detail": "→ शिक्षा मंत्री"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मिर्ज़ापुर (टीवी सिरीज)", "detail": "→ मिर्ज़ापुर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मॉडल (लोग)", "detail": "→ मॉडल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मॉर्फोलजी (भाषाविज्ञान)", "detail": "→ मॉर्फोलजी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मुकेश (अभिनेता)", "detail": "→ मुकेश"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मुकेश", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मुमताज (एक्ट्रेस)", "detail": "→ मुमताज"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मुकाबला (फिलिम)", "detail": "→ मुकाबला"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मुर्गा (बहुअर्थी)", "detail": "→ मुर्गा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मुर्गा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मरी (हिल स्टेशन)", "detail": "→ मरी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मरी", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "खरबुज्जा (बहुअर्थी)", "detail": "→ खरबुज्जा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "खरबुज्जा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सरसो (पौधा)", "detail": "→ सरसो"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सरसो", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नामकरण (धारावाहिक)", "detail": "→ नामकरण"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नागार्जुन (बहुअर्थी)", "detail": "→ नागार्जुन"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "नागार्जुन", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नालंदा (बहुअर्थी)", "detail": "→ नालंदा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "नालंदा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नानी (अभिनेता)", "detail": "→ नानी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नरकटियागंज (बिधानसभा क्षेत्र)", "detail": "→ नरकटियागंज"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "नरकटियागंज", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नरकटिया (बिधानसभा क्षेत्र)", "detail": "→ नरकटिया"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मूल निवासी (इकोलॉजी)", "detail": "→ मूल निवासी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "नौतन (बिधानसभा क्षेत्र)", "detail": "→ नौतन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सुई (बहुअर्थी)", "detail": "→ सुई"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सुई", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "न्यू यॉर्क (राज्य)", "detail": "→ न्यू यॉर्क"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "अहिंसा (गाँधीवाद)", "detail": "→ अहिंसा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "अहिंसा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "परमाणविक पदर्थबिद्या (बहुअर्थी)", "detail": "→ परमाणविक पदर्थबिद्या"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "परमाणविक पदर्थबिद्या", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गिनती (भाषा बिज्ञान)", "detail": "→ गिनती"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "गिनती", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गौरइया (ग्रुप)", "detail": "→ गौरइया"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "गौरइया", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ओपेनहाइमर (फिलिम)", "detail": "→ ओपेनहाइमर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कक्षा (खगोल)", "detail": "→ कक्षा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कुल (जीव बिज्ञान)", "detail": "→ कुल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "धान (जाति)", "detail": "→ धान"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "धान", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ओवरशूट (आबादी)", "detail": "→ ओवरशूट"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ओजार्क (टीवी सीरीज)", "detail": "→ ओजार्क"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ओजार्क (बहुअर्थी)", "detail": "→ ओजार्क"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "ओजार्क", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "ओजार्क", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पद्मावत (फिलिम)", "detail": "→ पद्मावत"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पानीपत (फिलिम)", "detail": "→ पानीपत"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "पानीपत", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पार्टन (पार्टिकल फिजिक्स)", "detail": "→ पार्टन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पतंजलि (बहुअर्थी)", "detail": "→ पतंजलि"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "पतंजलि", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फीड्रा (कथा)", "detail": "→ फीड्रा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फेज (पदार्थ)", "detail": "→ फेज"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "दर्शन", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "संघ (जीव बिज्ञान)", "detail": "→ संघ"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पिपरा(बिधानसभा क्षेत्र)", "detail": "→ पिपरा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "खेल (सामान्य)", "detail": "→ खेल"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "खेल", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "चंपा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पोगो (टीवी चैनल)", "detail": "→ पोगो"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पोंगल (पकवान)", "detail": "→ पोंगल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पोजीशन (वेक्टर)", "detail": "→ पोजीशन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "प्राण (एक्टर)", "detail": "→ प्राण"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मूँगा (रतन)", "detail": "→ मूँगा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मूँगा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "प्रिंटर (बहुअर्थी)", "detail": "→ प्रिंटर"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "प्रिंटर", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पृथिवी (देवी)", "detail": "→ पृथिवी"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "पृथिवी", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "राज्य (प्रांत)", "detail": "→ राज्य"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पूर्णिमा (फिलिम)", "detail": "→ पूर्णिमा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पुष्पांजलि (फिलिम)", "detail": "→ पुष्पांजलि"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कला (फिलिम)", "detail": "→ कला"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "कला", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आर (अंग्रेजी अच्छर)", "detail": "→ आर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रेड (फिलिम)", "detail": "→ रेड"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "राम चरण (अभिनेता)", "detail": "→ राम चरण"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रंभा (हिरोइन)", "detail": "→ रंभा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रामेश्वरम (बहुअर्थी)", "detail": "→ रामेश्वरम"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "रामेश्वरम", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रामनगर (बिधानसभा क्षेत्र)", "detail": "→ रामनगर"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "रामनगर", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रथजात्रा (पुरी)", "detail": "→ रथजात्रा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रक्सौल (बिधानसभा क्षेत्र)", "detail": "→ रक्सौल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रिबूट (फिक्शन)", "detail": "→ रिबूट"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गणतंत्र दिवस (भारत)", "detail": "→ गणतंत्र दिवस"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रिपब्लिकन पार्टी (अमेरिका)", "detail": "→ रिपब्लिकन पार्टी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "रियो नीग्रो (अमेजन)", "detail": "→ रियो नीग्रो"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "मुर्गा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सड़क (फिलिम)", "detail": "→ सड़क"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सड़क", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "संस्कार (बहुअर्थी)", "detail": "→ संस्कार"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "संस्कार", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "संगम (बहुअर्थी)", "detail": "→ संगम"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "संगम", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "धातु (संस्कृत व्याकरण)", "detail": "→ धातु"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सांता एना (हवा)", "detail": "→ सांता एना"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शारदा (एक्ट्रेस)", "detail": "→ शारदा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सती (देवी)", "detail": "→ सती"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सती", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सती (प्रथा)", "detail": "→ सती"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सती", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पैमाना (नक्शा)", "detail": "→ पैमाना"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सेक्शन (बनस्पति बिज्ञान)", "detail": "→ सेक्शन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सिक्योरिटी (फाइनेंस)", "detail": "→ सिक्योरिटी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सेल्युकस निकेटर (पहिला)", "detail": "→ सेल्युकस निकेटर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सीरीज (बनस्पति बिज्ञान)", "detail": "→ सीरीज"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सीरीज (गणित)", "detail": "→ सीरीज"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सीरीज", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सेट (गणित)", "detail": "→ सेट"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सुई", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शहरयार (मुगल राजकुमार)", "detail": "→ शहरयार"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शक्ति (देवी)", "detail": "→ शक्ति"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शम्मी (एक्ट्रेस)", "detail": "→ शम्मी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सिग्नल (सॉफ्टवेयर)", "detail": "→ सिग्नल"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सिग्नल", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सिकटा (बिधानसभा क्षेत्र)", "detail": "→ सिकटा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सिमरन (एक्ट्रेस)", "detail": "→ सिमरन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सर (फिलिम)", "detail": "→ सर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सिवान (बहुअर्थी)", "detail": "→ सिवान"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सिवान", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "स्पाइडर-मैन (पवित्र प्रभाकर)", "detail": "→ स्पाइडर-मैन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पुल्ली (मैना)", "detail": "→ पुल्ली"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "स्टैमफोर्ड ब्रिज (स्टेडियम)", "detail": "→ स्टैमफोर्ड ब्रिज"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सुगौली (बिधानसभा क्षेत्र)", "detail": "→ सुगौली"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "सुगौली", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "गरमी (सीजन)", "detail": "→ गरमी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "चोटी (थलरूप)", "detail": "→ चोटी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "सूर्य (ज्योतिष)", "detail": "→ सूर्य"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "पर्यायवाची (टैक्सोनॉमी)", "detail": "→ पर्यायवाची"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "पर्यायवाची", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "तबस्सुम (एक्ट्रेस)", "detail": "→ तबस्सुम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "तब्बू (एक्ट्रेस)", "detail": "→ तब्बू"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "टैक्सोनॉमी (जीव बिज्ञान)", "detail": "→ टैक्सोनॉमी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "तान (भओतिकी)", "detail": "→ तान"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "तेज़ाब (फिलिम)", "detail": "→ तेज़ाब"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "दि अलकेमिस्ट (उपन्यास)", "detail": "→ दि अलकेमिस्ट"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "द एस्ट्रोनॉमर (पेंटिंग)", "detail": "→ द एस्ट्रोनॉमर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "इमरजेंसी (भारत)", "detail": "→ इमरजेंसी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "दि टेलिग्राफ (कलकत्ता)", "detail": "→ दि टेलिग्राफ"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "दि ट्रिब्यून (चंडीगढ़)", "detail": "→ दि ट्रिब्यून"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "कला (समस्त)", "detail": "→ कला"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "कला", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "तीन-आयामी स्पेस (गणित)", "detail": "→ तीन-आयामी स्पेस"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "टीका (बहुअर्थी)", "detail": "→ टीका"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "टीका", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "टाइम (पत्रिका)", "detail": "→ टाइम"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "तिरंगा (फिलिम)", "detail": "→ तिरंगा"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "तिरंगा", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ट्रेड (फाइनेंस)", "detail": "→ ट्रेड"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "त्रिशूल (परबत)", "detail": "→ त्रिशूल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ट्रोल (कथाजीव)", "detail": "→ ट्रोल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "यूनिटी (फिलिम)", "detail": "→ यूनिटी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "उपासना (फिलिम)", "detail": "→ उपासना"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "उपेंद्र (अभिनेता)", "detail": "→ उपेंद्र"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शेर (उर्दू शायरी)", "detail": "→ शेर"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "उर्सा (मकड़ी)", "detail": "→ उर्सा"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "टीका (वैक्सीन)", "detail": "→ टीका"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "टीका", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वैरिएबल (बहुअर्थी)", "detail": "→ वैरिएबल"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वैरिएबल (कंप्यूटर साइंस)", "detail": "→ वैरिएबल"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "वैरिएबल", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वैरिएबल (गणित)", "detail": "→ वैरिएबल"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "वैरिएबल", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वेरायटी (बनस्पति बिज्ञान)", "detail": "→ वेरायटी"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वैदिक गणित (पुस्तक)", "detail": "→ वैदिक गणित"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "शुक (ग्रह)", "detail": "→ शुक"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "शुक", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "विष्णुवर्धन (अभिनेता)", "detail": "→ विष्णुवर्धन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "व्याकरण (वेदांग)", "detail": "→ व्याकरण"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "व्याकरण", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वाशिंगटन (राज्य)", "detail": "→ वाशिंगटन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "फ्रंट (मौसम बिज्ञान)", "detail": "→ फ्रंट"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "बुध", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "वेंस्डे (टीवी सीरीज)", "detail": "→ वेंस्डे"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "मेहरारू (रिश्ता)", "detail": "→ मेहरारू"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "एक्स (सोशल नेटवर्क)", "detail": "→ एक्स"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "एक्स", "detail": "dropped later duplicate within file"}
+{"fix": "dupe-entry", "file": "langlinks-bho", "word": "जमुना", "detail": "dropped later duplicate within file"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "यमुना (बहुअर्थी)", "detail": "→ यमुना"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "यश (एक्टर)", "detail": "→ यश"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "योनि (बहुअर्थी)", "detail": "→ योनि"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "ज़ाकिर हुसैन (नेता)", "detail": "→ ज़ाकिर हुसैन"}
+{"fix": "paren-word", "file": "langlinks-bho", "word": "आत्मन् (हिंदू धर्म)", "detail": "→ आत्मन्"}
