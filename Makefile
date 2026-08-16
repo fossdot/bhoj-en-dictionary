@@ -12,7 +12,10 @@ DOCKER_RUN := docker run --rm -v "$(PWD)/$(DICT):/work" -w /work/app alpine
 
 CANONICAL := data/canonical/wiktionary-bho.jsonl \
              data/canonical/wiktionary-translations-bho.jsonl \
-             data/canonical/gatitos-bho.jsonl
+             data/canonical/gatitos-bho.jsonl \
+             data/canonical/hindi-cognates-bho.jsonl \
+             data/canonical/aligned-bho.jsonl \
+             data/canonical/langlinks-bho.jsonl
 
 all: fetch data dict
 
@@ -20,6 +23,9 @@ fetch:
 	$(PY) pipeline/fetch_wiktionary.py
 	$(PY) pipeline/fetch_wiktionary_translations.py
 	$(PY) pipeline/fetch_gatitos.py
+	$(PY) pipeline/fetch_langlinks.py
+	$(PY) pipeline/fetch_hindi_cognates.py
+	$(PY) pipeline/mine_alignments.py   # needs data/corpus/parallel (run 'make data' corpus step first on a fresh clone)
 
 data:
 	$(PY) pipeline/extract_bhwiki.py

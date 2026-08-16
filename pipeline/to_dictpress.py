@@ -80,7 +80,10 @@ def main() -> None:
 
     w = csv.writer(sys.stdout)
     n_defs = 0
-    for word in sorted(by_word):
+    # dictpress ranks search results by import order (row weight), so emit
+    # compact headwords first: single-word lemmas outrank multiword compounds
+    # that share their phonetic hash (query पिटारा should beat "दक्कन पठार").
+    for word in sorted(by_word, key=lambda x: (len(x.split()), len(x), x)):
         rows = entry_rows(merge(by_word[word]))
         w.writerows(rows)
         n_defs += len(rows) - 1

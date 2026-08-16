@@ -92,7 +92,16 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 | [en-Wiktionary bho lemmas](https://en.wiktionary.org/wiki/Category:Bhojpuri_lemmas) | 421 entries, 477 senses, 32 example pairs | CC BY-SA 4.0 |
 | en-Wiktionary translation tables (711 pages mined) | 742 bho words, 768 pairs | CC BY-SA 4.0 |
 | [GATITOS](https://huggingface.co/datasets/google/smol) (Google SMOL) | 3,488 headwords, 7,982 pairs — core vocab + phrases | CC BY 4.0 |
-| **merged** | **4,124 headwords, 5,537 definitions** | |
+| Hindi pivot (kaikki.org Hindi × corpus-attested, freq ≥ 20) | 8,907 headwords, tagged `src:hi-cognate` | CC BY-SA 4.0 |
+| IBM-1 alignment over NLLB-Seed/MD pro translations | 4,097 headwords, tagged `src:aligned` | CC BY-SA 4.0 (derived) |
+| bhwiki interlanguage links (≤3 words, no digits) | 8,310 headwords, tagged `src:bhwiki-langlinks` | CC BY-SA 4.0 |
+| **merged** | **20,568 headwords, 31,387 definitions** | |
+
+Every machine-derived source went through a two-lens judge panel (semantic
+correctness + lexicographic quality) on random samples before import — all
+passed at 100% on samples; borderline entries live in `*-review.jsonl` files
+that are **not** imported (alignment scores 0.20–0.30: 1,029; cognate
+freq 8–19: 1,853). Entries carry `src:*` tags for later per-source review.
 
 ### Corpus (→ `data/corpus/`, see `STATS.md` for exact counts)
 
