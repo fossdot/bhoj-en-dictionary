@@ -11172,6 +11172,9 @@
 ^,,"power, ability; right",english,,default:english,,,,noun,
 -,,मटका,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|script:Deva,maṭkā,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,pot (usually earthen),english,,default:english,,,,noun,
+-,,मड़ई,bhojpuri,,lua:indicphone_hi.lua,,src:community|script:Deva,maṛaī,,"{""source"": ""community submission"", ""license"": ""CC BY-SA 4.0""}"
+^,,thatched hut; a small cottage of straw and bamboo,english,ऊ मड़ई में रहेला — he lives in a thatched hut,default:english,,,,noun,
+^,,small thatched shed for cattle or straw,english,,default:english,,,,noun,
 -,,मतलब,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|src:aligned|script:Deva,matlab,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,"meaning, meant",english,,default:english,,,,,
 ^,,meaning,english,,default:english,,,,,

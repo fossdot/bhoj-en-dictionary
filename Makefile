@@ -10,12 +10,16 @@ PY := python3
 DICT := dictpress
 DOCKER_RUN := docker run --rm -v "$(PWD)/$(DICT):/work" -w /work/app alpine
 
+# NOTE: `make dict` rebuilds data.db from these files — website submissions
+# approved in the admin live only in data.db until exported into
+# community-bho.jsonl, so export before rebuilding or they are lost.
 CANONICAL := data/canonical/wiktionary-bho.jsonl \
              data/canonical/wiktionary-translations-bho.jsonl \
              data/canonical/gatitos-bho.jsonl \
              data/canonical/hindi-cognates-bho.jsonl \
              data/canonical/aligned-bho.jsonl \
-             data/canonical/langlinks-bho.jsonl
+             data/canonical/langlinks-bho.jsonl \
+             data/canonical/community-bho.jsonl
 
 all: fetch data dict
 
