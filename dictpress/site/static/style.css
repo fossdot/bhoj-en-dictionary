@@ -496,61 +496,11 @@ fieldset.group {
   font-weight: 700;
 }
 
-.guide .guide-example {
-  margin: var(--space-3) 0;
-  padding: var(--space-2) var(--space-3);
-  border-left: 3px solid #e4572e;
-  background: light-dark(#fff, #232327);
-}
 
-.guide .muted-text {
-  opacity: 0.6;
-}
 
-.guide .guide-label {
-  display: inline-block;
-  font-size: var(--text-8);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  opacity: 0.65;
-  margin-bottom: var(--space-1);
-}
 
-.guide .guide-label.ok {
-  color: light-dark(#2e6e45, #6fbf8a);
-  opacity: 1;
-}
 
-.guide .guide-label.no {
-  color: #e4572e;
-  opacity: 1;
-}
 
-.guide .guide-cols {
-  display: flex;
-  gap: var(--space-6);
-  margin-top: var(--space-3);
-
-  > div {
-    flex: 1 1 0;
-  }
-
-  ul {
-    margin: 0;
-    padding-left: var(--space-5);
-  }
-
-  li {
-    margin-bottom: var(--space-1);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .guide .guide-cols {
-    flex-direction: column;
-    gap: var(--space-3);
-  }
-}
 
 .guide .guide-foot {
   margin: var(--space-3) 0 0;
