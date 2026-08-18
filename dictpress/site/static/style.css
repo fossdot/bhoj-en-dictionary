@@ -583,3 +583,11 @@ button[type="submit"]:focus-visible {
     scroll-behavior: auto !important;
   }
 }
+
+/* Devanagari keyboard helper beside the Word field */
+.kbd-link {
+  float: right;
+  font-weight: 400;
+  font-size: var(--text-8);
+  color: light-dark(#0b57d0, #8ab4f8);
+}

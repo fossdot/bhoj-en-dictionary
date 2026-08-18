@@ -8,7 +8,7 @@
     <summary>How to add a word <span class="guide-sub">— कइसे जोड़ल जाव</span></summary>
 
     <ol class="guide-steps">
-        <li><b>Word</b> in Devanagari, dictionary form — <span class="ex">मड़ई</span>, not मड़इया</li>
+        <li><b>Word</b> in Devanagari, dictionary form — <span class="ex">मड़ई</span>, not मड़इया <a href="https://www.lexilogos.com/keyboard/bhojpuri.htm" target="_blank" rel="noopener">(online keyboard ↗)</a></li>
         <li><b>Meaning</b> in English, one per box — <span class="ex">thatched hut</span></li>
         <li>More meanings? Click <b>+ Add another meaning</b></li>
     </ol>
@@ -28,7 +28,10 @@
             </div>
             <div class="col-1"></div>
             <div class="col-8">
-                <label for="entry-content">{{ t(key="public.suggestWordLabel") }}</label>
+                <label for="entry-content">{{ t(key="public.suggestWordLabel") }}
+                    <a class="kbd-link" href="https://www.lexilogos.com/keyboard/bhojpuri.htm"
+                       target="_blank" rel="noopener">{{ t(key="public.suggestKeyboardLink") }}</a>
+                </label>
                 <textarea name="entry_content" id="entry-content" required minlength="3"
                           placeholder="{{ t(key="public.suggestWordPlaceholder") }}"></textarea>
             </div>

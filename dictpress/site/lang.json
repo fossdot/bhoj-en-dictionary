@@ -44,5 +44,6 @@
   "public.suggestWordLabel": "Word (in Devanagari)",
   "public.suggestWordPlaceholder": "मड़ई",
   "public.suggestMeaningLabel": "Meaning (in English)",
-  "public.suggestMeaningPlaceholder": "thatched hut"
+  "public.suggestMeaningPlaceholder": "thatched hut",
+  "public.suggestKeyboardLink": "No Devanagari keyboard? Type it here ↗"
 }

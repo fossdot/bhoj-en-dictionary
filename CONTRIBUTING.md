@@ -7,6 +7,10 @@ Three ways to add Bhojpuri words. All of them end up in the same place.
 Open **/submit**, fill in the word and its meaning, press *Submit for review*.
 A maintainer approves it and it goes live. The page has a short guide built in.
 
+No Devanagari keyboard? The form links to the
+[Lexilogos Bhojpuri keyboard](https://www.lexilogos.com/keyboard/bhojpuri.htm) —
+type the word there, then copy it across.
+
 If the word is already in the dictionary, open its entry and use the ✏️
 *Suggest an edit* icon instead of adding a duplicate.
 
