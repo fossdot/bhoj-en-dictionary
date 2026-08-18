@@ -1,0 +1,350 @@
+{"id": "aligned-bho:अंक", "word": "अंक", "senses": [{"pos": "", "gloss": "digit"}, {"pos": "", "gloss": "digits"}, {"pos": "", "gloss": "numerals"}], "scores": {"digit": 0.454, "digits": 0.436, "numerals": 0.357}}
+{"id": "aligned-bho:अंकगणित", "word": "अंकगणित", "senses": [{"pos": "", "gloss": "arithmetic"}], "scores": {"arithmetic": 0.829}}
+{"id": "aligned-bho:अंग", "word": "अंग", "senses": [{"pos": "", "gloss": "organs"}], "scores": {"organs": 0.691}}
+{"id": "aligned-bho:अंगोला", "word": "अंगोला", "senses": [{"pos": "", "gloss": "angola"}], "scores": {"angola": 0.514}}
+{"id": "aligned-bho:अंग्रेजी", "word": "अंग्रेजी", "senses": [{"pos": "", "gloss": "english"}], "scores": {"english": 0.924}}
+{"id": "aligned-bho:अंजा", "word": "अंजा", "senses": [{"pos": "", "gloss": "anja"}], "scores": {"anja": 0.772}}
+{"id": "aligned-bho:अंटार्कटिक", "word": "अंटार्कटिक", "senses": [{"pos": "", "gloss": "antarctic"}], "scores": {"antarctic": 0.452}}
+{"id": "aligned-bho:अंडा", "word": "अंडा", "senses": [{"pos": "", "gloss": "eggs"}, {"pos": "", "gloss": "egg"}], "scores": {"eggs": 0.732, "egg": 0.392}}
+{"id": "aligned-bho:अंत", "word": "अंत", "senses": [{"pos": "", "gloss": "end"}, {"pos": "", "gloss": "late"}], "scores": {"end": 0.511, "late": 0.341}}
+{"id": "aligned-bho:अंतःविषय", "word": "अंतःविषय", "senses": [{"pos": "", "gloss": "interdisciplinary"}], "scores": {"interdisciplinary": 0.305}}
+{"id": "aligned-bho:अंतःस्रावी", "word": "अंतःस्रावी", "senses": [{"pos": "", "gloss": "endocrine"}], "scores": {"endocrine": 0.468}}
+{"id": "aligned-bho:अंततः", "word": "अंततः", "senses": [{"pos": "", "gloss": "eventually"}, {"pos": "", "gloss": "ultimately"}], "scores": {"eventually": 0.583, "ultimately": 0.312}}
+{"id": "aligned-bho:अंतर", "word": "अंतर", "senses": [{"pos": "", "gloss": "difference"}, {"pos": "", "gloss": "differences"}], "scores": {"difference": 0.564, "differences": 0.498}}
+{"id": "aligned-bho:अंतरराष्ट्रीय", "word": "अंतरराष्ट्रीय", "senses": [{"pos": "", "gloss": "international"}], "scores": {"international": 0.589}}
+{"id": "aligned-bho:अंतराल", "word": "अंतराल", "senses": [{"pos": "", "gloss": "intervals"}], "scores": {"intervals": 0.4}}
+{"id": "aligned-bho:अंतरिक्ष", "word": "अंतरिक्ष", "senses": [{"pos": "", "gloss": "space"}], "scores": {"space": 0.406}}
+{"id": "aligned-bho:अंतर्दृष्टि", "word": "अंतर्दृष्टि", "senses": [{"pos": "", "gloss": "insight"}], "scores": {"insight": 0.361}}
+{"id": "aligned-bho:अंतर्निहित", "word": "अंतर्निहित", "senses": [{"pos": "", "gloss": "underlying"}], "scores": {"underlying": 0.675}}
+{"id": "aligned-bho:अंतर्राष्ट्रीय", "word": "अंतर्राष्ट्रीय", "senses": [{"pos": "", "gloss": "international"}], "scores": {"international": 0.686}}
+{"id": "aligned-bho:अंतिम", "word": "अंतिम", "senses": [{"pos": "", "gloss": "final"}], "scores": {"final": 0.586}}
+{"id": "aligned-bho:अंदर", "word": "अंदर", "senses": [{"pos": "", "gloss": "inside"}], "scores": {"inside": 0.435}}
+{"id": "aligned-bho:अकादमिक", "word": "अकादमिक", "senses": [{"pos": "", "gloss": "academic"}], "scores": {"academic": 0.576}}
+{"id": "aligned-bho:अकादमी", "word": "अकादमी", "senses": [{"pos": "", "gloss": "academy"}], "scores": {"academy": 0.87}}
+{"id": "aligned-bho:अकाल", "word": "अकाल", "senses": [{"pos": "", "gloss": "famine"}], "scores": {"famine": 0.592}}
+{"id": "aligned-bho:अकेले", "word": "अकेले", "senses": [{"pos": "", "gloss": "alone"}], "scores": {"alone": 0.648}}
+{"id": "aligned-bho:अक्टूबर", "word": "अक्टूबर", "senses": [{"pos": "", "gloss": "october"}], "scores": {"october": 0.872}}
+{"id": "aligned-bho:अक्ष", "word": "अक्ष", "senses": [{"pos": "", "gloss": "axis"}], "scores": {"axis": 0.478}}
+{"id": "aligned-bho:अक्षांश", "word": "अक्षांश", "senses": [{"pos": "", "gloss": "latitude"}], "scores": {"latitude": 0.87}}
+{"id": "aligned-bho:अक्सर", "word": "अक्सर", "senses": [{"pos": "", "gloss": "often"}], "scores": {"often": 0.876}}
+{"id": "aligned-bho:अखंड", "word": "अखंड", "senses": [{"pos": "", "gloss": "unbroken"}], "scores": {"unbroken": 0.505}}
+{"id": "aligned-bho:अखंडता", "word": "अखंडता", "senses": [{"pos": "", "gloss": "integrity"}], "scores": {"integrity": 0.362}}
+{"id": "aligned-bho:अखबार", "word": "अखबार", "senses": [{"pos": "", "gloss": "newspaper"}], "scores": {"newspaper": 0.355}}
+{"id": "aligned-bho:अगर", "word": "अगर", "senses": [{"pos": "", "gloss": "if"}], "scores": {"if": 0.648}}
+{"id": "aligned-bho:अगला", "word": "अगला", "senses": [{"pos": "", "gloss": "next"}], "scores": {"next": 0.536}}
+{"id": "aligned-bho:अगले", "word": "अगले", "senses": [{"pos": "", "gloss": "next"}], "scores": {"next": 0.342}}
+{"id": "aligned-bho:अगस्त", "word": "अगस्त", "senses": [{"pos": "", "gloss": "august"}], "scores": {"august": 0.845}}
+{"id": "aligned-bho:अगिला", "word": "अगिला", "senses": [{"pos": "", "gloss": "next"}], "scores": {"next": 0.596}}
+{"id": "aligned-bho:अगिलाभाग", "word": "अगिलाभाग", "senses": [{"pos": "", "gloss": "façade"}], "scores": {"façade": 0.324}}
+{"id": "aligned-bho:अगुणित", "word": "अगुणित", "senses": [{"pos": "", "gloss": "haploid"}], "scores": {"haploid": 0.412}}
+{"id": "aligned-bho:अग्रदूत", "word": "अग्रदूत", "senses": [{"pos": "", "gloss": "precursor"}], "scores": {"precursor": 0.595}}
+{"id": "aligned-bho:अचानक", "word": "अचानक", "senses": [{"pos": "", "gloss": "suddenly"}], "scores": {"suddenly": 0.658}}
+{"id": "aligned-bho:अच्छा", "word": "अच्छा", "senses": [{"pos": "", "gloss": "good"}, {"pos": "", "gloss": "nice"}], "scores": {"good": 0.53, "nice": 0.343}}
+{"id": "aligned-bho:अजैविक", "word": "अजैविक", "senses": [{"pos": "", "gloss": "abiotic"}], "scores": {"abiotic": 0.418}}
+{"id": "aligned-bho:अज्ञात", "word": "अज्ञात", "senses": [{"pos": "", "gloss": "unknown"}, {"pos": "", "gloss": "unknowns"}], "scores": {"unknown": 0.41, "unknowns": 0.32}}
+{"id": "aligned-bho:अटलांटिक", "word": "अटलांटिक", "senses": [{"pos": "", "gloss": "atlantic"}], "scores": {"atlantic": 0.504}}
+{"id": "aligned-bho:अटॉर्नी", "word": "अटॉर्नी", "senses": [{"pos": "", "gloss": "attorney"}], "scores": {"attorney": 0.489}}
+{"id": "aligned-bho:अणु", "word": "अणु", "senses": [{"pos": "", "gloss": "molecules"}, {"pos": "", "gloss": "molecule"}], "scores": {"molecules": 0.592, "molecule": 0.362}}
+{"id": "aligned-bho:अतवार", "word": "अतवार", "senses": [{"pos": "", "gloss": "sunday"}], "scores": {"sunday": 0.369}}
+{"id": "aligned-bho:अतिरिक्त", "word": "अतिरिक्त", "senses": [{"pos": "", "gloss": "additional"}], "scores": {"additional": 0.807}}
+{"id": "aligned-bho:अतीत", "word": "अतीत", "senses": [{"pos": "", "gloss": "past"}], "scores": {"past": 0.609}}
+{"id": "aligned-bho:अत्यधिक", "word": "अत्यधिक", "senses": [{"pos": "", "gloss": "highly"}], "scores": {"highly": 0.485}}
+{"id": "aligned-bho:अदालत", "word": "अदालत", "senses": [{"pos": "", "gloss": "court"}], "scores": {"court": 0.514}}
+{"id": "aligned-bho:अद्भुत", "word": "अद्भुत", "senses": [{"pos": "", "gloss": "amazing"}], "scores": {"amazing": 0.51}}
+{"id": "aligned-bho:अद्यतन", "word": "अद्यतन", "senses": [{"pos": "", "gloss": "update"}, {"pos": "", "gloss": "updates"}], "scores": {"update": 0.468, "updates": 0.33}}
+{"id": "aligned-bho:अद्वितीय", "word": "अद्वितीय", "senses": [{"pos": "", "gloss": "unique"}], "scores": {"unique": 0.816}}
+{"id": "aligned-bho:अद्वैतवाद", "word": "अद्वैतवाद", "senses": [{"pos": "", "gloss": "monism"}], "scores": {"monism": 0.429}}
+{"id": "aligned-bho:अधिक", "word": "अधिक", "senses": [{"pos": "", "gloss": "more"}], "scores": {"more": 0.5}}
+{"id": "aligned-bho:अधिकतम", "word": "अधिकतम", "senses": [{"pos": "", "gloss": "maximum"}], "scores": {"maximum": 0.494}}
+{"id": "aligned-bho:अधिकार", "word": "अधिकार", "senses": [{"pos": "", "gloss": "rights"}, {"pos": "", "gloss": "right"}], "scores": {"rights": 0.638, "right": 0.344}}
+{"id": "aligned-bho:अधिकारी", "word": "अधिकारी", "senses": [{"pos": "", "gloss": "authorities"}, {"pos": "", "gloss": "officials"}], "scores": {"authorities": 0.513, "officials": 0.494}}
+{"id": "aligned-bho:अधिकृत", "word": "अधिकृत", "senses": [{"pos": "", "gloss": "authorized"}], "scores": {"authorized": 0.378}}
+{"id": "aligned-bho:अधिवृक्क", "word": "अधिवृक्क", "senses": [{"pos": "", "gloss": "adrenal"}], "scores": {"adrenal": 0.438}}
+{"id": "aligned-bho:अधीन", "word": "अधीन", "senses": [{"pos": "", "gloss": "subject"}], "scores": {"subject": 0.419}}
+{"id": "aligned-bho:अध्यछ", "word": "अध्यछ", "senses": [{"pos": "", "gloss": "chairman"}], "scores": {"chairman": 0.48}}
+{"id": "aligned-bho:अध्ययन", "word": "अध्ययन", "senses": [{"pos": "", "gloss": "study"}, {"pos": "", "gloss": "studies"}], "scores": {"study": 0.678, "studies": 0.598}}
+{"id": "aligned-bho:अध्यापक", "word": "अध्यापक", "senses": [{"pos": "", "gloss": "master"}], "scores": {"master": 0.302}}
+{"id": "aligned-bho:अध्याय", "word": "अध्याय", "senses": [{"pos": "", "gloss": "chapter"}], "scores": {"chapter": 0.733}}
+{"id": "aligned-bho:अनंत", "word": "अनंत", "senses": [{"pos": "", "gloss": "infinite"}, {"pos": "", "gloss": "infinity"}], "scores": {"infinite": 0.662, "infinity": 0.312}}
+{"id": "aligned-bho:अनक्सगोरस", "word": "अनक्सगोरस", "senses": [{"pos": "", "gloss": "anaxagoras"}], "scores": {"anaxagoras": 0.501}}
+{"id": "aligned-bho:अनगिनत", "word": "अनगिनत", "senses": [{"pos": "", "gloss": "countless"}], "scores": {"countless": 0.429}}
+{"id": "aligned-bho:अनदेखा", "word": "अनदेखा", "senses": [{"pos": "", "gloss": "overlooked"}], "scores": {"overlooked": 0.406}}
+{"id": "aligned-bho:अनाज", "word": "अनाज", "senses": [{"pos": "", "gloss": "grain"}], "scores": {"grain": 0.398}}
+{"id": "aligned-bho:अनावश्यक", "word": "अनावश्यक", "senses": [{"pos": "", "gloss": "unnecessary"}], "scores": {"unnecessary": 0.522}}
+{"id": "aligned-bho:अनियंत्रित", "word": "अनियंत्रित", "senses": [{"pos": "", "gloss": "uncontrolled"}], "scores": {"uncontrolled": 0.442}}
+{"id": "aligned-bho:अनियमित", "word": "अनियमित", "senses": [{"pos": "", "gloss": "irregular"}], "scores": {"irregular": 0.565}}
+{"id": "aligned-bho:अनिवार्य", "word": "अनिवार्य", "senses": [{"pos": "", "gloss": "mandatory"}], "scores": {"mandatory": 0.459}}
+{"id": "aligned-bho:अनिश्चितता", "word": "अनिश्चितता", "senses": [{"pos": "", "gloss": "uncertainty"}], "scores": {"uncertainty": 0.481}}
+{"id": "aligned-bho:अनुकूलन", "word": "अनुकूलन", "senses": [{"pos": "", "gloss": "adaptation"}], "scores": {"adaptation": 0.457}}
+{"id": "aligned-bho:अनुकूलित", "word": "अनुकूलित", "senses": [{"pos": "", "gloss": "adapted"}], "scores": {"adapted": 0.426}}
+{"id": "aligned-bho:अनुकूली", "word": "अनुकूली", "senses": [{"pos": "", "gloss": "adaptive"}], "scores": {"adaptive": 0.35}}
+{"id": "aligned-bho:अनुक्रम", "word": "अनुक्रम", "senses": [{"pos": "", "gloss": "sequence"}, {"pos": "", "gloss": "sequences"}], "scores": {"sequence": 0.604, "sequences": 0.516}}
+{"id": "aligned-bho:अनुक्रमण", "word": "अनुक्रमण", "senses": [{"pos": "", "gloss": "sequencing"}], "scores": {"sequencing": 0.449}}
+{"id": "aligned-bho:अनुचित", "word": "अनुचित", "senses": [{"pos": "", "gloss": "unfair"}], "scores": {"unfair": 0.45}}
+{"id": "aligned-bho:अनुच्छेद", "word": "अनुच्छेद", "senses": [{"pos": "", "gloss": "article"}], "scores": {"article": 0.446}}
+{"id": "aligned-bho:अनुदान", "word": "अनुदान", "senses": [{"pos": "", "gloss": "grant"}], "scores": {"grant": 0.402}}
+{"id": "aligned-bho:अनुदैर्ध्य", "word": "अनुदैर्ध्य", "senses": [{"pos": "", "gloss": "longitudinal"}], "scores": {"longitudinal": 0.5}}
+{"id": "aligned-bho:अनुपस्थिति", "word": "अनुपस्थिति", "senses": [{"pos": "", "gloss": "absence"}], "scores": {"absence": 0.537}}
+{"id": "aligned-bho:अनुपात", "word": "अनुपात", "senses": [{"pos": "", "gloss": "ratio"}, {"pos": "", "gloss": "proportion"}], "scores": {"ratio": 0.637, "proportion": 0.486}}
+{"id": "aligned-bho:अनुपालन", "word": "अनुपालन", "senses": [{"pos": "", "gloss": "compliance"}], "scores": {"compliance": 0.514}}
+{"id": "aligned-bho:अनुप्रयोग", "word": "अनुप्रयोग", "senses": [{"pos": "", "gloss": "applications"}, {"pos": "", "gloss": "application"}], "scores": {"applications": 0.484, "application": 0.452}}
+{"id": "aligned-bho:अनुबंध", "word": "अनुबंध", "senses": [{"pos": "", "gloss": "contract"}], "scores": {"contract": 0.924}}
+{"id": "aligned-bho:अनुभव", "word": "अनुभव", "senses": [{"pos": "", "gloss": "experience"}, {"pos": "", "gloss": "experiences"}], "scores": {"experience": 0.85, "experiences": 0.348}}
+{"id": "aligned-bho:अनुभवजन्य", "word": "अनुभवजन्य", "senses": [{"pos": "", "gloss": "empirical"}], "scores": {"empirical": 0.747}}
+{"id": "aligned-bho:अनुभववाद", "word": "अनुभववाद", "senses": [{"pos": "", "gloss": "empiricism"}], "scores": {"empiricism": 0.6}}
+{"id": "aligned-bho:अनुभवात्मक", "word": "अनुभवात्मक", "senses": [{"pos": "", "gloss": "experiential"}], "scores": {"experiential": 0.478}}
+{"id": "aligned-bho:अनुमति", "word": "अनुमति", "senses": [{"pos": "", "gloss": "allowed"}, {"pos": "", "gloss": "allow"}, {"pos": "", "gloss": "allows"}], "scores": {"allowed": 0.499, "allow": 0.422, "allows": 0.406}}
+{"id": "aligned-bho:अनुमानन", "word": "अनुमानन", "senses": [{"pos": "", "gloss": "projections"}], "scores": {"projections": 0.371}}
+{"id": "aligned-bho:अनुमोदन", "word": "अनुमोदन", "senses": [{"pos": "", "gloss": "approval"}], "scores": {"approval": 0.632}}
+{"id": "aligned-bho:अनुमोदित", "word": "अनुमोदित", "senses": [{"pos": "", "gloss": "approved"}], "scores": {"approved": 0.676}}
+{"id": "aligned-bho:अनुरोध", "word": "अनुरोध", "senses": [{"pos": "", "gloss": "requested"}], "scores": {"requested": 0.367}}
+{"id": "aligned-bho:अनुवर्ती", "word": "अनुवर्ती", "senses": [{"pos": "", "gloss": "follow-up"}], "scores": {"follow-up": 0.64}}
+{"id": "aligned-bho:अनुवाद", "word": "अनुवाद", "senses": [{"pos": "", "gloss": "translation"}, {"pos": "", "gloss": "translated"}], "scores": {"translation": 0.481, "translated": 0.426}}
+{"id": "aligned-bho:अनुशंसित", "word": "अनुशंसित", "senses": [{"pos": "", "gloss": "recommended"}], "scores": {"recommended": 0.403}}
+{"id": "aligned-bho:अनुसंधान", "word": "अनुसंधान", "senses": [{"pos": "", "gloss": "research"}], "scores": {"research": 0.79}}
+{"id": "aligned-bho:अनुसार", "word": "अनुसार", "senses": [{"pos": "", "gloss": "according"}], "scores": {"according": 0.782}}
+{"id": "aligned-bho:अनुसासन", "word": "अनुसासन", "senses": [{"pos": "", "gloss": "discipline"}], "scores": {"discipline": 0.641}}
+{"id": "aligned-bho:अनौपचारिक", "word": "अनौपचारिक", "senses": [{"pos": "", "gloss": "informal"}, {"pos": "", "gloss": "informally"}], "scores": {"informal": 0.593, "informally": 0.347}}
+{"id": "aligned-bho:अन्य", "word": "अन्य", "senses": [{"pos": "", "gloss": "other"}], "scores": {"other": 0.424}}
+{"id": "aligned-bho:अन्यथा", "word": "अन्यथा", "senses": [{"pos": "", "gloss": "otherwise"}], "scores": {"otherwise": 0.345}}
+{"id": "aligned-bho:अन्वेषण", "word": "अन्वेषण", "senses": [{"pos": "", "gloss": "exploration"}], "scores": {"exploration": 0.364}}
+{"id": "aligned-bho:अपनावे", "word": "अपनावे", "senses": [{"pos": "", "gloss": "adoption"}], "scores": {"adoption": 0.368}}
+{"id": "aligned-bho:अपराध", "word": "अपराध", "senses": [{"pos": "", "gloss": "crime"}], "scores": {"crime": 0.782}}
+{"id": "aligned-bho:अपराधी", "word": "अपराधी", "senses": [{"pos": "", "gloss": "perpetrators"}, {"pos": "", "gloss": "perpetrator"}], "scores": {"perpetrators": 0.411, "perpetrator": 0.352}}
+{"id": "aligned-bho:अपरिचित", "word": "अपरिचित", "senses": [{"pos": "", "gloss": "unfamiliar"}], "scores": {"unfamiliar": 0.311}}
+{"id": "aligned-bho:अपरिमेय", "word": "अपरिमेय", "senses": [{"pos": "", "gloss": "irrational"}], "scores": {"irrational": 0.456}}
+{"id": "aligned-bho:अपरिहार्य", "word": "अपरिहार्य", "senses": [{"pos": "", "gloss": "indispensable"}], "scores": {"indispensable": 0.395}}
+{"id": "aligned-bho:अपर्याप्त", "word": "अपर्याप्त", "senses": [{"pos": "", "gloss": "insufficient"}], "scores": {"insufficient": 0.461}}
+{"id": "aligned-bho:अपवाद", "word": "अपवाद", "senses": [{"pos": "", "gloss": "exceptions"}, {"pos": "", "gloss": "exception"}], "scores": {"exceptions": 0.434, "exception": 0.383}}
+{"id": "aligned-bho:अपशिष्ट", "word": "अपशिष्ट", "senses": [{"pos": "", "gloss": "waste"}], "scores": {"waste": 0.546}}
+{"id": "aligned-bho:अपहरन", "word": "अपहरन", "senses": [{"pos": "", "gloss": "kidnapping"}], "scores": {"kidnapping": 0.481}}
+{"id": "aligned-bho:अपार्टमेंट", "word": "अपार्टमेंट", "senses": [{"pos": "", "gloss": "apartment"}], "scores": {"apartment": 0.716}}
+{"id": "aligned-bho:अपील", "word": "अपील", "senses": [{"pos": "", "gloss": "appeal"}], "scores": {"appeal": 0.716}}
+{"id": "aligned-bho:अपेक्षाकृत", "word": "अपेक्षाकृत", "senses": [{"pos": "", "gloss": "relatively"}], "scores": {"relatively": 0.833}}
+{"id": "aligned-bho:अपेछित", "word": "अपेछित", "senses": [{"pos": "", "gloss": "expected"}], "scores": {"expected": 0.305}}
+{"id": "aligned-bho:अप्रचलित", "word": "अप्रचलित", "senses": [{"pos": "", "gloss": "obsolete"}], "scores": {"obsolete": 0.439}}
+{"id": "aligned-bho:अप्रत्यक्ष", "word": "अप्रत्यक्ष", "senses": [{"pos": "", "gloss": "indirect"}], "scores": {"indirect": 0.39}}
+{"id": "aligned-bho:अप्रैल", "word": "अप्रैल", "senses": [{"pos": "", "gloss": "april"}], "scores": {"april": 0.861}}
+{"id": "aligned-bho:अफगान", "word": "अफगान", "senses": [{"pos": "", "gloss": "afghan"}], "scores": {"afghan": 0.758}}
+{"id": "aligned-bho:अफगानिस्तान", "word": "अफगानिस्तान", "senses": [{"pos": "", "gloss": "afghanistan"}], "scores": {"afghanistan": 0.614}}
+{"id": "aligned-bho:अफेयर्स", "word": "अफेयर्स", "senses": [{"pos": "", "gloss": "affairs"}], "scores": {"affairs": 0.304}}
+{"id": "aligned-bho:अफ्रीका", "word": "अफ्रीका", "senses": [{"pos": "", "gloss": "africa"}], "scores": {"africa": 0.884}}
+{"id": "aligned-bho:अफ्रीकी", "word": "अफ्रीकी", "senses": [{"pos": "", "gloss": "african"}], "scores": {"african": 0.766}}
+{"id": "aligned-bho:अब", "word": "अब", "senses": [{"pos": "", "gloss": "now"}], "scores": {"now": 0.91}}
+{"id": "aligned-bho:अबसर", "word": "अबसर", "senses": [{"pos": "", "gloss": "opportunity"}], "scores": {"opportunity": 0.33}}
+{"id": "aligned-bho:अबसाद", "word": "अबसाद", "senses": [{"pos": "", "gloss": "depression"}], "scores": {"depression": 0.533}}
+{"id": "aligned-bho:अबो", "word": "अबो", "senses": [{"pos": "", "gloss": "still"}], "scores": {"still": 0.321}}
+{"id": "aligned-bho:अभाज्य", "word": "अभाज्य", "senses": [{"pos": "", "gloss": "prime"}], "scores": {"prime": 0.46}}
+{"id": "aligned-bho:अभिनय", "word": "अभिनय", "senses": [{"pos": "", "gloss": "acting"}], "scores": {"acting": 0.727}}
+{"id": "aligned-bho:अभिनेता", "word": "अभिनेता", "senses": [{"pos": "", "gloss": "actor"}, {"pos": "", "gloss": "actors"}], "scores": {"actor": 0.714, "actors": 0.488}}
+{"id": "aligned-bho:अभिनेत्री", "word": "अभिनेत्री", "senses": [{"pos": "", "gloss": "actress"}], "scores": {"actress": 0.879}}
+{"id": "aligned-bho:अभिन्न", "word": "अभिन्न", "senses": [{"pos": "", "gloss": "integral"}], "scores": {"integral": 0.304}}
+{"id": "aligned-bho:अभियान", "word": "अभियान", "senses": [{"pos": "", "gloss": "campaign"}, {"pos": "", "gloss": "campaigns"}], "scores": {"campaign": 0.712, "campaigns": 0.326}}
+{"id": "aligned-bho:अभियो", "word": "अभियो", "senses": [{"pos": "", "gloss": "still"}], "scores": {"still": 0.382}}
+{"id": "aligned-bho:अभियोजक", "word": "अभियोजक", "senses": [{"pos": "", "gloss": "prosecutor"}], "scores": {"prosecutor": 0.583}}
+{"id": "aligned-bho:अभिलेख", "word": "अभिलेख", "senses": [{"pos": "", "gloss": "archival"}], "scores": {"archival": 0.35}}
+{"id": "aligned-bho:अभिलेखागार", "word": "अभिलेखागार", "senses": [{"pos": "", "gloss": "archives"}], "scores": {"archives": 0.676}}
+{"id": "aligned-bho:अभिव्यक्ति", "word": "अभिव्यक्ति", "senses": [{"pos": "", "gloss": "expression"}], "scores": {"expression": 0.741}}
+{"id": "aligned-bho:अभिसरण", "word": "अभिसरण", "senses": [{"pos": "", "gloss": "convergence"}], "scores": {"convergence": 0.543}}
+{"id": "aligned-bho:अभूतपूर्ब", "word": "अभूतपूर्ब", "senses": [{"pos": "", "gloss": "unprecedented"}], "scores": {"unprecedented": 0.439}}
+{"id": "aligned-bho:अभूतपूर्व", "word": "अभूतपूर्व", "senses": [{"pos": "", "gloss": "unprecedented"}], "scores": {"unprecedented": 0.36}}
+{"id": "aligned-bho:अभ्यास", "word": "अभ्यास", "senses": [{"pos": "", "gloss": "practice"}], "scores": {"practice": 0.933}}
+{"id": "aligned-bho:अमीनो", "word": "अमीनो", "senses": [{"pos": "", "gloss": "amino"}], "scores": {"amino": 0.6}}
+{"id": "aligned-bho:अमीन्स", "word": "अमीन्स", "senses": [{"pos": "", "gloss": "amiens"}], "scores": {"amiens": 0.419}}
+{"id": "aligned-bho:अमीर", "word": "अमीर", "senses": [{"pos": "", "gloss": "rich"}], "scores": {"rich": 0.422}}
+{"id": "aligned-bho:अमीस", "word": "अमीस", "senses": [{"pos": "", "gloss": "amish"}], "scores": {"amish": 0.49}}
+{"id": "aligned-bho:अमूर्त", "word": "अमूर्त", "senses": [{"pos": "", "gloss": "abstract"}], "scores": {"abstract": 0.884}}
+{"id": "aligned-bho:अमेज़ॅन", "word": "अमेज़ॅन", "senses": [{"pos": "", "gloss": "amazon"}], "scores": {"amazon": 0.327}}
+{"id": "aligned-bho:अमेरिकन", "word": "अमेरिकन", "senses": [{"pos": "", "gloss": "american"}], "scores": {"american": 0.451}}
+{"id": "aligned-bho:अमेरिका", "word": "अमेरिका", "senses": [{"pos": "", "gloss": "america"}], "scores": {"america": 0.594}}
+{"id": "aligned-bho:अमेरिकी", "word": "अमेरिकी", "senses": [{"pos": "", "gloss": "american"}], "scores": {"american": 0.71}}
+{"id": "aligned-bho:अमोनिया", "word": "अमोनिया", "senses": [{"pos": "", "gloss": "ammonia"}], "scores": {"ammonia": 0.529}}
+{"id": "aligned-bho:अरब", "word": "अरब", "senses": [{"pos": "", "gloss": "billion"}], "scores": {"billion": 0.449}}
+{"id": "aligned-bho:अरबी", "word": "अरबी", "senses": [{"pos": "", "gloss": "arabic"}], "scores": {"arabic": 0.709}}
+{"id": "aligned-bho:अरस्तु", "word": "अरस्तु", "senses": [{"pos": "", "gloss": "aristotle"}], "scores": {"aristotle": 0.438}}
+{"id": "aligned-bho:अरस्तू", "word": "अरस्तू", "senses": [{"pos": "", "gloss": "aristotle"}], "scores": {"aristotle": 0.668}}
+{"id": "aligned-bho:अरिस्टोटेलियन", "word": "अरिस्टोटेलियन", "senses": [{"pos": "", "gloss": "aristotelian"}], "scores": {"aristotelian": 0.721}}
+{"id": "aligned-bho:अरे", "word": "अरे", "senses": [{"pos": "", "gloss": "oh"}], "scores": {"oh": 0.306}}
+{"id": "aligned-bho:अर्थ", "word": "अर्थ", "senses": [{"pos": "", "gloss": "meaning"}, {"pos": "", "gloss": "sense"}], "scores": {"meaning": 0.41, "sense": 0.323}}
+{"id": "aligned-bho:अर्थबेबस्था", "word": "अर्थबेबस्था", "senses": [{"pos": "", "gloss": "economies"}], "scores": {"economies": 0.44}}
+{"id": "aligned-bho:अर्थव्यवस्था", "word": "अर्थव्यवस्था", "senses": [{"pos": "", "gloss": "economy"}], "scores": {"economy": 0.882}}
+{"id": "aligned-bho:अर्थशास्त्र", "word": "अर्थशास्त्र", "senses": [{"pos": "", "gloss": "economics"}], "scores": {"economics": 0.6}}
+{"id": "aligned-bho:अर्थसास्त्र", "word": "अर्थसास्त्र", "senses": [{"pos": "", "gloss": "economics"}], "scores": {"economics": 0.671}}
+{"id": "aligned-bho:अर्थसास्त्री", "word": "अर्थसास्त्री", "senses": [{"pos": "", "gloss": "economists"}], "scores": {"economists": 0.555}}
+{"id": "aligned-bho:अर्धसूत्रीविभाजन", "word": "अर्धसूत्रीविभाजन", "senses": [{"pos": "", "gloss": "meiosis"}], "scores": {"meiosis": 0.607}}
+{"id": "aligned-bho:अर्नोल्ड", "word": "अर्नोल्ड", "senses": [{"pos": "", "gloss": "arnold"}], "scores": {"arnold": 0.395}}
+{"id": "aligned-bho:अर्न्स्ट", "word": "अर्न्स्ट", "senses": [{"pos": "", "gloss": "ernst"}], "scores": {"ernst": 0.618}}
+{"id": "aligned-bho:अर्ल", "word": "अर्ल", "senses": [{"pos": "", "gloss": "earl"}], "scores": {"earl": 0.442}}
+{"id": "aligned-bho:अर्हता", "word": "अर्हता", "senses": [{"pos": "", "gloss": "qualify"}], "scores": {"qualify": 0.35}}
+{"id": "aligned-bho:अलग", "word": "अलग", "senses": [{"pos": "", "gloss": "different"}], "scores": {"different": 0.877}}
+{"id": "aligned-bho:अलगाव", "word": "अलगाव", "senses": [{"pos": "", "gloss": "isolation"}], "scores": {"isolation": 0.688}}
+{"id": "aligned-bho:अलबामा", "word": "अलबामा", "senses": [{"pos": "", "gloss": "alabama"}], "scores": {"alabama": 0.462}}
+{"id": "aligned-bho:अलर्ट", "word": "अलर्ट", "senses": [{"pos": "", "gloss": "alerts"}, {"pos": "", "gloss": "alert"}], "scores": {"alerts": 0.553, "alert": 0.344}}
+{"id": "aligned-bho:अलावा", "word": "अलावा", "senses": [{"pos": "", "gloss": "addition"}], "scores": {"addition": 0.462}}
+{"id": "aligned-bho:अलास्का", "word": "अलास्का", "senses": [{"pos": "", "gloss": "alaska"}], "scores": {"alaska": 0.431}}
+{"id": "aligned-bho:अलेक्जेंडर", "word": "अलेक्जेंडर", "senses": [{"pos": "", "gloss": "alexander"}], "scores": {"alexander": 0.471}}
+{"id": "aligned-bho:अलेक्जेंड्रिया", "word": "अलेक्जेंड्रिया", "senses": [{"pos": "", "gloss": "alexandria"}], "scores": {"alexandria": 0.529}}
+{"id": "aligned-bho:अलौकिक", "word": "अलौकिक", "senses": [{"pos": "", "gloss": "extraterrestrial"}], "scores": {"extraterrestrial": 0.767}}
+{"id": "aligned-bho:अल्जाइमर", "word": "अल्जाइमर", "senses": [{"pos": "", "gloss": "alzheimer"}], "scores": {"alzheimer": 0.61}}
+{"id": "aligned-bho:अल्पसंख्यक", "word": "अल्पसंख्यक", "senses": [{"pos": "", "gloss": "minorities"}, {"pos": "", "gloss": "minority"}], "scores": {"minorities": 0.402, "minority": 0.388}}
+{"id": "aligned-bho:अल्फ्रेड", "word": "अल्फ्रेड", "senses": [{"pos": "", "gloss": "alfred"}], "scores": {"alfred": 0.885}}
+{"id": "aligned-bho:अल्बर्ट", "word": "अल्बर्ट", "senses": [{"pos": "", "gloss": "albert"}], "scores": {"albert": 0.678}}
+{"id": "aligned-bho:अल्बर्टा", "word": "अल्बर्टा", "senses": [{"pos": "", "gloss": "alberta"}], "scores": {"alberta": 0.506}}
+{"id": "aligned-bho:अल्सर", "word": "अल्सर", "senses": [{"pos": "", "gloss": "ulcers"}, {"pos": "", "gloss": "ulcer"}], "scores": {"ulcers": 0.45, "ulcer": 0.444}}
+{"id": "aligned-bho:अवकलन", "word": "अवकलन", "senses": [{"pos": "", "gloss": "differential"}], "scores": {"differential": 0.333}}
+{"id": "aligned-bho:अवधारणा", "word": "अवधारणा", "senses": [{"pos": "", "gloss": "concept"}], "scores": {"concept": 0.684}}
+{"id": "aligned-bho:अवधारणाओं", "word": "अवधारणाओं", "senses": [{"pos": "", "gloss": "concepts"}], "scores": {"concepts": 0.423}}
+{"id": "aligned-bho:अवधारना", "word": "अवधारना", "senses": [{"pos": "", "gloss": "concept"}], "scores": {"concept": 0.422}}
+{"id": "aligned-bho:अवधि", "word": "अवधि", "senses": [{"pos": "", "gloss": "period"}], "scores": {"period": 0.574}}
+{"id": "aligned-bho:अवरुद्ध", "word": "अवरुद्ध", "senses": [{"pos": "", "gloss": "blocking"}], "scores": {"blocking": 0.339}}
+{"id": "aligned-bho:अवलोकन", "word": "अवलोकन", "senses": [{"pos": "", "gloss": "observation"}, {"pos": "", "gloss": "observations"}], "scores": {"observation": 0.574, "observations": 0.445}}
+{"id": "aligned-bho:अवसर", "word": "अवसर", "senses": [{"pos": "", "gloss": "opportunity"}, {"pos": "", "gloss": "opportunities"}], "scores": {"opportunity": 0.382, "opportunities": 0.303}}
+{"id": "aligned-bho:अवसाद", "word": "अवसाद", "senses": [{"pos": "", "gloss": "depression"}], "scores": {"depression": 0.44}}
+{"id": "aligned-bho:अविश्वसनीय", "word": "अविश्वसनीय", "senses": [{"pos": "", "gloss": "incredible"}], "scores": {"incredible": 0.34}}
+{"id": "aligned-bho:अवैध", "word": "अवैध", "senses": [{"pos": "", "gloss": "illegal"}], "scores": {"illegal": 0.669}}
+{"id": "aligned-bho:अश्वेत", "word": "अश्वेत", "senses": [{"pos": "", "gloss": "black"}], "scores": {"black": 0.433}}
+{"id": "aligned-bho:असंगत", "word": "असंगत", "senses": [{"pos": "", "gloss": "inconsistent"}], "scores": {"inconsistent": 0.372}}
+{"id": "aligned-bho:असंबंधित", "word": "असंबंधित", "senses": [{"pos": "", "gloss": "unrelated"}], "scores": {"unrelated": 0.324}}
+{"id": "aligned-bho:असंभव", "word": "असंभव", "senses": [{"pos": "", "gloss": "impossible"}], "scores": {"impossible": 0.57}}
+{"id": "aligned-bho:असतत", "word": "असतत", "senses": [{"pos": "", "gloss": "discrete"}], "scores": {"discrete": 0.602}}
+{"id": "aligned-bho:असमर्थ", "word": "असमर्थ", "senses": [{"pos": "", "gloss": "unable"}], "scores": {"unable": 0.588}}
+{"id": "aligned-bho:असमानता", "word": "असमानता", "senses": [{"pos": "", "gloss": "disparities"}], "scores": {"disparities": 0.408}}
+{"id": "aligned-bho:असरदार", "word": "असरदार", "senses": [{"pos": "", "gloss": "influential"}], "scores": {"influential": 0.4}}
+{"id": "aligned-bho:असहमति", "word": "असहमति", "senses": [{"pos": "", "gloss": "disagreement"}], "scores": {"disagreement": 0.39}}
+{"id": "aligned-bho:असामान्य", "word": "असामान्य", "senses": [{"pos": "", "gloss": "unusual"}], "scores": {"unusual": 0.38}}
+{"id": "aligned-bho:असुरक्षित", "word": "असुरक्षित", "senses": [{"pos": "", "gloss": "unsafe"}], "scores": {"unsafe": 0.435}}
+{"id": "aligned-bho:अस्तित्व", "word": "अस्तित्व", "senses": [{"pos": "", "gloss": "existence"}, {"pos": "", "gloss": "exist"}], "scores": {"existence": 0.528, "exist": 0.391}}
+{"id": "aligned-bho:अस्थमा", "word": "अस्थमा", "senses": [{"pos": "", "gloss": "asthma"}], "scores": {"asthma": 0.632}}
+{"id": "aligned-bho:अस्थायी", "word": "अस्थायी", "senses": [{"pos": "", "gloss": "temporary"}], "scores": {"temporary": 0.382}}
+{"id": "aligned-bho:अस्थिर", "word": "अस्थिर", "senses": [{"pos": "", "gloss": "unstable"}], "scores": {"unstable": 0.624}}
+{"id": "aligned-bho:अस्थिरता", "word": "अस्थिरता", "senses": [{"pos": "", "gloss": "instability"}], "scores": {"instability": 0.327}}
+{"id": "aligned-bho:अस्पताल", "word": "अस्पताल", "senses": [{"pos": "", "gloss": "hospital"}], "scores": {"hospital": 0.955}}
+{"id": "aligned-bho:अस्पतालों", "word": "अस्पतालों", "senses": [{"pos": "", "gloss": "hospitals"}], "scores": {"hospitals": 0.352}}
+{"id": "aligned-bho:अस्पष्ट", "word": "अस्पष्ट", "senses": [{"pos": "", "gloss": "ambiguous"}], "scores": {"ambiguous": 0.305}}
+{"id": "aligned-bho:अस्पष्टता", "word": "अस्पष्टता", "senses": [{"pos": "", "gloss": "ambiguity"}], "scores": {"ambiguity": 0.582}}
+{"id": "aligned-bho:अस्वास्थ्यकर", "word": "अस्वास्थ्यकर", "senses": [{"pos": "", "gloss": "unhealthy"}], "scores": {"unhealthy": 0.493}}
+{"id": "aligned-bho:अस्वीकार्य", "word": "अस्वीकार्य", "senses": [{"pos": "", "gloss": "unacceptable"}], "scores": {"unacceptable": 0.43}}
+{"id": "aligned-bho:अस्वीकृति", "word": "अस्वीकृति", "senses": [{"pos": "", "gloss": "rejection"}], "scores": {"rejection": 0.691}}
+{"id": "aligned-bho:आँख", "word": "आँख", "senses": [{"pos": "", "gloss": "eye"}, {"pos": "", "gloss": "eyes"}], "scores": {"eye": 0.501, "eyes": 0.302}}
+{"id": "aligned-bho:आंकड़ा", "word": "आंकड़ा", "senses": [{"pos": "", "gloss": "figure"}], "scores": {"figure": 0.41}}
+{"id": "aligned-bho:आंत", "word": "आंत", "senses": [{"pos": "", "gloss": "gut"}, {"pos": "", "gloss": "intestinal"}], "scores": {"gut": 0.442, "intestinal": 0.33}}
+{"id": "aligned-bho:आंतरिक", "word": "आंतरिक", "senses": [{"pos": "", "gloss": "internal"}], "scores": {"internal": 0.66}}
+{"id": "aligned-bho:आंत्र", "word": "आंत्र", "senses": [{"pos": "", "gloss": "bowel"}], "scores": {"bowel": 0.577}}
+{"id": "aligned-bho:आंदोलन", "word": "आंदोलन", "senses": [{"pos": "", "gloss": "movement"}], "scores": {"movement": 0.788}}
+{"id": "aligned-bho:आंद्रे", "word": "आंद्रे", "senses": [{"pos": "", "gloss": "andré"}], "scores": {"andré": 0.493}}
+{"id": "aligned-bho:आंसिक", "word": "आंसिक", "senses": [{"pos": "", "gloss": "partly"}], "scores": {"partly": 0.469}}
+{"id": "aligned-bho:आइंस्टीन", "word": "आइंस्टीन", "senses": [{"pos": "", "gloss": "einstein"}], "scores": {"einstein": 0.724}}
+{"id": "aligned-bho:आइल", "word": "आइल", "senses": [{"pos": "", "gloss": "came"}], "scores": {"came": 0.346}}
+{"id": "aligned-bho:आइसक्रीम", "word": "आइसक्रीम", "senses": [{"pos": "", "gloss": "cream"}], "scores": {"cream": 0.326}}
+{"id": "aligned-bho:आइसलैंड", "word": "आइसलैंड", "senses": [{"pos": "", "gloss": "iceland"}], "scores": {"iceland": 0.342}}
+{"id": "aligned-bho:आइसोटोप", "word": "आइसोटोप", "senses": [{"pos": "", "gloss": "isotope"}], "scores": {"isotope": 0.448}}
+{"id": "aligned-bho:आईएएएफ", "word": "आईएएएफ", "senses": [{"pos": "", "gloss": "iaaf"}], "scores": {"iaaf": 0.587}}
+{"id": "aligned-bho:आईएसओ", "word": "आईएसओ", "senses": [{"pos": "", "gloss": "iso"}], "scores": {"iso": 0.615}}
+{"id": "aligned-bho:आईडी", "word": "आईडी", "senses": [{"pos": "", "gloss": "id"}], "scores": {"id": 0.399}}
+{"id": "aligned-bho:आईबीएम", "word": "आईबीएम", "senses": [{"pos": "", "gloss": "ibm"}], "scores": {"ibm": 0.765}}
+{"id": "aligned-bho:आईबीडी", "word": "आईबीडी", "senses": [{"pos": "", "gloss": "ibd"}], "scores": {"ibd": 0.673}}
+{"id": "aligned-bho:आकर्षक", "word": "आकर्षक", "senses": [{"pos": "", "gloss": "attractive"}], "scores": {"attractive": 0.367}}
+{"id": "aligned-bho:आकर्षण", "word": "आकर्षण", "senses": [{"pos": "", "gloss": "attraction"}], "scores": {"attraction": 0.581}}
+{"id": "aligned-bho:आकर्षित", "word": "आकर्षित", "senses": [{"pos": "", "gloss": "drew"}], "scores": {"drew": 0.334}}
+{"id": "aligned-bho:आकलन", "word": "आकलन", "senses": [{"pos": "", "gloss": "assess"}, {"pos": "", "gloss": "assessment"}], "scores": {"assess": 0.395, "assessment": 0.327}}
+{"id": "aligned-bho:आकार", "word": "आकार", "senses": [{"pos": "", "gloss": "shape"}, {"pos": "", "gloss": "size"}], "scores": {"shape": 0.596, "size": 0.587}}
+{"id": "aligned-bho:आकाशगंगा", "word": "आकाशगंगा", "senses": [{"pos": "", "gloss": "milky"}], "scores": {"milky": 0.517}}
+{"id": "aligned-bho:आकाशीय", "word": "आकाशीय", "senses": [{"pos": "", "gloss": "celestial"}], "scores": {"celestial": 0.417}}
+{"id": "aligned-bho:आकासगंगा", "word": "आकासगंगा", "senses": [{"pos": "", "gloss": "galaxies"}], "scores": {"galaxies": 0.431}}
+{"id": "aligned-bho:आक्रमण", "word": "आक्रमण", "senses": [{"pos": "", "gloss": "invasion"}], "scores": {"invasion": 0.487}}
+{"id": "aligned-bho:आग", "word": "आग", "senses": [{"pos": "", "gloss": "fire"}], "scores": {"fire": 0.849}}
+{"id": "aligned-bho:आगंतुक", "word": "आगंतुक", "senses": [{"pos": "", "gloss": "visitors"}], "scores": {"visitors": 0.648}}
+{"id": "aligned-bho:आगाह", "word": "आगाह", "senses": [{"pos": "", "gloss": "cautioned"}], "scores": {"cautioned": 0.449}}
+{"id": "aligned-bho:आगे", "word": "आगे", "senses": [{"pos": "", "gloss": "further"}], "scores": {"further": 0.459}}
+{"id": "aligned-bho:आज", "word": "आज", "senses": [{"pos": "", "gloss": "today"}], "scores": {"today": 0.971}}
+{"id": "aligned-bho:आजकल", "word": "आजकल", "senses": [{"pos": "", "gloss": "nowadays"}], "scores": {"nowadays": 0.354}}
+{"id": "aligned-bho:आजादी", "word": "आजादी", "senses": [{"pos": "", "gloss": "freedom"}], "scores": {"freedom": 0.311}}
+{"id": "aligned-bho:आजीवन", "word": "आजीवन", "senses": [{"pos": "", "gloss": "lifelong"}], "scores": {"lifelong": 0.457}}
+{"id": "aligned-bho:आटा", "word": "आटा", "senses": [{"pos": "", "gloss": "dough"}], "scores": {"dough": 0.335}}
+{"id": "aligned-bho:आठ", "word": "आठ", "senses": [{"pos": "", "gloss": "eight"}], "scores": {"eight": 0.885}}
+{"id": "aligned-bho:आणविक", "word": "आणविक", "senses": [{"pos": "", "gloss": "molecular"}], "scores": {"molecular": 0.976}}
+{"id": "aligned-bho:आत्मकथा", "word": "आत्मकथा", "senses": [{"pos": "", "gloss": "biographies"}, {"pos": "", "gloss": "autobiography"}], "scores": {"biographies": 0.664, "autobiography": 0.414}}
+{"id": "aligned-bho:आत्मघाती", "word": "आत्मघाती", "senses": [{"pos": "", "gloss": "kabul"}], "scores": {"kabul": 0.356}}
+{"id": "aligned-bho:आत्मनिर्भर", "word": "आत्मनिर्भर", "senses": [{"pos": "", "gloss": "self-sustaining"}], "scores": {"self-sustaining": 0.406}}
+{"id": "aligned-bho:आत्महत्या", "word": "आत्महत्या", "senses": [{"pos": "", "gloss": "suicide"}], "scores": {"suicide": 0.582}}
+{"id": "aligned-bho:आत्मा", "word": "आत्मा", "senses": [{"pos": "", "gloss": "soul"}], "scores": {"soul": 0.618}}
+{"id": "aligned-bho:आदर्श", "word": "आदर्श", "senses": [{"pos": "", "gloss": "ideal"}], "scores": {"ideal": 0.751}}
+{"id": "aligned-bho:आदर्स", "word": "आदर्स", "senses": [{"pos": "", "gloss": "ideal"}], "scores": {"ideal": 0.349}}
+{"id": "aligned-bho:आदान", "word": "आदान", "senses": [{"pos": "", "gloss": "exchange"}], "scores": {"exchange": 0.506}}
+{"id": "aligned-bho:आदि", "word": "आदि", "senses": [{"pos": "", "gloss": "etc"}], "scores": {"etc": 0.917}}
+{"id": "aligned-bho:आदिम", "word": "आदिम", "senses": [{"pos": "", "gloss": "primitive"}], "scores": {"primitive": 0.656}}
+{"id": "aligned-bho:आदिवासी", "word": "आदिवासी", "senses": [{"pos": "", "gloss": "tribal"}], "scores": {"tribal": 0.643}}
+{"id": "aligned-bho:आधा", "word": "आधा", "senses": [{"pos": "", "gloss": "half"}], "scores": {"half": 0.697}}
+{"id": "aligned-bho:आधार", "word": "आधार", "senses": [{"pos": "", "gloss": "basis"}, {"pos": "", "gloss": "base"}], "scores": {"basis": 0.51, "base": 0.424}}
+{"id": "aligned-bho:आधारित", "word": "आधारित", "senses": [{"pos": "", "gloss": "based"}], "scores": {"based": 0.576}}
+{"id": "aligned-bho:आधिकारिक", "word": "आधिकारिक", "senses": [{"pos": "", "gloss": "official"}, {"pos": "", "gloss": "officially"}], "scores": {"official": 0.837, "officially": 0.336}}
+{"id": "aligned-bho:आधुनिक", "word": "आधुनिक", "senses": [{"pos": "", "gloss": "modern"}], "scores": {"modern": 0.943}}
+{"id": "aligned-bho:आधुनिकता", "word": "आधुनिकता", "senses": [{"pos": "", "gloss": "modernity"}], "scores": {"modernity": 0.455}}
+{"id": "aligned-bho:आधे", "word": "आधे", "senses": [{"pos": "", "gloss": "half"}], "scores": {"half": 0.304}}
+{"id": "aligned-bho:आध्यात्मिक", "word": "आध्यात्मिक", "senses": [{"pos": "", "gloss": "spiritual"}], "scores": {"spiritual": 0.425}}
+{"id": "aligned-bho:आनंद", "word": "आनंद", "senses": [{"pos": "", "gloss": "enjoy"}], "scores": {"enjoy": 0.621}}
+{"id": "aligned-bho:आनुवंशिक", "word": "आनुवंशिक", "senses": [{"pos": "", "gloss": "genetic"}], "scores": {"genetic": 0.537}}
+{"id": "aligned-bho:आनुवंसिक", "word": "आनुवंसिक", "senses": [{"pos": "", "gloss": "genetic"}], "scores": {"genetic": 0.533}}
+{"id": "aligned-bho:आनुवंसिकता", "word": "आनुवंसिकता", "senses": [{"pos": "", "gloss": "heritability"}], "scores": {"heritability": 0.361}}
+{"id": "aligned-bho:आनुवंसिकी", "word": "आनुवंसिकी", "senses": [{"pos": "", "gloss": "genetics"}], "scores": {"genetics": 0.607}}
+{"id": "aligned-bho:आपदा", "word": "आपदा", "senses": [{"pos": "", "gloss": "disasters"}, {"pos": "", "gloss": "disaster"}], "scores": {"disasters": 0.632, "disaster": 0.536}}
+{"id": "aligned-bho:आपराधिक", "word": "आपराधिक", "senses": [{"pos": "", "gloss": "criminal"}], "scores": {"criminal": 0.466}}
+{"id": "aligned-bho:आपात", "word": "आपात", "senses": [{"pos": "", "gloss": "emergencies"}], "scores": {"emergencies": 0.488}}
+{"id": "aligned-bho:आपातकालीन", "word": "आपातकालीन", "senses": [{"pos": "", "gloss": "emergency"}], "scores": {"emergency": 0.829}}
+{"id": "aligned-bho:आपूर्ति", "word": "आपूर्ति", "senses": [{"pos": "", "gloss": "supply"}, {"pos": "", "gloss": "supplies"}], "scores": {"supply": 0.791, "supplies": 0.353}}
+{"id": "aligned-bho:आपूर्तिकर्ता", "word": "आपूर्तिकर्ता", "senses": [{"pos": "", "gloss": "suppliers"}], "scores": {"suppliers": 0.31}}
+{"id": "aligned-bho:आप्रवासन", "word": "आप्रवासन", "senses": [{"pos": "", "gloss": "immigration"}], "scores": {"immigration": 0.474}}
+{"id": "aligned-bho:आबश्यक", "word": "आबश्यक", "senses": [{"pos": "", "gloss": "essential"}], "scores": {"essential": 0.43}}
+{"id": "aligned-bho:आबाज", "word": "आबाज", "senses": [{"pos": "", "gloss": "voice"}], "scores": {"voice": 0.388}}
+{"id": "aligned-bho:आबादी", "word": "आबादी", "senses": [{"pos": "", "gloss": "populations"}, {"pos": "", "gloss": "population"}], "scores": {"populations": 0.603, "population": 0.57}}
+{"id": "aligned-bho:आभासी", "word": "आभासी", "senses": [{"pos": "", "gloss": "virtual"}], "scores": {"virtual": 0.493}}
+{"id": "aligned-bho:आम", "word": "आम", "senses": [{"pos": "", "gloss": "common"}], "scores": {"common": 0.497}}
+{"id": "aligned-bho:आमंत्रित", "word": "आमंत्रित", "senses": [{"pos": "", "gloss": "invite"}], "scores": {"invite": 0.432}}
+{"id": "aligned-bho:आमतौर", "word": "आमतौर", "senses": [{"pos": "", "gloss": "usually"}], "scores": {"usually": 0.555}}
+{"id": "aligned-bho:आय", "word": "आय", "senses": [{"pos": "", "gloss": "income"}], "scores": {"income": 0.691}}
+{"id": "aligned-bho:आयन", "word": "आयन", "senses": [{"pos": "", "gloss": "ion"}, {"pos": "", "gloss": "ions"}], "scores": {"ion": 0.644, "ions": 0.312}}
+{"id": "aligned-bho:आयनिक", "word": "आयनिक", "senses": [{"pos": "", "gloss": "ionic"}], "scores": {"ionic": 0.487}}
+{"id": "aligned-bho:आयरलैंड", "word": "आयरलैंड", "senses": [{"pos": "", "gloss": "ireland"}], "scores": {"ireland": 0.625}}
+{"id": "aligned-bho:आयात", "word": "आयात", "senses": [{"pos": "", "gloss": "import"}], "scores": {"import": 0.569}}
+{"id": "aligned-bho:आयातित", "word": "आयातित", "senses": [{"pos": "", "gloss": "imported"}], "scores": {"imported": 0.393}}
+{"id": "aligned-bho:आयाम", "word": "आयाम", "senses": [{"pos": "", "gloss": "dimension"}, {"pos": "", "gloss": "dimensions"}], "scores": {"dimension": 0.513, "dimensions": 0.458}}
+{"id": "aligned-bho:आयामी", "word": "आयामी", "senses": [{"pos": "", "gloss": "three-dimensional"}], "scores": {"three-dimensional": 0.515}}
+{"id": "aligned-bho:आयु", "word": "आयु", "senses": [{"pos": "", "gloss": "age"}], "scores": {"age": 0.32}}
+{"id": "aligned-bho:आयोग", "word": "आयोग", "senses": [{"pos": "", "gloss": "commission"}], "scores": {"commission": 0.831}}
+{"id": "aligned-bho:आयोजकन", "word": "आयोजकन", "senses": [{"pos": "", "gloss": "organisers"}], "scores": {"organisers": 0.394}}
+{"id": "aligned-bho:आयोजन", "word": "आयोजन", "senses": [{"pos": "", "gloss": "organizing"}], "scores": {"organizing": 0.603}}
+{"id": "aligned-bho:आयोजित", "word": "आयोजित", "senses": [{"pos": "", "gloss": "held"}], "scores": {"held": 0.627}}
+{"id": "aligned-bho:आरएनए", "word": "आरएनए", "senses": [{"pos": "", "gloss": "rna"}], "scores": {"rna": 0.89}}
+{"id": "aligned-bho:आरोप", "word": "आरोप", "senses": [{"pos": "", "gloss": "accused"}], "scores": {"accused": 0.409}}
+{"id": "aligned-bho:आर्कबैक्टीरिया", "word": "आर्कबैक्टीरिया", "senses": [{"pos": "", "gloss": "archaebacteria"}], "scores": {"archaebacteria": 0.45}}
+{"id": "aligned-bho:आर्किटेक्ट", "word": "आर्किटेक्ट", "senses": [{"pos": "", "gloss": "architect"}], "scores": {"architect": 0.533}}
+{"id": "aligned-bho:आर्किटेक्ट्स", "word": "आर्किटेक्ट्स", "senses": [{"pos": "", "gloss": "architects"}], "scores": {"architects": 0.343}}
+{"id": "aligned-bho:आर्किमिडीज", "word": "आर्किमिडीज", "senses": [{"pos": "", "gloss": "archimedes"}], "scores": {"archimedes": 0.462}}
+{"id": "aligned-bho:आर्कियन", "word": "आर्कियन", "senses": [{"pos": "", "gloss": "archean"}], "scores": {"archean": 0.399}}
+{"id": "aligned-bho:आर्किया", "word": "आर्किया", "senses": [{"pos": "", "gloss": "archaea"}], "scores": {"archaea": 0.711}}
+{"id": "aligned-bho:आर्थर", "word": "आर्थर", "senses": [{"pos": "", "gloss": "arthur"}], "scores": {"arthur": 0.925}}
+{"id": "aligned-bho:आर्थिक", "word": "आर्थिक", "senses": [{"pos": "", "gloss": "economic"}], "scores": {"economic": 0.928}}
+{"id": "aligned-bho:आलसी", "word": "आलसी", "senses": [{"pos": "", "gloss": "lazy"}], "scores": {"lazy": 0.407}}
+{"id": "aligned-bho:आलू", "word": "आलू", "senses": [{"pos": "", "gloss": "potato"}], "scores": {"potato": 0.369}}
+{"id": "aligned-bho:आलोचक", "word": "आलोचक", "senses": [{"pos": "", "gloss": "critic"}, {"pos": "", "gloss": "critics"}], "scores": {"critic": 0.431, "critics": 0.325}}
+{"id": "aligned-bho:आलोचना", "word": "आलोचना", "senses": [{"pos": "", "gloss": "criticized"}, {"pos": "", "gloss": "criticism"}], "scores": {"criticized": 0.492, "criticism": 0.44}}
+{"id": "aligned-bho:आलोचनात्मक", "word": "आलोचनात्मक", "senses": [{"pos": "", "gloss": "critical"}], "scores": {"critical": 0.482}}
+{"id": "aligned-bho:आवंटन", "word": "आवंटन", "senses": [{"pos": "", "gloss": "allocation"}], "scores": {"allocation": 0.608}}
+{"id": "aligned-bho:आवश्यक", "word": "आवश्यक", "senses": [{"pos": "", "gloss": "necessary"}], "scores": {"necessary": 0.551}}
+{"id": "aligned-bho:आवश्यकता", "word": "आवश्यकता", "senses": [{"pos": "", "gloss": "need"}], "scores": {"need": 0.32}}
+{"id": "aligned-bho:आवश्यकताओं", "word": "आवश्यकताओं", "senses": [{"pos": "", "gloss": "requirements"}], "scores": {"requirements": 0.41}}
+{"id": "aligned-bho:आवास", "word": "आवास", "senses": [{"pos": "", "gloss": "housing"}], "scores": {"housing": 0.663}}
+{"id": "aligned-bho:आवासीय", "word": "आवासीय", "senses": [{"pos": "", "gloss": "residential"}], "scores": {"residential": 0.361}}
+{"id": "aligned-bho:आविष्कार", "word": "आविष्कार", "senses": [{"pos": "", "gloss": "invented"}, {"pos": "", "gloss": "invention"}], "scores": {"invented": 0.558, "invention": 0.44}}
+{"id": "aligned-bho:आवृत्ति", "word": "आवृत्ति", "senses": [{"pos": "", "gloss": "frequency"}], "scores": {"frequency": 0.747}}
+{"id": "aligned-bho:आवृत्तियों", "word": "आवृत्तियों", "senses": [{"pos": "", "gloss": "frequencies"}], "scores": {"frequencies": 0.422}}
+{"id": "aligned-bho:आवेदक", "word": "आवेदक", "senses": [{"pos": "", "gloss": "applicants"}], "scores": {"applicants": 0.441}}
+{"id": "aligned-bho:आवेदन", "word": "आवेदन", "senses": [{"pos": "", "gloss": "application"}], "scores": {"application": 0.576}}
+{"id": "aligned-bho:आवेस", "word": "आवेस", "senses": [{"pos": "", "gloss": "charge"}], "scores": {"charge": 0.437}}
+{"id": "aligned-bho:आव्यूह", "word": "आव्यूह", "senses": [{"pos": "", "gloss": "matrix"}], "scores": {"matrix": 0.318}}
+{"id": "aligned-bho:आव्रजन", "word": "आव्रजन", "senses": [{"pos": "", "gloss": "immigration"}], "scores": {"immigration": 0.444}}
+{"id": "aligned-bho:आश्चर्य", "word": "आश्चर्य", "senses": [{"pos": "", "gloss": "surprise"}], "scores": {"surprise": 0.328}}
+{"id": "aligned-bho:आश्चर्यजनक", "word": "आश्चर्यजनक", "senses": [{"pos": "", "gloss": "surprising"}], "scores": {"surprising": 0.303}}
+{"id": "aligned-bho:आश्रय", "word": "आश्रय", "senses": [{"pos": "", "gloss": "shelter"}], "scores": {"shelter": 0.574}}
+{"id": "aligned-bho:आश्रित", "word": "आश्रित", "senses": [{"pos": "", "gloss": "dependent"}], "scores": {"dependent": 0.303}}
+{"id": "aligned-bho:आसन्न", "word": "आसन्न", "senses": [{"pos": "", "gloss": "adjacent"}], "scores": {"adjacent": 0.446}}

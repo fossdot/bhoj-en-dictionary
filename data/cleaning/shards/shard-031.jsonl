@@ -1,0 +1,350 @@
+{"id": "hindi-cognates-bho:बिस्कुट", "word": "बिस्कुट", "senses": [{"pos": "noun", "gloss": "biscuit, cookie, cracker"}], "translit": ["biskuṭ"]}
+{"id": "hindi-cognates-bho:बिस्तर", "word": "बिस्तर", "senses": [{"pos": "noun", "gloss": "bed, mattress, bedding"}], "translit": ["bistar"]}
+{"id": "hindi-cognates-bho:बिस्मिल्ला", "word": "बिस्मिल्ला", "senses": [{"pos": "interjection", "gloss": "bismillah"}], "translit": ["bismillā"]}
+{"id": "hindi-cognates-bho:बिहार", "word": "बिहार", "senses": [{"pos": "propernoun", "gloss": "Bihar (a state in eastern India)"}], "translit": ["bihār"]}
+{"id": "hindi-cognates-bho:बिहारी", "word": "बिहारी", "senses": [{"pos": "noun", "gloss": "Bihari person"}, {"pos": "propernoun", "gloss": "Bihari (pertaining to Bihar)"}], "translit": ["bihārī"]}
+{"id": "hindi-cognates-bho:बी", "word": "बी", "senses": [{"pos": "noun", "gloss": "synonym of बीवी (bīvī, “wife”)"}], "translit": ["bī"]}
+{"id": "hindi-cognates-bho:बीकानेर", "word": "बीकानेर", "senses": [{"pos": "propernoun", "gloss": "Bikaner (a city in Bikaner district, Bikaner Division, Rajasthan, India)"}], "translit": ["bīkāner"]}
+{"id": "hindi-cognates-bho:बीघा", "word": "बीघा", "senses": [{"pos": "noun", "gloss": "bigha (a measure of land area usually standardized to ⁵⁄₈ acre)"}], "translit": ["bīghā"]}
+{"id": "hindi-cognates-bho:बीच", "word": "बीच", "senses": [{"pos": "noun", "gloss": "middle, centre"}], "translit": ["bīc"]}
+{"id": "hindi-cognates-bho:बीज", "word": "बीज", "senses": [{"pos": "noun", "gloss": "seed, seedling"}, {"pos": "noun", "gloss": "nucleus"}, {"pos": "noun", "gloss": "kernel"}], "translit": ["bīj"]}
+{"id": "hindi-cognates-bho:बीजगणित", "word": "बीजगणित", "senses": [{"pos": "noun", "gloss": "algebra"}], "translit": ["bījgaṇit"]}
+{"id": "hindi-cognates-bho:बीजिंग", "word": "बीजिंग", "senses": [{"pos": "propernoun", "gloss": "Beijing (a direct-administered municipality, the capital city of China)"}], "translit": ["bījiṅg"]}
+{"id": "hindi-cognates-bho:बीजेपी", "word": "बीजेपी", "senses": [{"pos": "propernoun", "gloss": "synonym of भाजपा (bhājpā)"}], "translit": ["bījepī"]}
+{"id": "hindi-cognates-bho:बीट", "word": "बीट", "senses": [{"pos": "noun", "gloss": "bird's dropping"}], "translit": ["bīṭ"]}
+{"id": "hindi-cognates-bho:बीड", "word": "बीड", "senses": [{"pos": "propernoun", "gloss": "Beed (a city in central Maharashtra, India)"}], "translit": ["bīḍ"]}
+{"id": "hindi-cognates-bho:बीड़ा", "word": "बीड़ा", "senses": [{"pos": "noun", "gloss": "paan, betel leaf"}, {"pos": "noun", "gloss": "the initiative, a pledge"}, {"pos": "noun", "gloss": "fastening, tie"}], "translit": ["bīṛā"]}
+{"id": "hindi-cognates-bho:बीड़ी", "word": "बीड़ी", "senses": [{"pos": "noun", "gloss": "beedi (kind of cigarette, tobacco wrapped in leaf)"}], "translit": ["bīṛī"]}
+{"id": "hindi-cognates-bho:बीती", "word": "बीती", "senses": [{"pos": "noun", "gloss": "that which has occurred, happened"}, {"pos": "noun", "gloss": "narrative, story"}], "translit": ["bītī"]}
+{"id": "hindi-cognates-bho:बीन", "word": "बीन", "senses": [{"pos": "noun", "gloss": "pungi"}, {"pos": "noun", "gloss": "Rudra veena"}], "translit": ["bīn"]}
+{"id": "hindi-cognates-bho:बीबी", "word": "बीबी", "senses": [{"pos": "noun", "gloss": "woman, lady"}, {"pos": "noun", "gloss": "wife"}, {"pos": "noun", "gloss": "a term of respect or endearment for women: lady, madam; sister; sister-in-law"}], "translit": ["bībī"]}
+{"id": "hindi-cognates-bho:बीमा", "word": "बीमा", "senses": [{"pos": "noun", "gloss": "insurance"}, {"pos": "noun", "gloss": "insurance premium"}], "translit": ["bīmā"]}
+{"id": "hindi-cognates-bho:बीमार", "word": "बीमार", "senses": [{"pos": "adjective", "gloss": "ill, sick"}], "translit": ["bīmār"]}
+{"id": "hindi-cognates-bho:बीमारी", "word": "बीमारी", "senses": [{"pos": "noun", "gloss": "illness, disease"}], "translit": ["bīmārī"]}
+{"id": "hindi-cognates-bho:बीयर", "word": "बीयर", "senses": [{"pos": "noun", "gloss": "beer"}], "translit": ["bīyar"]}
+{"id": "hindi-cognates-bho:बीर", "word": "बीर", "senses": [{"pos": "adjective", "gloss": "brave, valiant, heroic"}, {"pos": "noun", "gloss": "a hero, warrior"}, {"pos": "noun", "gloss": "beer"}], "translit": ["bīr"]}
+{"id": "hindi-cognates-bho:बीरगंज", "word": "बीरगंज", "senses": [{"pos": "propernoun", "gloss": "Birgunj (a city in Narayani, Nepal)"}], "translit": ["bīrgañj"]}
+{"id": "hindi-cognates-bho:बीरभूम", "word": "बीरभूम", "senses": [{"pos": "propernoun", "gloss": "Birbhum (a district of West Bengal, India)"}], "translit": ["bīrbhūm"]}
+{"id": "hindi-cognates-bho:बीस", "word": "बीस", "senses": [{"pos": "numeral", "gloss": "twenty"}], "translit": ["bīs"]}
+{"id": "hindi-cognates-bho:बीहड़", "word": "बीहड़", "senses": [{"pos": "adjective", "gloss": "rough, uneven, difficult (of terrain)"}, {"pos": "adjective", "gloss": "uncultivated, barren, wasteland"}, {"pos": "noun", "gloss": "rough terrain"}], "translit": ["bīhaṛ"]}
+{"id": "hindi-cognates-bho:बुंदेलखंड", "word": "बुंदेलखंड", "senses": [{"pos": "propernoun", "gloss": "Bundelkhand (a historical region of Uttar Pradesh and Madhya Pradesh, India)"}], "translit": ["bundelkhaṇḍ"]}
+{"id": "hindi-cognates-bho:बुंदेली", "word": "बुंदेली", "senses": [{"pos": "propernoun", "gloss": "Bundeli (a language closely related to Braj Bhasha and Hindi)"}], "translit": ["bundelī"]}
+{"id": "hindi-cognates-bho:बुआ", "word": "बुआ", "senses": [{"pos": "noun", "gloss": "father's sister; paternal aunt"}], "translit": ["buā"]}
+{"id": "hindi-cognates-bho:बुआई", "word": "बुआई", "senses": [{"pos": "noun", "gloss": "sowing (of seeds)"}], "translit": ["buāī"]}
+{"id": "hindi-cognates-bho:बुक", "word": "बुक", "senses": [{"pos": "noun", "gloss": "book"}], "translit": ["buk"]}
+{"id": "hindi-cognates-bho:बुटवल", "word": "बुटवल", "senses": [{"pos": "propernoun", "gloss": "Butwal (a city in Lumbini, Nepal)"}], "translit": ["buṭval"]}
+{"id": "hindi-cognates-bho:बुढ़ापा", "word": "बुढ़ापा", "senses": [{"pos": "noun", "gloss": "age, old age; senility"}], "translit": ["buṛhāpā"]}
+{"id": "hindi-cognates-bho:बुढ़िया", "word": "बुढ़िया", "senses": [{"pos": "noun", "gloss": "old woman"}], "translit": ["buṛhiyā"]}
+{"id": "hindi-cognates-bho:बुत", "word": "बुत", "senses": [{"pos": "noun", "gloss": "idol"}, {"pos": "noun", "gloss": "mistress"}], "translit": ["but"]}
+{"id": "hindi-cognates-bho:बुद्ध", "word": "बुद्ध", "senses": [{"pos": "noun", "gloss": "Buddha, the enlightened one"}], "translit": ["buddh"]}
+{"id": "hindi-cognates-bho:बुद्धि", "word": "बुद्धि", "senses": [{"pos": "noun", "gloss": "wisdom, intelligence"}], "translit": ["buddhi"]}
+{"id": "hindi-cognates-bho:बुद्धिजीवी", "word": "बुद्धिजीवी", "senses": [{"pos": "adjective", "gloss": "intellectual, rational, educated"}, {"pos": "noun", "gloss": "an intellectual"}], "translit": ["buddhijīvī"]}
+{"id": "hindi-cognates-bho:बुद्धिमान", "word": "बुद्धिमान", "senses": [{"pos": "adjective", "gloss": "intelligent; wise"}, {"pos": "noun", "gloss": "an intelligent person"}], "translit": ["buddhimān"]}
+{"id": "hindi-cognates-bho:बुद्धू", "word": "बुद्धू", "senses": [{"pos": "noun", "gloss": "stupid, unintelligent"}, {"pos": "noun", "gloss": "dunce, softy, fool, idiot, muggins"}], "translit": ["buddhū"]}
+{"id": "hindi-cognates-bho:बुध", "word": "बुध", "senses": [{"pos": "noun", "gloss": "wise, intelligent"}, {"pos": "noun", "gloss": "learned"}, {"pos": "propernoun", "gloss": "Budha, son of the moon god Chandra, associated with intelligence and wisdom"}], "translit": ["budh"]}
+{"id": "hindi-cognates-bho:बुधवार", "word": "बुधवार", "senses": [{"pos": "noun", "gloss": "Wednesday"}], "translit": ["budhvār"]}
+{"id": "hindi-cognates-bho:बुनकर", "word": "बुनकर", "senses": [{"pos": "noun", "gloss": "weaver"}], "translit": ["bunkar"]}
+{"id": "hindi-cognates-bho:बुनाई", "word": "बुनाई", "senses": [{"pos": "noun", "gloss": "weaving"}, {"pos": "noun", "gloss": "knitting, knit"}, {"pos": "noun", "gloss": "price paid for weaving"}], "translit": ["bunāī"]}
+{"id": "hindi-cognates-bho:बुनावट", "word": "बुनावट", "senses": [{"pos": "noun", "gloss": "weaving"}, {"pos": "noun", "gloss": "knitting, knit"}, {"pos": "noun", "gloss": "texture"}], "translit": ["bunāvaṭ"]}
+{"id": "hindi-cognates-bho:बुनियाद", "word": "बुनियाद", "senses": [{"pos": "noun", "gloss": "basis, foundation"}, {"pos": "noun", "gloss": "beginning, frame"}], "translit": ["buniyād"]}
+{"id": "hindi-cognates-bho:बुनियादी", "word": "बुनियादी", "senses": [{"pos": "adjective", "gloss": "basic, foundational"}, {"pos": "adjective", "gloss": "primary (school)"}], "translit": ["buniyādī"]}
+{"id": "hindi-cognates-bho:बुर", "word": "बुर", "senses": [{"pos": "noun", "gloss": "vulva"}], "translit": ["bur"]}
+{"id": "hindi-cognates-bho:बुरा", "word": "बुरा", "senses": [{"pos": "adjective", "gloss": "bad"}, {"pos": "adjective", "gloss": "wicked, evil"}, {"pos": "adjective", "gloss": "injurious"}], "translit": ["burā"]}
+{"id": "hindi-cognates-bho:बुराई", "word": "बुराई", "senses": [{"pos": "noun", "gloss": "badness, evilness; bad qualities"}, {"pos": "noun", "gloss": "a bad deed"}], "translit": ["burāī"]}
+{"id": "hindi-cognates-bho:बुलंद", "word": "बुलंद", "senses": [{"pos": "adjective", "gloss": "high, lofty"}, {"pos": "adjective", "gloss": "loud"}], "translit": ["buland"]}
+{"id": "hindi-cognates-bho:बुलंदशहर", "word": "बुलंदशहर", "senses": [{"pos": "propernoun", "gloss": "Bulandshahr (a city and district of Meerut division, Uttar Pradesh, India)"}], "translit": ["bulandśahar"]}
+{"id": "hindi-cognates-bho:बुलबुल", "word": "बुलबुल", "senses": [{"pos": "noun", "gloss": "nightingale; bulbul"}], "translit": ["bulbul"]}
+{"id": "hindi-cognates-bho:बुलबुला", "word": "बुलबुला", "senses": [{"pos": "noun", "gloss": "bubble"}], "translit": ["bulbulā"]}
+{"id": "hindi-cognates-bho:बुलावा", "word": "बुलावा", "senses": [{"pos": "noun", "gloss": "call, summons"}, {"pos": "noun", "gloss": "invitation"}], "translit": ["bulāvā"]}
+{"id": "hindi-cognates-bho:बू", "word": "बू", "senses": [{"pos": "noun", "gloss": "smell (especially one that is bad)"}], "translit": ["bū"]}
+{"id": "hindi-cognates-bho:बूंद", "word": "बूंद", "senses": [{"pos": "noun", "gloss": "droplet, drop (especially of water)"}], "translit": ["būnd"]}
+{"id": "hindi-cognates-bho:बूझ", "word": "बूझ", "senses": [{"pos": "noun", "gloss": "understanding, perceiving"}, {"pos": "noun", "gloss": "perception"}, {"pos": "noun", "gloss": "guessing, guess"}], "translit": ["būjh"]}
+{"id": "hindi-cognates-bho:बूट", "word": "बूट", "senses": [{"pos": "noun", "gloss": "boot, shoe"}, {"pos": "noun", "gloss": "gram pod"}], "translit": ["būṭ"]}
+{"id": "hindi-cognates-bho:बूटा", "word": "बूटा", "senses": [{"pos": "noun", "gloss": "bush, shrub"}, {"pos": "noun", "gloss": "flower, sprig (especially as embroidered, or painted)"}], "translit": ["būṭā"]}
+{"id": "hindi-cognates-bho:बूटी", "word": "बूटी", "senses": [{"pos": "noun", "gloss": "a medicinal plant"}], "translit": ["būṭī"]}
+{"id": "hindi-cognates-bho:बूढ़ा", "word": "बूढ़ा", "senses": [{"pos": "adjective", "gloss": "aged, old"}, {"pos": "noun", "gloss": "old man"}], "translit": ["būṛhā"]}
+{"id": "hindi-cognates-bho:बूढ़ी", "word": "बूढ़ी", "senses": [{"pos": "noun", "gloss": "old woman"}], "translit": ["būṛhī"]}
+{"id": "hindi-cognates-bho:बूता", "word": "बूता", "senses": [{"pos": "noun", "gloss": "strength, power"}, {"pos": "noun", "gloss": "ability, capacity"}], "translit": ["būtā"]}
+{"id": "hindi-cognates-bho:बूथ", "word": "बूथ", "senses": [{"pos": "noun", "gloss": "booth (for voting, selling goods, etc.)"}], "translit": ["būth"]}
+{"id": "hindi-cognates-bho:बृहस्पति", "word": "बृहस्पति", "senses": [{"pos": "propernoun", "gloss": "Brihaspati, the Guru and priest of the Devas"}, {"pos": "propernoun", "gloss": "Jupiter"}], "translit": ["bŕhaspati"]}
+{"id": "hindi-cognates-bho:बे", "word": "बे", "senses": [{"pos": "noun", "gloss": "be (name of the second letter of the Perso-Arabic alphabet)"}], "translit": ["be"]}
+{"id": "hindi-cognates-bho:बेंगलुरु", "word": "बेंगलुरु", "senses": [{"pos": "propernoun", "gloss": "Bengaluru (a megacity, the state capital of Karnataka, India)"}], "translit": ["beṅgluru"]}
+{"id": "hindi-cognates-bho:बेंच", "word": "बेंच", "senses": [{"pos": "noun", "gloss": "bench"}], "translit": ["beñc"]}
+{"id": "hindi-cognates-bho:बेईमान", "word": "बेईमान", "senses": [{"pos": "adjective", "gloss": "faithless, irreligious"}, {"pos": "adjective", "gloss": "dishonest, deceptive"}], "translit": ["beīmān"]}
+{"id": "hindi-cognates-bho:बेईमानी", "word": "बेईमानी", "senses": [{"pos": "noun", "gloss": "irreligion"}, {"pos": "noun", "gloss": "infidelity"}, {"pos": "noun", "gloss": "dishonesty"}], "translit": ["beīmānī"]}
+{"id": "hindi-cognates-bho:बेकल", "word": "बेकल", "senses": [{"pos": "adjective", "gloss": "restless"}], "translit": ["bekal"]}
+{"id": "hindi-cognates-bho:बेकली", "word": "बेकली", "senses": [{"pos": "noun", "gloss": "restlessness"}], "translit": ["bekalī"]}
+{"id": "hindi-cognates-bho:बेकाम", "word": "बेकाम", "senses": [{"pos": "adjective", "gloss": "useless, worthless, unworked"}], "translit": ["bekām"]}
+{"id": "hindi-cognates-bho:बेकार", "word": "बेकार", "senses": [{"pos": "adjective", "gloss": "useless"}, {"pos": "adjective", "gloss": "good-for-nothing"}, {"pos": "adjective", "gloss": "unemployed"}], "translit": ["bekār"]}
+{"id": "hindi-cognates-bho:बेकारी", "word": "बेकारी", "senses": [{"pos": "noun", "gloss": "idleness"}, {"pos": "noun", "gloss": "unemployment"}], "translit": ["bekārī"]}
+{"id": "hindi-cognates-bho:बेग", "word": "बेग", "senses": [{"pos": "noun", "gloss": "[Term?], bey; a former aristocratic title in Iran, Central Asia, South Asia and Turkey"}], "translit": ["beg"]}
+{"id": "hindi-cognates-bho:बेगम", "word": "बेगम", "senses": [{"pos": "noun", "gloss": "begum; high-ranking Muslim lady; queen"}, {"pos": "noun", "gloss": "queen"}], "translit": ["begam"]}
+{"id": "hindi-cognates-bho:बेगाना", "word": "बेगाना", "senses": [{"pos": "adjective", "gloss": "foreign, alien"}, {"pos": "noun", "gloss": "outsider, foreigner"}], "translit": ["begānā"]}
+{"id": "hindi-cognates-bho:बेगार", "word": "बेगार", "senses": [{"pos": "noun", "gloss": "forced labor, unpaid labour"}], "translit": ["begār"]}
+{"id": "hindi-cognates-bho:बेगुनाह", "word": "बेगुनाह", "senses": [{"pos": "adjective", "gloss": "faultless, sinless, innocent"}], "translit": ["begunāh"]}
+{"id": "hindi-cognates-bho:बेघर", "word": "बेघर", "senses": [{"pos": "adjective", "gloss": "homeless"}], "translit": ["beghar"]}
+{"id": "hindi-cognates-bho:बेचारा", "word": "बेचारा", "senses": [{"pos": "adjective", "gloss": "helpless"}, {"pos": "adjective", "gloss": "forlorn"}, {"pos": "adjective", "gloss": "unfortunate, poor"}], "translit": ["becārā"]}
+{"id": "hindi-cognates-bho:बेचैन", "word": "बेचैन", "senses": [{"pos": "adjective", "gloss": "nervous, jittery, restless"}, {"pos": "adjective", "gloss": "impatient"}], "translit": ["becain"]}
+{"id": "hindi-cognates-bho:बेचैनी", "word": "बेचैनी", "senses": [{"pos": "noun", "gloss": "uneasiness, discomfort"}], "translit": ["becainī"]}
+{"id": "hindi-cognates-bho:बेजान", "word": "बेजान", "senses": [{"pos": "adjective", "gloss": "lifeless, inert"}], "translit": ["bejān"]}
+{"id": "hindi-cognates-bho:बेझिझक", "word": "बेझिझक", "senses": [{"pos": "adverb", "gloss": "free, unhesitating"}], "translit": ["bejhijhak"]}
+{"id": "hindi-cognates-bho:बेटा", "word": "बेटा", "senses": [{"pos": "noun", "gloss": "son"}], "translit": ["beṭā"]}
+{"id": "hindi-cognates-bho:बेटी", "word": "बेटी", "senses": [{"pos": "noun", "gloss": "daughter"}], "translit": ["beṭī"]}
+{"id": "hindi-cognates-bho:बेड़ा", "word": "बेड़ा", "senses": [{"pos": "noun", "gloss": "boat, raft"}, {"pos": "noun", "gloss": "fleet, naval force"}, {"pos": "noun", "gloss": "enclosure; yard; court"}], "translit": ["beṛā"]}
+{"id": "hindi-cognates-bho:बेड़ी", "word": "बेड़ी", "senses": [{"pos": "noun", "gloss": "fetter, fetters; bond"}, {"pos": "noun", "gloss": "ankle ring"}, {"pos": "noun", "gloss": "thread tied around children's ankles"}], "translit": ["beṛī"]}
+{"id": "hindi-cognates-bho:बेत", "word": "बेत", "senses": [{"pos": "noun", "gloss": "a cane"}], "translit": ["bet"]}
+{"id": "hindi-cognates-bho:बेतहाशा", "word": "बेतहाशा", "senses": [{"pos": "adverb", "gloss": "recklessly"}, {"pos": "adverb", "gloss": "rashly"}, {"pos": "adverb", "gloss": "wildly, crazily; thoughtlessly"}], "translit": ["betahāśā"]}
+{"id": "hindi-cognates-bho:बेताब", "word": "बेताब", "senses": [{"pos": "adjective", "gloss": "impatient, restless, anxious"}], "translit": ["betāb"]}
+{"id": "hindi-cognates-bho:बेतुका", "word": "बेतुका", "senses": [{"pos": "adjective", "gloss": "absurd, meaningless, pointless"}], "translit": ["betukā"]}
+{"id": "hindi-cognates-bho:बेन", "word": "बेन", "senses": [{"pos": "noun", "gloss": "pipe, flute"}, {"pos": "noun", "gloss": "bamboo"}], "translit": ["ben"]}
+{"id": "hindi-cognates-bho:बेनतीजा", "word": "बेनतीजा", "senses": [{"pos": "adjective", "gloss": "inconclusive; stalemate"}], "translit": ["benatījā"]}
+{"id": "hindi-cognates-bho:बेपनाह", "word": "बेपनाह", "senses": [{"pos": "adjective", "gloss": "unprotected, shelterless"}, {"pos": "adjective", "gloss": "limitless, boundless"}], "translit": ["bepnāh"]}
+{"id": "hindi-cognates-bho:बेबस", "word": "बेबस", "senses": [{"pos": "adjective", "gloss": "helpless, powerless"}], "translit": ["bebas"]}
+{"id": "hindi-cognates-bho:बेबुनियाद", "word": "बेबुनियाद", "senses": [{"pos": "adjective", "gloss": "baseless, unfounded"}], "translit": ["bebuniyād"]}
+{"id": "hindi-cognates-bho:बेमिसाल", "word": "बेमिसाल", "senses": [{"pos": "adjective", "gloss": "unexampled, incomparable"}], "translit": ["bemisāl"]}
+{"id": "hindi-cognates-bho:बेमेल", "word": "बेमेल", "senses": [{"pos": "adjective", "gloss": "incongruous, mismatched"}, {"pos": "noun", "gloss": "a mismatch, an incongruence"}], "translit": ["bemel"]}
+{"id": "hindi-cognates-bho:बेर", "word": "बेर", "senses": [{"pos": "noun", "gloss": "Indian jujube (Ziziphus mauritiana) or its fruit"}, {"pos": "noun", "gloss": "time, occasion"}, {"pos": "noun", "gloss": "lapse of time, delay"}], "translit": ["ber"]}
+{"id": "hindi-cognates-bho:बेल", "word": "बेल", "senses": [{"pos": "noun", "gloss": "bael fruit tree, bel, Bengal quince (Aegle marmelos)"}, {"pos": "noun", "gloss": "creeper"}], "translit": ["bel"]}
+{"id": "hindi-cognates-bho:बेलन", "word": "बेलन", "senses": [{"pos": "noun", "gloss": "roll, rolling pin"}], "translit": ["belan"]}
+{"id": "hindi-cognates-bho:बेला", "word": "बेला", "senses": [{"pos": "noun", "gloss": "time, period, occasion"}, {"pos": "noun", "gloss": "meal"}, {"pos": "noun", "gloss": "limit, boundary"}], "translit": ["belā"]}
+{"id": "hindi-cognates-bho:बेलारूस", "word": "बेलारूस", "senses": [{"pos": "propernoun", "gloss": "Belarus (a country in Eastern Europe)"}], "translit": ["belārūs"]}
+{"id": "hindi-cognates-bho:बेली", "word": "बेली", "senses": [{"pos": "noun", "gloss": "companion, associate, supporter, protector, preserver"}, {"pos": "noun", "gloss": "creeper, vine, climber"}], "translit": ["belī"]}
+{"id": "hindi-cognates-bho:बेल्जियम", "word": "बेल्जियम", "senses": [{"pos": "propernoun", "gloss": "Belgium (a country in Western Europe that has borders with the Netherlands, Germany, Luxembourg and France)"}], "translit": ["beljiyam"]}
+{"id": "hindi-cognates-bho:बेवजह", "word": "बेवजह", "senses": [{"pos": "adjective", "gloss": "without cause or reason"}], "translit": ["bevajah"]}
+{"id": "hindi-cognates-bho:बेवा", "word": "बेवा", "senses": [{"pos": "noun", "gloss": "widow"}], "translit": ["bevā"]}
+{"id": "hindi-cognates-bho:बेशक", "word": "बेशक", "senses": [{"pos": "adjective", "gloss": "undoubtedly, without a doubt, totally"}], "translit": ["beśak"]}
+{"id": "hindi-cognates-bho:बेशुमार", "word": "बेशुमार", "senses": [{"pos": "adjective", "gloss": "countless, innumerable"}], "translit": ["beśumār"]}
+{"id": "hindi-cognates-bho:बेसन", "word": "बेसन", "senses": [{"pos": "noun", "gloss": "besan, gram flour"}], "translit": ["besan"]}
+{"id": "hindi-cognates-bho:बेसब्री", "word": "बेसब्री", "senses": [{"pos": "noun", "gloss": "impatience"}], "translit": ["besabrī"]}
+{"id": "hindi-cognates-bho:बेहतर", "word": "बेहतर", "senses": [{"pos": "adjective", "gloss": "better, improved"}], "translit": ["behtar"]}
+{"id": "hindi-cognates-bho:बेहतरीन", "word": "बेहतरीन", "senses": [{"pos": "adjective", "gloss": "best"}], "translit": ["behtarīn"]}
+{"id": "hindi-cognates-bho:बेहद", "word": "बेहद", "senses": [{"pos": "adjective", "gloss": "limitless, abundant"}], "translit": ["behad"]}
+{"id": "hindi-cognates-bho:बेहाल", "word": "बेहाल", "senses": [{"pos": "adjective", "gloss": "agitated, disturbed, miserable"}, {"pos": "adjective", "gloss": "useless, in disrepair"}], "translit": ["behāl"]}
+{"id": "hindi-cognates-bho:बेहिसाब", "word": "बेहिसाब", "senses": [{"pos": "adjective", "gloss": "countless, incalculable, excessive"}], "translit": ["behisāb"]}
+{"id": "hindi-cognates-bho:बेहोश", "word": "बेहोश", "senses": [{"pos": "adjective", "gloss": "unconscious"}], "translit": ["behoś"]}
+{"id": "hindi-cognates-bho:बैंक", "word": "बैंक", "senses": [{"pos": "noun", "gloss": "bank (financial institution)"}], "translit": ["baiṅk"]}
+{"id": "hindi-cognates-bho:बैंगन", "word": "बैंगन", "senses": [{"pos": "noun", "gloss": "eggplant, aubergine, brinjal"}], "translit": ["baiṅgan"]}
+{"id": "hindi-cognates-bho:बैंगनी", "word": "बैंगनी", "senses": [{"pos": "adjective", "gloss": "viole"}, {"pos": "adjective", "gloss": "purple"}, {"pos": "noun", "gloss": "violet color"}], "translit": ["baiṅgnī"]}
+{"id": "hindi-cognates-bho:बैग", "word": "बैग", "senses": [{"pos": "noun", "gloss": "bag"}], "translit": ["baig"]}
+{"id": "hindi-cognates-bho:बैटरी", "word": "बैटरी", "senses": [{"pos": "noun", "gloss": "battery"}], "translit": ["baiṭrī"]}
+{"id": "hindi-cognates-bho:बैठक", "word": "बैठक", "senses": [{"pos": "noun", "gloss": "meeting"}, {"pos": "noun", "gloss": "seance, session"}, {"pos": "noun", "gloss": "parlor, saloon, lounge"}], "translit": ["baiṭhak"]}
+{"id": "hindi-cognates-bho:बैडमिंटन", "word": "बैडमिंटन", "senses": [{"pos": "noun", "gloss": "badminton"}], "translit": ["baiḍmiṇṭan"]}
+{"id": "hindi-cognates-bho:बैर", "word": "बैर", "senses": [{"pos": "noun", "gloss": "enmity, hostility, ill-will"}], "translit": ["bair"]}
+{"id": "hindi-cognates-bho:बैरा", "word": "बैरा", "senses": [{"pos": "noun", "gloss": "waiter; porter"}], "translit": ["bairā"]}
+{"id": "hindi-cognates-bho:बैरिस्टर", "word": "बैरिस्टर", "senses": [{"pos": "noun", "gloss": "lawyer"}], "translit": ["bairisṭar"]}
+{"id": "hindi-cognates-bho:बैरी", "word": "बैरी", "senses": [{"pos": "adjective", "gloss": "hostile, inimical"}, {"pos": "noun", "gloss": "enemy, foe, adversary"}], "translit": ["bairī"]}
+{"id": "hindi-cognates-bho:बैल", "word": "बैल", "senses": [{"pos": "noun", "gloss": "ox; bullock"}, {"pos": "noun", "gloss": "Taurus"}, {"pos": "noun", "gloss": "an idiot, dolt"}], "translit": ["bail"]}
+{"id": "hindi-cognates-bho:बैलगाड़ी", "word": "बैलगाड़ी", "senses": [{"pos": "noun", "gloss": "bullock cart"}], "translit": ["bailgāṛī"]}
+{"id": "hindi-cognates-bho:बैसाख", "word": "बैसाख", "senses": [{"pos": "noun", "gloss": "Vaisakha (the second month in the Indian national calendar and in the lunar Hindu calendar)"}], "translit": ["baisākh"]}
+{"id": "hindi-cognates-bho:बैसाखी", "word": "बैसाखी", "senses": [{"pos": "noun", "gloss": "crutches"}, {"pos": "propernoun", "gloss": "Vaisakhi (Hindu festival)"}], "translit": ["baisākhī"]}
+{"id": "hindi-cognates-bho:बॉलीवुड", "word": "बॉलीवुड", "senses": [{"pos": "propernoun", "gloss": "Bollywood"}], "translit": ["bŏlīvuḍ"]}
+{"id": "hindi-cognates-bho:बोआई", "word": "बोआई", "senses": [{"pos": "noun", "gloss": "sowing"}, {"pos": "noun", "gloss": "wages for sowing"}], "translit": ["boāī"]}
+{"id": "hindi-cognates-bho:बोझ", "word": "बोझ", "senses": [{"pos": "noun", "gloss": "burden, load"}, {"pos": "noun", "gloss": "weight"}], "translit": ["bojh"]}
+{"id": "hindi-cognates-bho:बोट", "word": "बोट", "senses": [{"pos": "noun", "gloss": "boat"}], "translit": ["boṭ"]}
+{"id": "hindi-cognates-bho:बोटी", "word": "बोटी", "senses": [{"pos": "noun", "gloss": "a piece of meat"}], "translit": ["boṭī"]}
+{"id": "hindi-cognates-bho:बोतल", "word": "बोतल", "senses": [{"pos": "noun", "gloss": "bottle"}], "translit": ["botal"]}
+{"id": "hindi-cognates-bho:बोध", "word": "बोध", "senses": [{"pos": "noun", "gloss": "insight, knowledge"}, {"pos": "noun", "gloss": "intelligence"}, {"pos": "noun", "gloss": "perception, cognition"}], "translit": ["bodh"]}
+{"id": "hindi-cognates-bho:बोनी", "word": "बोनी", "senses": [{"pos": "noun", "gloss": "sowing, seedtime"}], "translit": ["bonī"]}
+{"id": "hindi-cognates-bho:बोर", "word": "बोर", "senses": [{"pos": "adjective", "gloss": "bored"}], "translit": ["bor"]}
+{"id": "hindi-cognates-bho:बोरा", "word": "बोरा", "senses": [{"pos": "noun", "gloss": "bag, sack, pack, pouch"}], "translit": ["borā"]}
+{"id": "hindi-cognates-bho:बोरी", "word": "बोरी", "senses": [{"pos": "noun", "gloss": "a small bag, a pouch, sack"}], "translit": ["borī"]}
+{"id": "hindi-cognates-bho:बोर्ड", "word": "बोर्ड", "senses": [{"pos": "noun", "gloss": "board"}], "translit": ["borḍ"]}
+{"id": "hindi-cognates-bho:बोल", "word": "बोल", "senses": [{"pos": "noun", "gloss": "word"}, {"pos": "noun", "gloss": "speech, speaking; conversation"}, {"pos": "noun", "gloss": "sound"}], "translit": ["bol"]}
+{"id": "hindi-cognates-bho:बोलचाल", "word": "बोलचाल", "senses": [{"pos": "noun", "gloss": "talk, language"}], "translit": ["bolcāl"]}
+{"id": "hindi-cognates-bho:बोलती", "word": "बोलती", "senses": [{"pos": "noun", "gloss": "ability to speak, speaking"}], "translit": ["boltī"]}
+{"id": "hindi-cognates-bho:बोलना", "word": "बोलना", "senses": [{"pos": "verb", "gloss": "to speak, say"}, {"pos": "verb", "gloss": "to tell, say to"}], "translit": ["bolnā"]}
+{"id": "hindi-cognates-bho:बोली", "word": "बोली", "senses": [{"pos": "noun", "gloss": "dialect, local speech"}, {"pos": "noun", "gloss": "language"}], "translit": ["bolī"]}
+{"id": "hindi-cognates-bho:बौछार", "word": "बौछार", "senses": [{"pos": "noun", "gloss": "a shower, spray or burst of heavy wind, water or rain"}], "translit": ["bauchār"]}
+{"id": "hindi-cognates-bho:बौद्ध", "word": "बौद्ध", "senses": [{"pos": "adjective", "gloss": "Buddhist, of or pertaining to Buddhism"}], "translit": ["bauddh"]}
+{"id": "hindi-cognates-bho:बौना", "word": "बौना", "senses": [{"pos": "adjective", "gloss": "dwarf, miniature, small"}, {"pos": "noun", "gloss": "a dwarf"}, {"pos": "propernoun", "gloss": "Vamana (the fifth avatar of Vishnu)"}], "translit": ["baunā"]}
+{"id": "hindi-cognates-bho:ब्याज", "word": "ब्याज", "senses": [{"pos": "noun", "gloss": "interest"}], "translit": ["byāj"]}
+{"id": "hindi-cognates-bho:ब्यास", "word": "ब्यास", "senses": [{"pos": "propernoun", "gloss": "Beas (a river of Himachal Pradesh and Punjab in northern India, rising in the Himalayas and emptying into the Sutlej)"}], "translit": ["byās"]}
+{"id": "hindi-cognates-bho:ब्याह", "word": "ब्याह", "senses": [{"pos": "noun", "gloss": "marriage, wedding"}], "translit": ["byāh"]}
+{"id": "hindi-cognates-bho:ब्यूरो", "word": "ब्यूरो", "senses": [{"pos": "noun", "gloss": "bureau"}], "translit": ["byūro"]}
+{"id": "hindi-cognates-bho:ब्यौरा", "word": "ब्यौरा", "senses": [{"pos": "noun", "gloss": "details, information"}], "translit": ["byaurā"]}
+{"id": "hindi-cognates-bho:ब्रज", "word": "ब्रज", "senses": [{"pos": "propernoun", "gloss": "Braj (a historical region of Uttar Pradesh, India)"}], "translit": ["braj"]}
+{"id": "hindi-cognates-bho:ब्रह्म", "word": "ब्रह्म", "senses": [{"pos": "propernoun", "gloss": "Brahman (concept of Hinduism)"}], "translit": ["brahma"]}
+{"id": "hindi-cognates-bho:ब्रह्मपुत्र", "word": "ब्रह्मपुत्र", "senses": [{"pos": "propernoun", "gloss": "Brahmaputra (a river in China, India and Bangladesh)"}], "translit": ["brahmaputra"]}
+{"id": "hindi-cognates-bho:ब्रह्मा", "word": "ब्रह्मा", "senses": [{"pos": "propernoun", "gloss": "Brahma (the god of creation)"}], "translit": ["brahmā"]}
+{"id": "hindi-cognates-bho:ब्रह्मांड", "word": "ब्रह्मांड", "senses": [{"pos": "noun", "gloss": "the universe; \"cosmic egg\""}], "translit": ["brahmāṇḍ"]}
+{"id": "hindi-cognates-bho:ब्राह्मण", "word": "ब्राह्मण", "senses": [{"pos": "noun", "gloss": "a Brahmin (member of the highest caste of Hinduism traditionally regarded as priests)"}], "translit": ["brāhmaṇ"]}
+{"id": "hindi-cognates-bho:ब्राह्मणी", "word": "ब्राह्मणी", "senses": [{"pos": "noun", "gloss": "Brahmin woman; wife of a Brahmin"}], "translit": ["brāhmaṇī"]}
+{"id": "hindi-cognates-bho:ब्राह्मी", "word": "ब्राह्मी", "senses": [{"pos": "propernoun", "gloss": "Brahmi script"}, {"pos": "propernoun", "gloss": "an epithet of Goddess Durga"}, {"pos": "noun", "gloss": "water hyssop (Bacopa monnieri)"}], "translit": ["brāhmī"]}
+{"id": "hindi-cognates-bho:ब्रिटिश", "word": "ब्रिटिश", "senses": [{"pos": "adjective", "gloss": "British"}], "translit": ["briṭiś"]}
+{"id": "hindi-cognates-bho:ब्रिटेन", "word": "ब्रिटेन", "senses": [{"pos": "propernoun", "gloss": "Britain (the United Kingdom, a kingdom and country in Northern Europe including the island of Great Britain as well as N"}, {"pos": "propernoun", "gloss": "Britain (great Britain, a large island (sometimes also including some of the surrounding smaller islands) off the north-"}], "translit": ["briṭen"]}
+{"id": "hindi-cognates-bho:ब्रिस्बेन", "word": "ब्रिस्बेन", "senses": [{"pos": "propernoun", "gloss": "Brisbane (a city, the state capital of Queensland, Australia)"}], "translit": ["brisben"]}
+{"id": "hindi-cognates-bho:भँवर", "word": "भँवर", "senses": [{"pos": "noun", "gloss": "whirlpool, spinning of the waves"}, {"pos": "noun", "gloss": "black bee, carpenter bee, Xylocopa"}], "translit": ["bhãvar"]}
+{"id": "hindi-cognates-bho:भँवरा", "word": "भँवरा", "senses": [{"pos": "noun", "gloss": "a large black bee, bumblebee"}], "translit": ["bhãvrā"]}
+{"id": "hindi-cognates-bho:भंग", "word": "भंग", "senses": [{"pos": "adjective", "gloss": "broken, partitioned"}, {"pos": "adjective", "gloss": "interrupted"}, {"pos": "adjective", "gloss": "breached"}], "translit": ["bhaṅg"]}
+{"id": "hindi-cognates-bho:भंडा", "word": "भंडा", "senses": [{"pos": "noun", "gloss": "earthen pot"}, {"pos": "noun", "gloss": "a secret"}], "translit": ["bhaṇḍā"]}
+{"id": "hindi-cognates-bho:भंडाफोड़", "word": "भंडाफोड़", "senses": [{"pos": "noun", "gloss": "exposure, discovery of a secret"}], "translit": ["bhaṇḍāphoṛ"]}
+{"id": "hindi-cognates-bho:भंडार", "word": "भंडार", "senses": [{"pos": "noun", "gloss": "storehouse, warehouse, magazine"}, {"pos": "noun", "gloss": "fund, treasury; stock"}, {"pos": "noun", "gloss": "deposit, field (of oil)"}], "translit": ["bhaṇḍār"]}
+{"id": "hindi-cognates-bho:भंडारण", "word": "भंडारण", "senses": [{"pos": "noun", "gloss": "storage, warehousing"}, {"pos": "noun", "gloss": "accumulation, collection"}], "translit": ["bhaṇḍāraṇ"]}
+{"id": "hindi-cognates-bho:भंडारा", "word": "भंडारा", "senses": [{"pos": "noun", "gloss": "community feast (usually religious in nature)"}, {"pos": "noun", "gloss": "storehouse, granary, treasury"}], "translit": ["bhaṇḍārā"]}
+{"id": "hindi-cognates-bho:भई", "word": "भई", "senses": [{"pos": "noun", "gloss": "friend, pal"}], "translit": ["bhaī"]}
+{"id": "hindi-cognates-bho:भक्त", "word": "भक्त", "senses": [{"pos": "noun", "gloss": "devotee, adorer"}, {"pos": "noun", "gloss": "bhakt (ardent right-wing Hindu nationalist netizen)"}], "translit": ["bhakt"]}
+{"id": "hindi-cognates-bho:भक्तपुर", "word": "भक्तपुर", "senses": [{"pos": "propernoun", "gloss": "Bhaktapur (a city in Bagmati, Nepal)"}], "translit": ["bhaktapur"]}
+{"id": "hindi-cognates-bho:भक्ति", "word": "भक्ति", "senses": [{"pos": "noun", "gloss": "devotion, faith, reverence, devoutness, adoration"}, {"pos": "propernoun", "gloss": "a female given name, Bhakti, from Sanskrit"}], "translit": ["bhakti"]}
+{"id": "hindi-cognates-bho:भक्षक", "word": "भक्षक", "senses": [{"pos": "noun", "gloss": "eater, consumer, devourer"}], "translit": ["bhakṣak"]}
+{"id": "hindi-cognates-bho:भग", "word": "भग", "senses": [{"pos": "noun", "gloss": "vulva"}], "translit": ["bhag"]}
+{"id": "hindi-cognates-bho:भगदड़", "word": "भगदड़", "senses": [{"pos": "noun", "gloss": "stampede, pedestrian traffic"}, {"pos": "noun", "gloss": "panic, alarm"}], "translit": ["bhagdaṛ"]}
+{"id": "hindi-cognates-bho:भगवद्गीता", "word": "भगवद्गीता", "senses": [{"pos": "propernoun", "gloss": "Bhagavad Gita"}], "translit": ["bhagvadgītā"]}
+{"id": "hindi-cognates-bho:भगवा", "word": "भगवा", "senses": [{"pos": "noun", "gloss": "saffron, red-ochre colour, often associated with Hinduism"}, {"pos": "noun", "gloss": "a kind of saffron cloth"}, {"pos": "adjective", "gloss": "saffron-coloured"}], "translit": ["bhagvā"]}
+{"id": "hindi-cognates-bho:भगवान", "word": "भगवान", "senses": [{"pos": "propernoun", "gloss": "God, the Almighty"}, {"pos": "noun", "gloss": "a god; male deity, lord"}], "translit": ["bhagvān"]}
+{"id": "hindi-cognates-bho:भगोड़ा", "word": "भगोड़ा", "senses": [{"pos": "adjective", "gloss": "absconding"}, {"pos": "noun", "gloss": "fugitive, absconder, runaway"}], "translit": ["bhagoṛā"]}
+{"id": "hindi-cognates-bho:भजन", "word": "भजन", "senses": [{"pos": "noun", "gloss": "devotional song, hymn, bhajan"}, {"pos": "noun", "gloss": "servitude, devotion"}, {"pos": "noun", "gloss": "ardent support, fanhood"}], "translit": ["bhajan"]}
+{"id": "hindi-cognates-bho:भटनागर", "word": "भटनागर", "senses": [{"pos": "propernoun", "gloss": "a surname from Sanskrit, equivalent to English Bhatnagar"}], "translit": ["bhaṭnāgar"]}
+{"id": "hindi-cognates-bho:भट्टाचार्य", "word": "भट्टाचार्य", "senses": [{"pos": "propernoun", "gloss": "a surname, Bhattacharya, from Bengali"}], "translit": ["bhaṭṭācārya"]}
+{"id": "hindi-cognates-bho:भट्ठी", "word": "भट्ठी", "senses": [{"pos": "noun", "gloss": "oven, furnace, kiln"}, {"pos": "noun", "gloss": "forge"}], "translit": ["bhaṭṭhī"]}
+{"id": "hindi-cognates-bho:भड़काऊ", "word": "भड़काऊ", "senses": [{"pos": "adjective", "gloss": "provocative, incendiary"}], "translit": ["bhaṛkāū"]}
+{"id": "hindi-cognates-bho:भड़ास", "word": "भड़ास", "senses": [{"pos": "noun", "gloss": "pent-up emotions, anger, grief, spite, or a grudge"}], "translit": ["bhaṛās"]}
+{"id": "hindi-cognates-bho:भतार", "word": "भतार", "senses": [{"pos": "noun", "gloss": "husband"}], "translit": ["bhatār"]}
+{"id": "hindi-cognates-bho:भतीजा", "word": "भतीजा", "senses": [{"pos": "noun", "gloss": "brother's son, fraternal nephew"}], "translit": ["bhatījā"]}
+{"id": "hindi-cognates-bho:भतीजी", "word": "भतीजी", "senses": [{"pos": "noun", "gloss": "brother's daughter; fraternal niece"}], "translit": ["bhatījī"]}
+{"id": "hindi-cognates-bho:भत्ता", "word": "भत्ता", "senses": [{"pos": "noun", "gloss": "allowance, additional expense"}], "translit": ["bhattā"]}
+{"id": "hindi-cognates-bho:भदेस", "word": "भदेस", "senses": [{"pos": "adjective", "gloss": "rustic, rural"}], "translit": ["bhades"]}
+{"id": "hindi-cognates-bho:भदोही", "word": "भदोही", "senses": [{"pos": "propernoun", "gloss": "Bhadohi (a city and district of Mirzapur division, Uttar Pradesh, India)"}], "translit": ["bhadohī"]}
+{"id": "hindi-cognates-bho:भद्रा", "word": "भद्रा", "senses": [{"pos": "noun", "gloss": "gentle or noble woman"}, {"pos": "noun", "gloss": "good, fortune, auspicious"}, {"pos": "noun", "gloss": "cow"}], "translit": ["bhadrā"]}
+{"id": "hindi-cognates-bho:भनक", "word": "भनक", "senses": [{"pos": "noun", "gloss": "faint or distant sound; buzz, hum; ring"}, {"pos": "noun", "gloss": "rumor, hearsay, wind; inkling, clue, hint"}], "translit": ["bhanak"]}
+{"id": "hindi-cognates-bho:भय", "word": "भय", "senses": [{"pos": "noun", "gloss": "dread, fear"}], "translit": ["bhay"]}
+{"id": "hindi-cognates-bho:भयंकर", "word": "भयंकर", "senses": [{"pos": "adjective", "gloss": "terrible, horrible, scary"}], "translit": ["bhayaṅkar"]}
+{"id": "hindi-cognates-bho:भयभीत", "word": "भयभीत", "senses": [{"pos": "adjective", "gloss": "scared, afraid"}], "translit": ["bhaybhīt"]}
+{"id": "hindi-cognates-bho:भयानक", "word": "भयानक", "senses": [{"pos": "adjective", "gloss": "scary, horrible, terrifying"}], "translit": ["bhayānak"]}
+{"id": "hindi-cognates-bho:भयावह", "word": "भयावह", "senses": [{"pos": "adjective", "gloss": "appalling"}], "translit": ["bhayāvah"]}
+{"id": "hindi-cognates-bho:भर", "word": "भर", "senses": [{"pos": "adverb", "gloss": "all, every"}, {"pos": "adverb", "gloss": "whole, entire"}], "translit": ["bhar"]}
+{"id": "hindi-cognates-bho:भरण", "word": "भरण", "senses": [{"pos": "noun", "gloss": "the act of carrying, bearing, supporting, maintaining, sustaining, nourishing, filling, satisfying, paying"}], "translit": ["bharaṇ"]}
+{"id": "hindi-cognates-bho:भरत", "word": "भरत", "senses": [{"pos": "propernoun", "gloss": "Bharata, founder of the Bhārata dynasty"}, {"pos": "propernoun", "gloss": "Bharata, younger brother of Rama"}, {"pos": "propernoun", "gloss": "Bharata, muni of ancient India who authored Natya Shastra"}], "translit": ["bharat"]}
+{"id": "hindi-cognates-bho:भरतपुर", "word": "भरतपुर", "senses": [{"pos": "propernoun", "gloss": "Bharatpur (a city in Narayani, Nepal)"}], "translit": ["bharatpur"]}
+{"id": "hindi-cognates-bho:भरता", "word": "भरता", "senses": [{"pos": "noun", "gloss": "bharta"}, {"pos": "noun", "gloss": "mash, pulp, minced"}, {"pos": "noun", "gloss": "filler, filling"}], "translit": ["bhartā"]}
+{"id": "hindi-cognates-bho:भरनी", "word": "भरनी", "senses": [{"pos": "noun", "gloss": "payment"}], "translit": ["bharnī"]}
+{"id": "hindi-cognates-bho:भरपूर", "word": "भरपूर", "senses": [{"pos": "adjective", "gloss": "bountiful, abundant"}, {"pos": "adverb", "gloss": "extremely, very"}], "translit": ["bharpūr"]}
+{"id": "hindi-cognates-bho:भरम", "word": "भरम", "senses": [{"pos": "noun", "gloss": "synonym of भ्रम (bhram)"}, {"pos": "noun", "gloss": "credit, repute"}], "translit": ["bharam"]}
+{"id": "hindi-cognates-bho:भरमार", "word": "भरमार", "senses": [{"pos": "noun", "gloss": "abundance, plenty, surfeit, excess, lot; (countable) a large quantity or collection or group"}], "translit": ["bharmār"]}
+{"id": "hindi-cognates-bho:भराई", "word": "भराई", "senses": [{"pos": "noun", "gloss": "filling, stuffing, inlaying"}, {"pos": "noun", "gloss": "tuition, fees"}], "translit": ["bharāī"]}
+{"id": "hindi-cognates-bho:भरोसा", "word": "भरोसा", "senses": [{"pos": "noun", "gloss": "trust, faith, reliance, dependence"}], "translit": ["bharosā"]}
+{"id": "hindi-cognates-bho:भरोसेमंद", "word": "भरोसेमंद", "senses": [{"pos": "adjective", "gloss": "trustworthy, dependable"}], "translit": ["bharosemand"]}
+{"id": "hindi-cognates-bho:भर्ती", "word": "भर्ती", "senses": [{"pos": "noun", "gloss": "filling, stocking"}, {"pos": "noun", "gloss": "enlistment; enrolment, admittance"}], "translit": ["bhartī"]}
+{"id": "hindi-cognates-bho:भर्त्सना", "word": "भर्त्सना", "senses": [{"pos": "noun", "gloss": "condemnation, censure"}], "translit": ["bhartsanā"]}
+{"id": "hindi-cognates-bho:भला", "word": "भला", "senses": [{"pos": "adjective", "gloss": "good"}, {"pos": "adjective", "gloss": "righteous"}, {"pos": "adjective", "gloss": "honest, respectable"}], "translit": ["bhalā"]}
+{"id": "hindi-cognates-bho:भलाई", "word": "भलाई", "senses": [{"pos": "noun", "gloss": "goodness"}, {"pos": "noun", "gloss": "welfare"}], "translit": ["bhalāī"]}
+{"id": "hindi-cognates-bho:भले", "word": "भले", "senses": [{"pos": "adverb", "gloss": "it may be that"}], "translit": ["bhale"]}
+{"id": "hindi-cognates-bho:भव", "word": "भव", "senses": [{"pos": "noun", "gloss": "world, existence, samsara"}, {"pos": "noun", "gloss": "birth, origin, coming into being"}, {"pos": "noun", "gloss": "cloud"}], "translit": ["bhav"]}
+{"id": "hindi-cognates-bho:भवन", "word": "भवन", "senses": [{"pos": "noun", "gloss": "building, edifice, structure"}, {"pos": "noun", "gloss": "mansion, palace"}, {"pos": "noun", "gloss": "house"}], "translit": ["bhavan"]}
+{"id": "hindi-cognates-bho:भवानी", "word": "भवानी", "senses": [{"pos": "propernoun", "gloss": "Bhavani, an epithet of the goddess Durga/Parvati"}, {"pos": "propernoun", "gloss": "a female given name, Bhavani, from Sanskrit"}], "translit": ["bhavānī"]}
+{"id": "hindi-cognates-bho:भविष्य", "word": "भविष्य", "senses": [{"pos": "noun", "gloss": "the future (that which is yet to happen)"}, {"pos": "noun", "gloss": "future tense"}, {"pos": "adjective", "gloss": "future"}], "translit": ["bhaviṣya"]}
+{"id": "hindi-cognates-bho:भविष्यवाणी", "word": "भविष्यवाणी", "senses": [{"pos": "noun", "gloss": "prediction, prophecy"}], "translit": ["bhaviṣyavāṇī"]}
+{"id": "hindi-cognates-bho:भस्म", "word": "भस्म", "senses": [{"pos": "noun", "gloss": "ash, charred residue"}], "translit": ["bhasma"]}
+{"id": "hindi-cognates-bho:भाँग", "word": "भाँग", "senses": [{"pos": "noun", "gloss": "cannabis, hemp (Cannabis sativa)"}, {"pos": "noun", "gloss": "bhang"}], "translit": ["bhāṅg"]}
+{"id": "hindi-cognates-bho:भाँड़", "word": "भाँड़", "senses": [{"pos": "noun", "gloss": "earthen pot"}], "translit": ["bhā̃ṛ"]}
+{"id": "hindi-cognates-bho:भाँति", "word": "भाँति", "senses": [{"pos": "noun", "gloss": "type, kind"}, {"pos": "noun", "gloss": "way, mode, manner"}], "translit": ["bhā̃ti"]}
+{"id": "hindi-cognates-bho:भांजा", "word": "भांजा", "senses": [{"pos": "noun", "gloss": "sister's son; sororal nephew"}], "translit": ["bhāñjā"]}
+{"id": "hindi-cognates-bho:भाई", "word": "भाई", "senses": [{"pos": "noun", "gloss": "brother"}, {"pos": "noun", "gloss": "used to refer to any male person"}, {"pos": "noun", "gloss": "dude, friend, bro"}], "translit": ["bhāī"]}
+{"id": "hindi-cognates-bho:भाईचारा", "word": "भाईचारा", "senses": [{"pos": "noun", "gloss": "brotherhood, amity; the bond between brothers"}], "translit": ["bhāīcārā"]}
+{"id": "hindi-cognates-bho:भाखा", "word": "भाखा", "senses": [{"pos": "noun", "gloss": "language, speech"}], "translit": ["bhākhā"]}
+{"id": "hindi-cognates-bho:भाग", "word": "भाग", "senses": [{"pos": "noun", "gloss": "piece, part, share"}, {"pos": "noun", "gloss": "luck, good fortune"}, {"pos": "noun", "gloss": "division"}], "translit": ["bhāg"]}
+{"id": "hindi-cognates-bho:भागवत", "word": "भागवत", "senses": [{"pos": "adjective", "gloss": "related to viṣṇu or bhagvat"}, {"pos": "noun", "gloss": "a devotee of viṣṇu or bhagvat"}, {"pos": "propernoun", "gloss": "Bhagavata Purana"}], "translit": ["bhāgvat"]}
+{"id": "hindi-cognates-bho:भागी", "word": "भागी", "senses": [{"pos": "adjective", "gloss": "sharing in; participating in"}, {"pos": "adjective", "gloss": "involved in; party to (an act, event, or responsibility)"}, {"pos": "noun", "gloss": "participant, one who has a part or share"}], "translit": ["bhāgī"]}
+{"id": "hindi-cognates-bho:भागीदार", "word": "भागीदार", "senses": [{"pos": "noun", "gloss": "contributor"}, {"pos": "noun", "gloss": "partner, sharer"}], "translit": ["bhāgīdār"]}
+{"id": "hindi-cognates-bho:भागीरथी", "word": "भागीरथी", "senses": [{"pos": "propernoun", "gloss": "Bhagirathi River"}, {"pos": "propernoun", "gloss": "an epithet of river Ganga"}, {"pos": "propernoun", "gloss": "a female given name, Bhagirathi, from Sanskrit"}], "translit": ["bhāgīrthī"]}
+{"id": "hindi-cognates-bho:भाग्य", "word": "भाग्य", "senses": [{"pos": "noun", "gloss": "fortune"}, {"pos": "noun", "gloss": "luck"}, {"pos": "noun", "gloss": "chance"}], "translit": ["bhāgya"]}
+{"id": "hindi-cognates-bho:भाग्यशाली", "word": "भाग्यशाली", "senses": [{"pos": "adjective", "gloss": "lucky, fortunate"}], "translit": ["bhāgyaśālī"]}
+{"id": "hindi-cognates-bho:भाजपाई", "word": "भाजपाई", "senses": [{"pos": "noun", "gloss": "member or supporter of the Bharatiya Janata Party"}], "translit": ["bhājpāī"]}
+{"id": "hindi-cognates-bho:भाजी", "word": "भाजी", "senses": [{"pos": "noun", "gloss": "vegetables, greens (especially fried)"}, {"pos": "noun", "gloss": "bhaji"}], "translit": ["bhājī"]}
+{"id": "hindi-cognates-bho:भाटा", "word": "भाटा", "senses": [{"pos": "noun", "gloss": "outward flow, ebb tide"}, {"pos": "noun", "gloss": "low tide"}], "translit": ["bhāṭā"]}
+{"id": "hindi-cognates-bho:भाटिया", "word": "भाटिया", "senses": [{"pos": "noun", "gloss": "a subcaste in Gujarat"}], "translit": ["bhāṭiyā"]}
+{"id": "hindi-cognates-bho:भाड़", "word": "भाड़", "senses": [{"pos": "noun", "gloss": "oven (for parching grain)"}, {"pos": "noun", "gloss": "wages from prostitution"}], "translit": ["bhāṛ"]}
+{"id": "hindi-cognates-bho:भाड़ा", "word": "भाड़ा", "senses": [{"pos": "noun", "gloss": "fare"}, {"pos": "noun", "gloss": "rent, rental fee"}], "translit": ["bhāṛā"]}
+{"id": "hindi-cognates-bho:भात", "word": "भात", "senses": [{"pos": "noun", "gloss": "boiled rice"}], "translit": ["bhāt"]}
+{"id": "hindi-cognates-bho:भादों", "word": "भादों", "senses": [{"pos": "noun", "gloss": "Bhadrapada, the sixth month of the Hindi lunar calendar"}], "translit": ["bhādõ"]}
+{"id": "hindi-cognates-bho:भाप", "word": "भाप", "senses": [{"pos": "noun", "gloss": "steam, water vapour"}, {"pos": "noun", "gloss": "vapour, gas"}], "translit": ["bhāp"]}
+{"id": "hindi-cognates-bho:भाभी", "word": "भाभी", "senses": [{"pos": "noun", "gloss": "elder brother's wife"}, {"pos": "noun", "gloss": "term of address for any woman of one's age; sister"}], "translit": ["bhābhī"]}
+{"id": "hindi-cognates-bho:भार", "word": "भार", "senses": [{"pos": "noun", "gloss": "burden, load, weight"}, {"pos": "noun", "gloss": "weight, heft"}], "translit": ["bhār"]}
+{"id": "hindi-cognates-bho:भारत", "word": "भारत", "senses": [{"pos": "propernoun", "gloss": "India (a region of South Asia, traditionally delimited by the Himalayas and the Indus river; the Indian subcontinent)"}], "translit": ["bhārat"]}
+{"id": "hindi-cognates-bho:भारतवर्ष", "word": "भारतवर्ष", "senses": [{"pos": "propernoun", "gloss": "(chiefly historical, proscribed in modern use) the Indian subcontinent, India (a region of South Asia, traditionally del"}], "translit": ["bhāratvarṣ"]}
+{"id": "hindi-cognates-bho:भारतवासी", "word": "भारतवासी", "senses": [{"pos": "noun", "gloss": "a resident or citizen of India"}, {"pos": "noun", "gloss": "a native of India, an Indian"}], "translit": ["bhāratvāsī"]}
+{"id": "hindi-cognates-bho:भारतीय", "word": "भारतीय", "senses": [{"pos": "adjective", "gloss": "Indian"}, {"pos": "noun", "gloss": "a person from India"}], "translit": ["bhārtīya"]}
+{"id": "hindi-cognates-bho:भारतेंदु", "word": "भारतेंदु", "senses": [{"pos": "propernoun", "gloss": "a male given name from Sanskrit"}], "translit": ["bhāratendu"]}
+{"id": "hindi-cognates-bho:भारा", "word": "भारा", "senses": [{"pos": "adjective", "gloss": "heavy"}], "translit": ["bhārā"]}
+{"id": "hindi-cognates-bho:भारी", "word": "भारी", "senses": [{"pos": "adjective", "gloss": "heavy"}], "translit": ["bhārī"]}
+{"id": "hindi-cognates-bho:भाला", "word": "भाला", "senses": [{"pos": "noun", "gloss": "a spear, lance"}, {"pos": "noun", "gloss": "a heavy wooden rake"}], "translit": ["bhālā"]}
+{"id": "hindi-cognates-bho:भालू", "word": "भालू", "senses": [{"pos": "noun", "gloss": "bear"}], "translit": ["bhālū"]}
+{"id": "hindi-cognates-bho:भाव", "word": "भाव", "senses": [{"pos": "noun", "gloss": "rate, price"}, {"pos": "noun", "gloss": "existence, being"}, {"pos": "noun", "gloss": "emotion, feeling"}], "translit": ["bhāv"]}
+{"id": "hindi-cognates-bho:भावना", "word": "भावना", "senses": [{"pos": "noun", "gloss": "feeling, sense"}, {"pos": "noun", "gloss": "emotion, sentiment"}, {"pos": "propernoun", "gloss": "a female given name, Bhavana or Bhavna, from Sanskrit"}], "translit": ["bhāvnā"]}
+{"id": "hindi-cognates-bho:भावनात्मक", "word": "भावनात्मक", "senses": [{"pos": "adjective", "gloss": "emotional; sentimental"}, {"pos": "adjective", "gloss": "emotive"}], "translit": ["bhāvnātmak"]}
+{"id": "hindi-cognates-bho:भावी", "word": "भावी", "senses": [{"pos": "adjective", "gloss": "That which has yet to happen"}, {"pos": "adjective", "gloss": "predestined"}], "translit": ["bhāvī"]}
+{"id": "hindi-cognates-bho:भावुक", "word": "भावुक", "senses": [{"pos": "adjective", "gloss": "sympathetic, sensitive"}, {"pos": "adjective", "gloss": "emotional, sentimental"}, {"pos": "adjective", "gloss": "thoughtful"}], "translit": ["bhāvuk"]}
+{"id": "hindi-cognates-bho:भावुकता", "word": "भावुकता", "senses": [{"pos": "noun", "gloss": "sentimentality"}], "translit": ["bhāvuktā"]}
+{"id": "hindi-cognates-bho:भाषण", "word": "भाषण", "senses": [{"pos": "noun", "gloss": "speaking, saying (act)"}, {"pos": "noun", "gloss": "a speech, address"}, {"pos": "noun", "gloss": "something said"}], "translit": ["bhāṣaṇ"]}
+{"id": "hindi-cognates-bho:भाषा", "word": "भाषा", "senses": [{"pos": "noun", "gloss": "language, speech"}], "translit": ["bhāṣā"]}
+{"id": "hindi-cognates-bho:भाषाविज्ञान", "word": "भाषाविज्ञान", "senses": [{"pos": "noun", "gloss": "linguistics"}], "translit": ["bhāṣāvijñān"]}
+{"id": "hindi-cognates-bho:भाषाविद", "word": "भाषाविद", "senses": [{"pos": "noun", "gloss": "linguist"}], "translit": ["bhāṣāvid"]}
+{"id": "hindi-cognates-bho:भाषाविद्", "word": "भाषाविद्", "senses": [{"pos": "noun", "gloss": "polyglot (one who knows several languages)"}, {"pos": "noun", "gloss": "linguist"}], "translit": ["bhāṣāvid"]}
+{"id": "hindi-cognates-bho:भाषिक", "word": "भाषिक", "senses": [{"pos": "adjective", "gloss": "lingual; pertaining to languages"}], "translit": ["bhāṣik"]}
+{"id": "hindi-cognates-bho:भाष्य", "word": "भाष्य", "senses": [{"pos": "noun", "gloss": "exposition, commentary"}, {"pos": "noun", "gloss": "explanation"}], "translit": ["bhāṣya"]}
+{"id": "hindi-cognates-bho:भास्कर", "word": "भास्कर", "senses": [{"pos": "noun", "gloss": "Sun"}, {"pos": "propernoun", "gloss": "a male given name, Bhaskar, from Sanskrit"}], "translit": ["bhāskar"]}
+{"id": "hindi-cognates-bho:भिक्षु", "word": "भिक्षु", "senses": [{"pos": "noun", "gloss": "beggar; a holy man living by begging alms"}], "translit": ["bhikṣu"]}
+{"id": "hindi-cognates-bho:भिखारी", "word": "भिखारी", "senses": [{"pos": "noun", "gloss": "beggar"}], "translit": ["bhikhārī"]}
+{"id": "hindi-cognates-bho:भिड़", "word": "भिड़", "senses": [{"pos": "noun", "gloss": "wasp, hornet"}], "translit": ["bhiṛ"]}
+{"id": "hindi-cognates-bho:भिड़ंत", "word": "भिड़ंत", "senses": [{"pos": "noun", "gloss": "clash, collision, encounter, skirmish"}], "translit": ["bhiṛant"]}
+{"id": "hindi-cognates-bho:भिन्न", "word": "भिन्न", "senses": [{"pos": "adjective", "gloss": "separate (divided, not together)"}, {"pos": "adjective", "gloss": "different (not the same; unlike)"}, {"pos": "adjective", "gloss": "split (physically separated)"}], "translit": ["bhinn"]}
+{"id": "hindi-cognates-bho:भिन्नता", "word": "भिन्नता", "senses": [{"pos": "noun", "gloss": "separation"}, {"pos": "noun", "gloss": "difference, distinction"}], "translit": ["bhinntā"]}
+{"id": "hindi-cognates-bho:भी", "word": "भी", "senses": [{"pos": "particle", "gloss": "even"}, {"pos": "adverb", "gloss": "also, too"}], "translit": ["bhī"]}
+{"id": "hindi-cognates-bho:भीख", "word": "भीख", "senses": [{"pos": "noun", "gloss": "begging, alms"}], "translit": ["bhīkh"]}
+{"id": "hindi-cognates-bho:भीड़", "word": "भीड़", "senses": [{"pos": "noun", "gloss": "crowd"}, {"pos": "noun", "gloss": "rush, traffic, crowding"}], "translit": ["bhīṛ"]}
+{"id": "hindi-cognates-bho:भीड़भाड़", "word": "भीड़भाड़", "senses": [{"pos": "noun", "gloss": "hustle and bustle"}], "translit": ["bhīṛbhāṛ"]}
+{"id": "hindi-cognates-bho:भीत", "word": "भीत", "senses": [{"pos": "noun", "gloss": "wall, partition"}, {"pos": "adjective", "gloss": "frightened, afraid"}], "translit": ["bhīt"]}
+{"id": "hindi-cognates-bho:भीतर", "word": "भीतर", "senses": [{"pos": "adverb", "gloss": "inside"}, {"pos": "adverb", "gloss": "included, part of"}, {"pos": "noun", "gloss": "inside, inner part"}], "translit": ["bhītar"]}
+{"id": "hindi-cognates-bho:भीतरी", "word": "भीतरी", "senses": [{"pos": "adjective", "gloss": "inner"}], "translit": ["bhītrī"]}
+{"id": "hindi-cognates-bho:भीम", "word": "भीम", "senses": [{"pos": "adjective", "gloss": "terrible, formidable, fearful"}, {"pos": "propernoun", "gloss": "Bhima, one of the Pandavas"}, {"pos": "propernoun", "gloss": "a male given name, Bhim or Bheem, from Sanskrit"}], "translit": ["bhīm"]}
+{"id": "hindi-cognates-bho:भीषण", "word": "भीषण", "senses": [{"pos": "adjective", "gloss": "terrifying, frightening, fearsome"}], "translit": ["bhīṣaṇ"]}
+{"id": "hindi-cognates-bho:भीष्म", "word": "भीष्म", "senses": [{"pos": "adjective", "gloss": "terrible, formidable, horrible, dreadful, frightening, awe-inspiring"}, {"pos": "propernoun", "gloss": "Bhishma; son of Shantanu and Ganga, servicing the throne of Hastinapura and the supreme commander of the Kuru army in Ma"}, {"pos": "propernoun", "gloss": "a male given name, Bhishma, from Sanskrit"}], "translit": ["bhīṣma"]}
+{"id": "hindi-cognates-bho:भुगतान", "word": "भुगतान", "senses": [{"pos": "noun", "gloss": "payment, paying in full"}], "translit": ["bhugtān"]}
+{"id": "hindi-cognates-bho:भुज", "word": "भुज", "senses": [{"pos": "propernoun", "gloss": "Bhuj (a city in Gujarat, India)"}], "translit": ["bhuj"]}
+{"id": "hindi-cognates-bho:भुजा", "word": "भुजा", "senses": [{"pos": "noun", "gloss": "the arm, hand"}, {"pos": "noun", "gloss": "side of a polygon"}], "translit": ["bhujā"]}
+{"id": "hindi-cognates-bho:भुजिया", "word": "भुजिया", "senses": [{"pos": "noun", "gloss": "bhujia"}], "translit": ["bhujiyā"]}
+{"id": "hindi-cognates-bho:भुतहा", "word": "भुतहा", "senses": [{"pos": "adjective", "gloss": "inhabited or possessed by spirit(s); pertaining to the frightening supernatural"}, {"pos": "adjective", "gloss": "fiendish, fierce; peevish"}], "translit": ["bhuthā"]}
+{"id": "hindi-cognates-bho:भुवन", "word": "भुवन", "senses": [{"pos": "noun", "gloss": "existence; the world"}], "translit": ["bhuvan"]}
+{"id": "hindi-cognates-bho:भुवनेश्वर", "word": "भुवनेश्वर", "senses": [{"pos": "propernoun", "gloss": "Bhubaneswar (a city, the capital of Odisha, India)"}], "translit": ["bhuvneśvar", "bhuvneśwar", "bhuwneśvar", "bhuwneśwar"]}
+{"id": "hindi-cognates-bho:भू", "word": "भू", "senses": [{"pos": "noun", "gloss": "the Earth"}, {"pos": "noun", "gloss": "land, earth"}], "translit": ["bhū"]}
+{"id": "hindi-cognates-bho:भूकंप", "word": "भूकंप", "senses": [{"pos": "noun", "gloss": "earthquake"}], "translit": ["bhūkamp"]}
+{"id": "hindi-cognates-bho:भूख", "word": "भूख", "senses": [{"pos": "noun", "gloss": "appetite, hunger"}, {"pos": "noun", "gloss": "craving (for food)"}], "translit": ["bhūkh"]}
+{"id": "hindi-cognates-bho:भूखंड", "word": "भूखंड", "senses": [{"pos": "noun", "gloss": "plot, tract, parcel of land"}], "translit": ["bhūkhaṇḍ"]}
+{"id": "hindi-cognates-bho:भूखमरी", "word": "भूखमरी", "senses": [{"pos": "noun", "gloss": "starvation, hunger"}, {"pos": "noun", "gloss": "poverty"}], "translit": ["bhūkhmarī"]}
+{"id": "hindi-cognates-bho:भूखा", "word": "भूखा", "senses": [{"pos": "adjective", "gloss": "hungry, starving"}, {"pos": "adjective", "gloss": "desirous"}, {"pos": "noun", "gloss": "one who is hungry"}], "translit": ["bhūkhā"]}
+{"id": "hindi-cognates-bho:भूगोल", "word": "भूगोल", "senses": [{"pos": "noun", "gloss": "geography"}, {"pos": "noun", "gloss": "the globe, the earth"}], "translit": ["bhūgol"]}
+{"id": "hindi-cognates-bho:भूचाल", "word": "भूचाल", "senses": [{"pos": "noun", "gloss": "earthquake, shaking of the earth (also used figuratively)"}], "translit": ["bhūcāl"]}
+{"id": "hindi-cognates-bho:भूजल", "word": "भूजल", "senses": [{"pos": "noun", "gloss": "groundwater"}], "translit": ["bhūjal"]}
+{"id": "hindi-cognates-bho:भूटान", "word": "भूटान", "senses": [{"pos": "propernoun", "gloss": "Bhutan (a country in South Asia, in the Himalayas)"}], "translit": ["bhūṭān"]}
+{"id": "hindi-cognates-bho:भूत", "word": "भूत", "senses": [{"pos": "noun", "gloss": "ghost, spirit"}, {"pos": "noun", "gloss": "an ugly man"}], "translit": ["bhūt"]}
+{"id": "hindi-cognates-bho:भूतकाल", "word": "भूतकाल", "senses": [{"pos": "noun", "gloss": "the past"}, {"pos": "noun", "gloss": "past tense"}], "translit": ["bhūtkāl"]}
+{"id": "hindi-cognates-bho:भूतनी", "word": "भूतनी", "senses": [{"pos": "noun", "gloss": "female ghost"}], "translit": ["bhūtnī"]}
+{"id": "hindi-cognates-bho:भूधर", "word": "भूधर", "senses": [{"pos": "noun", "gloss": "mountain, hill"}], "translit": ["bhūdhar"]}
+{"id": "hindi-cognates-bho:भूप", "word": "भूप", "senses": [{"pos": "noun", "gloss": "a king"}], "translit": ["bhūp"]}
+{"id": "hindi-cognates-bho:भूपति", "word": "भूपति", "senses": [{"pos": "noun", "gloss": "king, monarch, sovereign"}, {"pos": "noun", "gloss": "landlord, landowner"}, {"pos": "propernoun", "gloss": "a male given name, Bhupati, from Sanskrit"}], "translit": ["bhūpti"]}
+{"id": "hindi-cognates-bho:भूपेंद्र", "word": "भूपेंद्र", "senses": [{"pos": "noun", "gloss": "emperor, ruler"}, {"pos": "propernoun", "gloss": "a male given name, Bhupendra, from Sanskrit"}], "translit": ["bhūpendra"]}
+{"id": "hindi-cognates-bho:भूभाग", "word": "भूभाग", "senses": [{"pos": "noun", "gloss": "a portion or land"}], "translit": ["bhūbhāg"]}
+{"id": "hindi-cognates-bho:भूमंडलीकरण", "word": "भूमंडलीकरण", "senses": [{"pos": "noun", "gloss": "globalisation"}], "translit": ["bhūmaṇḍalīkaraṇ"]}
+{"id": "hindi-cognates-bho:भूमध्य", "word": "भूमध्य", "senses": [{"pos": "noun", "gloss": "the middle of the Earth, the Mediterranean"}], "translit": ["bhūmadhya"]}
+{"id": "hindi-cognates-bho:भूमि", "word": "भूमि", "senses": [{"pos": "noun", "gloss": "earth, soil, ground"}, {"pos": "noun", "gloss": "region"}, {"pos": "noun", "gloss": "nation, country"}], "translit": ["bhūmi"]}
+{"id": "hindi-cognates-bho:भूमिका", "word": "भूमिका", "senses": [{"pos": "noun", "gloss": "role, character"}, {"pos": "noun", "gloss": "groundwork, foundation, introduction"}, {"pos": "propernoun", "gloss": "a female given name, Bhumika or Bhoomika, from Sanskrit"}], "translit": ["bhūmikā"]}
+{"id": "hindi-cognates-bho:भूमिगत", "word": "भूमिगत", "senses": [{"pos": "adjective", "gloss": "underground, subterranean"}, {"pos": "adjective", "gloss": "fallen to the earth"}, {"pos": "noun", "gloss": "underground"}], "translit": ["bhūmigat"]}
+{"id": "hindi-cognates-bho:भूरा", "word": "भूरा", "senses": [{"pos": "noun", "gloss": "brown"}], "translit": ["bhūrā"]}
+{"id": "hindi-cognates-bho:भूल", "word": "भूल", "senses": [{"pos": "noun", "gloss": "mistake, error, blunder, oversight"}], "translit": ["bhūl"]}
+{"id": "hindi-cognates-bho:भूसा", "word": "भूसा", "senses": [{"pos": "noun", "gloss": "chaff, fodder"}, {"pos": "noun", "gloss": "sawdust"}], "translit": ["bhūsā"]}
+{"id": "hindi-cognates-bho:भूस्खलन", "word": "भूस्खलन", "senses": [{"pos": "noun", "gloss": "landslide"}], "translit": ["bhūskhalan"]}
+{"id": "hindi-cognates-bho:भेंट", "word": "भेंट", "senses": [{"pos": "noun", "gloss": "meeting"}, {"pos": "noun", "gloss": "present, gift"}, {"pos": "noun", "gloss": "offering"}], "translit": ["bhẽṭ"]}
+{"id": "hindi-cognates-bho:भेजा", "word": "भेजा", "senses": [{"pos": "noun", "gloss": "brain"}, {"pos": "noun", "gloss": "brain, mind; thought process"}], "translit": ["bhejā"]}
+{"id": "hindi-cognates-bho:भेड़", "word": "भेड़", "senses": [{"pos": "noun", "gloss": "sheep"}, {"pos": "noun", "gloss": "ewe"}], "translit": ["bheṛ"]}
+{"id": "hindi-cognates-bho:भेड़ा", "word": "भेड़ा", "senses": [{"pos": "noun", "gloss": "ram"}], "translit": ["bheṛā"]}
+{"id": "hindi-cognates-bho:भेड़िया", "word": "भेड़िया", "senses": [{"pos": "noun", "gloss": "wolf"}], "translit": ["bheṛiyā"]}
+{"id": "hindi-cognates-bho:भेद", "word": "भेद", "senses": [{"pos": "noun", "gloss": "differentiation, difference"}, {"pos": "noun", "gloss": "discrimination"}, {"pos": "noun", "gloss": "a secret, mystery"}], "translit": ["bhed"]}
+{"id": "hindi-cognates-bho:भेदभाव", "word": "भेदभाव", "senses": [{"pos": "noun", "gloss": "discrimination; inequality"}], "translit": ["bhedbhāv"]}
+{"id": "hindi-cognates-bho:भेदिया", "word": "भेदिया", "senses": [{"pos": "noun", "gloss": "a scout, spy, informer, confidant"}], "translit": ["bhediyā"]}
+{"id": "hindi-cognates-bho:भेल", "word": "भेल", "senses": [{"pos": "noun", "gloss": "a mixture, something mixed in a mixture"}], "translit": ["bhel"]}
+{"id": "hindi-cognates-bho:भेस", "word": "भेस", "senses": [{"pos": "noun", "gloss": "appearance"}, {"pos": "noun", "gloss": "likeness, resemblance"}, {"pos": "noun", "gloss": "air, manner, dress"}], "translit": ["bhes"]}
+{"id": "hindi-cognates-bho:भैंस", "word": "भैंस", "senses": [{"pos": "noun", "gloss": "buffalo"}, {"pos": "noun", "gloss": "water buffalo (Bubalus bubalis)"}, {"pos": "noun", "gloss": "laptop computer"}], "translit": ["bhains"]}
+{"id": "hindi-cognates-bho:भैंसा", "word": "भैंसा", "senses": [{"pos": "noun", "gloss": "male buffalo"}, {"pos": "noun", "gloss": "male water buffalo"}], "translit": ["bhainsā"]}
+{"id": "hindi-cognates-bho:भैया", "word": "भैया", "senses": [{"pos": "noun", "gloss": "older brother"}, {"pos": "noun", "gloss": "term of address for any male older than oneself"}], "translit": ["bhaiyā"]}
+{"id": "hindi-cognates-bho:भैरव", "word": "भैरव", "senses": [{"pos": "adjective", "gloss": "fearsome, terrible"}, {"pos": "noun", "gloss": "fearsomeness"}, {"pos": "noun", "gloss": "a manifestation of Shiva"}], "translit": ["bhairav"]}
+{"id": "hindi-cognates-bho:भोग", "word": "भोग", "senses": [{"pos": "noun", "gloss": "enjoyment, pleasure in food, eating"}, {"pos": "noun", "gloss": "use, benefit (of funds, property)"}, {"pos": "noun", "gloss": "experiencing (an emotion), pleasure, gratification, suffering"}], "translit": ["bhog"]}
+{"id": "hindi-cognates-bho:भोगी", "word": "भोगी", "senses": [{"pos": "adjective", "gloss": "sensual, luxurious, voluptuous"}, {"pos": "adjective", "gloss": "experiencing, enjoying"}, {"pos": "noun", "gloss": "enjoyer, indulger, sufferer"}], "translit": ["bhogī"]}

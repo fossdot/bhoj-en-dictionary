@@ -1,0 +1,350 @@
+{"id": "hindi-cognates-bho:भोज", "word": "भोज", "senses": [{"pos": "noun", "gloss": "a meal; feast"}], "translit": ["bhoj"]}
+{"id": "hindi-cognates-bho:भोजन", "word": "भोजन", "senses": [{"pos": "noun", "gloss": "food"}], "translit": ["bhojan"]}
+{"id": "hindi-cognates-bho:भोजपुरी", "word": "भोजपुरी", "senses": [{"pos": "noun", "gloss": "an inhabitant of Bhojpur"}, {"pos": "adjective", "gloss": "Bhojpur or its language"}, {"pos": "propernoun", "gloss": "Bhojpuri (language)"}], "translit": ["bhojpurī"]}
+{"id": "hindi-cognates-bho:भोपाल", "word": "भोपाल", "senses": [{"pos": "propernoun", "gloss": "Bhopal (a district of Madhya Pradesh, India, containing the city of the same name)"}], "translit": ["bhopāl"]}
+{"id": "hindi-cognates-bho:भोर", "word": "भोर", "senses": [{"pos": "noun", "gloss": "dawn, sunrise, morning"}], "translit": ["bhor"]}
+{"id": "hindi-cognates-bho:भोरहरिया", "word": "भोरहरिया", "senses": [{"pos": "noun", "gloss": "zephyr of dawn; breeze"}], "translit": ["bhorahriyā"]}
+{"id": "hindi-cognates-bho:भोला", "word": "भोला", "senses": [{"pos": "adjective", "gloss": "innocent, simple"}], "translit": ["bholā"]}
+{"id": "hindi-cognates-bho:भोलानाथ", "word": "भोलानाथ", "senses": [{"pos": "propernoun", "gloss": "an epithet of Shiva"}], "translit": ["bholānāth"]}
+{"id": "hindi-cognates-bho:भौंरा", "word": "भौंरा", "senses": [{"pos": "noun", "gloss": "large black bee; bumblebee"}, {"pos": "noun", "gloss": "whirlpool"}, {"pos": "noun", "gloss": "spinning top"}], "translit": ["bha͠urā"]}
+{"id": "hindi-cognates-bho:भौकाल", "word": "भौकाल", "senses": [{"pos": "noun", "gloss": "pride, honour, reputation"}], "translit": ["bhaukāl"]}
+{"id": "hindi-cognates-bho:भौगोलिक", "word": "भौगोलिक", "senses": [{"pos": "adjective", "gloss": "geographical"}], "translit": ["bhaugolik"]}
+{"id": "hindi-cognates-bho:भौजाई", "word": "भौजाई", "senses": [{"pos": "noun", "gloss": "sister-in-law"}], "translit": ["bhaujāī"]}
+{"id": "hindi-cognates-bho:भौतिक", "word": "भौतिक", "senses": [{"pos": "adjective", "gloss": "physical, material"}], "translit": ["bhautik"]}
+{"id": "hindi-cognates-bho:भौतिकी", "word": "भौतिकी", "senses": [{"pos": "noun", "gloss": "physics"}], "translit": ["bhautikī"]}
+{"id": "hindi-cognates-bho:भ्रम", "word": "भ्रम", "senses": [{"pos": "noun", "gloss": "misconception, mistaken view"}], "translit": ["bhram"]}
+{"id": "hindi-cognates-bho:भ्रमण", "word": "भ्रमण", "senses": [{"pos": "noun", "gloss": "tour, sightseeing"}, {"pos": "noun", "gloss": "trip, journey"}], "translit": ["bhramaṇ"]}
+{"id": "hindi-cognates-bho:भ्रमर", "word": "भ्रमर", "senses": [{"pos": "noun", "gloss": "a large black bee, the bumblebee"}, {"pos": "noun", "gloss": "lover, gallant, libertine"}, {"pos": "noun", "gloss": "giddiness, vertigo"}], "translit": ["bhramar"]}
+{"id": "hindi-cognates-bho:भ्रष्ट", "word": "भ्रष्ट", "senses": [{"pos": "adjective", "gloss": "corrupt, unprincipled"}, {"pos": "adjective", "gloss": "polluted, vile"}, {"pos": "adjective", "gloss": "destroyed"}], "translit": ["bhraṣṭ"]}
+{"id": "hindi-cognates-bho:भ्रष्टाचार", "word": "भ्रष्टाचार", "senses": [{"pos": "noun", "gloss": "corruption (especially of a government)"}], "translit": ["bhraṣṭācār"]}
+{"id": "hindi-cognates-bho:भ्रष्टाचारी", "word": "भ्रष्टाचारी", "senses": [{"pos": "adjective", "gloss": "corrupt"}, {"pos": "noun", "gloss": "corrupt person"}], "translit": ["bhraṣṭācārī"]}
+{"id": "hindi-cognates-bho:भ्रामक", "word": "भ्रामक", "senses": [{"pos": "adjective", "gloss": "misleading, deceptive, confusing, delusive"}], "translit": ["bhrāmak"]}
+{"id": "hindi-cognates-bho:भ्रूण", "word": "भ्रूण", "senses": [{"pos": "noun", "gloss": "fetus, embryo"}, {"pos": "noun", "gloss": "beginning, conception"}], "translit": ["bhrūṇ"]}
+{"id": "hindi-cognates-bho:मँगनी", "word": "मँगनी", "senses": [{"pos": "noun", "gloss": "the act of asking; something asked"}, {"pos": "noun", "gloss": "engagement, betrothal"}], "translit": ["maṅgnī"]}
+{"id": "hindi-cognates-bho:मंगल", "word": "मंगल", "senses": [{"pos": "adjective", "gloss": "lucky, auspicious, favourable"}, {"pos": "noun", "gloss": "marriage, wedding"}, {"pos": "propernoun", "gloss": "Mangala, the god of Mars and of war, associated with strength, courage, and auspiciousness"}], "translit": ["maṅgal"]}
+{"id": "hindi-cognates-bho:मंगलमय", "word": "मंगलमय", "senses": [{"pos": "adjective", "gloss": "auspicious, propitious"}, {"pos": "adjective", "gloss": "blissful, benign"}], "translit": ["maṅgalmay"]}
+{"id": "hindi-cognates-bho:मंगलवार", "word": "मंगलवार", "senses": [{"pos": "noun", "gloss": "Tuesday"}], "translit": ["maṅgalvār"]}
+{"id": "hindi-cognates-bho:मंगेशकर", "word": "मंगेशकर", "senses": [{"pos": "propernoun", "gloss": "a surname, Mangeshkar, from Marathi"}], "translit": ["maṅgeśkar"]}
+{"id": "hindi-cognates-bho:मंगोलिया", "word": "मंगोलिया", "senses": [{"pos": "propernoun", "gloss": "Mongolia (a country in East Asia)"}, {"pos": "propernoun", "gloss": "Mongolia (a Mongolian-speaking geographic region in East Asia, including the country of Mongolia (Outer Mongolia), the a"}], "translit": ["maṅgoliyā"]}
+{"id": "hindi-cognates-bho:मंच", "word": "मंच", "senses": [{"pos": "noun", "gloss": "stage, platform"}, {"pos": "noun", "gloss": "dais, pulpit"}], "translit": ["mañc"]}
+{"id": "hindi-cognates-bho:मंजुल", "word": "मंजुल", "senses": [{"pos": "adjective", "gloss": "pleasant, beautiful, charming, sweet"}, {"pos": "propernoun", "gloss": "a male given name, Manjul, from Sanskrit"}], "translit": ["mañjul"]}
+{"id": "hindi-cognates-bho:मंजूर", "word": "मंजूर", "senses": [{"pos": "adjective", "gloss": "spelling variant of मंज़ूर"}], "translit": ["manzūr"]}
+{"id": "hindi-cognates-bho:मंजूरी", "word": "मंजूरी", "senses": [{"pos": "noun", "gloss": "spelling variant of मंज़ूरी"}], "translit": ["mãzūrī"]}
+{"id": "hindi-cognates-bho:मंजूषा", "word": "मंजूषा", "senses": [{"pos": "noun", "gloss": "a box, chest, case, basket"}, {"pos": "noun", "gloss": "a stone"}], "translit": ["mañjūṣā"]}
+{"id": "hindi-cognates-bho:मंडप", "word": "मंडप", "senses": [{"pos": "noun", "gloss": "mandapa (a kind of temporary platform used for religious events and marriages)"}, {"pos": "noun", "gloss": "shade, cover"}], "translit": ["maṇḍap"]}
+{"id": "hindi-cognates-bho:मंडल", "word": "मंडल", "senses": [{"pos": "noun", "gloss": "Mandala"}, {"pos": "noun", "gloss": "disc"}, {"pos": "noun", "gloss": "ring, band"}], "translit": ["maṇḍal"]}
+{"id": "hindi-cognates-bho:मंडली", "word": "मंडली", "senses": [{"pos": "noun", "gloss": "a small circle, disc, ring, or coil"}, {"pos": "noun", "gloss": "a circle, group, party, society"}, {"pos": "noun", "gloss": "flock (of birds, animals)"}], "translit": ["maṇḍlī"]}
+{"id": "hindi-cognates-bho:मंडी", "word": "मंडी", "senses": [{"pos": "propernoun", "gloss": "Mandi (a city in Himachal Pradesh, India)"}], "translit": ["maṇḍī"]}
+{"id": "hindi-cognates-bho:मंत्र", "word": "मंत्र", "senses": [{"pos": "noun", "gloss": "mantra, chant"}], "translit": ["mantra"]}
+{"id": "hindi-cognates-bho:मंत्रमुग्ध", "word": "मंत्रमुग्ध", "senses": [{"pos": "adjective", "gloss": "spellbound, mesmerized, enchanted, fascinated, captivated, entranced, hypnotized"}], "translit": ["mantramugdh"]}
+{"id": "hindi-cognates-bho:मंत्रालय", "word": "मंत्रालय", "senses": [{"pos": "noun", "gloss": "ministry"}], "translit": ["mantrālay"]}
+{"id": "hindi-cognates-bho:मंत्रिमंडल", "word": "मंत्रिमंडल", "senses": [{"pos": "noun", "gloss": "cabinet"}], "translit": ["mantrimaṇḍal"]}
+{"id": "hindi-cognates-bho:मंत्री", "word": "मंत्री", "senses": [{"pos": "noun", "gloss": "head"}, {"pos": "noun", "gloss": "queen"}], "translit": ["mantrī"]}
+{"id": "hindi-cognates-bho:मंथन", "word": "मंथन", "senses": [{"pos": "noun", "gloss": "churning, stirring"}, {"pos": "noun", "gloss": "deliberation, pondering, brainstorming, rumination"}, {"pos": "noun", "gloss": "agitation, turmoil"}], "translit": ["manthan"]}
+{"id": "hindi-cognates-bho:मंद", "word": "मंद", "senses": [{"pos": "adjective", "gloss": "slow, dull, dim, weak, feeble, sluggish"}, {"pos": "adjective", "gloss": "faint, gentle, mild"}, {"pos": "adjective", "gloss": "stupid, foolish"}], "translit": ["mand"]}
+{"id": "hindi-cognates-bho:मंदा", "word": "मंदा", "senses": [{"pos": "adjective", "gloss": "slow"}, {"pos": "adjective", "gloss": "faint, weak"}, {"pos": "adjective", "gloss": "spoiled, ruined"}], "translit": ["mandā"]}
+{"id": "hindi-cognates-bho:मंदिर", "word": "मंदिर", "senses": [{"pos": "noun", "gloss": "monastery; temple"}, {"pos": "noun", "gloss": "abode, dwelling"}], "translit": ["mandir"]}
+{"id": "hindi-cognates-bho:मंदी", "word": "मंदी", "senses": [{"pos": "noun", "gloss": "recession; depression; economic downturn"}], "translit": ["mandī"]}
+{"id": "hindi-cognates-bho:मंशा", "word": "मंशा", "senses": [{"pos": "noun", "gloss": "aim, intention, goal"}], "translit": ["mañśā"]}
+{"id": "hindi-cognates-bho:मई", "word": "मई", "senses": [{"pos": "noun", "gloss": "May"}], "translit": ["maī"]}
+{"id": "hindi-cognates-bho:मऊ", "word": "मऊ", "senses": [{"pos": "propernoun", "gloss": "Mau (a city and district of Azamgarh division, Uttar Pradesh, India)"}], "translit": ["maū"]}
+{"id": "hindi-cognates-bho:मकई", "word": "मकई", "senses": [{"pos": "noun", "gloss": "synonym of मक्का (makkā, “maize, corn”)"}], "translit": ["makaī"]}
+{"id": "hindi-cognates-bho:मकड़ी", "word": "मकड़ी", "senses": [{"pos": "noun", "gloss": "spider"}], "translit": ["makṛī"]}
+{"id": "hindi-cognates-bho:मकर", "word": "मकर", "senses": [{"pos": "noun", "gloss": "a sea monster"}, {"pos": "noun", "gloss": "a crocodile"}, {"pos": "propernoun", "gloss": "Capricornus"}], "translit": ["makar"]}
+{"id": "hindi-cognates-bho:मकान", "word": "मकान", "senses": [{"pos": "noun", "gloss": "house"}], "translit": ["makān"]}
+{"id": "hindi-cognates-bho:मक्का", "word": "मक्का", "senses": [{"pos": "noun", "gloss": "corn, maize"}, {"pos": "propernoun", "gloss": "Mecca (a large city, the provincial capital of Mecca Province in the in the Hejaz region, Saudi Arabia, the holiest plac"}, {"pos": "propernoun", "gloss": "Mecca (a province of Saudi Arabia)"}], "translit": ["makkā"]}
+{"id": "hindi-cognates-bho:मक्खन", "word": "मक्खन", "senses": [{"pos": "noun", "gloss": "butter"}], "translit": ["makkhan"]}
+{"id": "hindi-cognates-bho:मखाना", "word": "मखाना", "senses": [{"pos": "noun", "gloss": "prickly waterlily (Euryale ferox)"}, {"pos": "noun", "gloss": "foxnut, the seed of the water lily"}, {"pos": "noun", "gloss": "parched or fried foxnut"}], "translit": ["makhānā"]}
+{"id": "hindi-cognates-bho:मगन", "word": "मगन", "senses": [{"pos": "adjective", "gloss": "absorbed, engrossed, immersed, engaged"}], "translit": ["magan"]}
+{"id": "hindi-cognates-bho:मगर", "word": "मगर", "senses": [{"pos": "conjunction", "gloss": "but, however"}, {"pos": "noun", "gloss": "crocodile"}], "translit": ["magar"]}
+{"id": "hindi-cognates-bho:मगरमच्छ", "word": "मगरमच्छ", "senses": [{"pos": "noun", "gloss": "crocodile; Crocodylus palustris, the mugger crocodile"}, {"pos": "noun", "gloss": "alligator"}], "translit": ["magarmacch"]}
+{"id": "hindi-cognates-bho:मचान", "word": "मचान", "senses": [{"pos": "noun", "gloss": "machan"}], "translit": ["macān"]}
+{"id": "hindi-cognates-bho:मच्छर", "word": "मच्छर", "senses": [{"pos": "noun", "gloss": "mosquito"}], "translit": ["macchar"]}
+{"id": "hindi-cognates-bho:मच्छरदानी", "word": "मच्छरदानी", "senses": [{"pos": "noun", "gloss": "a mosquito-net"}], "translit": ["macchardānī"]}
+{"id": "hindi-cognates-bho:मछली", "word": "मछली", "senses": [{"pos": "noun", "gloss": "fish"}], "translit": ["machlī"]}
+{"id": "hindi-cognates-bho:मछुआरा", "word": "मछुआरा", "senses": [{"pos": "noun", "gloss": "fisherman"}], "translit": ["machuārā"]}
+{"id": "hindi-cognates-bho:मजनू", "word": "मजनू", "senses": [{"pos": "propernoun", "gloss": "a Romeo"}], "translit": ["majnū"]}
+{"id": "hindi-cognates-bho:मजबूत", "word": "मजबूत", "senses": [{"pos": "adjective", "gloss": "spelling variant of मज़बूत: firm"}], "translit": ["mazbūt"]}
+{"id": "hindi-cognates-bho:मजबूर", "word": "मजबूर", "senses": [{"pos": "adjective", "gloss": "helpless"}, {"pos": "adjective", "gloss": "forced"}, {"pos": "adjective", "gloss": "compelled"}], "translit": ["majbūr"]}
+{"id": "hindi-cognates-bho:मजबूरी", "word": "मजबूरी", "senses": [{"pos": "noun", "gloss": "obligation, necessity"}, {"pos": "noun", "gloss": "constraint"}], "translit": ["majbūrī"]}
+{"id": "hindi-cognates-bho:मजमा", "word": "मजमा", "senses": [{"pos": "noun", "gloss": "assembly, gathering"}], "translit": ["majmā"]}
+{"id": "hindi-cognates-bho:मजमून", "word": "मजमून", "senses": [{"pos": "noun", "gloss": "spelling variant of मज़मून"}], "translit": ["mazmūn"]}
+{"id": "hindi-cognates-bho:मजलिस", "word": "मजलिस", "senses": [{"pos": "noun", "gloss": "assembly, parliament, majlis; organization"}], "translit": ["majlis"]}
+{"id": "hindi-cognates-bho:मजहब", "word": "मजहब", "senses": [{"pos": "noun", "gloss": "spelling variant of मज़हब"}], "translit": ["mahjab"]}
+{"id": "hindi-cognates-bho:मज़बूत", "word": "मज़बूत", "senses": [{"pos": "adjective", "gloss": "firm"}, {"pos": "adjective", "gloss": "strong"}, {"pos": "adjective", "gloss": "stable"}], "translit": ["mazbūt"]}
+{"id": "hindi-cognates-bho:मज़ा", "word": "मज़ा", "senses": [{"pos": "noun", "gloss": "joy, pleasure"}, {"pos": "noun", "gloss": "relish, enjoyment"}], "translit": ["mazā"]}
+{"id": "hindi-cognates-bho:मजाल", "word": "मजाल", "senses": [{"pos": "noun", "gloss": "power, ability; right"}], "translit": ["majāl"]}
+{"id": "hindi-cognates-bho:मजीरा", "word": "मजीरा", "senses": [{"pos": "noun", "gloss": "cymbals, manjira"}], "translit": ["majīrā"]}
+{"id": "hindi-cognates-bho:मझधार", "word": "मझधार", "senses": [{"pos": "noun", "gloss": "the middle, middle part"}, {"pos": "noun", "gloss": "the middle of a river"}], "translit": ["majhdhār"]}
+{"id": "hindi-cognates-bho:मटक", "word": "मटक", "senses": [{"pos": "noun", "gloss": "glance, gander"}], "translit": ["maṭak"]}
+{"id": "hindi-cognates-bho:मटका", "word": "मटका", "senses": [{"pos": "noun", "gloss": "pot (usually earthen)"}], "translit": ["maṭkā"]}
+{"id": "hindi-cognates-bho:मटर", "word": "मटर", "senses": [{"pos": "noun", "gloss": "pea"}], "translit": ["maṭar"]}
+{"id": "hindi-cognates-bho:मट्टी", "word": "मट्टी", "senses": [{"pos": "noun", "gloss": "synonym of मिट्टी (miṭṭī)"}], "translit": ["maṭṭī"]}
+{"id": "hindi-cognates-bho:मट्ठा", "word": "मट्ठा", "senses": [{"pos": "noun", "gloss": "buttermilk, whey"}], "translit": ["maṭṭhā"]}
+{"id": "hindi-cognates-bho:मठ", "word": "मठ", "senses": [{"pos": "noun", "gloss": "pagoda"}, {"pos": "noun", "gloss": "monastery, cloister, hermitage, abbey; temple"}], "translit": ["maṭh"]}
+{"id": "hindi-cognates-bho:मड़ुआ", "word": "मड़ुआ", "senses": [{"pos": "noun", "gloss": "finger millet, Eleusine coracana"}], "translit": ["maṛuā"]}
+{"id": "hindi-cognates-bho:मणि", "word": "मणि", "senses": [{"pos": "noun", "gloss": "jewel, gem"}], "translit": ["maṇi"]}
+{"id": "hindi-cognates-bho:मणिपुर", "word": "मणिपुर", "senses": [{"pos": "propernoun", "gloss": "Manipur (a state in northeastern India)"}], "translit": ["maṇipur"]}
+{"id": "hindi-cognates-bho:मत", "word": "मत", "senses": [{"pos": "particle", "gloss": "not, do not; prohibitive particle"}, {"pos": "noun", "gloss": "opinion, belief, view"}, {"pos": "noun", "gloss": "vote"}], "translit": ["mat"]}
+{"id": "hindi-cognates-bho:मतगणना", "word": "मतगणना", "senses": [{"pos": "noun", "gloss": "vote-counting"}], "translit": ["matgaṇnā"]}
+{"id": "hindi-cognates-bho:मतदाता", "word": "मतदाता", "senses": [{"pos": "noun", "gloss": "voter, one who votes"}], "translit": ["matdātā"]}
+{"id": "hindi-cognates-bho:मतदान", "word": "मतदान", "senses": [{"pos": "noun", "gloss": "voting, poll, polling"}], "translit": ["matdān"]}
+{"id": "hindi-cognates-bho:मतभेद", "word": "मतभेद", "senses": [{"pos": "noun", "gloss": "discordance, disagreement, schism"}], "translit": ["matbhed"]}
+{"id": "hindi-cognates-bho:मतलब", "word": "मतलब", "senses": [{"pos": "noun", "gloss": "meaning"}, {"pos": "noun", "gloss": "purpose, motive"}, {"pos": "noun", "gloss": "concern"}], "translit": ["matlab"]}
+{"id": "hindi-cognates-bho:मतलबी", "word": "मतलबी", "senses": [{"pos": "adjective", "gloss": "selfish"}], "translit": ["matlabī"]}
+{"id": "hindi-cognates-bho:मतवाला", "word": "मतवाला", "senses": [{"pos": "adjective", "gloss": "intoxicated, drunken, drunk, wayward"}, {"pos": "noun", "gloss": "an intoxicated or drunken man"}], "translit": ["matvālā"]}
+{"id": "hindi-cognates-bho:मताधिकार", "word": "मताधिकार", "senses": [{"pos": "noun", "gloss": "right to vote, suffrage, franchise"}], "translit": ["matādhikār"]}
+{"id": "hindi-cognates-bho:मति", "word": "मति", "senses": [{"pos": "noun", "gloss": "intelligence, understanding"}, {"pos": "propernoun", "gloss": "a female given name, Mati, from Sanskrit"}], "translit": ["mati"]}
+{"id": "hindi-cognates-bho:मत्ती", "word": "मत्ती", "senses": [{"pos": "propernoun", "gloss": "Matthew, one of the Twelve Disciples of Jesus and one of the Four Evangelists"}, {"pos": "propernoun", "gloss": "Matthew (the Gospel of St)"}], "translit": ["mattī"]}
+{"id": "hindi-cognates-bho:मत्स्य", "word": "मत्स्य", "senses": [{"pos": "noun", "gloss": "fish"}, {"pos": "noun", "gloss": "the first of ten avatars of the god Vishnu who appeared in the form of a fish"}], "translit": ["matsya"]}
+{"id": "hindi-cognates-bho:मथुरा", "word": "मथुरा", "senses": [{"pos": "propernoun", "gloss": "Mathura (a city and district of Agra division, Uttar Pradesh, India)"}], "translit": ["mathurā"]}
+{"id": "hindi-cognates-bho:मद", "word": "मद", "senses": [{"pos": "noun", "gloss": "item, entry (e.g. in a bill)"}, {"pos": "noun", "gloss": "madd, maddah"}, {"pos": "noun", "gloss": "intoxication; passion"}], "translit": ["mad"]}
+{"id": "hindi-cognates-bho:मदद", "word": "मदद", "senses": [{"pos": "noun", "gloss": "help, assistance, aid, relief"}, {"pos": "noun", "gloss": "supply, aid"}, {"pos": "noun", "gloss": "reinforcement"}], "translit": ["madad"]}
+{"id": "hindi-cognates-bho:मददगार", "word": "मददगार", "senses": [{"pos": "noun", "gloss": "helper, ally"}, {"pos": "adjective", "gloss": "helpful"}], "translit": ["madadgār"]}
+{"id": "hindi-cognates-bho:मदन", "word": "मदन", "senses": [{"pos": "noun", "gloss": "Kamadeva"}, {"pos": "noun", "gloss": "love, desire, passion"}, {"pos": "propernoun", "gloss": "a male given name from Sanskrit"}], "translit": ["madan"]}
+{"id": "hindi-cognates-bho:मदिरा", "word": "मदिरा", "senses": [{"pos": "noun", "gloss": "liquor, wine, alcohol; any inebriating drink"}, {"pos": "noun", "gloss": "nectar"}, {"pos": "propernoun", "gloss": "an epithet of Durga"}], "translit": ["madirā"]}
+{"id": "hindi-cognates-bho:मदीना", "word": "मदीना", "senses": [{"pos": "propernoun", "gloss": "Medina (a major city, the capital of Medina province, Saudi Arabia; holy to Islam)"}], "translit": ["madīnā"]}
+{"id": "hindi-cognates-bho:मदुरई", "word": "मदुरई", "senses": [{"pos": "propernoun", "gloss": "Madurai (a city, the headquarters of Madurai district, Tamil Nadu, India, also the cultural capital of the state)"}], "translit": ["maduraī"]}
+{"id": "hindi-cognates-bho:मद्य", "word": "मद्य", "senses": [{"pos": "noun", "gloss": "any intoxicating drink, liquor, wine, alcohol"}], "translit": ["madya"]}
+{"id": "hindi-cognates-bho:मद्रास", "word": "मद्रास", "senses": [{"pos": "propernoun", "gloss": "Madras (former name of Chennai, the capital city of Tamil Nadu, India)"}], "translit": ["madrās"]}
+{"id": "hindi-cognates-bho:मधु", "word": "मधु", "senses": [{"pos": "noun", "gloss": "honey"}, {"pos": "propernoun", "gloss": "a female given name, Madhu, from Sanskrit"}, {"pos": "propernoun", "gloss": "a diminutive, Madhu, of the female given name माधवी (mādhvī)"}], "translit": ["madhu"]}
+{"id": "hindi-cognates-bho:मधुकर", "word": "मधुकर", "senses": [{"pos": "noun", "gloss": "honeybee, bumblebee"}, {"pos": "noun", "gloss": "lover"}, {"pos": "propernoun", "gloss": "Madhukar an epithet Lord Krishna"}], "translit": ["madhukar"]}
+{"id": "hindi-cognates-bho:मधुप", "word": "मधुप", "senses": [{"pos": "noun", "gloss": "honeybee, bee"}], "translit": ["madhup"]}
+{"id": "hindi-cognates-bho:मधुमक्खी", "word": "मधुमक्खी", "senses": [{"pos": "noun", "gloss": "honey bee, bee (insect)"}], "translit": ["madhumakkhī"]}
+{"id": "hindi-cognates-bho:मधुमेह", "word": "मधुमेह", "senses": [{"pos": "noun", "gloss": "diabetes; Diabetes mellitus"}], "translit": ["madhumeh"]}
+{"id": "hindi-cognates-bho:मधुर", "word": "मधुर", "senses": [{"pos": "adjective", "gloss": "sweet, melodious, pleasant"}, {"pos": "propernoun", "gloss": "a male given name, Madhur, from Sanskrit"}], "translit": ["madhur"]}
+{"id": "hindi-cognates-bho:मधुशाला", "word": "मधुशाला", "senses": [{"pos": "noun", "gloss": "tavern, pub"}], "translit": ["madhuśālā"]}
+{"id": "hindi-cognates-bho:मध्य", "word": "मध्य", "senses": [{"pos": "adjective", "gloss": "middle (normally of time)"}, {"pos": "adjective", "gloss": "central, in the middle of"}, {"pos": "noun", "gloss": "centre, middle"}], "translit": ["madhya"]}
+{"id": "hindi-cognates-bho:मध्यकाल", "word": "मध्यकाल", "senses": [{"pos": "noun", "gloss": "Medieval age, middle age"}, {"pos": "noun", "gloss": "युरोप के मध्यकाल लगभग ५वी से १५वी सदी था"}, {"pos": "noun", "gloss": "युरोप के मध्यकाल लगभग ५वी से १५वी सदी था yurop ke madhyakāl lagbhag 5vī se 15vī sadī thā Europe's Middle Age was from th"}], "translit": ["madhyakāl"]}
+{"id": "hindi-cognates-bho:मध्यम", "word": "मध्यम", "senses": [{"pos": "adjective", "gloss": "middle"}, {"pos": "adjective", "gloss": "medium, moderate, intermediate"}, {"pos": "adjective", "gloss": "mediocre"}], "translit": ["madhyam"]}
+{"id": "hindi-cognates-bho:मध्यमा", "word": "मध्यमा", "senses": [{"pos": "noun", "gloss": "middle finger"}], "translit": ["madhyamā"]}
+{"id": "hindi-cognates-bho:मध्ययुग", "word": "मध्ययुग", "senses": [{"pos": "noun", "gloss": "middle period, medieval period"}, {"pos": "noun", "gloss": "the Middle Ages"}], "translit": ["madhyayug"]}
+{"id": "hindi-cognates-bho:मध्यवर्ग", "word": "मध्यवर्ग", "senses": [{"pos": "noun", "gloss": "middle class"}], "translit": ["madhyavarg"]}
+{"id": "hindi-cognates-bho:मध्यावधि", "word": "मध्यावधि", "senses": [{"pos": "adjective", "gloss": "midterm, occurring in the middle of some period of time"}], "translit": ["madhyāvadhi"]}
+{"id": "hindi-cognates-bho:मध्याह्न", "word": "मध्याह्न", "senses": [{"pos": "noun", "gloss": "noon, midday"}], "translit": ["madhyāhna"]}
+{"id": "hindi-cognates-bho:मन", "word": "मन", "senses": [{"pos": "noun", "gloss": "mind, intellect"}, {"pos": "noun", "gloss": "heart, feeling, emotion"}, {"pos": "noun", "gloss": "soul"}], "translit": ["man"]}
+{"id": "hindi-cognates-bho:मनचाहा", "word": "मनचाहा", "senses": [{"pos": "adjective", "gloss": "desired, wished for, chosen, heart's desire"}], "translit": ["mancāhā"]}
+{"id": "hindi-cognates-bho:मनन", "word": "मनन", "senses": [{"pos": "noun", "gloss": "meditation, contemplation, pondering"}], "translit": ["manan"]}
+{"id": "hindi-cognates-bho:मनपसंद", "word": "मनपसंद", "senses": [{"pos": "adjective", "gloss": "favourite"}], "translit": ["manapsand"]}
+{"id": "hindi-cognates-bho:मनमाना", "word": "मनमाना", "senses": [{"pos": "adjective", "gloss": "pleasing, agreeable, soothing"}, {"pos": "adjective", "gloss": "optional, arbitrary"}, {"pos": "noun", "gloss": "sweetheart, darling"}], "translit": ["manmānā"]}
+{"id": "hindi-cognates-bho:मनमानी", "word": "मनमानी", "senses": [{"pos": "noun", "gloss": "heart's desire, self-will"}, {"pos": "noun", "gloss": "arbitrary choice"}], "translit": ["manmānī"]}
+{"id": "hindi-cognates-bho:मनमोहक", "word": "मनमोहक", "senses": [{"pos": "adjective", "gloss": "gorgeous"}], "translit": ["manmohak"]}
+{"id": "hindi-cognates-bho:मनमोहन", "word": "मनमोहन", "senses": [{"pos": "propernoun", "gloss": "a male given name, Manmohan"}], "translit": ["manmohan"]}
+{"id": "hindi-cognates-bho:मनहूस", "word": "मनहूस", "senses": [{"pos": "adjective", "gloss": "unfortunate, unlucky, ill-omened, inauspicious"}, {"pos": "adjective", "gloss": "grim, forbidding, ominous (of atmosphere, or aspect)"}], "translit": ["manhūs"]}
+{"id": "hindi-cognates-bho:मना", "word": "मना", "senses": [{"pos": "adjective", "gloss": "forbidden, prohibited"}, {"pos": "adjective", "gloss": "denial"}], "translit": ["manā"]}
+{"id": "hindi-cognates-bho:मनि", "word": "मनि", "senses": [{"pos": "noun", "gloss": "a jewel, gem, pearl"}], "translit": ["mani"]}
+{"id": "hindi-cognates-bho:मनीष", "word": "मनीष", "senses": [{"pos": "propernoun", "gloss": "a male given name, Manish, of central and northern Indian usage"}], "translit": ["manīṣ"]}
+{"id": "hindi-cognates-bho:मनु", "word": "मनु", "senses": [{"pos": "propernoun", "gloss": "Manu"}], "translit": ["manu"]}
+{"id": "hindi-cognates-bho:मनुज", "word": "मनुज", "senses": [{"pos": "noun", "gloss": "human, person; man"}], "translit": ["manuj"]}
+{"id": "hindi-cognates-bho:मनुष्य", "word": "मनुष्य", "senses": [{"pos": "noun", "gloss": "human being, man; a descendant of Manu"}], "translit": ["manuṣya"]}
+{"id": "hindi-cognates-bho:मनुष्यता", "word": "मनुष्यता", "senses": [{"pos": "noun", "gloss": "humanity, mankind"}], "translit": ["manuṣyatā"]}
+{"id": "hindi-cognates-bho:मनोकामना", "word": "मनोकामना", "senses": [{"pos": "noun", "gloss": "\"the heart's desire\" a strong desire"}], "translit": ["manokāmnā"]}
+{"id": "hindi-cognates-bho:मनोज", "word": "मनोज", "senses": [{"pos": "propernoun", "gloss": "a male given name, Manoj, from Sanskrit"}], "translit": ["manoj"]}
+{"id": "hindi-cognates-bho:मनोदशा", "word": "मनोदशा", "senses": [{"pos": "noun", "gloss": "state of mind, mental condition, mood"}], "translit": ["manodaśā"]}
+{"id": "hindi-cognates-bho:मनोनीत", "word": "मनोनीत", "senses": [{"pos": "adjective", "gloss": "chosen, selected; preferred, nominated"}], "translit": ["manonīt"]}
+{"id": "hindi-cognates-bho:मनोबल", "word": "मनोबल", "senses": [{"pos": "noun", "gloss": "strength of spirit; willpower"}], "translit": ["manobal"]}
+{"id": "hindi-cognates-bho:मनोरंजन", "word": "मनोरंजन", "senses": [{"pos": "noun", "gloss": "amusement, fun; entertainment (e.g. section of a newspaper)"}], "translit": ["manorañjan"]}
+{"id": "hindi-cognates-bho:मनोरथ", "word": "मनोरथ", "senses": [{"pos": "noun", "gloss": "desire, wish"}], "translit": ["manorath"]}
+{"id": "hindi-cognates-bho:मनोरम", "word": "मनोरम", "senses": [{"pos": "adjective", "gloss": "beautiful, pretty, pleasing, lovely, charming, delightful"}], "translit": ["manoram"]}
+{"id": "hindi-cognates-bho:मनोविज्ञान", "word": "मनोविज्ञान", "senses": [{"pos": "noun", "gloss": "psychology"}], "translit": ["manovijñān"]}
+{"id": "hindi-cognates-bho:मनोवैज्ञानिक", "word": "मनोवैज्ञानिक", "senses": [{"pos": "adjective", "gloss": "psychological"}, {"pos": "noun", "gloss": "psychologist"}], "translit": ["manovaijñānik"]}
+{"id": "hindi-cognates-bho:मनोहर", "word": "मनोहर", "senses": [{"pos": "adjective", "gloss": "charming, beautiful, lovely"}, {"pos": "propernoun", "gloss": "a male given name, Manohar, from Sanskrit"}], "translit": ["manohar"]}
+{"id": "hindi-cognates-bho:मनौती", "word": "मनौती", "senses": [{"pos": "noun", "gloss": "a wish or prayer made to a deity for the fulfillment of a wish"}, {"pos": "noun", "gloss": "persuasion"}], "translit": ["manautī"]}
+{"id": "hindi-cognates-bho:मन्नत", "word": "मन्नत", "senses": [{"pos": "noun", "gloss": "vow"}], "translit": ["mannat"]}
+{"id": "hindi-cognates-bho:ममता", "word": "ममता", "senses": [{"pos": "noun", "gloss": "love, affection, endearment"}, {"pos": "propernoun", "gloss": "a female given name, Mamata, from Sanskrit"}], "translit": ["mamtā"]}
+{"id": "hindi-cognates-bho:मम्मी", "word": "मम्मी", "senses": [{"pos": "noun", "gloss": "mom, mommy"}, {"pos": "noun", "gloss": "a mummy"}], "translit": ["mammī"]}
+{"id": "hindi-cognates-bho:मय", "word": "मय", "senses": [{"pos": "noun", "gloss": "wine"}, {"pos": "noun", "gloss": "spirituous liquor"}], "translit": ["may"]}
+{"id": "hindi-cognates-bho:मयंक", "word": "मयंक", "senses": [{"pos": "noun", "gloss": "moon"}, {"pos": "propernoun", "gloss": "a male given name, Mayank, from Sanskrit"}], "translit": ["mayaṅk"]}
+{"id": "hindi-cognates-bho:मयूर", "word": "मयूर", "senses": [{"pos": "noun", "gloss": "a peacock"}, {"pos": "propernoun", "gloss": "a male given name, Mayur, from Sanskrit"}], "translit": ["mayūr"]}
+{"id": "hindi-cognates-bho:मरण", "word": "मरण", "senses": [{"pos": "noun", "gloss": "death"}, {"pos": "noun", "gloss": "mortality"}, {"pos": "noun", "gloss": "dying"}], "translit": ["maraṇ"]}
+{"id": "hindi-cognates-bho:मरणोपरांत", "word": "मरणोपरांत", "senses": [{"pos": "adverb", "gloss": "posthumously"}], "translit": ["marṇoprānt"]}
+{"id": "hindi-cognates-bho:मरम्मत", "word": "मरम्मत", "senses": [{"pos": "noun", "gloss": "repair, fixing"}], "translit": ["marammat"]}
+{"id": "hindi-cognates-bho:मरहम", "word": "मरहम", "senses": [{"pos": "noun", "gloss": "ointment; balm"}], "translit": ["marham"]}
+{"id": "hindi-cognates-bho:मरहूम", "word": "मरहूम", "senses": [{"pos": "adjective", "gloss": "deceased, the late, dead"}], "translit": ["marhūm"]}
+{"id": "hindi-cognates-bho:मरा", "word": "मरा", "senses": [{"pos": "adjective", "gloss": "dead"}], "translit": ["marā"]}
+{"id": "hindi-cognates-bho:मराठा", "word": "मराठा", "senses": [{"pos": "propernoun", "gloss": "Maratha (member of the Maratha caste)"}, {"pos": "noun", "gloss": "Maharashtrian (a person from Maharastra)"}], "translit": ["marāṭhā"]}
+{"id": "hindi-cognates-bho:मराठी", "word": "मराठी", "senses": [{"pos": "adjective", "gloss": "of or relating to the Marathi language"}, {"pos": "propernoun", "gloss": "Marathi (language)"}], "translit": ["marāṭhī"]}
+{"id": "hindi-cognates-bho:मरियम", "word": "मरियम", "senses": [{"pos": "propernoun", "gloss": "Mary (the mother of Jesus; believed in Christianity and Islam to have been a virgin, and believed by most Christians to"}, {"pos": "propernoun", "gloss": "Miriam (the sister of Moses and Aaron and the daughter of Amram and Jochebed)"}, {"pos": "propernoun", "gloss": "a female given name, Mariam, from Arabic, equivalent to English Mary"}], "translit": ["mariyam"]}
+{"id": "hindi-cognates-bho:मरीज", "word": "मरीज", "senses": [{"pos": "noun", "gloss": "spelling variant of मरीज़"}], "translit": ["marīj"]}
+{"id": "hindi-cognates-bho:मर्चेंट", "word": "मर्चेंट", "senses": [{"pos": "propernoun", "gloss": "a surname, equivalent to English Merchant"}], "translit": ["marceṇṭ"]}
+{"id": "hindi-cognates-bho:मर्ज", "word": "मर्ज", "senses": [{"pos": "noun", "gloss": "spelling variant of मर्ज़"}], "translit": ["marz"]}
+{"id": "hindi-cognates-bho:मर्जी", "word": "मर्जी", "senses": [{"pos": "noun", "gloss": "spelling variant of मर्ज़ी"}], "translit": ["marzī"]}
+{"id": "hindi-cognates-bho:मर्द", "word": "मर्द", "senses": [{"pos": "noun", "gloss": "rubbing, crushing, destroying"}, {"pos": "noun", "gloss": "man"}, {"pos": "noun", "gloss": "husband"}], "translit": ["mard"]}
+{"id": "hindi-cognates-bho:मर्दानगी", "word": "मर्दानगी", "senses": [{"pos": "noun", "gloss": "manliness, masculinity, virility"}], "translit": ["mardāngī"]}
+{"id": "hindi-cognates-bho:मर्दाना", "word": "मर्दाना", "senses": [{"pos": "adjective", "gloss": "masculine, manly, virile"}], "translit": ["mardānā"]}
+{"id": "hindi-cognates-bho:मर्म", "word": "मर्म", "senses": [{"pos": "noun", "gloss": "vital or vulnerable part"}, {"pos": "noun", "gloss": "a secret, mystery, hidden meaning"}, {"pos": "noun", "gloss": "core, essence, pith"}], "translit": ["marm"]}
+{"id": "hindi-cognates-bho:मर्यादा", "word": "मर्यादा", "senses": [{"pos": "noun", "gloss": "limit, boundary, restriction; frontier"}, {"pos": "noun", "gloss": "dignity"}, {"pos": "propernoun", "gloss": "a female given name, Maryada, from Sanskrit"}], "translit": ["maryādā"]}
+{"id": "hindi-cognates-bho:मर्यादित", "word": "मर्यादित", "senses": [{"pos": "adjective", "gloss": "limited, bounded, restricted"}, {"pos": "adjective", "gloss": "decorous, dignified, restrained"}, {"pos": "adjective", "gloss": "ethical, lawful"}], "translit": ["maryādit"]}
+{"id": "hindi-cognates-bho:मल", "word": "मल", "senses": [{"pos": "noun", "gloss": "faeces, excreta"}], "translit": ["mal"]}
+{"id": "hindi-cognates-bho:मलबा", "word": "मलबा", "senses": [{"pos": "noun", "gloss": "rubbish, garbage, debris"}], "translit": ["malbā"]}
+{"id": "hindi-cognates-bho:मलमल", "word": "मलमल", "senses": [{"pos": "noun", "gloss": "muslin, mulmul"}], "translit": ["malmal"]}
+{"id": "hindi-cognates-bho:मलय", "word": "मलय", "senses": [{"pos": "adjective", "gloss": "Malay (person)"}], "translit": ["malay"]}
+{"id": "hindi-cognates-bho:मलयालम", "word": "मलयालम", "senses": [{"pos": "propernoun", "gloss": "Malayalam (language)"}], "translit": ["malayālam"]}
+{"id": "hindi-cognates-bho:मलयाली", "word": "मलयाली", "senses": [{"pos": "propernoun", "gloss": "Malayali (demonym)"}], "translit": ["malayālī"]}
+{"id": "hindi-cognates-bho:मलाई", "word": "मलाई", "senses": [{"pos": "noun", "gloss": "malai, cream (cooking ingredient made from milk)"}], "translit": ["malāī"]}
+{"id": "hindi-cognates-bho:मलाल", "word": "मलाल", "senses": [{"pos": "noun", "gloss": "remorse, grief"}, {"pos": "noun", "gloss": "dejection, melancholy"}, {"pos": "noun", "gloss": "vexation"}], "translit": ["malāl"]}
+{"id": "hindi-cognates-bho:मलिन", "word": "मलिन", "senses": [{"pos": "adjective", "gloss": "dirty, filthy, foul, impure, soiled, unclean"}, {"pos": "adjective", "gloss": "tarnished, stained, sullied, tainted, rusty, polluted, depraved, sinful, bad, vile, vicious"}, {"pos": "adjective", "gloss": "black, dark, obscure, obscured, beclouded"}], "translit": ["malin"]}
+{"id": "hindi-cognates-bho:मलेरिया", "word": "मलेरिया", "senses": [{"pos": "noun", "gloss": "malaria"}], "translit": ["maleriyā"]}
+{"id": "hindi-cognates-bho:मलेशिया", "word": "मलेशिया", "senses": [{"pos": "propernoun", "gloss": "Malaysia (a country in Southeast Asia)"}], "translit": ["maleśiyā"]}
+{"id": "hindi-cognates-bho:मल्लयुद्ध", "word": "मल्लयुद्ध", "senses": [{"pos": "noun", "gloss": "wrestling, or other athletic contest"}], "translit": ["mallayuddh"]}
+{"id": "hindi-cognates-bho:मल्लाह", "word": "मल्लाह", "senses": [{"pos": "noun", "gloss": "sailor, seaman"}], "translit": ["mallāh"]}
+{"id": "hindi-cognates-bho:मल्ली", "word": "मल्ली", "senses": [{"pos": "noun", "gloss": "Arabian jasmine (Jasminum sambac)"}], "translit": ["mallī"]}
+{"id": "hindi-cognates-bho:मल्होत्रा", "word": "मल्होत्रा", "senses": [{"pos": "propernoun", "gloss": "a surname, Malhotra, from Punjabi"}], "translit": ["malhotrā"]}
+{"id": "hindi-cognates-bho:मवेशी", "word": "मवेशी", "senses": [{"pos": "noun", "gloss": "cattle"}], "translit": ["maveśī"]}
+{"id": "hindi-cognates-bho:मशविरा", "word": "मशविरा", "senses": [{"pos": "noun", "gloss": "advice, counsel"}], "translit": ["maśvirā"]}
+{"id": "hindi-cognates-bho:मशहूर", "word": "मशहूर", "senses": [{"pos": "adjective", "gloss": "reputed, preeminent"}], "translit": ["maśhūr"]}
+{"id": "hindi-cognates-bho:मशाल", "word": "मशाल", "senses": [{"pos": "noun", "gloss": "torch, flare"}], "translit": ["maśāl"]}
+{"id": "hindi-cognates-bho:मशीन", "word": "मशीन", "senses": [{"pos": "noun", "gloss": "machine (electrical device)"}], "translit": ["maśīn"]}
+{"id": "hindi-cognates-bho:मशीनरी", "word": "मशीनरी", "senses": [{"pos": "noun", "gloss": "machinery"}], "translit": ["maśīnrī"]}
+{"id": "hindi-cognates-bho:मशीनी", "word": "मशीनी", "senses": [{"pos": "adjective", "gloss": "machine"}], "translit": ["maśīnī"]}
+{"id": "hindi-cognates-bho:मस", "word": "मस", "senses": [{"pos": "noun", "gloss": "down on the upper lip (appearing at puberty in men, signalling the beginnings of a mustache)"}], "translit": ["mas"]}
+{"id": "hindi-cognates-bho:मसल", "word": "मसल", "senses": [{"pos": "noun", "gloss": "saying, proverb, adage"}, {"pos": "noun", "gloss": "example, specimen"}], "translit": ["masal"]}
+{"id": "hindi-cognates-bho:मसलन", "word": "मसलन", "senses": [{"pos": "adverb", "gloss": "for example"}], "translit": ["maslan"]}
+{"id": "hindi-cognates-bho:मसला", "word": "मसला", "senses": [{"pos": "noun", "gloss": "issue, matter"}], "translit": ["maslā"]}
+{"id": "hindi-cognates-bho:मसविदा", "word": "मसविदा", "senses": [{"pos": "noun", "gloss": "draught, draft (preliminary version of a document)"}], "translit": ["masvidā"]}
+{"id": "hindi-cognates-bho:मसान", "word": "मसान", "senses": [{"pos": "noun", "gloss": "crematorium"}], "translit": ["masān"]}
+{"id": "hindi-cognates-bho:मसाला", "word": "मसाला", "senses": [{"pos": "noun", "gloss": "masala"}, {"pos": "noun", "gloss": "spices, seasoning"}, {"pos": "noun", "gloss": "gossip, talk"}], "translit": ["masālā"]}
+{"id": "hindi-cognates-bho:मसि", "word": "मसि", "senses": [{"pos": "noun", "gloss": "ink"}], "translit": ["masi"]}
+{"id": "hindi-cognates-bho:मसीह", "word": "मसीह", "senses": [{"pos": "noun", "gloss": "Christ"}, {"pos": "noun", "gloss": "Messiah"}, {"pos": "noun", "gloss": "the anointed one"}], "translit": ["masīh"]}
+{"id": "hindi-cognates-bho:मसीहा", "word": "मसीहा", "senses": [{"pos": "noun", "gloss": "a messiah"}], "translit": ["masīhā"]}
+{"id": "hindi-cognates-bho:मसीही", "word": "मसीही", "senses": [{"pos": "noun", "gloss": "Christian"}, {"pos": "adjective", "gloss": "pertaining to Christianity"}], "translit": ["masīhī"]}
+{"id": "hindi-cognates-bho:मसूर", "word": "मसूर", "senses": [{"pos": "noun", "gloss": "masoor, an Indian breed of Lens culinaris"}], "translit": ["masūr"]}
+{"id": "hindi-cognates-bho:मसूरी", "word": "मसूरी", "senses": [{"pos": "noun", "gloss": "smallpox"}], "translit": ["masūrī"]}
+{"id": "hindi-cognates-bho:मस्जिद", "word": "मस्जिद", "senses": [{"pos": "noun", "gloss": "mosque"}], "translit": ["masjid"]}
+{"id": "hindi-cognates-bho:मस्त", "word": "मस्त", "senses": [{"pos": "adjective", "gloss": "drunk, intoxicated"}, {"pos": "adjective", "gloss": "passionate, lustful"}, {"pos": "adjective", "gloss": "good, fine, nice, cool"}], "translit": ["mast"]}
+{"id": "hindi-cognates-bho:मस्तक", "word": "मस्तक", "senses": [{"pos": "noun", "gloss": "head"}, {"pos": "noun", "gloss": "skull"}, {"pos": "noun", "gloss": "forehead"}], "translit": ["mastak"]}
+{"id": "hindi-cognates-bho:मस्ताना", "word": "मस्ताना", "senses": [{"pos": "verb", "gloss": "to be intoxicated, passionate"}, {"pos": "adjective", "gloss": "passionately intoxicated"}], "translit": ["mastānā"]}
+{"id": "hindi-cognates-bho:मस्तानी", "word": "मस्तानी", "senses": [{"pos": "adjective", "gloss": "blind"}], "translit": ["mastānī"]}
+{"id": "hindi-cognates-bho:मस्तिष्क", "word": "मस्तिष्क", "senses": [{"pos": "noun", "gloss": "brain, cerebrum"}], "translit": ["mastiṣk"]}
+{"id": "hindi-cognates-bho:मस्ती", "word": "मस्ती", "senses": [{"pos": "noun", "gloss": "ecstasy, merriment"}, {"pos": "noun", "gloss": "intoxication"}], "translit": ["mastī"]}
+{"id": "hindi-cognates-bho:महँगाई", "word": "महँगाई", "senses": [{"pos": "noun", "gloss": "expensiveness, costliness"}], "translit": ["mahaṅgāī"]}
+{"id": "hindi-cognates-bho:महंगा", "word": "महंगा", "senses": [{"pos": "adjective", "gloss": "expensive, costly"}, {"pos": "adjective", "gloss": "dear, precious"}], "translit": ["mahaṅgā"]}
+{"id": "hindi-cognates-bho:महक", "word": "महक", "senses": [{"pos": "noun", "gloss": "fragrance, scent"}, {"pos": "noun", "gloss": "aroma"}], "translit": ["mahak"]}
+{"id": "hindi-cognates-bho:महकमा", "word": "महकमा", "senses": [{"pos": "noun", "gloss": "department"}], "translit": ["mahkamā"]}
+{"id": "hindi-cognates-bho:महत्त्व", "word": "महत्त्व", "senses": [{"pos": "noun", "gloss": "importance, significance"}], "translit": ["mahattva"]}
+{"id": "hindi-cognates-bho:महत्त्वपूर्ण", "word": "महत्त्वपूर्ण", "senses": [{"pos": "adjective", "gloss": "important, primary"}], "translit": ["mahattvapūrṇ"]}
+{"id": "hindi-cognates-bho:महत्वाकांक्षा", "word": "महत्वाकांक्षा", "senses": [{"pos": "noun", "gloss": "ambition, aspiration"}], "translit": ["mahatvākāṅkṣā"]}
+{"id": "hindi-cognates-bho:महत्वाकांक्षी", "word": "महत्वाकांक्षी", "senses": [{"pos": "adjective", "gloss": "ambitious"}], "translit": ["mahatvākāṅkṣī"]}
+{"id": "hindi-cognates-bho:महफ़िल", "word": "महफ़िल", "senses": [{"pos": "noun", "gloss": "gathering, assembly"}], "translit": ["mahfil"]}
+{"id": "hindi-cognates-bho:महफिल", "word": "महफिल", "senses": [{"pos": "noun", "gloss": "spelling variant of महफ़िल: gathering, assembly"}], "translit": ["mahfil"]}
+{"id": "hindi-cognates-bho:महबूब", "word": "महबूब", "senses": [{"pos": "adjective", "gloss": "beloved"}, {"pos": "noun", "gloss": "loved one"}], "translit": ["mahbūb"]}
+{"id": "hindi-cognates-bho:महबूबा", "word": "महबूबा", "senses": [{"pos": "adjective", "gloss": "beloved"}, {"pos": "noun", "gloss": "sweetheart"}], "translit": ["mahbūbā"]}
+{"id": "hindi-cognates-bho:महमूद", "word": "महमूद", "senses": [{"pos": "propernoun", "gloss": "a male given name, Mahmud, from Arabic"}], "translit": ["mahmūd"]}
+{"id": "hindi-cognates-bho:महर्षि", "word": "महर्षि", "senses": [{"pos": "noun", "gloss": "maharishi, great sage, seer"}], "translit": ["maharṣi"]}
+{"id": "hindi-cognates-bho:महल", "word": "महल", "senses": [{"pos": "noun", "gloss": "palace"}, {"pos": "noun", "gloss": "woman's quarters"}], "translit": ["mahal"]}
+{"id": "hindi-cognates-bho:महल्ला", "word": "महल्ला", "senses": [{"pos": "noun", "gloss": "spelling variant of मुहल्ला: a neighborhood, suburb, locality; a ward"}], "translit": ["mahallā"]}
+{"id": "hindi-cognates-bho:महसूस", "word": "महसूस", "senses": [{"pos": "adjective", "gloss": "felt, sensed, perceived"}, {"pos": "adjective", "gloss": "appreciated, understood"}], "translit": ["mahsūs"]}
+{"id": "hindi-cognates-bho:महा", "word": "महा", "senses": [{"pos": "adjective", "gloss": "great, massive, large-scale, epic"}, {"pos": "adjective", "gloss": "valorous, heroic"}], "translit": ["mahā"]}
+{"id": "hindi-cognates-bho:महाकाल", "word": "महाकाल", "senses": [{"pos": "propernoun", "gloss": "Shiva (especially as the presiding deity at Ujjain)"}], "translit": ["mahākāl"]}
+{"id": "hindi-cognates-bho:महागठबंधन", "word": "महागठबंधन", "senses": [{"pos": "noun", "gloss": "a \"grand alliance\" formed by a group of opposition parties to topple the ruling party"}], "translit": ["mahāgaṭhbandhan"]}
+{"id": "hindi-cognates-bho:महाजनपद", "word": "महाजनपद", "senses": [{"pos": "noun", "gloss": "Mahajanapadas"}], "translit": ["mahājanpad"]}
+{"id": "hindi-cognates-bho:महात्मा", "word": "महात्मा", "senses": [{"pos": "propernoun", "gloss": "Mohandas Karamchand Gandhi"}, {"pos": "noun", "gloss": "noble person, saint"}, {"pos": "noun", "gloss": "great soul"}], "translit": ["mahātmā"]}
+{"id": "hindi-cognates-bho:महादेव", "word": "महादेव", "senses": [{"pos": "propernoun", "gloss": "an epithet of Lord Shiva"}, {"pos": "propernoun", "gloss": "a male given name, Mahadev or Mahadeva, from Sanskrit"}], "translit": ["mahādev"]}
+{"id": "hindi-cognates-bho:महाद्वीप", "word": "महाद्वीप", "senses": [{"pos": "noun", "gloss": "continent"}], "translit": ["mahādvīp"]}
+{"id": "hindi-cognates-bho:महाधिवक्ता", "word": "महाधिवक्ता", "senses": [{"pos": "noun", "gloss": "advocate general"}], "translit": ["mahādhivaktā"]}
+{"id": "hindi-cognates-bho:महान", "word": "महान", "senses": [{"pos": "adjective", "gloss": "great, respected, renowned"}, {"pos": "adjective", "gloss": "big, large"}], "translit": ["mahān"]}
+{"id": "hindi-cognates-bho:महानगर", "word": "महानगर", "senses": [{"pos": "noun", "gloss": "a city"}, {"pos": "noun", "gloss": "metropolis, megacity, megalopolis"}, {"pos": "propernoun", "gloss": "Mahanagar (a neighbourhood of Lucknow, Uttar Pradesh, India)"}], "translit": ["mahānagar", "mahāngar"]}
+{"id": "hindi-cognates-bho:महानिदेशक", "word": "महानिदेशक", "senses": [{"pos": "noun", "gloss": "director general"}], "translit": ["mahānideśak"]}
+{"id": "hindi-cognates-bho:महानिरीक्षक", "word": "महानिरीक्षक", "senses": [{"pos": "noun", "gloss": "inspector general"}, {"pos": "noun", "gloss": "chief inspector"}], "translit": ["mahānirīkṣak"]}
+{"id": "hindi-cognates-bho:महानुभाव", "word": "महानुभाव", "senses": [{"pos": "noun", "gloss": "gentleman, great person, eminent personality"}, {"pos": "noun", "gloss": "your honor, sir"}], "translit": ["mahānubhāv"]}
+{"id": "hindi-cognates-bho:महापंडित", "word": "महापंडित", "senses": [{"pos": "noun", "gloss": "a great pandit; a very learned person"}], "translit": ["mahāpaṇḍit"]}
+{"id": "hindi-cognates-bho:महापौर", "word": "महापौर", "senses": [{"pos": "noun", "gloss": "mayor"}], "translit": ["mahāpaur"]}
+{"id": "hindi-cognates-bho:महाप्रभु", "word": "महाप्रभु", "senses": [{"pos": "noun", "gloss": "great lord (an epithet of God)"}], "translit": ["mahāprabhu"]}
+{"id": "hindi-cognates-bho:महाभारत", "word": "महाभारत", "senses": [{"pos": "noun", "gloss": "a war of epic proportions; a great war"}, {"pos": "propernoun", "gloss": "Mahabharata, an ancient Sanskrit epic containing the Bhagavad Gita, including elaborations on theology and morality"}], "translit": ["mahābhārat"]}
+{"id": "hindi-cognates-bho:महाभियोग", "word": "महाभियोग", "senses": [{"pos": "noun", "gloss": "impeachment, removal from office"}], "translit": ["mahābhiyog"]}
+{"id": "hindi-cognates-bho:महामहिम", "word": "महामहिम", "senses": [{"pos": "adjective", "gloss": "having great glory, power or majesty"}, {"pos": "noun", "gloss": "one having great glory, power or majesty; used as a respectful term of address"}], "translit": ["mahāmahim"]}
+{"id": "hindi-cognates-bho:महामारी", "word": "महामारी", "senses": [{"pos": "noun", "gloss": "epidemic (a widespread occurrence of an infectious disease in a community at a particular time)"}], "translit": ["mahāmārī"]}
+{"id": "hindi-cognates-bho:महायान", "word": "महायान", "senses": [{"pos": "propernoun", "gloss": "Mahayana"}], "translit": ["mahāyān"]}
+{"id": "hindi-cognates-bho:महायुद्ध", "word": "महायुद्ध", "senses": [{"pos": "noun", "gloss": "world war, great war"}], "translit": ["mahāyuddh"]}
+{"id": "hindi-cognates-bho:महारत", "word": "महारत", "senses": [{"pos": "noun", "gloss": "skill, expertise, expert knowledge"}], "translit": ["mahārat"]}
+{"id": "hindi-cognates-bho:महाराज", "word": "महाराज", "senses": [{"pos": "noun", "gloss": "a maharaja, powerful king"}, {"pos": "noun", "gloss": "said to an annoying person"}], "translit": ["mahārāj"]}
+{"id": "hindi-cognates-bho:महाराजगंज", "word": "महाराजगंज", "senses": [{"pos": "propernoun", "gloss": "Maharajganj (a city and district of Gorakhpur division, Uttar Pradesh, India)"}], "translit": ["mahārājgañj"]}
+{"id": "hindi-cognates-bho:महाराजा", "word": "महाराजा", "senses": [{"pos": "noun", "gloss": "maharaja, king"}], "translit": ["mahārājā"]}
+{"id": "hindi-cognates-bho:महारानी", "word": "महारानी", "senses": [{"pos": "noun", "gloss": "an empress, queen"}, {"pos": "noun", "gloss": "a maharani"}], "translit": ["mahārānī"]}
+{"id": "hindi-cognates-bho:महाराष्ट्र", "word": "महाराष्ट्र", "senses": [{"pos": "propernoun", "gloss": "Maharashtra (a state in western India)"}, {"pos": "noun", "gloss": "a great nation, a large kingdom or state"}], "translit": ["mahārāṣṭra"]}
+{"id": "hindi-cognates-bho:महावर", "word": "महावर", "senses": [{"pos": "noun", "gloss": "red dye used by women to stain their feet"}], "translit": ["mahāvar"]}
+{"id": "hindi-cognates-bho:महाविद्यालय", "word": "महाविद्यालय", "senses": [{"pos": "noun", "gloss": "college"}], "translit": ["mahāvidyālay"]}
+{"id": "hindi-cognates-bho:महावीर", "word": "महावीर", "senses": [{"pos": "adjective", "gloss": "very brave, courageous"}, {"pos": "propernoun", "gloss": "Mahavir, 24th Tirthankara of Jainism in the current avsarpini time cycle"}, {"pos": "propernoun", "gloss": "an epithet of Hanuman"}], "translit": ["mahāvīr"]}
+{"id": "hindi-cognates-bho:महाशक्ति", "word": "महाशक्ति", "senses": [{"pos": "noun", "gloss": "great power (a state that has the ability to exert its influence on a global scale)"}], "translit": ["mahāśakti"]}
+{"id": "hindi-cognates-bho:महाशय", "word": "महाशय", "senses": [{"pos": "noun", "gloss": "gentleman, sir"}], "translit": ["mahāśay"]}
+{"id": "hindi-cognates-bho:महासचिव", "word": "महासचिव", "senses": [{"pos": "noun", "gloss": "secretary-general"}], "translit": ["mahāsaciv"]}
+{"id": "hindi-cognates-bho:महासागर", "word": "महासागर", "senses": [{"pos": "noun", "gloss": "ocean"}], "translit": ["mahāsāgar"]}
+{"id": "hindi-cognates-bho:महिमा", "word": "महिमा", "senses": [{"pos": "noun", "gloss": "grandeur, greatness, glory"}, {"pos": "noun", "gloss": "power, strength, might, vigour"}, {"pos": "propernoun", "gloss": "a female given name, Mahima, from Sanskrit"}], "translit": ["mahimā"]}
+{"id": "hindi-cognates-bho:महिला", "word": "महिला", "senses": [{"pos": "noun", "gloss": "lady, female, woman"}], "translit": ["mahilā"]}
+{"id": "hindi-cognates-bho:मही", "word": "मही", "senses": [{"pos": "noun", "gloss": "earth, land, ground"}, {"pos": "noun", "gloss": "buttermilk"}, {"pos": "noun", "gloss": "river"}], "translit": ["mahī"]}
+{"id": "hindi-cognates-bho:महीन", "word": "महीन", "senses": [{"pos": "adjective", "gloss": "delicate, gentle"}, {"pos": "adjective", "gloss": "fine, finely-ground"}, {"pos": "adjective", "gloss": "feeble, light"}], "translit": ["mahīn"]}
+{"id": "hindi-cognates-bho:महीना", "word": "महीना", "senses": [{"pos": "noun", "gloss": "month"}], "translit": ["mahīnā"]}
+{"id": "hindi-cognates-bho:महेंद्र", "word": "महेंद्र", "senses": [{"pos": "propernoun", "gloss": "an epithet of Indra"}, {"pos": "propernoun", "gloss": "a male given name, Mahendra, from Sanskrit"}], "translit": ["mahendra"]}
+{"id": "hindi-cognates-bho:महेश", "word": "महेश", "senses": [{"pos": "propernoun", "gloss": "a male given name, Mahesh, from Sanskrit"}, {"pos": "propernoun", "gloss": "Mahesha, an epithet of Shiva"}], "translit": ["maheś"]}
+{"id": "hindi-cognates-bho:महेश्वर", "word": "महेश्वर", "senses": [{"pos": "noun", "gloss": "an epithet of Shiva"}, {"pos": "propernoun", "gloss": "a male given name, Maheshwar, from Sanskrit"}], "translit": ["maheśvar"]}
+{"id": "hindi-cognates-bho:महोदय", "word": "महोदय", "senses": [{"pos": "noun", "gloss": "sir, gentleman"}, {"pos": "noun", "gloss": "mister"}], "translit": ["mahoday"]}
+{"id": "hindi-cognates-bho:महोबा", "word": "महोबा", "senses": [{"pos": "propernoun", "gloss": "Mahoba (a city and district of Chitrakoot division, Uttar Pradesh, India)"}], "translit": ["mahobā"]}
+{"id": "hindi-cognates-bho:माँ", "word": "माँ", "senses": [{"pos": "noun", "gloss": "mother"}, {"pos": "noun", "gloss": "mum, mummy"}], "translit": ["mā̃"]}
+{"id": "hindi-cognates-bho:माँग", "word": "माँग", "senses": [{"pos": "noun", "gloss": "demand, insistent request"}, {"pos": "noun", "gloss": "want; desire"}, {"pos": "noun", "gloss": "parting of the hair"}], "translit": ["māṅg"]}
+{"id": "hindi-cognates-bho:माँझी", "word": "माँझी", "senses": [{"pos": "noun", "gloss": "sailor, boatman"}], "translit": ["māñjhī"]}
+{"id": "hindi-cognates-bho:मांगलिक", "word": "मांगलिक", "senses": [{"pos": "adjective", "gloss": "auspicious, propitious"}], "translit": ["māṅgalik"]}
+{"id": "hindi-cognates-bho:मांगा", "word": "मांगा", "senses": [{"pos": "noun", "gloss": "manga (comic originating in Japan)"}], "translit": ["māṅgā"]}
+{"id": "hindi-cognates-bho:मांस", "word": "मांस", "senses": [{"pos": "noun", "gloss": "meat"}, {"pos": "noun", "gloss": "flesh"}], "translit": ["māns"]}
+{"id": "hindi-cognates-bho:मांसपेशी", "word": "मांसपेशी", "senses": [{"pos": "noun", "gloss": "muscle"}], "translit": ["mānspeśī"]}
+{"id": "hindi-cognates-bho:मांसल", "word": "मांसल", "senses": [{"pos": "adjective", "gloss": "muscular, muscly"}, {"pos": "adjective", "gloss": "fleshy"}], "translit": ["mānsal"]}
+{"id": "hindi-cognates-bho:मांसाहारी", "word": "मांसाहारी", "senses": [{"pos": "adjective", "gloss": "meat-eating, non-vegetarian, carnivorous"}, {"pos": "noun", "gloss": "meat-eater, carnivore"}], "translit": ["mānsāhārī"]}
+{"id": "hindi-cognates-bho:माइक", "word": "माइक", "senses": [{"pos": "noun", "gloss": "mic, mike, microphone"}], "translit": ["māik"]}
+{"id": "hindi-cognates-bho:माओवाद", "word": "माओवाद", "senses": [{"pos": "noun", "gloss": "Maoism"}], "translit": ["māovād"]}
+{"id": "hindi-cognates-bho:माओवादी", "word": "माओवादी", "senses": [{"pos": "noun", "gloss": "Maoist"}], "translit": ["māovādī"]}
+{"id": "hindi-cognates-bho:माघ", "word": "माघ", "senses": [{"pos": "noun", "gloss": "Magha (eleventh month of the Hindu lunar calendar)"}], "translit": ["māgh"]}
+{"id": "hindi-cognates-bho:माचिस", "word": "माचिस", "senses": [{"pos": "noun", "gloss": "match"}], "translit": ["mācis"]}
+{"id": "hindi-cognates-bho:माजरा", "word": "माजरा", "senses": [{"pos": "noun", "gloss": "state, situation, circumstance"}], "translit": ["mājrā"]}
+{"id": "hindi-cognates-bho:माटी", "word": "माटी", "senses": [{"pos": "noun", "gloss": "clay"}, {"pos": "noun", "gloss": "soil, earth"}, {"pos": "noun", "gloss": "dust"}], "translit": ["māṭī"]}
+{"id": "hindi-cognates-bho:मात", "word": "मात", "senses": [{"pos": "noun", "gloss": "measurement, matra"}, {"pos": "noun", "gloss": "mother"}, {"pos": "adjective", "gloss": "taken aback, astonished"}], "translit": ["māt"]}
+{"id": "hindi-cognates-bho:मातम", "word": "मातम", "senses": [{"pos": "noun", "gloss": "mourning, grief"}], "translit": ["mātam"]}
+{"id": "hindi-cognates-bho:माता", "word": "माता", "senses": [{"pos": "noun", "gloss": "mother"}, {"pos": "noun", "gloss": "ellipsis of शीतला माता (śītlā mātā, “(Mother) Shitala”) A goddess associated with smallpox, chickenpox, and more broadly"}, {"pos": "adjective", "gloss": "intoxicated, drunk"}], "translit": ["mātā"]}
+{"id": "hindi-cognates-bho:मातृ", "word": "मातृ", "senses": [{"pos": "noun", "gloss": "mother"}], "translit": ["mātŕ"]}
+{"id": "hindi-cognates-bho:मातृत्व", "word": "मातृत्व", "senses": [{"pos": "noun", "gloss": "motherhood, maternity"}], "translit": ["mātŕtva"]}
+{"id": "hindi-cognates-bho:मातृभाषा", "word": "मातृभाषा", "senses": [{"pos": "noun", "gloss": "mother tongue, native language, first language"}], "translit": ["mātŕbhāṣā"]}
+{"id": "hindi-cognates-bho:मातृभूमि", "word": "मातृभूमि", "senses": [{"pos": "noun", "gloss": "motherland"}], "translit": ["mātŕbhūmi"]}
+{"id": "hindi-cognates-bho:मात्र", "word": "मात्र", "senses": [{"pos": "adjective", "gloss": "mere, but a(n)"}, {"pos": "adverb", "gloss": "merely, only, just"}], "translit": ["mātra"]}
+{"id": "hindi-cognates-bho:मात्रा", "word": "मात्रा", "senses": [{"pos": "noun", "gloss": "amount, quantity"}, {"pos": "noun", "gloss": "a vowel diacritic in Brahmic scripts, such as Devanagari"}], "translit": ["mātrā"]}
+{"id": "hindi-cognates-bho:माथ", "word": "माथ", "senses": [{"pos": "noun", "gloss": "synonym of माथा (māthā, “forehead”)"}], "translit": ["māth"]}
+{"id": "hindi-cognates-bho:माथा", "word": "माथा", "senses": [{"pos": "noun", "gloss": "forehead"}, {"pos": "noun", "gloss": "summit, top"}], "translit": ["māthā"]}
+{"id": "hindi-cognates-bho:माथुर", "word": "माथुर", "senses": [{"pos": "propernoun", "gloss": "a surname, Mathur"}], "translit": ["māthur"]}
+{"id": "hindi-cognates-bho:मादक", "word": "मादक", "senses": [{"pos": "noun", "gloss": "a drug, narcotic, addictive substance"}, {"pos": "adjective", "gloss": "intoxicating"}, {"pos": "adjective", "gloss": "alcoholic"}], "translit": ["mādak"]}
+{"id": "hindi-cognates-bho:मादरचोद", "word": "मादरचोद", "senses": [{"pos": "noun", "gloss": "motherfucker (generic term of abuse) (cf. Hindi मादरचोद)"}], "translit": ["mādarᵊcōd"]}
+{"id": "hindi-cognates-bho:मादा", "word": "मादा", "senses": [{"pos": "noun", "gloss": "female (of an animal)"}], "translit": ["mādā"]}
+{"id": "hindi-cognates-bho:माधव", "word": "माधव", "senses": [{"pos": "adjective", "gloss": "sweet, honeylike"}, {"pos": "adjective", "gloss": "vernal, relating to spring"}, {"pos": "noun", "gloss": "spring, Vaisakha"}], "translit": ["mādhav"]}
+{"id": "hindi-cognates-bho:माधवी", "word": "माधवी", "senses": [{"pos": "noun", "gloss": "creeper, vine"}, {"pos": "noun", "gloss": "wife of Madhav"}, {"pos": "noun", "gloss": "an epithet of the goddess Durga and Lakshmi"}], "translit": ["mādhvī"]}
+{"id": "hindi-cognates-bho:माध्यम", "word": "माध्यम", "senses": [{"pos": "noun", "gloss": "medium, means"}, {"pos": "adjective", "gloss": "middle, central, mid"}], "translit": ["mādhyam"]}
+{"id": "hindi-cognates-bho:माध्यमिक", "word": "माध्यमिक", "senses": [{"pos": "adjective", "gloss": "middle, secondary, intermediary"}, {"pos": "adjective", "gloss": "transitional"}], "translit": ["mādhyamik"]}
+{"id": "hindi-cognates-bho:मान", "word": "मान", "senses": [{"pos": "noun", "gloss": "measuring, measurement"}, {"pos": "noun", "gloss": "a measure (how much; quantity, amount, value)"}, {"pos": "noun", "gloss": "standard"}], "translit": ["mān"]}
+{"id": "hindi-cognates-bho:मानक", "word": "मानक", "senses": [{"pos": "adjective", "gloss": "standard, common"}, {"pos": "noun", "gloss": "standard"}, {"pos": "noun", "gloss": "test, assessment"}], "translit": ["mānak"]}
+{"id": "hindi-cognates-bho:मानकीकरण", "word": "मानकीकरण", "senses": [{"pos": "noun", "gloss": "standardization"}, {"pos": "noun", "gloss": "normalization"}], "translit": ["mānkīkraṇ"]}
+{"id": "hindi-cognates-bho:मानचित्र", "word": "मानचित्र", "senses": [{"pos": "noun", "gloss": "map, chart"}], "translit": ["māncitra"]}
+{"id": "hindi-cognates-bho:मानदंड", "word": "मानदंड", "senses": [{"pos": "noun", "gloss": "yardstick, measuring rod"}, {"pos": "noun", "gloss": "criterion, standard, norm"}], "translit": ["māndaṇḍ"]}
+{"id": "hindi-cognates-bho:मानदेय", "word": "मानदेय", "senses": [{"pos": "noun", "gloss": "honorarium; pay for services"}], "translit": ["māndey"]}
+{"id": "hindi-cognates-bho:मानना", "word": "मानना", "senses": [{"pos": "verb", "gloss": "to accept, agree"}, {"pos": "verb", "gloss": "to acknowledge"}, {"pos": "verb", "gloss": "to suppose, imagine"}], "translit": ["mānnā"]}
+{"id": "hindi-cognates-bho:माननीय", "word": "माननीय", "senses": [{"pos": "adjective", "gloss": "distinguished, respected, honorable"}], "translit": ["mānnīya"]}
+{"id": "hindi-cognates-bho:मानव", "word": "मानव", "senses": [{"pos": "noun", "gloss": "human being"}, {"pos": "noun", "gloss": "man, male"}, {"pos": "noun", "gloss": "mankind, humanity"}], "translit": ["mānav"]}
+{"id": "hindi-cognates-bho:मानवता", "word": "मानवता", "senses": [{"pos": "noun", "gloss": "humanity"}], "translit": ["mānavtā"]}
+{"id": "hindi-cognates-bho:मानवाधिकार", "word": "मानवाधिकार", "senses": [{"pos": "noun", "gloss": "human right"}], "translit": ["mānavādhikār"]}
+{"id": "hindi-cognates-bho:मानवीय", "word": "मानवीय", "senses": [{"pos": "adjective", "gloss": "human"}, {"pos": "adjective", "gloss": "humanitarian; humane"}], "translit": ["mānavīya"]}
+{"id": "hindi-cognates-bho:मानस", "word": "मानस", "senses": [{"pos": "adjective", "gloss": "mental"}, {"pos": "adjective", "gloss": "spiritual"}, {"pos": "propernoun", "gloss": "a male given name, Manas, from Sanskrit"}], "translit": ["mānas"]}
+{"id": "hindi-cognates-bho:मानसिक", "word": "मानसिक", "senses": [{"pos": "adjective", "gloss": "mental, of or pertaining to the mind"}], "translit": ["mānsik"]}
+{"id": "hindi-cognates-bho:मानसिकता", "word": "मानसिकता", "senses": [{"pos": "noun", "gloss": "mentality, mindset"}, {"pos": "noun", "gloss": "mental state, mental condition"}], "translit": ["mānsiktā"]}
+{"id": "hindi-cognates-bho:मानसी", "word": "मानसी", "senses": [{"pos": "noun", "gloss": "psychic, mental, intellectual"}, {"pos": "propernoun", "gloss": "a female given name, Manasi, from Sanskrit"}], "translit": ["mānsī"]}
+{"id": "hindi-cognates-bho:मानसून", "word": "मानसून", "senses": [{"pos": "noun", "gloss": "monsoon"}], "translit": ["mānsūn"]}
+{"id": "hindi-cognates-bho:मानसूनी", "word": "मानसूनी", "senses": [{"pos": "adjective", "gloss": "monsoon"}], "translit": ["mānsūnī"]}
+{"id": "hindi-cognates-bho:मानहानि", "word": "मानहानि", "senses": [{"pos": "noun", "gloss": "slander, insult, defamation"}], "translit": ["mānhāni"]}
+{"id": "hindi-cognates-bho:मानिक", "word": "मानिक", "senses": [{"pos": "noun", "gloss": "ruby"}, {"pos": "noun", "gloss": "jewel"}], "translit": ["mānik"]}
+{"id": "hindi-cognates-bho:मानी", "word": "मानी", "senses": [{"pos": "noun", "gloss": "meaning"}, {"pos": "noun", "gloss": "intent"}], "translit": ["mānī"]}
+{"id": "hindi-cognates-bho:मानुस", "word": "मानुस", "senses": [{"pos": "noun", "gloss": "human"}, {"pos": "noun", "gloss": "man"}, {"pos": "noun", "gloss": "husband"}], "translit": ["mānus"]}
+{"id": "hindi-cognates-bho:माने", "word": "माने", "senses": [{"pos": "adverb", "gloss": "that is, that is to say"}], "translit": ["māne"]}
+{"id": "hindi-cognates-bho:मानों", "word": "मानों", "senses": [{"pos": "conjunction", "gloss": "as if, as though"}], "translit": ["mānõ"]}
+{"id": "hindi-cognates-bho:मान्यता", "word": "मान्यता", "senses": [{"pos": "noun", "gloss": "recognition, acceptance, validation"}, {"pos": "propernoun", "gloss": "a female given name, Manyata, from Sanskrit"}], "translit": ["mānyatā"]}
+{"id": "hindi-cognates-bho:मान्यवर", "word": "मान्यवर", "senses": [{"pos": "noun", "gloss": "gentleman, sir"}, {"pos": "noun", "gloss": "Excellency"}], "translit": ["mānyavar"]}
+{"id": "hindi-cognates-bho:माप", "word": "माप", "senses": [{"pos": "noun", "gloss": "measuring, measure, measurement"}], "translit": ["māp"]}
+{"id": "hindi-cognates-bho:मापदंड", "word": "मापदंड", "senses": [{"pos": "noun", "gloss": "criterion, standard, benchmark, touchstone"}], "translit": ["māpdaṇḍ"]}
+{"id": "hindi-cognates-bho:मापन", "word": "मापन", "senses": [{"pos": "noun", "gloss": "measurement, measuring, determination"}, {"pos": "noun", "gloss": "scale, balance"}], "translit": ["māpan"]}
+{"id": "hindi-cognates-bho:माफ़", "word": "माफ़", "senses": [{"pos": "adjective", "gloss": "forgiven, pardoned"}], "translit": ["māf"]}
+{"id": "hindi-cognates-bho:माफ़ी", "word": "माफ़ी", "senses": [{"pos": "noun", "gloss": "forgiveness, pardon"}], "translit": ["māfī"]}
+{"id": "hindi-cognates-bho:मामला", "word": "मामला", "senses": [{"pos": "noun", "gloss": "matter, issue"}, {"pos": "noun", "gloss": "case"}, {"pos": "noun", "gloss": "case, instance"}], "translit": ["māmlā"]}
+{"id": "hindi-cognates-bho:मामा", "word": "मामा", "senses": [{"pos": "noun", "gloss": "maternal uncle"}], "translit": ["māmā"]}
+{"id": "hindi-cognates-bho:मामी", "word": "मामी", "senses": [{"pos": "noun", "gloss": "maternal uncle's wife"}], "translit": ["māmī"]}
