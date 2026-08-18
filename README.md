@@ -132,8 +132,8 @@ vocabulary. Audit trail: `mechanical-log.jsonl`, `all-findings.jsonl`,
 
 **Bottom line: `mono/all-dedup.txt` = 19.1M words / 560k lines (~28M tokens)
 of deduplicated, commercial-safe Bhojpuri text; ~180k parallel pairs (incl.
-15k professionally translated); 133k-example SFT bundle (`sft.jsonl`),
-163k with NC sources (`sft-nc.jsonl`). Language audit in
+15k professionally translated); 149k-example SFT bundle (`sft.jsonl`),
+179k with NC sources (`sft-nc.jsonl`). Language audit in
 `data/corpus/QUALITY.md` (`pipeline/audit_language.py`).**
 
 Dead ends checked so far: kaikki.org (no bho extract), IndicCorpV2/Sangraha/BPCC
