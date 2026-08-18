@@ -1,6 +1,7 @@
 name: validate dictionary data
 
 on:
+  workflow_dispatch:
   pull_request:
     paths:
       - "data/canonical/**"
