@@ -2,8 +2,10 @@
 
 [app]
 address = "0.0.0.0:9000"
+# CHANGE THESE before exposing the site to the internet. The admin UI is not
+# rate-limited; these defaults are for local development only.
 admin_username = "admin"
-admin_password = "admin123"
+admin_password = "change-me-before-deploying"
 root_url = "http://localhost:9000"
 admin_assets = []
 enable_pages = true

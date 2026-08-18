@@ -207,3 +207,22 @@ download URLs are documented in each fetcher/processor script.)
 FLORES-200 bho files are the benchmark — never train on them. See
 `eval/README.md` for the protocol and `eval/score.py` for a dependency-free
 chrF2 scorer.
+
+## Licensing
+
+This repo mixes three kinds of material, and they are not under one licence:
+
+- **Dictionary data** (`data/canonical/`) — derived from open sources, each
+  entry carrying its own `license` field: CC BY-SA 4.0 (Wiktionary, bhwiki,
+  NLLB-Seed/MD), CC BY 4.0 (GATITOS). Attribution and share-alike obligations
+  follow the entries; keep the `source`/`license` fields when redistributing.
+- **Corpus** (`data/corpus/`, not committed) — per-source licences listed in
+  `data/corpus/STATS.md`. Anything in a `*-NC` file is **non-commercial only**
+  (BHLTR/JNU, CC BY-NC-SA); `sft.jsonl` excludes those, `sft-nc.jsonl` does not.
+- **Site theme** (`dictpress/site/`) — a modified copy of the dictpress default
+  theme, which is **AGPL-3.0** (see `dictpress/app/LICENSE` after downloading
+  the release).
+
+The pipeline code (`pipeline/`, `eval/`) has no licence file yet — without one
+it is "all rights reserved" by default, so pick one before expecting outside
+contributions to code.
