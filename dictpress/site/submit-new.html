@@ -10,7 +10,7 @@
     <ol class="guide-steps">
         <li><b>Word</b> in Devanagari, dictionary form — <span class="ex">मड़ई</span>, not मड़इया</li>
         <li><b>Meaning</b> in English, one per box — <span class="ex">thatched hut</span></li>
-        <li>More meanings? Click <b>+ Add another definition</b></li>
+        <li>More meanings? Click <b>+ Add another meaning</b></li>
     </ol>
 
     <p class="guide-foot">Already in the dictionary? Use the ✏️ on its entry instead. A moderator checks everything before it goes live — unsure of the spelling, send it anyway.</p>
@@ -28,8 +28,9 @@
             </div>
             <div class="col-1"></div>
             <div class="col-8">
-                <label for="entry-content">{{ t(key="public.suggestContent") }}</label>
-                <textarea name="entry_content" id="entry-content" required minlength="3"></textarea>
+                <label for="entry-content">{{ t(key="public.suggestWordLabel") }}</label>
+                <textarea name="entry_content" id="entry-content" required minlength="3"
+                          placeholder="{{ t(key="public.suggestWordPlaceholder") }}"></textarea>
             </div>
         </div>
         <fieldset>
@@ -45,7 +46,7 @@
                     <label>{{ t(key="public.suggestDefLang") }}</label>
                     <select name="relation_lang">
                     {% for id, l in langs %}
-                        <option value="{{ id }}">{{ l.name }}</option>
+                        <option value="{{ id }}"{% if id == "english" %} selected{% endif %}>{{ l.name }}</option>
                     {% endfor %}
                     </select>
 
@@ -62,8 +63,9 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-8">
-                    <label for="definition-content">{{ t(key="public.suggestContent") }}</label>
-                    <textarea name="relation_content" required minlength="3"></textarea>
+                    <label for="definition-content">{{ t(key="public.suggestMeaningLabel") }}</label>
+                    <textarea name="relation_content" required minlength="3"
+                              placeholder="{{ t(key="public.suggestMeaningPlaceholder") }}"></textarea>
                 </div>
             </li>
         </ol>
