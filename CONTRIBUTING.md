@@ -1,41 +1,66 @@
 # Contributing to भोज
 
-Illustrated step-by-step guide (with screenshots of every step):
-see the contributor's guide artifact, or follow the short version below.
+Three ways to add Bhojpuri words. All of them end up in the same place.
 
-## On the website (no account needed)
+## 1. On the website — easiest, no account
 
-1. **Search first.** If the word exists, use the ✏️ *Suggest an edit* icon on
-   its entry instead of re-adding it.
-2. **Suggest new entry** (footer link, every page): word in Devanagari in
-   dictionary form, optional romanization, one meaning per definition box
-   (language: English, pick the part of speech). `+ Add another definition`
-   per extra sense.
-3. Submit — everything queues for moderator review at `/admin/pending`;
-   nothing publishes unreviewed.
+Open **/submit**, fill in the word and its meaning, press *Submit for review*.
+A maintainer approves it and it goes live. The page has a short guide built in.
 
-What reviewers look for: lemma not inflected form, Devanagari headwords,
-short plain English glosses, region noted when usage is local. Regional
-variants and words Hindi doesn't have are the most wanted. Unsure spelling
-is fine — say so and submit anyway.
+If the word is already in the dictionary, open its entry and use the ✏️
+*Suggest an edit* icon instead of adding a duplicate.
 
-## Through the repo
+## 2. Open a GitHub issue — no coding
 
-Entries live as JSONL in `data/canonical/` (see README for the schema).
-Hand-curated community words go in `data/canonical/community-bho.jsonl` —
-usage examples (`examples: [{"bho": …, "en": …}]`) are the most valuable
-field; they feed both the dictionary and the LLM training data.
+Use the **[Add a Bhojpuri word](../../issues/new?template=add-word.yml)** issue
+form: word, meanings, optionally pronunciation, an example sentence, and your
+region. A maintainer converts it into an entry.
 
-```sh
-make data dict   # regenerate import CSV, rebuild DB, restart the site
+## 3. Send a pull request — for anything larger
+
+Words live as JSONL — one entry per line — in `data/canonical/`.
+Community contributions go in **`data/canonical/community-bho.jsonl`**:
+
+```json
+{"word": "मड़ई", "lang": "bho", "script": "Deva", "translit": ["maṛaī"],
+ "phones": [], "tags": [],
+ "senses": [{"pos": "noun", "gloss": "thatched hut", "examples":
+   [{"bho": "ऊ मड़ई में रहेला", "en": "he lives in a thatched hut"}]}],
+ "source": "community submission", "source_url": "", "license": "CC BY-SA 4.0"}
 ```
 
-**Highest-leverage task:** review the 2,882 borderline machine-mined
-candidates in `data/canonical/*-review.jsonl` — promote good ones into the
-main files, delete wrong ones.
+Before pushing:
 
-## For moderators
+```sh
+python3 pipeline/validate_canonical.py   # CI runs this on every PR
+```
 
-Approved website submissions live only in `dictpress/data.db`. Export them
-into `community-bho.jsonl` before running `make dict`, which rebuilds the DB
-from the canonical files and would otherwise discard them.
+Rebuild the site from the data with `make data dict`.
+
+### What makes a good entry
+
+- Dictionary form, not an inflected one — मड़ई, not मड़इया
+- One meaning per sense, in short plain English
+- Note the region when usage is local: `"tags": ["region:Ballia"]`
+- **Words Hindi doesn't have are the most valuable** — those are why this
+  dictionary exists
+- **Example sentences are the single most valuable field.** They feed both the
+  dictionary and the Bhojpuri language-model training data, and almost no
+  existing source has them.
+
+Don't guess at meanings you're unsure of — say so in the PR instead. An unsure
+word we can check beats a wrong entry, and beats never learning the word exists.
+
+### Highest-leverage task right now
+
+2,882 machine-mined candidates sit in `data/canonical/*-review.jsonl`,
+deliberately excluded from the dictionary because their confidence was
+borderline. Promoting the good ones and deleting the wrong ones grows the
+dictionary faster than any scraper. A native speaker skimming a few hundred
+lines is worth more than a week of mining.
+
+## For maintainers
+
+Website submissions live only in `dictpress/data.db` until exported. Export
+approved ones into `community-bho.jsonl` **before** running `make dict`, which
+rebuilds the database from the canonical files and would otherwise discard them.

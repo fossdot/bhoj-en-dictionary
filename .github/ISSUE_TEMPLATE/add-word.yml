@@ -1,0 +1,47 @@
+name: Add a Bhojpuri word
+description: Suggest a word that is missing from the dictionary (no coding needed)
+title: "[word] "
+labels: ["new word"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for adding to the dictionary! Fill in what you know — a maintainer
+        will turn this into a dictionary entry. You can also add words directly on
+        the site, or open a pull request against `data/canonical/community-bho.jsonl`.
+  - type: input
+    id: word
+    attributes:
+      label: Word (in Devanagari)
+      description: Dictionary form, e.g. मड़ई (not मड़इया)
+      placeholder: मड़ई
+    validations:
+      required: true
+  - type: textarea
+    id: meaning
+    attributes:
+      label: Meaning (in English)
+      description: One meaning per line
+      placeholder: |
+        thatched hut
+        small thatched shed for cattle or straw
+    validations:
+      required: true
+  - type: input
+    id: pronunciation
+    attributes:
+      label: Pronunciation (optional)
+      placeholder: maṛaī
+  - type: textarea
+    id: example
+    attributes:
+      label: Example sentence (optional, very valuable)
+      description: A Bhojpuri sentence using the word, and its English translation
+      placeholder: |
+        ऊ मड़ई में रहेला
+        he lives in a thatched hut
+  - type: input
+    id: region
+    attributes:
+      label: Where is this word used? (optional)
+      placeholder: Ballia / Chapra / Siwan …

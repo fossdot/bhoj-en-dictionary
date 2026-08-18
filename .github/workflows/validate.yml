@@ -1,0 +1,27 @@
+name: validate dictionary data
+
+on:
+  pull_request:
+    paths:
+      - "data/canonical/**"
+      - "pipeline/**"
+  push:
+    branches: [main]
+    paths:
+      - "data/canonical/**"
+      - "pipeline/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate canonical entries
+        run: python3 pipeline/validate_canonical.py
+      - name: Check the dictpress import builds
+        run: |
+          python3 pipeline/to_dictpress.py data/canonical/*.jsonl > /tmp/import.csv
+          wc -l /tmp/import.csv

@@ -507,14 +507,6 @@ fieldset.group {
   opacity: 0.75;
 }
 
-.guide .guide-hint {
-  float: right;
-  font-size: var(--text-8);
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: #e4572e;
-}
 
 /* ---- Built by Bodhya ---- */
 .footer .built-by {
@@ -543,5 +535,51 @@ fieldset.group {
     height: 30px;
     width: auto;
     display: block;
+  }
+}
+
+/* ---- Accessibility ----
+   Measured on the live site: the theme sets outline-width but outline-style:none,
+   so keyboard focus was invisible. Restore a strong, high-contrast focus ring and
+   make the smallest text a little larger/darker for low-vision readers. */
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid light-dark(#0b57d0, #8ab4f8);
+  outline-offset: 2px;
+  border-radius: var(--radius-small, 3px);
+}
+
+/* keep the ring visible against the dark search button */
+.search-form button:focus-visible,
+button[type="submit"]:focus-visible {
+  outline-color: light-dark(#0b57d0, #ffffff);
+}
+
+.footer {
+  font-size: var(--text-7);
+  color: light-dark(#52525b, #d4d4d8);
+
+  a {
+    color: inherit;
+  }
+}
+
+.guide .guide-foot {
+  opacity: 1;
+  color: light-dark(#3f3f46, #c9c9d1);
+}
+
+.guide .guide-sub {
+  opacity: 1;
+  color: light-dark(#52525b, #b8b8c0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
