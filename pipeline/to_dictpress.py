@@ -20,11 +20,37 @@ Usage:
 
 import csv
 import json
+import re
 import sys
+from collections import Counter
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
 
 LANG_BHO = "bhojpuri"
 LANG_EN = "english"
+
+
+FREQ_CACHE = ROOT / "data" / "corpus" / "word-freq.json"
+CORPUS = ROOT / "data" / "corpus" / "mono" / "all-dedup-lid-bho.txt"
+
+
+def corpus_freq() -> dict[str, int]:
+    """Headword frequency in the LID-filtered Bhojpuri corpus, for ranking.
+    Returns {} when the corpus isn't built (ordering then falls back to length)."""
+    if FREQ_CACHE.exists():
+        return json.loads(FREQ_CACHE.read_text())
+    if not CORPUS.exists():
+        return {}
+    counts: Counter[str] = Counter()
+    word_re = re.compile(r"[\u0900-\u097F]+")
+    with CORPUS.open() as f:
+        for line in f:
+            counts.update(word_re.findall(line))
+    freq = {w: c for w, c in counts.items() if c > 1}
+    FREQ_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    FREQ_CACHE.write_text(json.dumps(freq, ensure_ascii=False))
+    return freq
 
 
 def entry_rows(e: dict) -> list[list[str]]:
@@ -80,10 +106,12 @@ def main() -> None:
 
     w = csv.writer(sys.stdout)
     n_defs = 0
-    # dictpress ranks search results by import order (row weight), so emit
-    # compact headwords first: single-word lemmas outrank multiword compounds
-    # that share their phonetic hash (query पिटारा should beat "दक्कन पठार").
-    for word in sorted(by_word, key=lambda x: (len(x.split()), len(x), x)):
+    # dictpress ranks search results by import order (row weight), so emit the
+    # most important headwords first: entries sharing a phonetic hash are
+    # ranked by corpus frequency, then compactness. Without this, a rare short
+    # word (पना) outranks the common word the user typed (पानी).
+    freq = corpus_freq()
+    for word in sorted(by_word, key=lambda x: (-freq.get(x, 0), len(x.split()), len(x), x)):
         rows = entry_rows(merge(by_word[word]))
         w.writerows(rows)
         n_defs += len(rows) - 1

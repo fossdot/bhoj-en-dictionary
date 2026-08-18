@@ -95,13 +95,22 @@ from [dictpress releases](https://github.com/knadh/dictpress/releases)
 | Hindi pivot (kaikki.org Hindi × corpus-attested, freq ≥ 20) | 8,907 headwords, tagged `src:hi-cognate` | CC BY-SA 4.0 |
 | IBM-1 alignment over NLLB-Seed/MD pro translations | 4,097 headwords, tagged `src:aligned` | CC BY-SA 4.0 (derived) |
 | bhwiki interlanguage links (≤3 words, no digits) | 8,310 headwords, tagged `src:bhwiki-langlinks` | CC BY-SA 4.0 |
-| **merged** | **20,568 headwords, 31,387 definitions** | |
+| **merged, after cleaning** | **20,254 headwords, 30,432 definitions** | |
 
 Every machine-derived source went through a two-lens judge panel (semantic
-correctness + lexicographic quality) on random samples before import — all
-passed at 100% on samples; borderline entries live in `*-review.jsonl` files
-that are **not** imported (alignment scores 0.20–0.30: 1,029; cognate
-freq 8–19: 1,853). Entries carry `src:*` tags for later per-source review.
+correctness + lexicographic quality) on random samples before import.
+Borderline candidates live in `*-review.jsonl` files that are **not**
+imported (alignment scores 0.20–0.30: 1,029; cognate freq 8–19: 1,853).
+Entries carry `src:*` tags for per-source review.
+
+**Full quality sweep** (`data/cleaning/`): every one of the 25,859 entry-senses
+was then read by a reviewer agent under a source-specific rubric, and every
+proposed change independently verified before application — 1,007 mechanical
+fixes (`pipeline/clean_canonical.py`) plus 2,145 reviewed changes
+(1,642 gloss corrections, 336 sense deletions, 111 entry deletions, 56 tags).
+62 proposed deletions were **rejected** by verification to protect regional
+vocabulary. Audit trail: `mechanical-log.jsonl`, `all-findings.jsonl`,
+`verdicts.jsonl`, `applied-log.jsonl`.
 
 ### Corpus (→ `data/corpus/`, see `STATS.md` for exact counts)
 

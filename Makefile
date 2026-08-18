@@ -44,6 +44,12 @@ dict:
 	rm -f $(DICT)/data.db
 	$(DOCKER_RUN) sh -c "./dictpress --config ../config.toml --db ../data.db install --yes && \
 	  ./dictpress --config ../config.toml --db ../data.db import --file ../import.csv"
+	# dictpress ranks results as bm25 + entry weight, with a fixed -1000 boost for
+	# exact headword matches. Import assigns weight by row order (0..N), so with
+	# 20k entries the boost is swamped and a common phonetic neighbour outranks
+	# the word the user typed. Compress weights into 0..999 so the exact-match
+	# boost always wins, while frequency order still breaks ties inside a bucket.
+	sqlite3 $(DICT)/data.db "UPDATE entries SET weight = ROUND(weight * 999.0 / (SELECT MAX(weight) FROM entries), 2);"
 	docker run -d --name bhoj-dict --restart unless-stopped -p 9000:9000 \
 	  -v "$(PWD)/$(DICT):/work" -w /work/app alpine \
 	  ./dictpress --config ../config.toml --db ../data.db --site ../site

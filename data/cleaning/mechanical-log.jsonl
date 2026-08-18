@@ -982,3 +982,26 @@
 {"fix": "paren-word", "file": "langlinks-bho", "word": "योनि (बहुअर्थी)", "detail": "→ योनि"}
 {"fix": "paren-word", "file": "langlinks-bho", "word": "ज़ाकिर हुसैन (नेता)", "detail": "→ ज़ाकिर हुसैन"}
 {"fix": "paren-word", "file": "langlinks-bho", "word": "आत्मन् (हिंदू धर्म)", "detail": "→ आत्मन्"}
+{"fix": "dedupe-sense", "file": "gatitos-bho", "word": "बोली", "detail": "bid"}
+{"fix": "dedupe-sense", "file": "gatitos-bho", "word": "उत्पाद", "detail": "product"}
+{"fix": "dedupe-sense", "file": "gatitos-bho", "word": "सनिचर", "detail": "Saturday"}
+{"fix": "dedupe-sense", "file": "gatitos-bho", "word": "अपवाद", "detail": "exception"}
+{"fix": "dedupe-sense", "file": "gatitos-bho", "word": "उहवां", "detail": "over there"}
+{"fix": "dedupe-sense", "file": "gatitos-bho", "word": "सांढ", "detail": "bull"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "अंटार्कटिक", "detail": "Antarctic (a continental region, one of the major ecozones o"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "इतालवी", "detail": "Italian (the official language of Italy, also spoken in San "}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "एशिया", "detail": "Asia (an ancient province of the Roman Empire in western Ana"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ऑस्ट्रेलिया", "detail": "Australia (a country in Oceania consisting of a main island,"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ऑस्ट्रेलिया", "detail": "Australia (the continent on the Australian tectonic plate, c"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "चीन", "detail": "China (a large country in East Asia; the People's Republic o"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जर्मन", "detail": "German (an Indo-European language spoken primarily in German"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "जॉर्डन", "detail": "Jordan (a river in West Asia that empties into the Dead Sea)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "बलूचिस्तान", "detail": "Balochistan (a province of Pakistan)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "ब्रिटेन", "detail": "Britain (Great Britain, a large island off the north-western"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "मक्का", "detail": "Mecca (a province of Saudi Arabia)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "यहूदा", "detail": "Judah (a traditional region and ancient kingdom in the Land "}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "रोम", "detail": "Rome (a metropolitan city of Lazio, Italy)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "विक्टोरिया", "detail": "Victoria (a city, the capital of British Columbia)"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "वेनिस", "detail": "Venice (a metropolitan city of Veneto, established in 2015; "}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सिडनी", "detail": "Sydney (a seaport and former city in Nova Scotia, Canada, no"}
+{"fix": "dedupe-sense", "file": "hindi-cognates-bho", "word": "सीरिया", "detail": "Syria (a historical region of West Asia, extending from mode"}
