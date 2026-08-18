@@ -3,6 +3,49 @@
 {% block content %}
 <h2>{{ t(key="public.submitEntry") }}</h2>
 <hr />
+
+<details class="guide">
+    <summary>How to add a word <span class="guide-sub">— भोजपुरी सब्द कइसे जोड़ल जाव</span> <span class="guide-hint">read first</span></summary>
+
+    <ol class="guide-steps">
+        <li><b>Search first.</b> If the word is already here, don't add it again — open its entry and use the ✏️ <i>Suggest an edit</i> icon instead.</li>
+        <li><b>Content</b> — the word itself in Devanagari, in dictionary form: <span class="ex">मड़ई</span>, not मड़इया or a whole sentence.</li>
+        <li><b>Pronunciation</b> — optional. A romanization like <span class="ex">maṛaī</span>, or IPA if you know it.</li>
+        <li><b>Definitions</b> — set the language to <b>English</b>, pick the part of speech, and write one meaning per box. Use <b>+ Add another definition</b> for each extra sense.</li>
+    </ol>
+
+    <div class="guide-example">
+        <span class="guide-label">Example</span>
+        <b>मड़ई</b> &nbsp;<span class="muted-text">maṛaī</span> &nbsp;·&nbsp; Noun &nbsp;→&nbsp;
+        <i>1.</i> thatched hut; a small cottage of straw and bamboo &nbsp;
+        <i>2.</i> small thatched shed for cattle or straw
+    </div>
+
+    <div class="guide-cols">
+        <div>
+            <span class="guide-label ok">Do</span>
+            <ul>
+                <li>Dictionary form, not an inflected one</li>
+                <li>One sense per definition box</li>
+                <li>Short, plain English meanings</li>
+                <li>Note the region if the usage is local — “(Ballia side)”</li>
+                <li><b>Words Hindi doesn't have</b> — those are the most valuable</li>
+            </ul>
+        </div>
+        <div>
+            <span class="guide-label no">Avoid</span>
+            <ul>
+                <li>Whole phrases or sentences as the word</li>
+                <li>Roman-script headwords (use Devanagari)</li>
+                <li>Encyclopedia-style explanations</li>
+                <li>Hindi words not actually used in Bhojpuri</li>
+                <li>Meanings you are not sure about</li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="guide-foot">Every submission is read by a moderator before it goes live, so a mistake costs nothing. Unsure of the spelling? Submit anyway and say so — we would rather fix a spelling than never learn the word exists. Regional variants are wanted, not a problem.</p>
+</details>
 <form method="post" action="" class="form-submit">
     <div>
         <div class="row">
