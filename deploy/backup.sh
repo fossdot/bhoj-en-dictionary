@@ -15,5 +15,7 @@ for src in ("../dictpress/data.db", "data/review/review.db"):
         print("backed up", p, "→", dst, dst.stat().st_size // 1024, "KB")
 PY
 gzip -f "$out"/*.db
+# pull public comments/suggestions from the dictionary into the review queue
+REVIEW_DB="$PWD/data/review/review.db" python3 ../app/review/import_public.py --dict-db ../dictpress/data.db
 find backups -mindepth 1 -maxdepth 1 -type d -mtime +30 -exec rm -rf {} +
 echo "$(date -Is) ok"

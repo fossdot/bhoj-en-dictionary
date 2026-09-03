@@ -4,8 +4,13 @@
   <p class="muted small"><a href="{{ url_for('others') }}">← Students' Work</a></p>
   <p><strong>{{ v.user_name }}</strong> proposed an edit on <b>{{ item.content.word }}</b> · {{ v.created_at[:10] }}</p>
   {% if v.reason %}<blockquote>{{ v.reason }}</blockquote>{% endif %}
+  {% if base.new %}
+  <h3>Proposed new entry</h3>
+  {% with c = base %}{% include "_entry.html" %}{% endwith %}
+  {% else %}
   <h3>Changes</h3>
   {% include "_changes.html" %}
+  {% endif %}
   {% if verdicts | length > 1 %}
   <p class="small muted">Other verdicts: {% for x in verdicts if x.id != v.id %}<span class="v-badge {{ x.verdict }}">{{ x.verdict }}</span> {{ x.user_name }}{% if x.reason %} (<i>{{ x.reason }}</i>){% endif %} {% endfor %}</p>
   {% endif %}

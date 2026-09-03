@@ -65,7 +65,7 @@ def main() -> None:
                 stats["kept"] += 1
         # words removed from canonical outside the review flow
         for word, row in existing.items():
-            if word not in by_word and row["status"] != "deleted":
+            if word not in by_word and row["status"] != "deleted" and not json.loads(row["original"]).get("new"):
                 con.execute("UPDATE items SET status='deleted', exported_status='deleted' WHERE id=?", (row["id"],))
                 stats["gone"] += 1
     print(f"{len(by_word)} headwords → {stats} → {db.DB_PATH}", file=sys.stderr)

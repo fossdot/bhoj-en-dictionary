@@ -201,11 +201,11 @@ def get_user(user_id: int | None = None, username: str | None = None) -> dict | 
     return dict(row) if row else None
 
 
-def count_users() -> int:
+def has_teacher() -> bool:
     con = connect()
-    n = con.execute("SELECT COUNT(*) FROM users").fetchone()[0]
+    n = con.execute("SELECT COUNT(*) FROM users WHERE role='teacher'").fetchone()[0]
     con.close()
-    return n
+    return n > 0
 
 
 def list_users() -> list[dict]:
@@ -553,14 +553,18 @@ def decide_edit(verdict_id: int, teacher_id: int, accept: bool, note: str = "",
                     (item_id, verdict_id, teacher_id, "accept_edit" if accept else "reject_edit", note.strip()))
         if accept:
             content = final_content or json.loads(v["proposed"])
-            con.execute("""UPDATE items SET content=?, status='open', n_correct=1, n_incorrect=0,
+            # the teacher's acceptance counts as one 'correct' on the new content
+            status = "verified" if 1 >= VERIFY_VOTES else "open"
+            con.execute("""UPDATE items SET content=?, status=?, n_correct=1, n_incorrect=0,
                            updated_at=strftime('%Y-%m-%dT%H:%M:%SZ','now') WHERE id=?""",
-                        (json.dumps(content, ensure_ascii=False), item_id))
+                        (json.dumps(content, ensure_ascii=False), status, item_id))
         else:
-            it = con.execute("SELECT n_correct, n_incorrect FROM items WHERE id=?", (item_id,)).fetchone()
+            it = con.execute("SELECT n_correct, n_incorrect, original FROM items WHERE id=?", (item_id,)).fetchone()
             status = "conflict" if it["n_correct"] and it["n_incorrect"] else \
                      "verified" if it["n_correct"] >= VERIFY_VOTES else \
                      "deleted" if it["n_incorrect"] >= DELETE_VOTES else "open"
+            if json.loads(it["original"]).get("new") and not it["n_correct"]:
+                status = "deleted"   # a rejected public suggestion never entered the dictionary
             # any other pending edit keeps the item in the queue
             other = con.execute("SELECT 1 FROM verdicts WHERE item_id=? AND verdict='edit' AND decision IS NULL",
                                 (item_id,)).fetchone()

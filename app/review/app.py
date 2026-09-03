@@ -166,7 +166,7 @@ def register():
         elif db.get_user(username=username):
             flash("That username is taken.", "error")
         else:
-            role = "teacher" if db.count_users() == 0 else "student"
+            role = "student" if db.has_teacher() else "teacher"   # first real account bootstraps the site
             uid = db.create_user(username, name, pw, role)
             session.permanent = True
             session["uid"] = uid

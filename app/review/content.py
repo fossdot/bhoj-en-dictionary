@@ -153,6 +153,8 @@ def from_form(form, base: dict) -> dict:
     """
     new = {"word": (form.get("word") or base["word"]).strip(), "translit": base.get("translit", []),
            "tags": base.get("tags", []), "sources": base.get("sources", []), "senses": []}
+    if base.get("new"):
+        new["new"] = True
     for k, s in enumerate(base["senses"]):
         if form.get(f"s{k}-delete"):
             continue

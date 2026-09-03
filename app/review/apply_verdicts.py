@@ -41,8 +41,24 @@ def main() -> None:
 
     rows: list[dict] = []
     plan: list[tuple[dict, str, dict]] = []
+    new_entries: list[dict] = []
     for it in items:
         cur = it["content"]
+        if it["original"].get("new"):
+            # a word suggested on the dictionary site: not in canonical yet
+            if it["status"] == "verified":
+                new_entries.append({
+                    "word": cur["word"], "lang": "bho", "script": "Deva",
+                    "translit": cur.get("translit", []), "phones": [],
+                    "tags": [t for t in cur.get("tags", []) if t != "src:public"] + ["src:public", "verified"],
+                    "senses": [{"pos": s.get("pos", ""), "gloss": s["gloss"], "examples": s.get("examples", [])}
+                               for s in cur["senses"]],
+                    "source": "public submission on the dictionary site, verified by reviewers",
+                    "source_url": "", "license": "CC BY-SA 4.0"})
+                plan.append((it, "verified", {k: v for k, v in cur.items() if k != "new"}))
+            elif it["status"] == "deleted":
+                plan.append((it, "deleted", cur))
+            continue
         if it["status"] == "deleted":
             for f in it["original"]["sources"]:
                 rows.append({"id": f"{f}:{it['original']['word']}", "action": "delete_entry",
@@ -67,12 +83,21 @@ def main() -> None:
     with findings_path.open("w") as fh:
         for r in rows:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
-    print(f"{len(items)} items → {len(rows)} actions → {findings_path}", file=sys.stderr)
+    print(f"{len(items)} items → {len(rows)} actions → {findings_path}" + (f" + {len(new_entries)} new words" if new_entries else ""), file=sys.stderr)
     if dry:
         return
 
-    subprocess.run([sys.executable, str(ROOT / "pipeline" / "apply_findings.py"),
-                    "--findings", str(findings_path), "--log", str(log_path)], check=True)
+    if rows:
+        subprocess.run([sys.executable, str(ROOT / "pipeline" / "apply_findings.py"),
+                        "--findings", str(findings_path), "--log", str(log_path)], check=True)
+    if new_entries:
+        community = ROOT / "data" / "canonical" / "community-bho.jsonl"
+        have = {json.loads(l)["word"] for l in community.open() if l.strip()} if community.exists() else set()
+        with community.open("a") as fh:
+            for e in new_entries:
+                if e["word"] not in have:
+                    fh.write(json.dumps(e, ensure_ascii=False) + "\n")
+        print(f"{len(new_entries)} new public words → {community}", file=sys.stderr)
     for it, status, cur in plan:
         db.mark_exported(it["id"], status, cur)
     print(f"marked {len(plan)} items exported; log → {log_path}", file=sys.stderr)

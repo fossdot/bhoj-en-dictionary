@@ -55,13 +55,15 @@ crontab -e
 ```
 
 Copies land in `deploy/backups/<date>/` as gzipped SQLite files, kept 30 days.
+The same nightly job pulls public comments and word suggestions from the
+dictionary into the review queue.
 Copy that folder off the server periodically (rsync, or a provider snapshot).
 
 ## 4. Routine operations
 
 | Task | Command (in `/srv/bhoj`) |
 |---|---|
-| Deploy a code or data change | `git pull && cd deploy && ./setup.sh` — rebuilds both databases from the repo; website submissions approved in the dictpress admin are lost unless exported first (see CONTRIBUTING, "For maintainers") |
+| Deploy a code or data change | `git pull && cd deploy && ./setup.sh` — pulls public comments/suggestions into the review queue, then rebuilds the dictionary database from the repo and refreshes the review database in place |
 | Publish student decisions | on your laptop: copy `deploy/data/review/review.db` down, run `make review-apply`, commit, push; then redeploy as above |
 | Update only the review app | `cd deploy && docker compose up -d --build review` |
 | Logs | `docker compose logs -f review` / `dict` / `caddy` |

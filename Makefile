@@ -8,6 +8,7 @@
 #
 #   make review-import  load canonical → app/review/review.db (run after every `make data`)
 #   make review-run     dev server for the student review app on :9100
+#   make review-public  pull public comments/suggestions from dictpress/data.db into the review queue
 #   make review-apply   write student verdicts back to canonical, revalidate, rebuild, re-import
 
 PY := python3
@@ -68,6 +69,9 @@ review-import:
 review-run:
 	$(REVIEW_PY) app/review/app.py run
 
+review-public:
+	$(REVIEW_PY) app/review/import_public.py --dict-db dictpress/data.db
+
 review-apply:
 	$(REVIEW_PY) app/review/apply_verdicts.py
 	$(PY) pipeline/validate_canonical.py
@@ -77,4 +81,4 @@ eval-test:
 	@$(PY) -c "import json; refs=[json.loads(l)['bho'] for l in open('data/corpus/parallel/flores200-dev-EVAL-ONLY.jsonl')][:50]; open('/tmp/bhoj-eval-refs.txt','w').write(chr(10).join(refs))"
 	$(PY) eval/score.py --hyp /tmp/bhoj-eval-refs.txt --ref /tmp/bhoj-eval-refs.txt
 
-.PHONY: all fetch data dict eval-test review-import review-run review-apply
+.PHONY: all fetch data dict eval-test review-import review-run review-public review-apply

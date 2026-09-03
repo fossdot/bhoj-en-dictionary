@@ -32,6 +32,12 @@ sed -e "s|^root_url = .*|root_url = \"https://${DICT_DOMAIN}\"|" \
     ../dictpress/config.toml > config.prod.toml
 chmod 600 config.prod.toml
 
+if [ -f ../dictpress/data.db ]; then
+  echo "→ public comments/submissions from the live dictionary → review queue"
+  mkdir -p data/review
+  REVIEW_DB="$PWD/data/review/review.db" python3 ../app/review/import_public.py --dict-db ../dictpress/data.db
+fi
+
 echo "→ dictionary database from dictpress/import.csv"
 rm -f ../dictpress/data.db ../dictpress/data.db-*
 docker run --rm -v "$PWD/../dictpress:/work" -v "$PWD/config.prod.toml:/work/config.prod.toml:ro" -w /work/app alpine:3.20 \

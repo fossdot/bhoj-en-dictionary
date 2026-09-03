@@ -47,6 +47,23 @@ bootstrapped from the browser instead. Students register with the invite code
 (`REVIEW_INVITE_CODE`, default `bhoj`); teachers can also create accounts and
 reset passwords under *Teacher → Accounts*.
 
+## Public suggestions from the dictionary site
+
+`import_public.py --dict-db dictpress/data.db` pulls the site's public input into
+the same Review queue as student edits, as verdicts by a pseudo-user
+**Public (dictionary site)**:
+
+- a **comment** on a definition → an edit whose note is the comment; the teacher
+  amends the entry from it (or rejects)
+- a **suggested new word** (from /submit) → a review item tagged *new word*;
+  accepting it publishes it to `data/canonical/community-bho.jsonl` at the next
+  `make review-apply`, rejecting drops it
+
+Each dictpress row is imported once; nothing is deleted from the dictionary
+database. On the server this runs nightly (from `backup.sh`) and inside
+`setup.sh` before the dictionary database is rebuilt, so redeploys never lose
+public input.
+
 ## Publish decisions
 
 ```sh
@@ -89,3 +106,4 @@ if unset), `REVIEW_INVITE_CODE`, `REVIEW_BATCH_SIZE` (100), `REVIEW_PHASE` (1),
 - `content.py` — merge canonical entries into one headword, diff, and turn edits into findings
 - `import_items.py` — canonical → review.db (idempotent)
 - `apply_verdicts.py` — review.db → canonical via `pipeline/apply_findings.py`
+- `import_public.py` — dictpress comments + pending submissions → review queue

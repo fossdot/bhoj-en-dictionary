@@ -1,6 +1,6 @@
 {# renders one item content `c` #}
 <div class="entry">
-  <h1 class="word">{{ c.word }}</h1>
+  <h1 class="word">{{ c.word }}{% if c.new %} <span class="tag">new word</span>{% endif %}</h1>
   {% if c.translit %}<div class="translit">{{ c.translit | join(', ') }}</div>{% endif %}
   <ol class="senses">
   {% for s in c.senses %}
