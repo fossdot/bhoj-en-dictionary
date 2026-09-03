@@ -24,4 +24,6 @@ deploy/backups/
 # server-side artefacts
 dictpress/config.prod.toml
 deploy/setup.log
+deploy/publish.log
+deploy/setup-trace.log
 deploy/.*.swp

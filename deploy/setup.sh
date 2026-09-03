@@ -4,6 +4,7 @@
 # build the review database from the canonical data, start the stack.
 set -euo pipefail
 cd "$(dirname "$0")"
+exec </dev/null   # docker would otherwise hold an ssh session's stdin open and hang the caller
 [ -f .env ] || { echo "deploy/.env missing — cp .env.example .env and edit it"; exit 1; }
 set -a; source .env; set +a
 for v in DICT_DOMAIN REVIEW_DOMAIN DICT_ADMIN_USER DICT_ADMIN_PASSWORD REVIEW_INVITE_CODE REVIEW_SECRET_KEY; do

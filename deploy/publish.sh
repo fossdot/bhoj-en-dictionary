@@ -22,7 +22,11 @@ if [ -z "${PUBLISH_REEXEC:-}" ]; then
   PUBLISH_REEXEC=1 exec bash "$0" "$@"
 fi
 
+exec </dev/null
 DRY=""; [ "${1:-}" = "--dry-run" ] && DRY="--dry-run"
+# everything below is also appended to deploy/publish.log
+exec > >(tee -a publish.log) 2>&1
+echo "===== publish $(date -u +%FT%TZ) ${DRY}"
 export REVIEW_DB="$PWD/data/review/review.db"
 CANONICAL=(wiktionary-bho wiktionary-translations-bho gatitos-bho hindi-cognates-bho aligned-bho langlinks-bho community-bho)
 
