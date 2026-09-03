@@ -24,8 +24,9 @@ echo "→ review decisions → data/canonical ${DRY}"; python3 ../app/review/app
 if [ -n "$DRY" ]; then echo "(dry run: nothing written to canonical, nothing committed)"; exit 0; fi
 
 echo "→ validate"; python3 ../pipeline/validate_canonical.py | tail -1
-echo "→ dictpress/import.csv"; python3 ../pipeline/to_dictpress.py "${CANONICAL[@]/#/../data/canonical/}" > ../dictpress/import.csv.new 2>/tmp/to_dictpress.log
-cat /tmp/to_dictpress.log; mv ../dictpress/import.csv.new ../dictpress/import.csv
+FILES=(); for f in "${CANONICAL[@]}"; do FILES+=("../data/canonical/$f.jsonl"); done
+echo "→ dictpress/import.csv"; python3 ../pipeline/to_dictpress.py "${FILES[@]}" > ../dictpress/import.csv.new
+mv ../dictpress/import.csv.new ../dictpress/import.csv
 
 cd ..
 if git diff --quiet -- data/canonical data/cleaning dictpress/import.csv && [ -z "$(git ls-files --others --exclude-standard data/cleaning)" ]; then
