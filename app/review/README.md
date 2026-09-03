@@ -66,15 +66,18 @@ public input.
 
 ## Publish decisions
 
+On the server, one command:
+
 ```sh
-make review-apply
+ssh root@<server> /srv/bhoj/deploy/publish.sh        # --dry-run to preview
 ```
 
-runs `apply_verdicts.py` (decisions → `data/cleaning/review-findings-*.jsonl` →
-`pipeline/apply_findings.py` → canonical files, log in `review-applied-*.jsonl`),
-then validates, rebuilds the dictionary, and re-imports so the app shows the
-new state. Commit the canonical changes and the cleaning logs afterwards.
-`apply_verdicts.py --dry-run` only writes the findings file.
+It pulls public input, runs `apply_verdicts.py` (decisions →
+`data/cleaning/review-findings-*.jsonl` → `pipeline/apply_findings.py` →
+canonical files, log in `review-applied-*.jsonl`), validates, regenerates
+`dictpress/import.csv`, commits and pushes, then rebuilds the live dictionary.
+`git pull` on your laptop afterwards. Locally, `make review-apply` does the
+same against `app/review/review.db` without committing.
 
 ## Deploy (same VPS as the dictionary)
 

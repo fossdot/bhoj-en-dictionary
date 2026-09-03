@@ -64,13 +64,14 @@ Copy that folder off the server periodically (rsync, or a provider snapshot).
 | Task | Command (in `/srv/bhoj`) |
 |---|---|
 | Deploy a code or data change | `git pull && cd deploy && ./setup.sh` — pulls public comments/suggestions into the review queue, then rebuilds the dictionary database from the repo and refreshes the review database in place |
-| Publish student decisions | on your laptop: copy `deploy/data/review/review.db` down, run `make review-apply`, commit, push; then redeploy as above |
+| **Publish review decisions** | `ssh root@<server> /srv/bhoj/deploy/publish.sh` — applies verified/deleted/edited decisions to `data/canonical/`, commits and pushes, rebuilds the live dictionary. Add `--dry-run` to see what would change. Then `git pull` on your laptop. |
 | Update only the review app | `cd deploy && docker compose up -d --build review` |
 | Logs | `docker compose logs -f review` / `dict` / `caddy` |
 | Restart everything | `docker compose restart` |
 
-Publishing decisions is deliberately a laptop step: it edits the canonical
-JSONL and must go through git so every change is reviewed and logged.
+Publishing runs on the server against the live review database so no verdict
+is lost to a copy race; it still goes through git (the server pushes with a
+deploy key), so every change is logged in `data/cleaning/` and reviewable.
 
 ## Files
 
@@ -79,4 +80,5 @@ JSONL and must go through git so every change is reviewed and logged.
 - `.env.example` — copy to `.env` (never committed)
 - `setup.sh` — build/refresh both databases and start
 - `backup.sh` — nightly SQLite backups
+- `publish.sh` — review decisions → canonical → GitHub → live dictionary (run on the server)
 - `config.prod.toml`, `data/`, `backups/` — generated on the server, not committed

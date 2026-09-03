@@ -33,6 +33,9 @@ LANG_EN = "english"
 
 FREQ_CACHE = ROOT / "data" / "corpus" / "word-freq.json"
 CORPUS = ROOT / "data" / "corpus" / "mono" / "all-dedup-lid-bho.txt"
+# committed, headwords-only copy of the frequency cache so the server (which has
+# no corpus) ranks results the same way as a laptop with the full corpus
+HEADWORD_FREQ = ROOT / "dictpress" / "headword-freq.json"
 
 
 def corpus_freq() -> dict[str, int]:
@@ -40,6 +43,8 @@ def corpus_freq() -> dict[str, int]:
     Returns {} when the corpus isn't built (ordering then falls back to length)."""
     if FREQ_CACHE.exists():
         return json.loads(FREQ_CACHE.read_text())
+    if HEADWORD_FREQ.exists():
+        return json.loads(HEADWORD_FREQ.read_text())
     if not CORPUS.exists():
         return {}
     counts: Counter[str] = Counter()
