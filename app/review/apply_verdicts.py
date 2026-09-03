@@ -20,6 +20,7 @@ Afterwards: python3 pipeline/validate_canonical.py && make data dict review-impo
 import json
 import subprocess
 import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -77,14 +78,19 @@ def main() -> None:
         plan.append((it, it["status"], cur))
 
     stamp = datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
-    CLEANING.mkdir(parents=True, exist_ok=True)
-    findings_path = CLEANING / f"review-findings-{stamp}.jsonl"
-    log_path = CLEANING / f"review-applied-{stamp}.jsonl"
+    out_dir = Path(tempfile.gettempdir()) if dry else CLEANING   # a dry run leaves nothing in the repo
+    out_dir.mkdir(parents=True, exist_ok=True)
+    findings_path = out_dir / f"review-findings-{stamp}.jsonl"
+    log_path = out_dir / f"review-applied-{stamp}.jsonl"
     with findings_path.open("w") as fh:
         for r in rows:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
     print(f"{len(items)} items → {len(rows)} actions → {findings_path}" + (f" + {len(new_entries)} new words" if new_entries else ""), file=sys.stderr)
     if dry:
+        for r in rows:
+            print("  " + json.dumps({k: v for k, v in r.items() if k != "reason"}, ensure_ascii=False), file=sys.stderr)
+        for e in new_entries:
+            print(f"  new word: {e['word']} — {'; '.join(s['gloss'] for s in e['senses'])}", file=sys.stderr)
         return
 
     if rows:

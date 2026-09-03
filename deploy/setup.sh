@@ -38,18 +38,20 @@ if [ -f ../dictpress/data.db ]; then
   REVIEW_DB="$PWD/data/review/review.db" python3 ../app/review/import_public.py --dict-db ../dictpress/data.db
 fi
 
-echo "→ dictionary database from dictpress/import.csv"
-rm -f ../dictpress/data.db ../dictpress/data.db-*
+echo "→ dictionary database from dictpress/import.csv (built beside the live one, then swapped)"
+rm -f ../dictpress/data.db.new ../dictpress/data.db.new-*
 docker run --rm -v "$PWD/../dictpress:/work" -v "$PWD/config.prod.toml:/work/config.prod.toml:ro" -w /work/app alpine:3.20 \
-  sh -c "./dictpress --config ../config.prod.toml --db ../data.db install --yes && \
-         ./dictpress --config ../config.prod.toml --db ../data.db import --file ../import.csv"
+  sh -c "./dictpress --config ../config.prod.toml --db ../data.db.new install --yes && \
+         ./dictpress --config ../config.prod.toml --db ../data.db.new import --file ../import.csv"
 # same weight compression as `make dict`: keep exact-match boost above bm25+weight
 python3 - <<'PY'
 import sqlite3
-con = sqlite3.connect("../dictpress/data.db")
+con = sqlite3.connect("../dictpress/data.db.new")
 con.execute("UPDATE entries SET weight = ROUND(weight * 999.0 / (SELECT MAX(weight) FROM entries), 2)")
-con.commit(); print("  entries:", con.execute("SELECT COUNT(*) FROM entries").fetchone()[0])
+con.commit(); con.execute("VACUUM"); print("  entries:", con.execute("SELECT COUNT(*) FROM entries").fetchone()[0])
 PY
+rm -f ../dictpress/data.db-wal ../dictpress/data.db-shm
+mv -f ../dictpress/data.db.new ../dictpress/data.db
 
 echo "→ review database from data/canonical"
 mkdir -p data/review
@@ -57,6 +59,7 @@ REVIEW_DB="$PWD/data/review/review.db" python3 ../app/review/import_items.py
 
 echo "→ starting containers"
 docker compose up -d --build
+docker compose restart dict >/dev/null 2>&1 || true   # pick up the swapped database
 echo
 echo "dictionary: https://$DICT_DOMAIN     admin: https://$DICT_DOMAIN/admin"
 echo "review:     https://$REVIEW_DOMAIN   (first account to register becomes the teacher, or run:"
