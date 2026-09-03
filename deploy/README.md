@@ -6,8 +6,8 @@ review app, and Caddy for HTTPS. Everything is state in two SQLite files.
 ## 1. Before the server
 
 - Push the repository to GitHub (the server clones it).
-- Get a VPS: Ubuntu 24.04, 1–2 vCPU, 2 GB RAM, ~20 GB disk. DigitalOcean
-  Bangalore, Hetzner, or any provider. Note its public IP.
+- Get a VPS: Ubuntu 24.04, 1 vCPU, **1 GB RAM** (the $6 tier on DigitalOcean
+  Bangalore, or equivalent). 512 MB works too if you add swap (below). Note its public IP.
 - DNS: two **A records** pointing at that IP, e.g. `bhoj.hikmatfoundation.org`
   and `review.bhoj.hikmatfoundation.org`. Wait until `dig +short <domain>` shows the IP.
 
@@ -17,6 +17,10 @@ review app, and Caddy for HTTPS. Everything is state in two SQLite files.
 # as root, once
 apt update && apt install -y git python3 curl
 curl -fsSL https://get.docker.com | sh
+
+# recommended on 1 GB, required on 512 MB: 1 GB swap so builds never hit the OOM killer
+fallocate -l 1G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile
+echo '/swapfile none swap sw 0 0' >> /etc/fstab
 
 mkdir -p /srv && cd /srv
 git clone https://github.com/fossdot/bhoj-en-dictionary.git bhoj
