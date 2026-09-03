@@ -3,10 +3,21 @@
   --primary: #a3421b; --ok: #1f7a3a; --ok-bg: #e6f4ea; --bad: #b3261e; --bad-bg: #fbe9e7;
   --edit: #8a5a00; --edit-bg: #fff4d6; --radius: 10px;
 }
+:root { color-scheme: light; }
+/* dark palette: system preference unless the user chose a theme, or the user chose dark */
 @media (prefers-color-scheme: dark) {
-  :root { --bg: #17150f; --fg: #f1ece4; --muted: #a39c92; --card: #221f18; --line: #3a352c;
+  :root:not([data-theme="light"]) { color-scheme: dark; --bg: #17150f; --fg: #f1ece4; --muted: #a39c92; --card: #221f18; --line: #3a352c;
           --ok-bg: #163b23; --bad-bg: #4a1d19; --edit-bg: #46350e; }
 }
+:root[data-theme="dark"] { color-scheme: dark; --bg: #17150f; --fg: #f1ece4; --muted: #a39c92; --card: #221f18; --line: #3a352c;
+        --ok-bg: #163b23; --bad-bg: #4a1d19; --edit-bg: #46350e; }
+.theme-toggle { width: 34px; height: 34px; padding: 6px; border: 1px solid var(--line); border-radius: 50%; background: transparent; color: var(--fg); cursor: pointer; line-height: 0; flex: 0 0 auto; }
+.theme-toggle:hover { background: var(--bg); }
+.theme-toggle svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .sun { display: none; }
+:root[data-theme="dark"] .theme-toggle .moon { display: block; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme]) .theme-toggle .sun { display: none; } :root:not([data-theme]) .theme-toggle .moon { display: block; } }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--fg);
   font: 16px/1.5 -apple-system, "Noto Sans", "Noto Sans Devanagari", "Segoe UI", Roboto, sans-serif; }
@@ -14,6 +25,7 @@ a { color: var(--primary); }
 main { max-width: 720px; margin: 0 auto; padding: 12px; }
 footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px 12px; }
 
+.top-right { display: flex; align-items: center; gap: 8px; }
 .top { display: flex; align-items: center; justify-content: space-between; gap: 12px;
   padding: 10px 14px; background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 2; }
 .brand { font-weight: 700; font-size: 20px; text-decoration: none; color: var(--fg); }
