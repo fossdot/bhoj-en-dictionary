@@ -1,0 +1,13 @@
+{# renders a diff list `changes` from content.diff #}
+{% if changes %}
+<table class="changes">
+  <thead><tr><th>What</th><th>Before</th><th>After</th></tr></thead>
+  <tbody>
+  {% for ch in changes %}
+    <tr><td class="what">{{ ch.what }}</td><td class="old">{{ ch.old }}</td><td class="new">{{ ch.new }}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p class="muted">No field changes (comment only).</p>
+{% endif %}

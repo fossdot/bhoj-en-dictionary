@@ -1,0 +1,12 @@
+{% extends "base.html" %}{% block title %}Edit {{ item.content.word }}{% endblock %}
+{% block body %}
+<section class="card">
+  <h2>Suggest an edit</h2>
+  <p class="muted small">Change only what is wrong and leave the rest. Blank out an example to remove it; tick <i>remove</i> to drop a meaning.</p>
+  {% set buttons %}
+    <button class="primary">Save edit</button>
+    <a class="button" href="{{ url_for('review') }}">Cancel</a>
+  {% endset %}
+  {% include "_edit_form.html" %}
+</section>
+{% endblock %}

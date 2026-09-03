@@ -1,0 +1,13 @@
+{% extends "base.html" %}{% block title %}My Work{% endblock %}
+{% block body %}
+<section class="grid">
+  <div class="stat"><b>{{ me.total }}</b><span>verdicts</span></div>
+  <div class="stat"><b>{{ me.n_correct }}</b><span>correct</span></div>
+  <div class="stat"><b>{{ me.n_incorrect }}</b><span>incorrect</span></div>
+  <div class="stat"><b>{{ me.n_accepted }}<small>/{{ me.n_edit }}</small></b><span>edits accepted</span></div>
+</section>
+<section class="card">
+  <h2>My Work</h2>
+  {% include "_rows.html" %}
+</section>
+{% endblock %}

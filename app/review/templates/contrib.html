@@ -1,0 +1,29 @@
+{% extends "base.html" %}{% block title %}{{ v.word }} · contribution{% endblock %}
+{% block body %}
+<section class="card">
+  <p class="muted small"><a href="{{ url_for('others') }}">← Students' Work</a></p>
+  <p><strong>{{ v.user_name }}</strong> said <span class="v-badge {{ v.verdict }}">{{ v.verdict }}</span>
+     on <b>{{ v.word }}</b> · {{ v.created_at[:16] | replace('T', ' ') }}
+     {% if v.decision %}· teacher: <span class="tag {{ 'ok' if v.decision == 'accepted' else 'bad' }}">{{ v.decision }}</span>{% endif %}</p>
+  {% if v.reason %}<blockquote>{{ v.reason }}</blockquote>{% endif %}
+  {% if user.role == 'teacher' and v.verdict == 'edit' and not v.decision %}
+    <div class="flash"><b>This edit is waiting for a decision.</b>
+      <a class="button primary" href="{{ url_for('teacher_edit', verdict_id=v.id) }}">Review this edit →</a></div>
+  {% endif %}
+  {% if v.verdict == 'edit' %}
+    <h3>What was changed</h3>
+    {% with changes = diff(v.item_original if v.decision == 'accepted' else v.item_content, v.proposed) %}{% include "_changes.html" %}{% endwith %}
+    <h3>Proposed entry</h3>
+    {% with c = v.proposed %}{% include "_entry.html" %}{% endwith %}
+  {% else %}
+    {% with c = item.content %}{% include "_entry.html" %}{% endwith %}
+  {% endif %}
+</section>
+<section class="card small">
+  <h3>All verdicts on this word <span class="tag">{{ item.status }}</span></h3>
+  <ul class="plain">
+  {% for x in verdicts %}<li><span class="v-badge {{ x.verdict }}">{{ x.verdict }}</span> {{ x.user_name }} · {{ x.created_at[:10] }}{% if x.reason %} — <i>{{ x.reason }}</i>{% endif %}</li>{% endfor %}
+  {% for d in decisions %}<li><span class="tag">teacher</span> {{ d.teacher_name }}: {{ d.action | replace('_', ' ') }}{% if d.note %} — <i>{{ d.note }}</i>{% endif %} · {{ d.created_at[:10] }}</li>{% endfor %}
+  </ul>
+</section>
+{% endblock %}

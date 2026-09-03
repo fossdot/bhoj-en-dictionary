@@ -1,0 +1,50 @@
+{% extends "base.html" %}{% block title %}Others' contributions{% endblock %}
+{% block body %}
+{% if user.role == 'teacher' %}
+<section class="card">
+  <h2>Review <span class="tag">{{ n_edits + n_conflicts }} pending</span></h2>
+  <p class="muted small">Students' edits and split votes waiting for your decision.</p>
+  {% if pending_edits %}
+  <h3>Edits to check <span class="tag">{{ n_edits }}</span></h3>
+  <table class="list">
+    {% for r in pending_edits %}
+    <tr><td class="w">{{ r.word }}</td><td>{{ r.user_name }}</td><td class="small muted">{{ r.reason }}</td>
+        <td><a class="button small" href="{{ url_for('teacher_edit', verdict_id=r.verdict_id) }}">Review →</a></td></tr>
+    {% endfor %}
+  </table>
+  {% if n_edits > pending_edits | length %}<p class="small"><a href="{{ url_for('teacher_edits') }}">All {{ n_edits }} edits →</a></p>{% endif %}
+  {% endif %}
+  {% if pending_conflicts %}
+  <h3>Split votes <span class="tag">{{ n_conflicts }}</span></h3>
+  <table class="list">
+    {% for r in pending_conflicts %}
+    <tr><td><a class="w" href="{{ url_for('word', item_id=r.item_id) }}">{{ r.word }}</a></td>
+        <td>{{ r.n_correct }} ✓ · {{ r.n_incorrect }} ✗</td>
+        <td><form method="post" action="{{ url_for('teacher_conflict', item_id=r.item_id) }}" class="inline">
+          <input type="hidden" name="csrf" value="{{ csrf }}">
+          <button name="action" value="keep" class="small ok">Keep</button>
+          <button name="action" value="delete" class="small bad" onclick="return confirm('Delete {{ r.word }}?')">Delete</button>
+        </form></td></tr>
+    {% endfor %}
+  </table>
+  {% if n_conflicts > pending_conflicts | length %}<p class="small"><a href="{{ url_for('teacher_conflicts') }}">All {{ n_conflicts }} split votes →</a></p>{% endif %}
+  {% endif %}
+  {% if not pending_edits and not pending_conflicts %}<p class="muted">Nothing waiting. 🎉</p>{% endif %}
+</section>
+{% endif %}
+<section class="card">
+  <h2>{% if user.role == 'teacher' %}All students' verdicts{% else %}दूसरन के काम · Others' work{% endif %}</h2>
+  <form class="filters" method="get">
+    <select name="user" onchange="this.form.submit()">
+      <option value="">everyone else</option>
+      {% for u in users %}{% if u.id != user.id %}<option value="{{ u.id }}" {% if only == u.id %}selected{% endif %}>{{ u.name }} ({{ u.n_verdicts }})</option>{% endif %}{% endfor %}
+    </select>
+    <select name="kind" onchange="this.form.submit()">
+      <option value="">all verdicts</option>
+      {% for k in ['correct','incorrect','edit'] %}<option value="{{ k }}" {% if kind == k %}selected{% endif %}>{{ k }}</option>{% endfor %}
+    </select>
+  </form>
+  {% include "_rows.html" %}
+  <p class="muted small">Words still waiting in your own batch stay hidden here until you have judged them yourself.</p>
+</section>
+{% endblock %}

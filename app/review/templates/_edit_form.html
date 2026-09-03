@@ -1,0 +1,53 @@
+{# edit form over content `base`; posts to `action`; caller adds buttons via `buttons` block content #}
+<form method="post" action="{{ action }}" class="edit-form">
+  <input type="hidden" name="csrf" value="{{ csrf }}">
+  <label class="field">
+    <span>Word (correct spelling)</span>
+    <input type="text" name="word" value="{{ base.word }}" required>
+  </label>
+  <p class="hint">No Devanagari keyboard? Type on <a href="https://www.lexilogos.com/keyboard/bhojpuri.htm" target="_blank" rel="noopener">Lexilogos</a> and paste here.</p>
+
+  <h3>Meanings</h3>
+  <p class="hint">Pick the word type for each meaning. If unsure, leave it as "not sure".</p>
+  {% for s in base.senses %}
+  {% set k = loop.index0 %}
+  <fieldset class="sense">
+    <div class="row">
+      <select name="s{{ k }}-pos" aria-label="word type">
+        {% for val, label, eg in POS_INFO %}<option value="{{ val }}" {% if val == s.pos %}selected{% endif %}>{{ label }} — {{ eg }}</option>{% endfor %}
+      </select>
+      <label class="check"><input type="checkbox" name="s{{ k }}-delete" value="1"> remove</label>
+    </div>
+    <input type="text" name="s{{ k }}-gloss" value="{{ s.gloss }}" placeholder="English meaning">
+    {% for ex in s.examples %}
+    {% set j = loop.index0 %}
+    <div class="ex-row">
+      <input type="text" name="s{{ k }}-ex{{ j }}-bho" value="{{ ex.bho }}" placeholder="Bhojpuri example (blank = remove)">
+      <input type="text" name="s{{ k }}-ex{{ j }}-en" value="{{ ex.en }}" placeholder="English translation">
+    </div>
+    {% endfor %}
+    <div class="ex-row new">
+      <input type="text" name="s{{ k }}-newex-bho" placeholder="+ new example sentence (Bhojpuri)">
+      <input type="text" name="s{{ k }}-newex-en" placeholder="its English translation">
+    </div>
+  </fieldset>
+  {% endfor %}
+
+  <fieldset class="sense new">
+    <legend>+ Add a meaning</legend>
+    <div class="row">
+      <select name="n0-pos">{% for val, label, eg in POS_INFO %}<option value="{{ val }}">{{ label }} — {{ eg }}</option>{% endfor %}</select>
+    </div>
+    <input type="text" name="n0-gloss" placeholder="English meaning">
+    <div class="ex-row">
+      <input type="text" name="n0-ex-bho" placeholder="Bhojpuri example">
+      <input type="text" name="n0-ex-en" placeholder="English translation">
+    </div>
+  </fieldset>
+
+  <label class="field">
+    <span>Note (optional)</span>
+    <textarea name="reason" rows="2" maxlength="500">{{ reason or '' }}</textarea>
+  </label>
+  <div class="actions">{{ buttons | safe }}</div>
+</form>

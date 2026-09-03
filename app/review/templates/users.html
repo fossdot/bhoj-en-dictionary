@@ -1,0 +1,33 @@
+{% extends "base.html" %}{% block title %}Accounts · Teacher{% endblock %}
+{% block body %}
+<section class="card">
+  <p class="muted small"><a href="{{ url_for('teacher') }}">← Dashboard</a></p>
+  <h2>Accounts</h2>
+  <p>Students can sign up themselves with the invite code <code>{{ invite }}</code>, or you can create accounts here.</p>
+  <form method="post" class="row wrap">
+    <input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="action" value="create">
+    <input name="name" placeholder="Full name" required>
+    <input name="username" placeholder="username" required pattern="[A-Za-z_][A-Za-z0-9_]{2,}">
+    <input name="password" placeholder="password (6+)" required minlength="6">
+    <select name="role"><option value="student">student</option><option value="teacher">teacher</option></select>
+    <button class="primary">Create</button>
+  </form>
+</section>
+<section class="card">
+  <table class="list">
+    <thead><tr><th>Name</th><th>Username</th><th>Role</th><th>Verdicts</th><th>Reset password</th></tr></thead>
+    {% for u in users %}
+    <tr>
+      <td>{{ u.name }}</td><td><code>{{ u.username }}</code></td>
+      <td>{% if u.id != user.id %}
+        <form method="post" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="action" value="role"><input type="hidden" name="user_id" value="{{ u.id }}">
+          <select name="role" onchange="this.form.submit()"><option {% if u.role == 'student' %}selected{% endif %}>student</option><option {% if u.role == 'teacher' %}selected{% endif %}>teacher</option></select></form>
+        {% else %}{{ u.role }} (you){% endif %}</td>
+      <td>{{ u.n_verdicts }}</td>
+      <td><form method="post" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}"><input type="hidden" name="action" value="password"><input type="hidden" name="user_id" value="{{ u.id }}">
+        <input name="password" placeholder="new password" minlength="6" class="small"><button class="small">Set</button></form></td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
+{% endblock %}

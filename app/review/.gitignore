@@ -1,0 +1,4 @@
+review.db
+review.db-wal
+review.db-shm
+__pycache__/

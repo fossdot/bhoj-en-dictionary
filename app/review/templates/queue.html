@@ -1,0 +1,32 @@
+{% extends "base.html" %}{% block title %}{{ kind }} · Teacher{% endblock %}
+{% block body %}
+<section class="card">
+  <p class="muted small"><a href="{{ url_for('others') }}">← Students' Work</a></p>
+  {% if kind == 'edits' %}
+  <h2>Edits to review <span class="tag">{{ total }}</span></h2>
+  <table class="list">
+    <thead><tr><th>Word</th><th>By</th><th>Note</th><th></th></tr></thead>
+    {% for r in rows %}
+    <tr><td class="w">{{ r.word }}</td><td>{{ r.user_name }}</td><td class="small">{{ r.reason }}</td>
+        <td><a class="button small" href="{{ url_for('teacher_edit', verdict_id=r.verdict_id) }}">Review →</a></td></tr>
+    {% else %}<tr><td colspan="4" class="muted">Queue empty.</td></tr>{% endfor %}
+  </table>
+  {% else %}
+  <h2>Split votes <span class="tag">{{ total }}</span></h2>
+  <p class="muted small">One student said correct, another said incorrect. Look at the word (link) and decide.</p>
+  <table class="list">
+    <thead><tr><th>Word</th><th>Votes</th><th></th></tr></thead>
+    {% for r in rows %}
+    <tr><td><a class="w" href="{{ url_for('word', item_id=r.item_id) }}">{{ r.word }}</a></td>
+        <td>{{ r.n_correct }} ✓ · {{ r.n_incorrect }} ✗</td>
+        <td><form method="post" action="{{ url_for('teacher_conflict', item_id=r.item_id) }}" class="inline">
+          <input type="hidden" name="csrf" value="{{ csrf }}">
+          <button name="action" value="keep" class="small ok">Keep</button>
+          <button name="action" value="delete" class="small bad" onclick="return confirm('Delete {{ r.word }}?')">Delete</button>
+        </form></td></tr>
+    {% else %}<tr><td colspan="3" class="muted">Queue empty.</td></tr>{% endfor %}
+  </table>
+  {% endif %}
+  {% if total > 50 %}<nav class="pager">{% if page > 1 %}<a href="?page={{ page - 1 }}">←</a>{% endif %} page {{ page }} {% if page * 50 < total %}<a href="?page={{ page + 1 }}">→</a>{% endif %}</nav>{% endif %}
+</section>
+{% endblock %}

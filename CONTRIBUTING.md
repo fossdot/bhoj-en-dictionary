@@ -1,5 +1,13 @@
 # Contributing to भोज
 
+Two channels feed the same canonical data:
+
+- **Public** — anyone can suggest a word, an edit, or a comment on the dictionary
+  site, or open a GitHub issue / pull request (sections 1–3 below).
+- **Structured review** — students in the Hikmat Foundation *school to livelihood*
+  programme verify the existing entries in batches of 100 through the review app
+  (section 4).
+
 Three ways to add Bhojpuri words. All of them end up in the same place.
 
 ## 1. On the website — easiest, no account
@@ -62,6 +70,38 @@ deliberately excluded from the dictionary because their confidence was
 borderline. Promoting the good ones and deleting the wrong ones grows the
 dictionary faster than any scraper. A native speaker skimming a few hundred
 lines is worth more than a week of mining.
+
+## 4. Review app — systematic verification (app/review)
+
+A small web app where reviewers with their own accounts take a batch of 100
+words and mark each entry **Correct**, **Incorrect**, or **Edit**.
+
+- **Phase 1 (now):** one *Correct* verdict tags the entry `verified` (badge on the
+  site), so every word gets seen once as fast as possible. One *Incorrect* does not
+  delete — the word is shown to a second reviewer first; two *Incorrect* delete it.
+- **Phase 2 (once everything has been seen):** the quorum is raised to two and every
+  once-verified word is re-queued for an independent second opinion.
+- Split votes and *Edits* (spelling, meaning, example sentence) go to a teacher,
+  who keeps/deletes or accepts/amends/rejects.
+- Reviewers never see another reviewer's verdict on a word still waiting in their
+  own batch. Everything else is open: the **Others** tab shows who decided what.
+
+Run it:
+
+```sh
+make review-import                       # load canonical → app/review/review.db
+python3 app/review/app.py create-teacher <username> "<Name>"
+make review-run                          # http://localhost:9100
+```
+
+Students sign up with the invite code (`REVIEW_INVITE_CODE`, default `bhoj`).
+Decisions stay in `review.db` until a maintainer publishes them:
+
+```sh
+make review-apply   # verdicts → data/canonical (logged in data/cleaning/), validate, rebuild, re-import
+```
+
+See `app/review/README.md` for deployment.
 
 ## For maintainers
 

@@ -45,5 +45,6 @@
   "public.suggestWordPlaceholder": "मड़ई",
   "public.suggestMeaningLabel": "Meaning (in English)",
   "public.suggestMeaningPlaceholder": "thatched hut",
-  "public.suggestKeyboardLink": "No Devanagari keyboard? Type it here ↗"
+  "public.suggestKeyboardLink": "No Devanagari keyboard? Type it here ↗",
+  "public.verifiedTag": "Verified by native-speaker reviewers"
 }

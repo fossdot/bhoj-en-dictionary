@@ -1,0 +1,23 @@
+{# renders one item content `c` #}
+<div class="entry">
+  <h1 class="word">{{ c.word }}</h1>
+  {% if c.translit %}<div class="translit">{{ c.translit | join(', ') }}</div>{% endif %}
+  <ol class="senses">
+  {% for s in c.senses %}
+    <li>
+      {% if s.pos %}<span class="pos" title="{{ POS_LABEL.get(s.pos, s.pos) }}">{{ POS_SHORT.get(s.pos, s.pos) }}</span>{% endif %}
+      <span class="gloss">{{ s.gloss }}</span>
+      {% for ex in s.examples %}
+        <div class="ex"><span class="bho">{{ ex.bho }}</span>{% if ex.en %} <span class="en">— {{ ex.en }}</span>{% endif %}</div>
+      {% endfor %}
+    </li>
+  {% endfor %}
+  </ol>
+  {% set shown = visible_tags(c.tags) %}
+  {% if shown or (c.sources and user and user.role == 'teacher') %}
+  <div class="meta">
+    {% for t in shown %}<span class="tag {% if t == 'verified' %}ok{% endif %}">{{ t }}</span>{% endfor %}
+    {% if user and user.role == 'teacher' %}<span class="src" title="canonical source files">{{ c.sources | join(', ') }}</span>{% endif %}
+  </div>
+  {% endif %}
+</div>

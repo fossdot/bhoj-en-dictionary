@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block body %}
+<section class="card">
+  <h2>Hello, {{ user.name }}</h2>
+  {% if batch %}
+    <p>Your batch: <strong>{{ batch.done }} / {{ batch.total }}</strong> done.</p>
+    <div class="bar"><div style="width: {{ (100 * batch.done / batch.total) if batch.total else 0 }}%"></div></div>
+    <div class="actions">
+      <a class="button primary" href="{{ url_for('review') }}">Continue →</a>
+    </div>
+  {% else %}
+    <p>Take a batch of <strong>{{ batch_size }}</strong> words and finish it. For each word, choose
+      <b>Correct</b>, <b>Incorrect</b>, or <b>Edit</b>.</p>
+    <form method="post" action="{{ url_for('batch_new') }}">
+      <input type="hidden" name="csrf" value="{{ csrf }}">
+      <button class="primary big">Start a batch of {{ batch_size }}</button>
+    </form>
+  {% endif %}
+</section>
+
+<section class="grid">
+  <div class="stat"><b>{{ me.total }}</b><span>my answers</span></div>
+  <div class="stat"><b>{{ me.n_accepted }}</b><span>my edits accepted</span></div>
+  <div class="stat"><b>{{ stats.reviewed_once }}<small>/{{ stats.total }}</small></b><span>words checked so far</span></div>
+  <div class="stat"><b>{{ stats.total - stats.reviewed_once }}</b><span>words left</span></div>
+</section>
+
+<section class="card howto">
+  <h3>कैसे करें</h3>
+  <p>हर शब्द को देखें और सोचें: <b>क्या यह शब्द भोजपुरी में बोला जाता है? क्या इसका अर्थ सही है?</b></p>
+  <ul>
+    <li><b class="ok">✓ Correct</b> — शब्द भोजपुरी का है और अर्थ सही है।</li>
+    <li><b class="bad">✗ Incorrect</b> — यह भोजपुरी शब्द नहीं है, या अर्थ गलत है।</li>
+    <li><b class="edit">✎ Edit</b> — शब्द ठीक है, पर स्पेलिंग, अर्थ या उदाहरण में थोड़ा सुधार चाहिए।</li>
+  </ul>
+  <ul>
+    <li>पक्का न हो तो <b>Edit</b> चुनें और नोट लिखें। बाद में जाँच होगी।</li>
+    <li>अगर कोई शब्द सिर्फ आपके गाँव या इलाके में बोला जाता है, तो भी वह <b>Correct</b> है। एक उदाहरण वाक्य जोड़ दें।</li>
+    <li><b>उदाहरण वाक्य सबसे ज़रूरी हैं।</b> इन्हीं से भोजपुरी सीखने वाला कंप्यूटर मॉडल बनता है।</li>
+    <li>{{ batch_size }} शब्द का बैच पूरा करें, फिर अगला लें। बीच में रुक सकते हैं, बाद में वहीं से आगे बढ़ें।</li>
+  </ul>
+</section>
+{% endblock %}

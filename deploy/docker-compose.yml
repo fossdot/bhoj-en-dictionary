@@ -1,0 +1,37 @@
+# Production stack: Caddy (HTTPS) → dictpress (dictionary) + review app.
+# Configure deploy/.env, then run ./setup.sh once; afterwards `docker compose up -d`.
+services:
+  dict:
+    image: alpine:3.20
+    restart: unless-stopped
+    working_dir: /work/app
+    command: ./dictpress --config ../config.prod.toml --db ../data.db --site ../site
+    volumes:
+      - ../dictpress:/work
+      - ./config.prod.toml:/work/config.prod.toml:ro
+    expose: ["9000"]
+
+  review:
+    build: ../app/review
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      REVIEW_DB: /data/review.db
+    volumes:
+      - ./data/review:/data
+    expose: ["9100"]
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    env_file: .env
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [dict, review]
+
+volumes:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,25 @@
+{# verdict list rows #}
+<table class="list">
+  <thead><tr><th>Word</th><th>Verdict</th><th>By</th><th>When</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+    <tr>
+      <td>{% if PHASE >= 2 or user.role == 'teacher' %}<a href="{{ url_for('contrib', verdict_id=r.id) }}" class="w">{{ r.word }}</a>{% else %}<span class="w">{{ r.word }}</span>{% endif %}</td>
+      <td><span class="v-badge {{ r.verdict }}">{{ r.verdict }}</span>
+          {% if r.decision %}<span class="tag {{ 'ok' if r.decision == 'accepted' else 'bad' }}">{{ r.decision }}</span>
+          {% elif r.verdict == 'edit' and user.role == 'teacher' %}<a class="tag" href="{{ url_for('teacher_edit', verdict_id=r.id) }}">review →</a>{% endif %}</td>
+      <td>{{ r.user_name }}</td>
+      <td class="muted small">{{ r.created_at[:10] }}</td>
+    </tr>
+  {% else %}
+    <tr><td colspan="4" class="muted">Nothing yet.</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% if total > 50 %}
+<nav class="pager">
+  {% if page > 1 %}<a href="?{{ request.query_string.decode() | replace('page=' ~ page, '') }}&page={{ page - 1 }}">← newer</a>{% endif %}
+  <span>{{ (page - 1) * 50 + 1 }}–{{ [page * 50, total] | min }} of {{ total }}</span>
+  {% if page * 50 < total %}<a href="?{{ request.query_string.decode() | replace('page=' ~ page, '') }}&page={{ page + 1 }}">older →</a>{% endif %}
+</nav>
+{% endif %}

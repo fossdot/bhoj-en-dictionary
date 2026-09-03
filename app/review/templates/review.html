@@ -1,0 +1,33 @@
+{% extends "base.html" %}{% block title %}{{ item.content.word }} · review{% endblock %}
+{% block body %}
+<div class="progress"><a href="{{ url_for('home') }}" title="Home">← Home</a><span>{{ batch.done + 1 }} / {{ batch.total }}</span>
+  <div class="bar"><div style="width: {{ 100 * batch.done / batch.total }}%"></div></div></div>
+
+<section class="card review">
+  {% with c = item.content %}{% include "_entry.html" %}{% endwith %}
+</section>
+
+<form method="post" action="{{ url_for('verdict', item_id=item.id) }}" class="verdicts" id="vf">
+  <input type="hidden" name="csrf" value="{{ csrf }}">
+  <button name="verdict" value="correct" class="v ok">✓ Correct</button>
+  <button type="button" class="v bad" id="btn-incorrect">✗ Incorrect</button>
+  <a class="v edit" href="{{ url_for('edit', item_id=item.id) }}">✎ Edit</a>
+  <div id="reason-box" hidden>
+    <textarea name="reason" rows="2" maxlength="300" placeholder="Why is it wrong? (optional) — e.g. 'Hindi, not Bhojpuri', 'meaning is wrong'"></textarea>
+    <button name="verdict" value="incorrect" class="bad">Yes, it is incorrect</button>
+  </div>
+</form>
+<p class="muted small center">Is this a Bhojpuri word, and are the meanings right?<br>Not sure? Choose <b>Edit</b> and write a note.</p>
+{% if undo %}
+<form method="post" action="{{ url_for('undo') }}" class="undo">
+  <input type="hidden" name="csrf" value="{{ csrf }}">
+  <button class="link">↶ Undo my last answer ({{ undo.word }} · {{ undo.verdict }})</button>
+</form>
+{% endif %}
+<script>
+document.getElementById('btn-incorrect').addEventListener('click', function () {
+  var b = document.getElementById('reason-box'); b.hidden = !b.hidden;
+  if (!b.hidden) b.querySelector('textarea').focus();
+});
+</script>
+{% endblock %}

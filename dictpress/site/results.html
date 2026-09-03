@@ -28,7 +28,7 @@
                         {% if r.tags and r.tags | length > 0 %}
                             <span class="tags">
                                 {% for tag in r.tags %}
-                                    <span class="badge outline" {% if tag is starting_with("src:") %} title="{{ t(key="public.sourceTag") }}"{% endif %}>{{ tag }}</span>
+                                    {% if tag == "verified" %}<span class="badge verified" title="{{ t(key="public.verifiedTag") }}">✓ {{ tag }}</span>{% else %}<span class="badge outline" {% if tag is starting_with("src:") %} title="{{ t(key="public.sourceTag") }}"{% endif %}>{{ tag }}</span>{% endif %}
                                 {% endfor %}
                             </span>
                         {% endif %}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}भोज review{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{{ url_for('home') }}">भोज <span>review</span></a>
+  {% if user %}
+  <nav>
+    <a href="{{ url_for('home') }}" {% if request.endpoint in ('home','review') %}class="on"{% endif %}>Verify</a>
+    <a href="{{ url_for('mine') }}" {% if request.endpoint == 'mine' %}class="on"{% endif %}>My Work</a>
+    {% if PHASE >= 2 or user.role == 'teacher' %}<a href="{{ url_for('others') }}" {% if request.endpoint in ('others','teacher_edits','teacher_conflicts','teacher_edit','contrib') %}class="on"{% endif %}>Students' Work</a>{% endif %}
+    {% if user.role == 'teacher' %}<a href="{{ url_for('teacher') }}" {% if request.endpoint and request.endpoint.startswith('teacher') %}class="on"{% endif %}>Dashboard</a>{% endif %}
+    <form method="post" action="{{ url_for('logout') }}" class="inline"><input type="hidden" name="csrf" value="{{ csrf }}"><button class="link" title="{{ user.name }}">Logout</button></form>
+  </nav>
+  {% endif %}
+</header>
+<main>
+  {% with msgs = get_flashed_messages(with_categories=true) %}
+    {% for cat, m in msgs %}<div class="flash {{ cat }}">{{ m }}</div>{% endfor %}
+  {% endwith %}
+  {% block body %}{% endblock %}
+</main>
+</body>
+</html>

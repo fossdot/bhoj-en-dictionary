@@ -1,0 +1,30 @@
+{% extends "base.html" %}{% block title %}Dashboard{% endblock %}
+{% block body %}
+<section class="grid">
+  <a class="stat link" href="{{ url_for('others') }}"><b>{{ n_edits }}</b><span>edits to review</span></a>
+  <a class="stat link" href="{{ url_for('others') }}"><b>{{ n_conflicts }}</b><span>split votes</span></a>
+  <a class="stat link" href="{{ url_for('teacher_export') }}"><b>{{ n_export }}</b><span>ready to publish</span></a>
+  <a class="stat link" href="{{ url_for('teacher_users') }}"><b>{{ users | length }}</b><span>accounts</span></a>
+</section>
+<section class="card">
+  <h3>Progress</h3>
+  <table class="list">
+    <tr><td>Total words</td><td>{{ stats.total }}</td></tr>
+    <tr><td><b>Reviewed at least once</b></td><td><b>{{ stats.reviewed_once }}</b> ({{ (100 * stats.reviewed_once / stats.total) | round(1) if stats.total else 0 }}%)</td></tr>
+    <tr><td>Quorum</td><td>{{ stats.quorum }} correct to verify · {{ DELETE_VOTES }} incorrect to delete</td></tr>
+    <tr><td>Verified</td><td>{{ stats.verified or 0 }}</td></tr>
+    <tr><td>Deleted</td><td>{{ stats.deleted or 0 }}</td></tr>
+    <tr><td>Open</td><td>{{ stats.open or 0 }}</td></tr>
+    <tr><td>Edit pending</td><td>{{ stats.edit_pending or 0 }}</td></tr>
+    <tr><td>Conflict</td><td>{{ stats.conflict or 0 }}</td></tr>
+    <tr><td>Verdicts given</td><td>{{ stats.verdicts }} by {{ stats.reviewers }} reviewers</td></tr>
+  </table>
+</section>
+<section class="card">
+  <h3>Leaderboard</h3>
+  <table class="list">
+    <thead><tr><th>Name</th><th>Verdicts</th><th>Edits accepted</th></tr></thead>
+    {% for u in users[:20] %}<tr><td><a href="{{ url_for('others', user=u.id) }}">{{ u.name }}</a> {% if u.role == 'teacher' %}<span class="tag">teacher</span>{% endif %}</td><td>{{ u.n_verdicts }}</td><td>{{ u.n_accepted or 0 }}</td></tr>{% endfor %}
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}{% block title %}Review edit · {{ item.content.word }}{% endblock %}
+{% block body %}
+<section class="card">
+  <p class="muted small"><a href="{{ url_for('others') }}">← Students' Work</a></p>
+  <p><strong>{{ v.user_name }}</strong> proposed an edit on <b>{{ item.content.word }}</b> · {{ v.created_at[:10] }}</p>
+  {% if v.reason %}<blockquote>{{ v.reason }}</blockquote>{% endif %}
+  <h3>Changes</h3>
+  {% include "_changes.html" %}
+  {% if verdicts | length > 1 %}
+  <p class="small muted">Other verdicts: {% for x in verdicts if x.id != v.id %}<span class="v-badge {{ x.verdict }}">{{ x.verdict }}</span> {{ x.user_name }}{% if x.reason %} (<i>{{ x.reason }}</i>){% endif %} {% endfor %}</p>
+  {% endif %}
+  <div class="decide">
+    <form method="post"><input type="hidden" name="csrf" value="{{ csrf }}">
+      <button name="action" value="accept" class="ok">✓ Accept as is</button></form>
+    <form method="post" class="reject"><input type="hidden" name="csrf" value="{{ csrf }}">
+      <input type="text" name="note" placeholder="reason for rejecting (optional)">
+      <button name="action" value="reject" class="bad">✗ Reject</button></form>
+  </div>
+</section>
+<section class="card">
+  <h3>Or correct it yourself and accept</h3>
+  {% set buttons %}<button name="action" value="amend" class="primary">Accept with my corrections</button>{% endset %}
+  {% with base = base, action = request.path, reason = '' %}{% include "_edit_form.html" %}{% endwith %}
+</section>
+{% endblock %}

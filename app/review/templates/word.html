@@ -1,0 +1,11 @@
+{% extends "base.html" %}{% block title %}{{ item.content.word }}{% endblock %}
+{% block body %}
+<section class="card">{% with c = item.content %}{% include "_entry.html" %}{% endwith %}</section>
+<section class="card small">
+  <h3>Verdicts <span class="tag">{{ item.status }}</span></h3>
+  <ul class="plain">
+  {% for x in verdicts %}<li><a href="{{ url_for('contrib', verdict_id=x.id) }}"><span class="v-badge {{ x.verdict }}">{{ x.verdict }}</span></a> {{ x.user_name }} · {{ x.created_at[:10] }}{% if x.reason %} — <i>{{ x.reason }}</i>{% endif %}</li>{% else %}<li class="muted">None yet.</li>{% endfor %}
+  {% for d in decisions %}<li><span class="tag">teacher</span> {{ d.teacher_name }}: {{ d.action | replace('_', ' ') }}{% if d.note %} — <i>{{ d.note }}</i>{% endif %}</li>{% endfor %}
+  </ul>
+</section>
+{% endblock %}

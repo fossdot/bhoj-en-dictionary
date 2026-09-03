@@ -14,3 +14,9 @@ data/training/sft*.jsonl
 __pycache__/
 .venv/
 data/lid/model.joblib
+
+# deployment: secrets, generated config, live databases, backups
+deploy/.env
+deploy/config.prod.toml
+deploy/data/
+deploy/backups/

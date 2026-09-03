@@ -1,0 +1,18 @@
+{% extends "base.html" %}{% block title %}Publish · Teacher{% endblock %}
+{% block body %}
+<section class="card">
+  <p class="muted small"><a href="{{ url_for('teacher') }}">← Dashboard</a></p>
+  <h2>Ready to publish <span class="tag">{{ items | length }}</span></h2>
+  <p>These decisions are final in the review app but not yet in the dictionary data. A maintainer publishes them by running, in the repository:</p>
+  <pre>make review-apply</pre>
+  <p class="muted small">That writes the changes into <code>data/canonical/</code> with a full log in <code>data/cleaning/</code>, revalidates, rebuilds the dictionary site, and refreshes this app. Commit the result to git afterwards.</p>
+  <table class="list">
+    <thead><tr><th>Word</th><th>Outcome</th><th>Votes</th></tr></thead>
+    {% for it in items %}
+    <tr><td><a class="w" href="{{ url_for('word', item_id=it.id) }}">{{ it.word }}</a></td>
+        <td><span class="tag {{ 'ok' if it.status == 'verified' else 'bad' if it.status == 'deleted' else '' }}">{{ it.status }}</span>{% if it.content != it.original %} <span class="tag">edited</span>{% endif %}</td>
+        <td>{{ it.n_correct }} ✓ · {{ it.n_incorrect }} ✗</td></tr>
+    {% else %}<tr><td colspan="3" class="muted">Nothing waiting.</td></tr>{% endfor %}
+  </table>
+</section>
+{% endblock %}

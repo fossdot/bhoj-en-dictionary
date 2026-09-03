@@ -1,0 +1,12 @@
+# Domains come from deploy/.env (DICT_DOMAIN, REVIEW_DOMAIN). Caddy gets the
+# TLS certificates from Let's Encrypt automatically.
+
+{$DICT_DOMAIN} {
+	encode zstd gzip
+	reverse_proxy dict:9000
+}
+
+{$REVIEW_DOMAIN} {
+	encode zstd gzip
+	reverse_proxy review:9100
+}
