@@ -15035,7 +15035,7 @@
 -,,ईमान,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|script:Deva,īmān,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,"belief, faith",english,,default:english,,,,noun,
 ^,,"honesty, conscience",english,,default:english,,,,noun,
--,,कहवा,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|script:Deva,qahvā,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
+-,,कहवा,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|verified|script:Deva,qahvā,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,coffee (spelling variant of क़हवा),english,,default:english,,,,noun,
 -,,परेड,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|script:Deva,pareḍ,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,parade,english,,default:english,,,,noun,
