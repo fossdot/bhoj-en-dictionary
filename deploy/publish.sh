@@ -14,11 +14,18 @@
 # ever lost to a copy race, and the repo stays the single source of truth.
 set -euo pipefail
 cd "$(dirname "$0")"
+
+# Pull first, then re-run the freshly pulled copy of this script: bash reads a
+# script incrementally, so updating the file underneath a running script breaks it.
+if [ -z "${PUBLISH_REEXEC:-}" ]; then
+  echo "→ git pull"; git -C .. pull -q --ff-only
+  PUBLISH_REEXEC=1 exec bash "$0" "$@"
+fi
+
 DRY=""; [ "${1:-}" = "--dry-run" ] && DRY="--dry-run"
 export REVIEW_DB="$PWD/data/review/review.db"
 CANONICAL=(wiktionary-bho wiktionary-translations-bho gatitos-bho hindi-cognates-bho aligned-bho langlinks-bho community-bho)
 
-echo "→ git pull"; git -C .. pull -q --ff-only
 echo "→ public input → review queue"; python3 ../app/review/import_public.py --dict-db ../dictpress/data.db
 echo "→ review decisions → data/canonical ${DRY}"; python3 ../app/review/apply_verdicts.py $DRY
 if [ -n "$DRY" ]; then echo "(dry run: nothing written to canonical, nothing committed)"; exit 0; fi
