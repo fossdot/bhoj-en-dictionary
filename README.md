@@ -44,8 +44,16 @@ the alignments over NLLB professional translations — `pipeline/corroborate_glo
 compares its English against ours: 1,078 glosses agree, 174 conflict and are
 tagged `gloss:conflict` for review. The rest await a speaker.
 
-Only 33 entries currently have usage examples. Adding them is the highest-value
-contribution, both for readers and for training data.
+**7,266 entries (40%) carry usage examples**, mined from professionally
+translated parallel text by `pipeline/mine_examples.py` — NLLB-Seed, NLLB-MD,
+translatewiki, Wikimedia, Tatoeba. Each example records its own source and
+licence, and share-alike sentences are never attached to a CC BY 4.0 entry.
+BHLTR is excluded (CC-BY-NC-SA would make the dictionary non-commercial), as
+are the NLLB mined sets, where roughly half the pairs are misaligned.
+
+Examples are not yet sense-disambiguated — they attach to the first sense.
+Sorting them onto the right sense, and writing examples for the remaining
+60%, is the highest-value contribution here.
 
 Native speakers verify and improve the entries in two ways: anyone can suggest
 a word or an edit on the dictionary site, and students in the Hikmat Foundation

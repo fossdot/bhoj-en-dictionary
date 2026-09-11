@@ -52,6 +52,7 @@ triage:
 	$(PY) pipeline/apply_context_scores.py
 	$(PY) pipeline/attest_headwords.py
 	$(PY) pipeline/corroborate_glosses.py
+	$(PY) pipeline/mine_examples.py
 
 triage-apply:
 	$(PY) pipeline/triage_headwords.py --apply
@@ -60,6 +61,7 @@ triage-apply:
 	$(PY) pipeline/fix_glosses.py --apply
 	$(PY) pipeline/attest_headwords.py --drop-unattested
 	$(PY) pipeline/corroborate_glosses.py --apply
+	$(PY) pipeline/mine_examples.py --apply
 	$(PY) pipeline/validate_canonical.py
 
 dict:
