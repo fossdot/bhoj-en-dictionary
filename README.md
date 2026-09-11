@@ -38,6 +38,12 @@ Unverified entries also carry a `conf:` tag and a `bho_ratio` — the share of
 corpus sentences containing the word that are Bhojpuri-marked rather than
 Hindi-marked (`pipeline/score_bho_context.py`). Reviewers work lowest-first.
 
+Whether the *English* is right is a separate question, and the corpus cannot
+answer it. Where an independent bho→en source covers a headword — GATITOS, or
+the alignments over NLLB professional translations — `pipeline/corroborate_glosses.py`
+compares its English against ours: 1,078 glosses agree, 174 conflict and are
+tagged `gloss:conflict` for review. The rest await a speaker.
+
 Only 33 entries currently have usage examples. Adding them is the highest-value
 contribution, both for readers and for training data.
 
