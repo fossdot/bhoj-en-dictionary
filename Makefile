@@ -44,6 +44,19 @@ data:
 	$(PY) pipeline/assemble_sft.py
 	$(PY) pipeline/assemble_sft.py --include-nc
 
+# Evidence triage: tier every headword, drop encyclopedia titles and
+# alignment noise, then score the rest against Bhojpuri sentence context.
+triage:
+	$(PY) pipeline/triage_headwords.py
+	$(PY) pipeline/score_bho_context.py
+	$(PY) pipeline/apply_context_scores.py
+
+triage-apply:
+	$(PY) pipeline/triage_headwords.py --apply
+	$(PY) pipeline/score_bho_context.py
+	$(PY) pipeline/apply_context_scores.py --apply
+	$(PY) pipeline/validate_canonical.py
+
 dict:
 	docker rm -f bhoj-dict 2>/dev/null || true
 	rm -f $(DICT)/data.db

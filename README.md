@@ -1,9 +1,29 @@
 # भोज — Bhojpuri → English dictionary
 
-An open Bhojpuri→English dictionary with example sentences, built so the same
-data also trains a Bhojpuri language model. **20,254 headwords, 30,432
-definitions**, every entry under CC BY-SA 4.0 or CC BY 4.0. It is the only
-openly licensed, machine-readable Bhojpuri dictionary we know of.
+An open Bhojpuri→English dictionary, built so the same data also trains a
+Bhojpuri language model. **14,375 headwords, 24,949 definitions**, every entry
+under CC BY-SA 4.0 or CC BY 4.0. It is the only openly licensed,
+machine-readable Bhojpuri dictionary we know of.
+
+### How much of this is verified
+
+Bhojpuri has no large hand-built lexicon to copy from, so most entries are
+assembled from adjacent sources and then checked. Every entry carries the
+evidence behind it, and `pipeline/triage_headwords.py` sorts them by how
+strongly that evidence holds:
+
+| | entries | |
+|---|---:|---|
+| `attested` | 4,632 | a source explicitly labelled the word Bhojpuri |
+| `shared-attested` | 2,995 | Hindi-sourced, headword independently attested |
+| `unverified` | 11,541 | inferred from corpus evidence; awaiting a speaker |
+
+Unverified entries also carry a `conf:` tag and a `bho_ratio` — the share of
+corpus sentences containing the word that are Bhojpuri-marked rather than
+Hindi-marked (`pipeline/score_bho_context.py`). Reviewers work lowest-first.
+
+Only 33 entries currently have usage examples. Adding them is the highest-value
+contribution, both for readers and for training data.
 
 Native speakers verify and improve the entries in two ways: anyone can suggest
 a word or an edit on the dictionary site, and students in the Hikmat Foundation

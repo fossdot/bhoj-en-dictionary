@@ -27,3 +27,10 @@ deploy/setup.log
 deploy/publish.log
 deploy/setup-trace.log
 deploy/.*.swp
+
+# triage intermediates — regenerate with `make triage`; the entries they
+# describe are recoverable from git history of data/canonical/
+data/cleaning/triage.jsonl
+data/cleaning/triage-removed.jsonl
+data/cleaning/context-scores.jsonl
+data/cleaning/context-removed.jsonl
