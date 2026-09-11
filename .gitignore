@@ -34,3 +34,6 @@ data/cleaning/triage.jsonl
 data/cleaning/triage-removed.jsonl
 data/cleaning/context-scores.jsonl
 data/cleaning/context-removed.jsonl
+data/cleaning/attestation.jsonl
+data/cleaning/gloss-fixes.jsonl
+data/cleaning/unattested-removed.jsonl

@@ -1,7 +1,7 @@
 # भोज — Bhojpuri → English dictionary
 
 An open Bhojpuri→English dictionary, built so the same data also trains a
-Bhojpuri language model. **14,375 headwords, 24,949 definitions**, every entry
+Bhojpuri language model. **13,481 headwords, 23,628 definitions**, every entry
 under CC BY-SA 4.0 or CC BY 4.0. It is the only openly licensed,
 machine-readable Bhojpuri dictionary we know of.
 
@@ -12,11 +12,27 @@ assembled from adjacent sources and then checked. Every entry carries the
 evidence behind it, and `pipeline/triage_headwords.py` sorts them by how
 strongly that evidence holds:
 
+**Every headword is attested in a curated Bhojpuri source.**
+`pipeline/attest_headwords.py` checks each one against hand-annotated lexica
+(the UD Bhojpuri treebank, the POS-tagged BHLTR corpus, Wikidata bho lexemes,
+en-Wiktionary's Bhojpuri entries, GATITOS) and text written or professionally
+translated as Bhojpuri (Bhojpuri Wikipedia, BHLTR, VarDial, NLLB). Web crawl
+does not count — its `bho` label is a classifier's guess — and FLORES is
+excluded so the benchmark stays out of the dictionary.
+
 | | entries | |
 |---|---:|---|
-| `attested` | 4,632 | a source explicitly labelled the word Bhojpuri |
-| `shared-attested` | 2,995 | Hindi-sourced, headword independently attested |
-| `unverified` | 11,541 | inferred from corpus evidence; awaiting a speaker |
+| `gold` | 10,959 | in a hand-annotated Bhojpuri lexicon |
+| `authored` | 7,304 | used in Bhojpuri-authored text |
+
+How strongly a source asserts the word is *specifically* Bhojpuri, rather than
+shared with Hindi, is tracked separately by `pipeline/triage_headwords.py`:
+
+| | entries | |
+|---|---:|---|
+| `attested` | 4,628 | a source explicitly labelled the word Bhojpuri |
+| `shared-attested` | 2,994 | Hindi-sourced, headword independently attested |
+| `unverified` | 10,641 | shared Indo-Aryan vocabulary; awaiting a speaker |
 
 Unverified entries also carry a `conf:` tag and a `bho_ratio` — the share of
 corpus sentences containing the word that are Bhojpuri-marked rather than

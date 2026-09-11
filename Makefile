@@ -50,11 +50,14 @@ triage:
 	$(PY) pipeline/triage_headwords.py
 	$(PY) pipeline/score_bho_context.py
 	$(PY) pipeline/apply_context_scores.py
+	$(PY) pipeline/attest_headwords.py
 
 triage-apply:
 	$(PY) pipeline/triage_headwords.py --apply
 	$(PY) pipeline/score_bho_context.py
 	$(PY) pipeline/apply_context_scores.py --apply
+	$(PY) pipeline/fix_glosses.py --apply
+	$(PY) pipeline/attest_headwords.py --drop-unattested
 	$(PY) pipeline/validate_canonical.py
 
 dict:

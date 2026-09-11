@@ -18,6 +18,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 CANON = ROOT / "data" / "canonical"
 
+# Glosses whose subject is the script or a grammatical frame keep their
+# Devanagari legitimately: the characters are the definition, not a
+# cross-reference that leaked in from the source dictionary.
+GLOSS_META = re.compile(
+    r"\b(letter|ligature|diacritic|anusvara|avagraha|visarga|halant|virama|"
+    r"nuqta|matra|denoted|symbol|Devanagari|Brahmic|script|solfege|raga|"
+    r"thaat|prahara|tala|note of|inherent vowel|ezafe|overdot|terminal h|"
+    r"used in|equivalent to|with|of a|paired with|e\.g\.)\b",
+    re.I,
+)
+
 REQUIRED = {"word", "lang", "senses", "source", "license"}
 POS = {
     "", "noun", "propernoun", "verb", "adjective", "adverb", "pronoun",
@@ -86,7 +97,7 @@ def check_file(path: Path) -> int:
             gloss = s["gloss"]
             if not isinstance(gloss, str) or not gloss.strip():
                 errors.append(f"{where}: {word!r} sense {j} has an empty gloss")
-            elif DEVA.search(gloss) and "variant of" not in gloss and "spelling of" not in gloss:
+            elif DEVA.search(gloss) and not GLOSS_META.search(gloss):
                 warnings.append(f"{where}: {word!r} sense {j} gloss contains Devanagari (should be English): {gloss[:50]!r}")
             if re.search(r"\[\[|\{\{|<[a-z/]", str(gloss)):
                 errors.append(f"{where}: {word!r} sense {j} gloss contains markup: {gloss[:50]!r}")
