@@ -1166,7 +1166,6 @@
 {"bho": "बोजोर्केज़ कहलें, \"उ सबचीज ऑफ-लिमिट रहल. \"", "en": "\"Those things were off-limits,\" said Bojorquez.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "मध्य अंग्रेजी में, इतिहास के मतलब सामान्य रूप से \"कहानी\" रहे.", "en": "In Middle English, the meaning of history was \"story\" in general.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "रियोडोसे इ हफ्ता के संस्करन खतिर  तीन गो मुख्य कहानी देखत रहे.", "en": "For this week's edition Riodoce was looking at three main stories.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
-{"bho": "का तू मतलब रखे ल?", "en": "Do you care?", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "मध्य अफ्रीका में कांगो साम्राज्य सहित अउरी कै गो राज्य पैदा हो गइल.", "en": "Central Africa saw the birth of several states, including the Kingdom of Kongo.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "ग्रीनलैंड के वास्तविक क्षेत्र अकेले कांगो लोकतांत्रिक गणराज्य के बराबर ह.", "en": "Greenland's real area is comparable to the Democratic Republic of the Congo's alone.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "प्रारूप कानून पर कांग्रेस के दु सदन में चर्चा कइल जाए के हवे.", "en": "The draft law is due to be discussed in the two chambers of Congress.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
@@ -2552,6 +2551,7 @@
 {"bho": "तब से इ स्टुअर्ट हॉल से मजबूती से जुट गइल जे होग्गार्ट के बाद निदेशक बनलें.", "en": "It has since become strongly associated with Stuart Hall, who succeeded Hoggart as Director.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "हमनी के बहुत बुरा चोट लागल आऊ हमनी के चिकित्सा सहायता लेबे के लेल मजबूर होखे के परल.", "en": "I suffered a very bad bruise and was forced to seek medical help.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "पच्छिमी यूरोप में ईसाई धरम के विस्तार भइल आऊ मठ कुल के स्थापना भइल.", "en": "Christianity expanded in western Europe, and monasteries were founded.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
+{"bho": "का तू मतलब रखे ल?", "en": "Do you care?", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "एकर मतलब नइखे कि कउनो समाधान नइखे.", "en": "That does not mean there are no solutions.", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "समझ सकिला. एह खातिर कवनो मनोचिकित्सा के मदत ले ले बाड़ का?", "en": "Oh, I understand. Have you sought out any therapy to help you?", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
 {"bho": "\"लइकन के खाना बनावे में मदद करे के चाहिँ\".", "en": "\"The children should help prepare the food.\"", "source": "IBM-1 word alignment over NLLB-Seed/MD professional translations"}
@@ -3204,14 +3204,8 @@
 {"bho": "हम जौना पन्ना आ फाइलन के संपादित करीं उनहन के हमरी धियानसूची में जोड़ल जाव", "en": "Add pages and files I edit to my watchlist", "source": "GATITOS (Google SMOL)"}
 {"bho": "का एगो खाता नइखे?", "en": "Don't have an account?", "source": "GATITOS (Google SMOL)"}
 {"bho": "ई एगो छोट संपादन बा", "en": "This is a minor edit", "source": "GATITOS (Google SMOL)"}
-{"bho": "हई शब्द ना होखे", "en": "Not these words", "source": "GATITOS (Google SMOL)"}
-{"bho": "फाइल ना सहेजा पाई", "en": "Cannot save file", "source": "GATITOS (Google SMOL)"}
-{"bho": "तोहार नाव का ह?", "en": "What is your name?", "source": "GATITOS (Google SMOL)"}
-{"bho": "इहाँ का जुड़ल बा", "en": "What links here", "source": "GATITOS (Google SMOL)"}
 {"bho": "रउआ एगो अन्य खाता काहें बना रहल बानी", "en": "Why you are creating another account", "source": "GATITOS (Google SMOL)"}
 {"bho": "आप पन्ना ना हटा सकत बाड़ीं काहें की ई सुरक्षित कइल गइल बा।", "en": "You cannot delete this page because it has been protected.", "source": "GATITOS (Google SMOL)"}
-{"bho": "नया टैब में खोलीं", "en": "Open in new tab", "source": "GATITOS (Google SMOL)"}
-{"bho": "एह लेख के बारे में", "en": "About this article", "source": "GATITOS (Google SMOL)"}
 {"bho": "ए पन्ना खातिर एटम फीड", "en": "Atom feed for this page", "source": "GATITOS (Google SMOL)"}
 {"bho": "योगदान खातिर खोज करीं", "en": "Search for contributions", "source": "GATITOS (Google SMOL)"}
 {"bho": "अगर ठीक एही नाँव के पन्ना मौजूद होखे तब ओहपर जाईं", "en": "Go to a page with this exact name if it exists", "source": "GATITOS (Google SMOL)"}
@@ -3228,12 +3222,10 @@
 {"bho": "सगरी टेम्पलेट कुल भी शामिल करीं", "en": "Include all templates and transcluded pages", "source": "GATITOS (Google SMOL)"}
 {"bho": "पन्ना के रीलोड कइले बिना भी झलक देखावल जाय", "en": "Show preview without reloading the page", "source": "GATITOS (Google SMOL)"}
 {"bho": "जब कौनों फिल्टर बदलल जाय तब धियानसूची ऑटोमेटिक दोबारा लोड होखे (जावास्क्रिप्ट जरूरी)", "en": "Reload the watchlist automatically whenever a filter is changed (JavaScript required)", "source": "GATITOS (Google SMOL)"}
+{"bho": "स्रोत रिवीजन या त गंतब्य रिवीजन के साथे ओभरलैप करत बा या बाद में आवत बा।", "en": "Specified time period overlaps preexisting revisions of the destination page.", "source": "GATITOS (Google SMOL)"}
 {"bho": "फाइल पन्ना पर जाईं", "en": "Go to image page", "source": "GATITOS (Google SMOL)"}
 {"bho": "मुख्य पन्ना पर जाईं", "en": "Visit the main page", "source": "GATITOS (Google SMOL)"}
-{"bho": "स्रोत रिवीजन या त गंतब्य रिवीजन के साथे ओभरलैप करत बा या बाद में आवत बा।", "en": "Specified time period overlaps preexisting revisions of the destination page.", "source": "GATITOS (Google SMOL)"}
 {"bho": "पासवर्ड रीसेट ईमेल तबे भेजल जाय जब ईमेल पता आ प्रयोगकर्तानाँव दुनों दिहल गइल होखे।", "en": "Send password reset emails only when both email address and username are provided", "source": "GATITOS (Google SMOL)"}
-{"bho": "एक दिन से कम", "en": "less than one day", "source": "GATITOS (Google SMOL)"}
-{"bho": "गूगल से लॉग इन करीं", "en": "Log in with Google", "source": "GATITOS (Google SMOL)"}
 {"bho": "वर्तमान ई-मेल पता:", "en": "Current email address:", "source": "GATITOS (Google SMOL)"}
 {"bho": "(नमूना देखल उपलब्ध नइखे)", "en": "(Preview not available)", "source": "GATITOS (Google SMOL)"}
 {"bho": "लेखक जानकारी उपलब्ध नइखे", "en": "No author information present", "source": "GATITOS (Google SMOL)"}
@@ -3253,6 +3245,7 @@
 {"bho": "अइसन कौनो कार्रवाई नइखे", "en": "No such action", "source": "GATITOS (Google SMOL)"}
 {"bho": "अइसन कौनो खास पन्ना नइखे", "en": "No such special page", "source": "GATITOS (Google SMOL)"}
 {"bho": "वर्तमान विकि पन्ना के अपना किताब में जोड़ीं", "en": "Add the current wiki page to your book", "source": "GATITOS (Google SMOL)"}
+{"bho": "तोहार नाव का ह?", "en": "What is your name?", "source": "GATITOS (Google SMOL)"}
 {"bho": "बिना ई मेल दिहले आगे बढ़ल जाय", "en": "Continue without email", "source": "GATITOS (Google SMOL)"}
 {"bho": "अनस्ट्रिप लूप पकड़ में आइल बा", "en": "Unstrip loop detected", "source": "GATITOS (Google SMOL)"}
 {"bho": "निचला डाटाबेस सर्वर जबले मुख्य डाटाबेस सर्वर के गति पकड़ पावे, डाटाबेस अपने आप लॉक हो गइल।", "en": "The database has been automatically locked while the replica database servers catch up to the primary", "source": "GATITOS (Google SMOL)"}
@@ -3345,9 +3338,11 @@
 {"bho": "ई पन्ना के समीक्षा हो चुकल बाटे।", "en": "This page has been reviewed.", "source": "GATITOS (Google SMOL)"}
 {"bho": "उपयोग के शर्त कुल", "en": "Terms of Use", "source": "GATITOS (Google SMOL)"}
 {"bho": "पन्ना लंबाई (बाइट में)", "en": "Page length (in bytes)", "source": "GATITOS (Google SMOL)"}
+{"bho": "नया टैब में खोलीं", "en": "Open in new tab", "source": "GATITOS (Google SMOL)"}
 {"bho": "नया फाइलन के गैलरी", "en": "Gallery of new files", "source": "GATITOS (Google SMOL)"}
 {"bho": "हमरी बनावल पन्ना के समीक्षा भइला पर हमके सूचना भेजीं।", "en": "Notify me when someone reviews a page I created.", "source": "GATITOS (Google SMOL)"}
 {"bho": "भारी-मात्रा में संपादन", "en": "High-volume (bot) access", "source": "GATITOS (Google SMOL)"}
+{"bho": "एक दिन से कम", "en": "less than one day", "source": "GATITOS (Google SMOL)"}
 {"bho": "सबसे कम संशोधन वाला पन्ना", "en": "Pages with the fewest revisions", "source": "GATITOS (Google SMOL)"}
 {"bho": "बिना स्कैन वाला पन्ना", "en": "Pages without scans", "source": "GATITOS (Google SMOL)"}
 {"bho": "बिना अंतरविकि जोड़ वाला पन्ना", "en": "Pages without language links", "source": "GATITOS (Google SMOL)"}
@@ -3403,6 +3398,7 @@
 {"bho": "पन्ना के साथ जोड़ल जाय", "en": "Link with page", "source": "GATITOS (Google SMOL)"}
 {"bho": "श्रेणिन में जोड़ल भा बिलगावल पन्ना सभ के रेकार्ड।", "en": "Records of pages being added or removed from categories.", "source": "GATITOS (Google SMOL)"}
 {"bho": "1 दिन:1 दिन,1 हप्ता:1 हप्ता,1 महीना:1 महीना,3 महीना:3 महीना,6 महीना:6 महीना,1 बरिस:1 बरिस", "en": "Expires in 1 day:1 day,Expires in 1 week:1 week,Expires in 1 month:1 month,Expires in 3 months:3 months,Expires in 6 months:6 months,Expires in 1 year:1 year", "source": "GATITOS (Google SMOL)"}
+{"bho": "इहाँ का जुड़ल बा", "en": "What links here", "source": "GATITOS (Google SMOL)"}
 {"bho": "सबसे अधिक से जुड़ल श्रेणी", "en": "Most linked-to categories", "source": "GATITOS (Google SMOL)"}
 {"bho": "इतिहास बिलय खातिर पर्याप्त परमीशन नइखे।", "en": "Insufficient permissions to merge history.", "source": "GATITOS (Google SMOL)"}
 {"bho": "माफ करीं, एह समय एह पन्ना के संपादन करे खातिर आपके खाता के पर्याप्त अनुमति नइखे।", "en": "Sorry, your account does not have sufficient privileges to edit this page at this time.", "source": "GATITOS (Google SMOL)"}
@@ -3422,6 +3418,7 @@
 {"bho": "* हटवले के आम कारण ** स्पैम ** उत्पात ** कॉपीराइट उलंघन ** लेखक के अनुरोध ** टूटल अनुप्रेषण", "en": "* Common delete reasons ** Spam ** Vandalism ** Copyright violation ** Author request ** Broken redirect", "source": "GATITOS (Google SMOL)"}
 {"bho": "एह पैमाना से मैच करत कौनो बदलाव ना मिलल।", "en": "No changes were found matching these criteria.", "source": "GATITOS (Google SMOL)"}
 {"bho": "आपकी दिहल पैमाना पर कौनों पन्ना नइखे मिलत।", "en": "No pages match your criteria.", "source": "GATITOS (Google SMOL)"}
+{"bho": "हई शब्द ना होखे", "en": "Not these words", "source": "GATITOS (Google SMOL)"}
 {"bho": "एह सभ में से कौनों शब्द", "en": "One of these words", "source": "GATITOS (Google SMOL)"}
 {"bho": "प्रबंधक पर प्रतिबंध लागू", "en": "applied restrictions to administrators", "source": "GATITOS (Google SMOL)"}
 {"bho": "प्रबंधक पर से प्रतिबंध समाप्त", "en": "removed restrictions for administrators", "source": "GATITOS (Google SMOL)"}
@@ -3433,6 +3430,7 @@
 {"bho": "कौनों परिभाषा ना मिलल।", "en": "No definitions found.", "source": "GATITOS (Google SMOL)"}
 {"bho": "नाशी भाषा चीन में बोलल जाले।", "en": "The Naxi language is spoken in China.", "source": "GATITOS (Google SMOL)"}
 {"bho": "फ्रांस में फ्रेंच बोलल जाले।", "en": "French is spoken in France.", "source": "GATITOS (Google SMOL)"}
+{"bho": "एह लेख के बारे में", "en": "About this article", "source": "GATITOS (Google SMOL)"}
 {"bho": "ए लेख के सइतीं-सम्हारीं", "en": "Open Page Curation", "source": "GATITOS (Google SMOL)"}
 {"bho": "स्पैनिश मध्य आ दक्षिण अमेरिका में बोलल जाले।", "en": "Spanish is spoken in Central and South America.", "source": "GATITOS (Google SMOL)"}
 {"bho": "जवन कार्रवाई के माँग कइले बानी, ओकरा लागू करे के इजाजत रउआँ के नइखे।", "en": "You are not allowed to execute the action you have requested.", "source": "GATITOS (Google SMOL)"}
@@ -3518,6 +3516,7 @@
 {"bho": "ब्लॉक डोमेन (%s) से जुड़ल कड़ी मिलल बा। इनहन के हटाईं आ दोबारा कोसिस करीं।", "en": "Links to blocked domains (%s) detected. Please remove them and try again.", "source": "GATITOS (Google SMOL)"}
 {"bho": "नया संदेस पट्टी देखाईं", "en": "Show new messages bar", "source": "GATITOS (Google SMOL)"}
 {"bho": "राजेन्द्र प्रसाद भारत के प्रथम राष्ट्रपति रहलन।", "en": "Rajendra Prasad was the first president of India.", "source": "GATITOS (Google SMOL)"}
+{"bho": "गूगल से लॉग इन करीं", "en": "Log in with Google", "source": "GATITOS (Google SMOL)"}
 {"bho": "गूगल के विकी खाता में मर्ज करीं", "en": "Link Google to wiki account", "source": "GATITOS (Google SMOL)"}
 {"bho": "मोबाइल डेटा के इस्तेमाल से डाउनलोड कन्फर्म करीं?", "en": "Confirm download using mobile data?", "source": "GATITOS (Google SMOL)"}
 {"bho": "तुरंत भइल बदलाव में आ धियानसूची में भइल बदलाव सभ के पन्ना अनुसार झुंड में बांटी", "en": "Group changes by page in recent changes and watchlist", "source": "GATITOS (Google SMOL)"}
@@ -4526,8 +4525,6 @@
 {"bho": "रियोडोसे इ हफ्ता के संस्करन खतिर  तीन गो मुख्य कहानी देखत रहे.", "en": "For this week's edition Riodoce was looking at three main stories.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "स्पष्ट कहीं त कुछ चीज जइसन लागेला ओहसे बढ़िया होला.", "en": "And to bring home that some things are better than they seem.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "हमरे बच्चे मिलने आईने आउर इके हमसे पहिले से कहीं ज्यादा खुश कईने .", "en": "My children came to visit and that made me alot happier than I've been.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "का तू मतलब रखे ल?", "en": "Do you care?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "का कुछु पवित्र नईखे?", "en": "Is nothing sacred?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "प्रारूप कानून पर कांग्रेस के दु सदन में चर्चा कइल जाए के हवे.", "en": "The draft law is due to be discussed in the two chambers of Congress.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "कांग्रेस में रिपब्लिकन ओजोन नियम क व्यापक पुनर्लेखन पे दुबारा जोर दे रहल हौउवे.", "en": "Republicans in Congress are pushing for a broader rewrite of the ozone rules.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "कोए ने डोपिंग कांड क खातिर 'साफ रूप से' रूसी माफी क प्रसनसा कईने", "en": "Coe praises 'candid' Russian apology for doping scandal", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -4575,8 +4572,6 @@
 {"bho": "गुफा के जगह आधुनिक काल में बिख्यात बाटे.", "en": "The location of the cave has been well known in modern times.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "स्फिंक्स के पंथ मध्ययुगीन काल में भी जारी रहल.", "en": "The cult of the Sphinx continued into medieval times.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "दर्सकन के लगभग समान रूप से काला अउर सफेद क बीच विभाजित कईल गईल ह.", "en": "The audience is almost evenly split between black and white.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "हमस फारसी खाना है कि यहूदी?", "en": "is hummus a persian dish, or jewish?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "एकर मतलब नइखे कि कउनो समाधान नइखे.", "en": "That does not mean there are no solutions.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "रउवा स्पेन में कवन किताब खोजत रहलीं?", "en": "what are the books you were looking for in Spain?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "उ प्रकृति प गद्य में एगो किताब भी लिखने.", "en": "He also wrote a book on nature in prose.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "बैकाल झील के स्वायतोय प्रायदीप के दक्खिनपूरबी किनारा के फॉल्ट वाला हिस्सा – active faulting shown by faceted spurs.", "en": "Faulted southeastern side of Svyatoy Nos peninsula, Lake Baikal – active faulting shown by faceted spurs.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -4694,6 +4689,7 @@
 {"bho": "खाता बनवले के लॉग", "en": "User creation log", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "मधुमेह जोखिम खाद्य स्वास्थ्य पोषण. मधुमेह जोखिम कारक, आहार स्वास्थ्य पोषण.", "en": "diabetes risk food health nutrition. diabetes risk factors, diet health nutrition.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "पीटर वेइस भी अडल हौउवे : \"पहिला श्रेनि क खाद्य पदार्थन क उत्पादन इंहा कईल जाला.\"", "en": "Peter Weiß is also standing firm: \"First-class foodstuffs are produced here.\"", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
+{"bho": "हमस फारसी खाना है कि यहूदी?", "en": "is hummus a persian dish, or jewish?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "स्वस्थ स्थानीय खाना भी योगदान दे सके ला.", "en": "Healthy local food can also make a contribution.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "बैड दुर्खीम में, बाइकर्स ओपन-एयर इनहेलोरियम में खारा  पानी के निमन  करे में सांस लिहलें.", "en": "In Bad Dürkheim, the bikers breathed in healing salt water in the open-air inhalatorium.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "खाली कब्बो हरले डेविडसन रहे", "en": "only ever had harly davidson bikes", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -5300,6 +5296,7 @@
 {"bho": "बाकि विद्रोह के प्रयास के एक बरिस के बाद तुर्की के सैन्य बल में कुछुओ नियमित नइखे.", "en": "But nothing is routine in the Turkish armed forces one year after the coup attempt.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "समोसा अकेले खाए क तुलना में दूसर भोजन क साथ अच्छा होला", "en": "Samosa is good with another meal than eating it alone", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "तुलनात्मक इतिहास: रासट्र के सीमा तक सीमित नइखे सामाजिक अउरी सांस्कृतिक संस्था सब के ऐतिहासिक बिस्लेसन.", "en": "Comparative history: historical analysis of social and cultural entities not confined to national boundaries.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
+{"bho": "का तू मतलब रखे ल?", "en": "Do you care?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "त तू फिर कउ देस से आइल हउवा?", "en": "So which country did you come from again?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "उनकर प्रजनन तेज अउरी विपुल दुनो बा.", "en": "Their reproduction is both rapid and profuse.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "हमके भागल पसंद हव! हम बहुत तेज हयी.", "en": "I love running! I am very fast.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -5472,8 +5469,6 @@
 {"bho": "कोरोनरी नस के बेमारी आउर रोधगलन", "en": "Coronary artery disease and myocardial infarction", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "अच्छा ह! उ कउन तरह के नस्ल ह?", "en": "That' nice! What kind of breed is he?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "अच्छा हमके पिल्ला बहुत पसंद बाने. ओकर नस्ल का रहल?", "en": "Oh I love puppy. What was its breed?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "डीएनए हेलिक्स ना हवे.\"", "en": "DNA is not a helix.\"", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "हम्म, सायद ना. के रहे?", "en": "Hmm, probably not. Who was it?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "दुसर पड़ोसी देश, माली, नाइजीरिया अउरी सेनेगल में प्रकोप ​​​​के तेजी ले नियंत्रित कइल गइल रहे.", "en": "Outbreaks in other neighboring countries, Mali, Nigeria and Senegal, were rapidly controlled.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "उत्तरीपूरबी सीढ़ी के गुच्छन के आधार पर एगो नाग के सिर उकेरल गईल बाटे.", "en": "At the base of the balustrades of the northeastern staircase are carved heads of a serpent.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "का नागरिक समाज समुचित सिद्धांत ह?", "en": "Is Civil Society an Adequate Theory?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -5627,7 +5622,6 @@
 {"bho": "कुछ पर्दरसनकारि सब पुलिस आउर सेना के चौकियन पे पथराव करल सुरू कर देहने.", "en": "Some protesters started hurling stones at police and military posts.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "बर्तमान में मेटमैन जिला में अबहुं 50 गो पद खाली बाटे.", "en": "Currently there are 50 positions at the district of Mettmann that are still unfilled.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "सामर्थ्य पद्धति अउर गणतंत्रवाद दुनु चयन के एगो संसाधन के रूप में देखेल सन.", "en": "Both the capability approach and republicanism treat choice as something which must be resourced.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "एह पर राउर का बिचार बा?", "en": "What is your opinion on this?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "नस्लीय दलबंदी के दुसर पहलु में साझा इतिहास, परंपरा, आऊ भाषा शामिल बाटे.", "en": "Other dimensions of racial groupings include shared history, traditions, and language.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "परंपरागत रूप से, डेनिस साही जोड़े के रोस्किल्डे कैथेड्रल में दफनावल जायेला.", "en": "Traditionally, the Danish royal couple are interred in Roskilde Cathedral.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "परंपरागत रूप से नया आनुवंशिक सामग्री के मेजबान जीनोम के भीतर बेतरतीब ढंग से डालल गयल रहे.", "en": "Traditionally the new genetic material was inserted randomly within the host genome.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -5673,6 +5667,7 @@
 {"bho": "अधिकांस चिंताएँ जीएमओ क स्वास्थ्य आउर पर्यावरणीय प्रभाव के लेके हौवे", "en": "Most concerns are around the health and environmental effects of GMOs.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "निवारक स्वास्थ्य देखभाल: पर्यावरणीय बिमारी आउर स्वास्थ्य जोखिम के कम करे के खातिर.", "en": "Preventive health care: Reducing environmental diseases and health risks.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "दिमाग एक पल से दूसर पल में चलत रहेला; अइसहिं दिमाग के समय के माध्यम से पहचान होला.", "en": "The brain goes on from one moment of time to another; the brain thus has identity through time.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
+{"bho": "का कुछु पवित्र नईखे?", "en": "Is nothing sacred?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "पवित्र रोमन सम्राट के सत्ता में रहे वाला में पहिल मानल जात रहे.", "en": "The Holy Roman Emperor was considered the first among those in power.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "राउर पशु बचाव वाला काम कइसन चल रहल बा?", "en": "How have you been doing with your animal rescue?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "पशु स्वास्थ में +4.8% वृद्धि (एफएक्स & पोर्टफोलियो adj.)", "en": "+4.8% growth in sales at Animal Health (Fx & portfolio adj.)", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -6096,6 +6091,7 @@
 {"bho": "उ देखने  कि जीव (मटर के पौधे) असतत \"विरासत क इकाइयों\" क माध्यम से लक्षन  प्राप्त करेले.", "en": "He observed that organisms (pea plants) inherit traits by way of discrete \"units of inheritance\".", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "पच्छिमी यूरोप में ईसाई धरम के विस्तार भइल आऊ मठ कुल के स्थापना भइल.", "en": "Christianity expanded in western Europe, and monasteries were founded.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "सातवीं सताब्दी के दौरान, सिनाई के अलग-थलग ईसाई लंगर खतम हो गईल: केवल गढ़वाले मठ बनल रहलन.", "en": "During the seventh century, the isolated Christian anchorites of the Sinai were eliminated: only the fortified monastery remained.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
+{"bho": "एकर मतलब नइखे कि कउनो समाधान नइखे.", "en": "That does not mean there are no solutions.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "ओकर बात मति सुनऽ।", "en": "Don't listen to him.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "\"लइकन के खाना बनावे में मदद करे के चाहिँ\".", "en": "\"The children should help prepare the food.\"", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "हमनीं लोग के स्वस्थ रहे में मदद कइल चाहिला.", "en": "We want to help people stay healthy.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -6195,8 +6191,6 @@
 {"bho": "प्राथमिकी स्थिर, पारिस्थितिक रूप से मूल्यवान वन के गारंटी देवेला आउर जे स्वस्थ मिश्रित वन खातिर आवश्यक बाटे.", "en": "Firs guarantee stable, ecologically valuable forests and are essential for healthy mixed forests.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "वितरक (स्टूडियो के भी भाग) कंपनी के निर्माण के कम्पनी के मूवी स्थल में देखावे खातिर व्यवस्था कईलें.", "en": "Distributors (also part of the studios) arranged for company productions to be shown in the company's movie venues.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "मूस का खायक में जेतना अधिका त्रिप्टोफन रहे, उन्करा लगे उतने अधिका प्रतिरक्छा कोसिका रहे.", "en": "The more tryptophan the mice had in their diet, the more of these immune cells they had.'", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "हमस  में का का पड़ेला?", "en": "what are the ingredients in hummus?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
-{"bho": "गर्भाबस्था में हृदय रोग", "en": "Cardiovascular diseases in pregnancy", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "एतना जादा मेहनत के बाद अब तइयार परिनाम बाहर आए खातिर तइयार बा.", "en": "After all that hard work, the finished result is now ready to be unveiled.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "राउर काम मेहनत वाला लागता. का रउवा काम के बाद केहू के साथे घूमेलीं?", "en": "Sounds, hard work. Do you hang out with anyone from work?", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "व्हाट्स माय लाइन में उ \"रहस्यमयी मेहमान\" रहलीं.", "en": "She was the \"mystery guest\" on What's My Line.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -6288,6 +6282,7 @@
 {"bho": "हमके एगो रॉक जिम मिलल हव आउर  हम एके आजमाने क खातिर उत्सुक हई.", "en": "I found a rock gym and I'm curious to try it.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "हम अभिए रिकॉर्ड समझौता के मनवनी ह कि हमके एगो रॉक गाना लिखे के कोसिस करे दिहीं!", "en": "I've just convinced my record deal to let me try writing a rock song!", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "रोकथाम: जिन्कोज़िन® भी स्वस्थ लोग द्वारा निबारक रूप ले लिहल जा सकेला.", "en": "Prevention: Ginkozin® can also be taken preventively by healthy people.", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
+{"bho": "गर्भाबस्था में हृदय रोग", "en": "Cardiovascular diseases in pregnancy", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "लकी यू, हम  हर रोज डिटेंशन सेंटर में रहिला", "en": "lucky you, I am in a detention center everyday", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "फ्लोरिडा में रहत एकरा के रोज चलावल जा सकेला अउर एकरा के सर्दियाँ खातिर छोडल ना जा सकेला", "en": "living in florida it can be driven nearly daily never having to be put away for winter", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
 {"bho": "हम रोज़ अपने बगीचे में रहिला", "en": "I am in my garden everyday", "source": "en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"}
@@ -6820,8 +6815,6 @@
 {"bho": "𑂞𑂷𑂢𑂅𑂪𑂰", "en": "A pot bellied man", "source": "en.wiktionary.org"}
 {"bho": "सब अलग-अलग जगह का ह?", "en": "What are all the different places?", "source": "en.wiktionary.org"}
 {"bho": "पापुआ से दुनिया क नजर अलग रहेले.", "en": "Isolation keeps the world's eyes off Papua.", "source": "en.wiktionary.org"}
-{"bho": "आग से पानी आ धरती बनल अउर एकरी उलट.", "en": "Fire becomes water and earth and vice versa.", "source": "en.wiktionary.org"}
-{"bho": "यदि इ से बदबू आ रहल बा त दूरे रहीं.", "en": "If it smells wrong, stay away.", "source": "en.wiktionary.org"}
 {"bho": "त तू फिर कउ देस से आइल हउवा?", "en": "So which country did you come from again?", "source": "en.wiktionary.org"}
 {"bho": "नया मामलन के संख्या में 18% के गिराबट आइल बा.", "en": "The number of new cases fell by 18%.", "source": "en.wiktionary.org"}
 {"bho": "नाही हम आपन आटा खुद बनाला. का तू आपन कुकीज़ के दुसर दुसर आकार में बनावेला?", "en": "No we make our own dough. Do you make your cookies into different shapes?", "source": "en.wiktionary.org"}
@@ -6917,6 +6910,7 @@
 {"bho": "पहिला नजर में, एगो सामान्य परकिरिया.", "en": "At first glance, a normal procedure.", "source": "en.wiktionary.org"}
 {"bho": "नौ अउर छह अउर पाँच साल", "en": "Nine and six and five years old", "source": "en.wiktionary.org"}
 {"bho": "रऊंआं सप्ताह में पाँच दिन नाचींला अउर सिक्षा भी लीहींला पर बढ़ियाँ नर्तक नईखीं?", "en": "You dance five days a week and have taken lessons but are not good at dancing?", "source": "en.wiktionary.org"}
+{"bho": "आग से पानी आ धरती बनल अउर एकरी उलट.", "en": "Fire becomes water and earth and vice versa.", "source": "en.wiktionary.org"}
 {"bho": "पानी पृथ्वी के सतह के 71% हिस्सा पर बाटे.", "en": "Water covers 71% of the Earth's surface.", "source": "en.wiktionary.org"}
 {"bho": "चिकित्सीय इलाज पीलिया पीएल-एस –...", "en": "Medical Therapy Jaundice PL-S –...", "source": "en.wiktionary.org"}
 {"bho": "दु गो दुसर पुल लुटेरबाक पे आगे बढ़ जायेले.", "en": "The two other bridges lead over the Lauterbach.", "source": "en.wiktionary.org"}
@@ -7039,8 +7033,6 @@
 {"bho": "तू मोटरसाइकिल क सवारी कईसे सुरु कईले हवा?", "en": "How did you get started riding motorbikes?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "उ  हरदम आपन टोपी पहनत रहन.", "en": "He would always wear his hat.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "कलाकार खुद के हरदम सहर सब से प्रेरित होखे देलस.", "en": "The artist always let himself be inspired by cities.", "source": "en.wiktionary.org (translation tables)"}
-{"bho": "आग से पानी आ धरती बनल अउर एकरी उलट.", "en": "Fire becomes water and earth and vice versa.", "source": "en.wiktionary.org (translation tables)"}
-{"bho": "यदि इ से बदबू आ रहल बा त दूरे रहीं.", "en": "If it smells wrong, stay away.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "एही खातिर कॉमन रूम के लेके बहस चल रहल हउवे.", "en": "That is why there is a debate concerning a common room.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "दीवतिय बिस्व युद्ध के बाद ले ट्यूटर्स बहस पर हावी रहसन.", "en": "The tutors dominated the debate until after the Second World War.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "राइट बैक, अब उनकर  एही जगहिया  बाटे; उज्जर  बांह के  पट्टी  आपन   जादू क देलस.", "en": "Right back, that's his position now; the white armband cast its habitual spell.", "source": "en.wiktionary.org (translation tables)"}
@@ -7323,8 +7315,6 @@
 {"bho": "हर महीना सैकड़ों नया वायरस सामने आबेला.", "en": "Every month, hundreds of new viruses appear.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "फेर रात में, उ \"व्हिस्की पीअत आउर लिखत रहन.\"", "en": "Then at night, he'd \"drink whiskey and get writing.\"", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "सोमालिया? का ईहां हर रात के तरह सूटिंग होखेला?", "en": "Somalia?  Was there shooting every night like it is here?", "source": "en.wiktionary.org (translation tables)"}
-{"bho": "डीएनए हेलिक्स ना हवे.\"", "en": "DNA is not a helix.\"", "source": "en.wiktionary.org (translation tables)"}
-{"bho": "हम्म, सायद ना. के रहे?", "en": "Hmm, probably not. Who was it?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "मोर्डिलो की उभरल नाक अउरी  दुखभरल चेहरा  प हंसना", "en": "Mordillo's bulbous noses and laughing in the face of sorrow", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "बिल्कुल कउनो नाहीं हंसेला.", "en": "Absolutely no one laughs.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "नाहीं, बाकिर हम देखल चाहतानी.", "en": "No, but i would love to.", "source": "en.wiktionary.org (translation tables)"}
@@ -7478,6 +7468,7 @@
 {"bho": "चीनी पे बयान बहुते जोरदार लागल .", "en": "The statement on sugar resounded very powerfully.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "इ बार, जब रास्कोना एन-शब्द कहेला, त ई तीखा अउर जोरदार ह.", "en": "This time, when Rascona says the N-word, it's sharp and emphatic.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "कमेंड मेडिकल इंटरकॉम अस्पताल आऊ क्लीनिकों के लेल तेज और स्वतंत्र आवाज आऊ सुरक्षा संचार प्रदान करेला.", "en": "Commend Medical Intercom offers fast and independent voice and security communication for hospital and clinics.", "source": "en.wiktionary.org (translation tables)"}
+{"bho": "आग से पानी आ धरती बनल अउर एकरी उलट.", "en": "Fire becomes water and earth and vice versa.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "पानी पृथ्वी के सतह के 71% हिस्सा पर बाटे.", "en": "Water covers 71% of the Earth's surface.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "जल भैंसा: पहिला क्लोन जल भैसा समरूपा रहे.", "en": "Water buffalo: Samrupa was the first cloned water buffalo.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "जल क अनुअन क बीच हाइड्रोजन आबंध क सर्वव्यापक उदाहरन मिलेला.", "en": "A ubiquitous example of a hydrogen bond is found between water molecules.", "source": "en.wiktionary.org (translation tables)"}
@@ -7491,13 +7482,11 @@
 {"bho": "इ गुरुत्वाकर्षण से मदद मिले वाला क्रियाविधि के उपयोगी बना दिहलस.", "en": "It made use of a gravity-assisted carry mechanism.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "ए दौर में पश्चिम में अरस्तु के ज्यादातर काम के जानकारी ना रहे.", "en": "Much of the work of Aristotle was unknown in the West in this period.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "सड़क : कोलकाता से एह नेशनल पार्क ले में पश्चिम बंगाल के स्टेट हाइवे 3 से पहुंचल जा सकेला।", "en": "Road: The national park can be accessed from Kolkata via West Bengal's State Highway 3.", "source": "en.wiktionary.org (translation tables)"}
-{"bho": "का तू मतलब रखे ल?", "en": "Do you care?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "रऊंआं यातरा कब सुरू करब", "en": "When would you like to start traveling", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "त आपके पूर मैराथन कब हव?", "en": "So when is your full marathon?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "रऊंआं कहाँ गईल रहनीं ह अउर इ सपाटाहान्त भी ओहो जगहा पर जार के बिचार बा?", "en": "Where did you go and and are you going to the same place again this weekend?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "ई हमेसा इ बात पे निर्भर करेला कि कउनो आपन स्वैच्छिक सेवा वर्स कहाँ कर रहल ह.", "en": "It always depends on where one is doing their voluntary service year.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "एगो दुसर जीन, हालांकि, नियंत्रित करेला कि फूलन क रंग  बिल्कुल हौवे चाहे उज्जर हौवे.", "en": "Another gene, however, controls whether the flowers have color at all or are white.", "source": "en.wiktionary.org (translation tables)"}
-{"bho": "एसीई के इ डर हवे.", "en": "The ACE fears that.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "एकमात्र खुलल खिड़की के कारण किटन के चरित्र सकुशल उभरल.", "en": "Keaton's character emerged unscathed, due to a single open window.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "हँ, नउकरी लेवे खातिर हमके तीन खिड़की के सीसा के टाल से कूदे के रहे.", "en": "Yes, I had to jump through a stack of three window panes to get the job.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "तु कॉलेज में कहवाँ जाएल चाह ताड़?", "en": "Where do you want to go to college?", "source": "en.wiktionary.org (translation tables)"}
@@ -7509,6 +7498,7 @@
 {"bho": "20 बरिस ले बियाह में रहला के का राज बा?", "en": "What is the secret to staying married for 20 years?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "हँ आऊ रोबोट बनावल कइसन चलता?", "en": "Yeah and how is the robot building going?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "हँ, हम बिलकुल एह के पसंद करब!", "en": "Yes, I would absolutely love that!", "source": "en.wiktionary.org (translation tables)"}
+{"bho": "का तू मतलब रखे ल?", "en": "Do you care?", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "जावास्क्रिप्ट: शून्य (0); वायरस लॉग देखी", "en": "javascript:void(0); View Virus Log", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "ये प्रकार इ शून्य के बाद वाला पूर्णांक हवे.", "en": "It is thus the integer after zero.", "source": "en.wiktionary.org (translation tables)"}
 {"bho": "अवव, इ बहुत मजा के ऊमीर ह. रऊंआं उनके हाले में चिड़ियाघर ले गईनीं ह?", "en": "Awww, that is such a fun age. Have you taken them to the zoo recently?", "source": "en.wiktionary.org (translation tables)"}

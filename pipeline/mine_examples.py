@@ -30,6 +30,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
+
 ROOT = Path(__file__).resolve().parent.parent
 CANON = ROOT / "data" / "canonical"
 PAR = ROOT / "data" / "corpus" / "parallel"
@@ -51,6 +52,10 @@ SOURCES = [
 DEVA = re.compile(r"[ऀ-ॿ]+")
 BAD = re.compile(r"https?://|www\.|[<>{}|@#]|\d{4,}")
 MAX_PER_ENTRY = 2
+# Above this corpus frequency a token match says nothing: के appears in
+# almost every Bhojpuri sentence, so the "example" illustrates whatever the
+# sentence happened to be about rather than the headword. Better none.
+MAX_HEADWORD_FREQ = 100_000
 MIN_BHO_TOKENS, MAX_BHO_TOKENS = 4, 18
 MIN_EN_WORDS, MAX_EN_WORDS = 3, 28
 
@@ -103,9 +108,17 @@ def main():
     ap.add_argument("--max-per-entry", type=int, default=MAX_PER_ENTRY)
     args = ap.parse_args()
 
+    freq_path = ROOT / "data" / "corpus" / "word-freq.json"
+    freq = {}
+    if freq_path.exists():
+        freq = json.loads(freq_path.read_text(encoding="utf-8"))
+        if isinstance(freq, dict) and "words" in freq:
+            freq = freq["words"]
+
     files = {p: [json.loads(l) for l in p.open(encoding="utf-8") if l.strip()]
              for p in sorted(CANON.glob("*.jsonl"))}
-    headwords = {nfc(e["word"]) for rows in files.values() for e in rows}
+    headwords = {nfc(e["word"]) for rows in files.values() for e in rows
+                 if freq.get(nfc(e["word"]), 0) <= MAX_HEADWORD_FREQ}
     print(f"loading candidates for {len(headwords)} headwords…", file=sys.stderr)
     cand = load_candidates(headwords)
     print(f"  {len(cand)} headwords have at least one usable sentence", file=sys.stderr)
@@ -118,6 +131,8 @@ def main():
             if not senses or any(s.get("examples") for s in senses):
                 continue
             w = nfc(e["word"])
+            if freq.get(w, 0) > MAX_HEADWORD_FREQ:
+                continue
             pool = cand.get(w)
             if not pool:
                 continue
