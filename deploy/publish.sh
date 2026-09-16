@@ -18,8 +18,11 @@ cd "$(dirname "$0")"
 # Pull first, then re-run the freshly pulled copy of this script: bash reads a
 # script incrementally, so updating the file underneath a running script breaks it.
 if [ -z "${PUBLISH_REEXEC:-}" ]; then
-  echo "→ git pull"; git -C .. pull -q --ff-only
-  PUBLISH_REEXEC=1 exec bash "$0" "$@"
+  echo "→ git pull"
+  before=$(git -C .. rev-parse HEAD)
+  git -C .. pull -q --ff-only
+  [ "$before" = "$(git -C .. rev-parse HEAD)" ] && pulled=0 || pulled=1
+  PUBLISH_REEXEC=1 PUBLISH_PULLED=$pulled exec bash "$0" "$@"
 fi
 
 exec </dev/null
@@ -41,6 +44,14 @@ mv ../dictpress/import.csv.new ../dictpress/import.csv
 
 cd ..
 if git diff --quiet -- data/canonical data/cleaning dictpress/import.csv && [ -z "$(git ls-files --others --exclude-standard data/cleaning)" ]; then
+  # No decisions of our own to commit. The pull may still have brought new
+  # canonical data from a laptop, and the live databases are built from files,
+  # not from git — so they need the rebuild even when there is nothing to push.
+  if [ "${PUBLISH_PULLED:-0}" = "1" ]; then
+    echo "nothing to publish, but the pull brought new data"
+    echo "→ rebuilding dictionary"; ./deploy/setup.sh
+    exit 0
+  fi
   echo "nothing to publish"; exit 0
 fi
 git add data/canonical data/cleaning dictpress/import.csv
