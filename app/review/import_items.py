@@ -24,11 +24,22 @@ CANON = ROOT / "data" / "canonical"
 DEFAULT_FILES = ["wiktionary-bho", "wiktionary-translations-bho", "gatitos-bho",
                  "hindi-cognates-bho", "aligned-bho", "langlinks-bho", "community-bho"]
 FREQ = ROOT / "data" / "corpus" / "word-freq.json"
+# The corpus is not in git, so the server has no word-freq.json. Fall back to the
+# committed headwords-only copy (same one to_dictpress.py ranks the site with) —
+# without it every item imports at freq 0 and batches lose frequency ordering.
+HEADWORD_FREQ = ROOT / "dictpress" / "headword-freq.json"
+
+
+def load_freq() -> dict[str, int]:
+    for path in (FREQ, HEADWORD_FREQ):
+        if path.exists():
+            return json.loads(path.read_text())
+    return {}
 
 
 def main() -> None:
     paths = [Path(p) for p in sys.argv[1:]] or [CANON / f"{f}.jsonl" for f in DEFAULT_FILES]
-    freq = json.loads(FREQ.read_text()) if FREQ.exists() else {}
+    freq = load_freq()
 
     by_word: dict[str, list[tuple[str, dict]]] = {}
     for path in paths:
