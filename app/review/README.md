@@ -84,7 +84,7 @@ same against `app/review/review.db` without committing.
 ```sh
 docker build -t bhoj-review app/review
 docker run -d --name bhoj-review --restart unless-stopped -p 127.0.0.1:9100:9100 \
-  -v /srv/bhoj/review:/data \
+  -v /srv/bhoj/deploy/data/review:/data \
   -e REVIEW_INVITE_CODE=<class-code> -e DICT_URL=https://bhoj.example.org \
   bhoj-review
 ```
@@ -95,7 +95,7 @@ dictpress `data.db`. To refresh items after a data rebuild, run `import_items.py
 against the mounted database:
 
 ```sh
-REVIEW_DB=/srv/bhoj/review/review.db .venv/bin/python app/review/import_items.py
+REVIEW_DB=/srv/bhoj/deploy/data/review/review.db .venv/bin/python app/review/import_items.py
 ```
 
 Environment: `REVIEW_DB`, `REVIEW_SECRET_KEY` (generated and stored on first run
