@@ -18,11 +18,8 @@ cd "$(dirname "$0")"
 # Pull first, then re-run the freshly pulled copy of this script: bash reads a
 # script incrementally, so updating the file underneath a running script breaks it.
 if [ -z "${PUBLISH_REEXEC:-}" ]; then
-  echo "→ git pull"
-  before=$(git -C .. rev-parse HEAD)
-  git -C .. pull -q --ff-only
-  [ "$before" = "$(git -C .. rev-parse HEAD)" ] && pulled=0 || pulled=1
-  PUBLISH_REEXEC=1 PUBLISH_PULLED=$pulled exec bash "$0" "$@"
+  echo "→ git pull"; git -C .. pull -q --ff-only
+  PUBLISH_REEXEC=1 exec bash "$0" "$@"
 fi
 
 exec </dev/null
@@ -40,15 +37,24 @@ if [ -n "$DRY" ]; then echo "(dry run: nothing written to canonical, nothing com
 echo "→ validate"; python3 ../pipeline/validate_canonical.py | tail -1
 FILES=(); for f in "${CANONICAL[@]}"; do FILES+=("../data/canonical/$f.jsonl"); done
 echo "→ dictpress/import.csv"; python3 ../pipeline/to_dictpress.py "${FILES[@]}" > ../dictpress/import.csv.new
-mv ../dictpress/import.csv.new ../dictpress/import.csv
+# Replace it only when the content moved: the mtime is what tells us below
+# whether the built dictionary is stale.
+if cmp -s ../dictpress/import.csv.new ../dictpress/import.csv; then
+  rm -f ../dictpress/import.csv.new
+else
+  mv ../dictpress/import.csv.new ../dictpress/import.csv
+fi
 
 cd ..
 if git diff --quiet -- data/canonical data/cleaning dictpress/import.csv && [ -z "$(git ls-files --others --exclude-standard data/cleaning)" ]; then
-  # No decisions of our own to commit. The pull may still have brought new
-  # canonical data from a laptop, and the live databases are built from files,
-  # not from git — so they need the rebuild even when there is nothing to push.
-  if [ "${PUBLISH_PULLED:-0}" = "1" ]; then
-    echo "nothing to publish, but the pull brought new data"
+  # Nothing of our own to commit — but the live databases are built from files,
+  # not from git, so data pulled from a laptop still needs the rebuild. Ask the
+  # artefacts rather than this run's history: an import.csv newer than the
+  # database it was built into means the dictionary is stale, whoever changed
+  # it. (Deciding from the pull cannot work: the copy of this script that runs
+  # the pull is the old one, so it cannot pass on what the new one expects.)
+  if [ ! -f dictpress/data.db ] || [ dictpress/import.csv -nt dictpress/data.db ]; then
+    echo "nothing to publish, but the built dictionary is older than import.csv"
     echo "→ rebuilding dictionary"; ./deploy/setup.sh
     exit 0
   fi
