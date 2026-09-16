@@ -252,11 +252,23 @@ def item_stats() -> dict:
     rows = con.execute("SELECT status, COUNT(*) n FROM items GROUP BY status").fetchall()
     total_verdicts = con.execute("SELECT COUNT(*) FROM verdicts").fetchone()[0]
     reviewers = con.execute("SELECT COUNT(DISTINCT user_id) FROM verdicts").fetchone()[0]
-    reviewed_once = con.execute("SELECT COUNT(*) FROM items WHERE n_correct + n_incorrect > 0 "
-                                "OR status IN ('verified','deleted','edit_pending','conflict')").fetchone()[0]
+    # 'deleted' means two different things: the few words reviewers rejected, and
+    # the words import_items.py tombstones when a data rebuild drops them from
+    # canonical — nobody looked at those. Counting them as checked once inflated
+    # progress by the size of the last triage. Report over the live dictionary,
+    # counting any verdict as looked at — including an edit, which leaves
+    # n_correct/n_incorrect at zero — plus anything already decided.
+    reviewed_once = con.execute("SELECT COUNT(*) FROM items WHERE status != 'deleted' "
+                                "AND (id IN (SELECT item_id FROM verdicts) "
+                                "     OR status IN ('verified','edit_pending','conflict'))").fetchone()[0]
+    live = con.execute("SELECT COUNT(*) FROM items WHERE status != 'deleted'").fetchone()[0]
+    dropped = con.execute("SELECT COUNT(*) FROM items WHERE status = 'deleted' "
+                          "AND id NOT IN (SELECT item_id FROM verdicts)").fetchone()[0]
     con.close()
     stats = {r["status"]: r["n"] for r in rows}
-    stats["total"] = sum(stats.values())
+    stats["all_items"] = sum(stats.values())
+    stats["dropped"] = dropped
+    stats["total"] = live
     stats["reviewed_once"] = reviewed_once
     stats["quorum"] = VERIFY_VOTES
     stats["verdicts"] = total_verdicts

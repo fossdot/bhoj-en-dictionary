@@ -9,11 +9,12 @@
 <section class="card">
   <h3>Progress</h3>
   <table class="list">
-    <tr><td>Total words</td><td>{{ stats.total }}</td></tr>
+    <tr><td>Words in the dictionary</td><td>{{ stats.total }}</td></tr>
     <tr><td><b>Reviewed at least once</b></td><td><b>{{ stats.reviewed_once }}</b> ({{ (100 * stats.reviewed_once / stats.total) | round(1) if stats.total else 0 }}%)</td></tr>
     <tr><td>Quorum</td><td>{{ stats.quorum }} correct to verify · {{ DELETE_VOTES }} incorrect to delete</td></tr>
     <tr><td>Verified</td><td>{{ stats.verified or 0 }}</td></tr>
-    <tr><td>Deleted</td><td>{{ stats.deleted or 0 }}</td></tr>
+    <tr><td>Deleted after review</td><td>{{ (stats.deleted or 0) - stats.dropped }}</td></tr>
+    <tr><td>Dropped by a data rebuild</td><td>{{ stats.dropped }} <small>(never reviewed — outside the totals above)</small></td></tr>
     <tr><td>Open</td><td>{{ stats.open or 0 }}</td></tr>
     <tr><td>Edit pending</td><td>{{ stats.edit_pending or 0 }}</td></tr>
     <tr><td>Conflict</td><td>{{ stats.conflict or 0 }}</td></tr>
