@@ -68,7 +68,8 @@ pre { background: var(--bg); padding: 10px 12px; border-radius: 8px; overflow-x:
 /* progress */
 .progress { display: flex; align-items: center; gap: 10px; font-size: 14px; color: var(--muted); margin: 6px 0; }
 .progress a { text-decoration: none; white-space: nowrap; }
-.undo { text-align: center; font-size: 14px; margin-top: 6px; }
+.undo { font-size: 14px; white-space: nowrap; }
+.undo button.link { padding: 0; }
 .bar { flex: 1; height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
 .bar div { height: 100%; background: var(--primary); }
 

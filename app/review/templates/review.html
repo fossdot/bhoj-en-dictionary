@@ -1,14 +1,13 @@
 {% extends "base.html" %}{% block title %}{{ item.content.word }} · review{% endblock %}
 {% block body %}
 <div class="progress"><a href="{{ url_for('home') }}" title="Home">← Home</a><span>{{ batch.done + 1 }} / {{ batch.total }}</span>
-  <div class="bar"><div style="width: {{ 100 * batch.done / batch.total }}%"></div></div></div>
-
-{% if undo %}
-<form method="post" action="{{ url_for('undo') }}" class="undo">
-  <input type="hidden" name="csrf" value="{{ csrf }}">
-  <button class="link">↶ Undo my last answer ({{ undo.word }} · {{ undo.verdict }})</button>
-</form>
-{% endif %}
+  <div class="bar"><div style="width: {{ 100 * batch.done / batch.total }}%"></div></div>
+  {% if undo %}
+  <form method="post" action="{{ url_for('undo') }}" class="undo">
+    <input type="hidden" name="csrf" value="{{ csrf }}">
+    <button class="link" title="Undo my last answer ({{ undo.verdict }})">↶ Undo ({{ undo.word }})</button>
+  </form>
+  {% endif %}</div>
 
 <section class="card review">
   {% with c = item.content %}{% include "_entry.html" %}{% endwith %}

@@ -105,12 +105,12 @@ def english_case_counts() -> tuple[Counter, Counter]:
     return cap, lower
 
 
-def verdict(entry: dict, cap: Counter, lower: Counter) -> tuple[bool, str]:
-    """(is a proper noun, why). Judged on the first sense, which is the headline."""
-    senses = entry.get("senses") or []
-    if not senses:
-        return False, ""
-    sense = senses[0]
+def sense_verdict(sense: dict, cap: Counter, lower: Counter) -> tuple[bool, str]:
+    """(is a proper noun, why) for one sense.
+
+    Judged per sense, never per entry: अग्नि is both "Agni (missile)" and
+    "fire", and only the first is encyclopedia material.
+    """
     gloss = (sense.get("gloss") or "").strip()
     pos = (sense.get("pos") or "").strip()
     if not gloss:
@@ -134,6 +134,26 @@ def verdict(entry: dict, cap: Counter, lower: Counter) -> tuple[bool, str]:
     return False, ""
 
 
+def filter_entry(entry: dict, cap: Counter, lower: Counter) -> tuple[dict | None, list[tuple[str, str]]]:
+    """(entry with the proper-noun senses removed, [(gloss, why), ...]).
+
+    Returns None for the entry only when every sense was a proper noun; an
+    entry that keeps a real sense keeps its headword in the dictionary.
+    """
+    senses = entry.get("senses") or []
+    if not senses:
+        return entry, []
+    keep, removed = [], []
+    for sense in senses:
+        is_name, why = sense_verdict(sense, cap, lower)
+        (removed.append(((sense.get("gloss") or "")[:120], why)) if is_name else keep.append(sense))
+    if not removed:
+        return entry, []
+    if not keep:
+        return None, removed
+    return {**entry, "senses": keep}, removed
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="rewrite the canonical files")
@@ -146,6 +166,7 @@ def main() -> None:
 
     by_file: dict[str, list] = defaultdict(list)
     drops: list[dict] = []
+    n_entries = n_removed = n_thinned = 0
     for path in sorted(CANON.glob("*.jsonl")):
         if path.stem.endswith("-review"):
             continue
@@ -154,13 +175,17 @@ def main() -> None:
                 if not line.strip():
                     continue
                 e = json.loads(line)
-                is_name, why = verdict(e, cap, lower)
-                by_file[path.name].append((e, is_name))
-                if is_name:
+                n_entries += 1
+                kept, removed = filter_entry(e, cap, lower)
+                by_file[path.name].append(kept)
+                if removed:
+                    n_removed += kept is None
+                    n_thinned += kept is not None
+                for gloss, why in removed:
                     drops.append({
                         "id": f"{path.stem}:{e['word']}", "word": e["word"],
-                        "file": path.name, "line": lineno, "why": why,
-                        "gloss": (e["senses"][0].get("gloss") or "")[:120],
+                        "file": path.name, "line": lineno, "why": why, "gloss": gloss,
+                        "entry_removed": kept is None,
                     })
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -169,29 +194,30 @@ def main() -> None:
         for d in drops:
             fh.write(json.dumps(d, ensure_ascii=False) + "\n")
 
-    per_file = Counter(d["file"] for d in drops)
     by_why = Counter("pos-tagged" if d["why"].startswith("en-Wiktionary") else "case-tested"
                      for d in drops)
-    total = sum(len(v) for v in by_file.values())
-    print(f"{len(drops)} proper nouns in {total} entries  {dict(by_why)}")
-    for name, n in per_file.most_common():
+    print(f"{len(drops)} proper-noun senses in {n_entries} entries  {dict(by_why)}")
+    print(f"  {n_removed} entries removed (every sense was a name)")
+    print(f"  {n_thinned} entries kept with the name sense stripped")
+    for name, n in Counter(d["file"] for d in drops).most_common():
         print(f"  {name:38} {n}")
-    print("\nexamples:")
-    for d in drops[:12]:
-        print(f"  {d['word']}  →  {d['gloss'][:46]}   ({d['why']})")
+    print("\nkept, name sense stripped:")
+    for d in (d for d in drops if not d["entry_removed"]):
+        print(f"  {d['word']}  −  {d['gloss'][:52]}")
+        if drops.index(d) > 8:
+            break
 
     if not args.apply:
         print(f"\nreport only. wrote {out}", file=sys.stderr)
         return
 
     for name, rows in by_file.items():
-        keep = [e for e, is_name in rows if not is_name]
-        if len(keep) == len(rows):
-            continue
+        keep = [e for e in rows if e is not None]
         with (CANON / name).open("w", encoding="utf-8") as fh:
             for e in keep:
                 fh.write(json.dumps(e, ensure_ascii=False) + "\n")
-        print(f"  {name:38} -{len(rows) - len(keep)} of {len(rows)}", file=sys.stderr)
+        if len(keep) != len(rows):
+            print(f"  {name:38} -{len(rows) - len(keep)} of {len(rows)}", file=sys.stderr)
 
 
 if __name__ == "__main__":
