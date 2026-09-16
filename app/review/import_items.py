@@ -6,6 +6,10 @@ the dictionary shows. Items with an accepted-but-unexported edit are left
 alone (only their frequency is refreshed) so nothing is lost; run
 apply_verdicts.py first to flush those.
 
+A word that leaves canonical is tombstoned `deleted`, and a word that comes
+back is opened again — a data rebuild that drops a word by mistake would
+otherwise hide it from reviewers for good, even once it returned.
+
 Usage:
     python3 app/review/import_items.py [canonical.jsonl ...]
 (default: the same file list `make data` uses, in the same priority order)
@@ -37,6 +41,14 @@ def load_freq() -> dict[str, int]:
     return {}
 
 
+def review_deleted(con, row) -> bool:
+    """Did reviewers delete this word, as opposed to a data rebuild dropping it?"""
+    if row["n_incorrect"] >= db.DELETE_VOTES:
+        return True
+    return con.execute("SELECT 1 FROM decisions WHERE item_id=? AND action='delete'",
+                       (row["id"],)).fetchone() is not None
+
+
 def main() -> None:
     paths = [Path(p) for p in sys.argv[1:]] or [CANON / f"{f}.jsonl" for f in DEFAULT_FILES]
     freq = load_freq()
@@ -53,10 +65,10 @@ def main() -> None:
                     by_word.setdefault(e["word"], []).append((path.stem, e))
 
     db.migrate()
-    stats = {"new": 0, "updated": 0, "kept": 0, "gone": 0}
+    stats = {"new": 0, "updated": 0, "kept": 0, "gone": 0, "restored": 0}
     with db.tx() as con:
         existing = {r["word"]: r for r in con.execute(
-            "SELECT id, word, original, content, status FROM items")}
+            "SELECT id, word, original, content, status, n_incorrect FROM items")}
         for word, entries in by_word.items():
             merged = content.merge(word, entries)
             blob = json.dumps(merged, ensure_ascii=False)
@@ -74,6 +86,11 @@ def main() -> None:
             else:
                 con.execute("UPDATE items SET freq=? WHERE id=?", (f, row["id"]))
                 stats["kept"] += 1
+            # Back in canonical: undo a tombstone, but never a review verdict.
+            if row["status"] == "deleted" and not review_deleted(con, row):
+                con.execute("UPDATE items SET status='open', exported_status=NULL WHERE id=?",
+                            (row["id"],))
+                stats["restored"] += 1
         # words removed from canonical outside the review flow
         for word, row in existing.items():
             if word not in by_word and row["status"] != "deleted" and not json.loads(row["original"]).get("new"):
