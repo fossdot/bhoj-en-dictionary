@@ -13808,8 +13808,6 @@
 ^,,lying flat or on the face,english,,default:english,,,,adjective,
 ^,,overturned,english,,default:english,,,,adjective,
 ^,,"falling flat, ineffective (as the blow of a sword)",english,,default:english,,,,adjective,
--,,चूत,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|vulgar|conf:low|verified|script:Deva,cūt,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
-^,,"cunt, pussy, vagina, vulva",english,,default:english,,,,noun,
 -,,रसायन,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|src:aligned|script:Deva,rasāyan,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,chemistry,english,,default:english,,,,,
 ^,,chemical; mixture,english,,default:english,,,,noun,
@@ -19478,10 +19476,6 @@
 ^,,"dense material settled in bottom of a liquid, dregs",english,,default:english,,,,noun,
 ^,,"sediment, scum",english,,default:english,,,,noun,
 ^,,large fat on body,english,,default:english,,,,noun,
--,,लंड,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|vulgar|conf:low|script:Deva,laṇḍ,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
-^,,"penis, cock, dick",english,,default:english,,,,noun,
-^,,used with stress to jeeringly contradict a statement,english,,default:english,,,,interjection,
-^,,"excrement, faeces, ordure",english,,default:english,,,,noun,
 -,,हिम,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:high|verified|script:Deva,him,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,"snow, ice, frost",english,,default:english,,,,noun,
 -,,अकिल,bhojpuri,,lua:indicphone_hi.lua,,verified|script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
@@ -21754,8 +21748,6 @@
 ^,,"under construction, underdevelopment",english,बगल के 56 मंजिला चैनिन बिल्डिंग सेहो निर्माणाधीन रहे. — The adjacent 56-story Chanin Building was also under construction.,default:english,,,,adjective,
 -,,भग,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|script:Deva,bhag,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,vulva,english,,default:english,,,,noun,
--,,रई,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|verified|script:Deva,raī,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
-^,,churning staff,english,,default:english,,,,noun,
 -,,जित,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|verified|script:Deva,jit,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,"conquered, subdued",english,,default:english,,,,adjective,
 ^,,"whither, whithersoever",english,,default:english,,,,adverb,
@@ -22657,9 +22649,6 @@
 ^,,either,english,,default:english,,,,,
 -,,कपूत,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:medium|script:Deva,kapūt,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,"a bad son, an undutiful son",english,,default:english,,,,noun,
--,,गांड,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|vulgar|conf:unknown|verified|script:Deva,gāṇḍ,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
-^,,"asshole, butthole (the anus)",english,,default:english,,,,noun,
-^,,"ass, butt",english,,default:english,,,,noun,
 -,,गागर,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|verified|script:Deva,gāgar,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,"a waterpot, an earthen pitcher",english,,default:english,,,,noun,
 -,,जीजी,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|verified|script:Deva,jījī,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
@@ -24860,9 +24849,6 @@
 -,,दरिद्र,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:medium|script:Deva,daridra,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,"poor, needy",english,,default:english,,,,adjective,
 ^,,poor person,english,,default:english,,,,noun,
--,,दुलारा,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|script:Deva,dulārā,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
-^,,"beloved, dear, darling",english,,default:english,,,,adjective,
-^,,"sweetheart, darling, beloved child, favorite son",english,,default:english,,,,noun,
 -,,परसर्ग,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:medium|script:Deva,parsarg,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,postposition,english,,default:english,,,,noun,
 -,,बयालीस,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|script:Deva,bayālīs,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
@@ -26189,8 +26175,6 @@
 ^,,doab,english,,default:english,,,,noun,
 -,,धमनी,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:medium|gloss:corroborated|verified|src:aligned|script:Deva,dhamnī,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,artery,english,,default:english,,,,noun,
--,,पोछा,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|verified|script:Deva,pochā,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
-^,,mop,english,,default:english,,,,noun,
 -,,बैरा,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:low|script:Deva,bairā,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
 ^,,waiter; porter,english,"ई बढ़ीयां बा, रऊंआं एकरा के बैरा के रूप में आपन नौकरी पर  जा सकींला? — That's good, are you able to drive it to your job as a waitress?",default:english,,,,noun,
 -,,मद्य,bhojpuri,,lua:indicphone_hi.lua,,src:hi-cognate|conf:medium|verified|script:Deva,madya,,"{""source"": ""en.wiktionary.org (Hindi entry; shared Indo-Aryan vocabulary attested in Bhojpuri corpus)"", ""license"": ""CC BY-SA 4.0""}"
@@ -27106,8 +27090,6 @@
 ^,,humble,english,,default:english,,,,,
 -,,रोडमैप,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
 ^,,roadmap,english,"हमनी के जल्दीये वाडा रोडमैप के पूरा करब - रूसी उप प्रधान मंत्री मुतको — ""We'll complete WADA roadmap in near future"" - Russian Deputy PM Mutko; नेटस इ में  छेत्रीय, बाकिर  अंतरराष्ट्रीय स्तर पर प्रतिस्पर्धी कंपनी सब  के समर्थन करे  खातिर एगो  रोडमैप देखता. — Natus sees in this a roadmap for supporting regional, but internationally competitive, companies.",default:english,,,,,
--,,सहजीवन,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
-^,,symbiosis,english,"एगो लम्बाबा समय के बातचीत के सहजीवन कहल जाला. — A long-term interaction is called a symbiosis.; जल्दिये, बड़का कोशिका और एकरी अंदर के छोटका कोशिका के बीच स्थायी सहजीवन विकसित हो गईल. — Soon, a stable symbiosis developed between the large cell and the smaller cells inside it.",default:english,,,,,
 -,,स्थलीय,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
 ^,,terrestrial,english,भूमि पौधे (भ्रूणद्वार) लगभग 450 से 500 मिलियन बरिस पहीले स्थलीय वातावरन में पहली बार दिखाई देहने. — Land plants (embryophytes) first appeared in terrestrial environments approximately 450 to 500 million years ago.,default:english,,,,,
 -,,इमेजिंग,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
@@ -27627,8 +27609,6 @@
 ^,,legend,english,,default:english,,,,,
 -,,निरदयी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,cruel,english,,default:english,,,,,
--,,नॉकआउट,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
-^,,knockout,english,एगो साधारण नॉकआउट में वांछित जीन क एगो प्रति के गैर-कार्यात्मक बनावे क खातिर बदल गयल हव. — In a simple knockout a copy of the desired gene has been altered to make it non-functional.,default:english,,,,,
 -,,परमानु,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
 ^,,atom,english,"ई सूर्य के मुख्य ऊर्जा स्रोत, परमानु संलयन के खोज द्वारा हल कयल गइल रहे. — This was resolved by the discovery of nuclear fusion, the main energy source of the Sun.; परमानु  के सिद्धांत ग्रीक दार्सनिक ल्यूसिपस आउर उनकर छात्र डेमोक्रिटस  विकसित कइले रहलन. — The theory of atoms was developed by the Greek philosopher Leucippus and his student Democritus.",default:english,,,,,
 -,,पेंचकस,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org (translation tables)"", ""license"": ""CC BY-SA 4.0""}"
@@ -27757,8 +27737,6 @@
 ^,,complement,english,,default:english,,,,,
 -,,फुलाव,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,swell,english,,default:english,,,,,
--,,बास्क,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
-^,,Basque,english,"सब बास्क बास्क-प्रवक्ता नइखन. — Not all Basques are Basque-speakers.; कोलंबियाई लोक संगीत बम्बुको के बास्क जड़ हवे. — Bambuco, a Colombian folk music, has Basque roots.",default:english,,,,,
 -,,ब्लीच,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,bleach,english,,default:english,,,,,
 -,,मसउदा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
@@ -27927,8 +27905,6 @@
 ^,,spin,english,,default:english,,,,,
 -,,चुरावल,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,steal,english,,default:english,,,,,
--,,चैपलिन,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
-^,,Chaplin,english,उ आऊ चैपलिन कै दशक ले कम्पनी में हिस्सेदार रहलें. — She and Chaplin remained partners in the company for decades.,default:english,,,,,
 -,,छछूंदर,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,mole,english,,default:english,,,,,
 -,,टिड्डी,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""en.wiktionary.org (translation tables)"", ""license"": ""CC BY-SA 4.0""}"
@@ -28482,8 +28458,6 @@
 ^,,there,english,,default:english,,,,,
 -,,कहाॅंं,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,where,english,,default:english,,,,,
--,,किण्वन,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
-^,,fermentation,english,इ परकिरीया बियर के सुरुयाती किण्वन में भी शामिल कइल गइल रहे. — These processes also were included in early fermentation of beer.; किण्वन एनएडीएच के  एनएडीएच+ में ऑक्सीकृत कर देवेला एहि खातिर एके ग्लाइकोलाइसिस मेंदुबारा उपयोग करल जा सकेला. — Fermentation oxidizes NADH to NAD+ so it can be re-used in glycolysis.,default:english,,,,,
 -,,केचुवा,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,Quechua,english,,default:english,,,,,
 -,,कोसिका,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
@@ -28710,8 +28684,6 @@
 ^,,hall,english,,default:english,,,,,
 -,,समझ-बूझ,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,comprehension,english,,default:english,,,,,
--,,सुकरवार,bhojpuri,,lua:indicphone_hi.lua,,src:aligned|conf:unknown|script:Deva,,,"{""source"": ""IBM-1 word alignment over NLLB-Seed/MD professional translations"", ""license"": ""CC-BY-SA 4.0 (derived)""}"
-^,,Friday,english,वेइल ने सुकरवार के खुद के संसद भंग करे क पछ में घोसीत कईने. — Weil declared himself on Friday to be in favour of a dissolution of the Parliament.; सुकरवार के पुल क दकछिनी हिस्सा में 2.20 मीटर चौड़ा पुल पैरापेट लगावल जाये के हौउवे. — A 2.20-metre-wide bridge parapet is to be put in place on the south part of the bridge on Friday.,default:english,,,,,
 -,,सुस्ताह,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"
 ^,,dull,english,,default:english,,,,,
 -,,स्प्ष्ट,bhojpuri,,lua:indicphone_hi.lua,,script:Deva,,,"{""source"": ""GATITOS (Google SMOL)"", ""license"": ""CC-BY-4.0""}"

@@ -1,0 +1,12 @@
+{"id": "hindi-cognates-bho:गांड", "word": "गांड", "file": "hindi-cognates-bho.jsonl", "why": "hindi-context: bho_ratio 0.125 over 8 marked lines", "gloss": "asshole, butthole (the anus)"}
+{"id": "hindi-cognates-bho:चूत", "word": "चूत", "file": "hindi-cognates-bho.jsonl", "why": "hindi-context: bho_ratio 0.1379 over 29 marked lines", "gloss": "cunt, pussy, vagina, vulva"}
+{"id": "hindi-cognates-bho:दुलारा", "word": "दुलारा", "file": "hindi-cognates-bho.jsonl", "why": "hindi-context: bho_ratio 0.3889 over 18 marked lines", "gloss": "beloved, dear, darling"}
+{"id": "hindi-cognates-bho:पोछा", "word": "पोछा", "file": "hindi-cognates-bho.jsonl", "why": "hindi-context: bho_ratio 0.3846 over 13 marked lines", "gloss": "mop"}
+{"id": "hindi-cognates-bho:रई", "word": "रई", "file": "hindi-cognates-bho.jsonl", "why": "hindi-context: bho_ratio 0.3636 over 11 marked lines", "gloss": "churning staff"}
+{"id": "hindi-cognates-bho:लंड", "word": "लंड", "file": "hindi-cognates-bho.jsonl", "why": "hindi-context: bho_ratio 0.2308 over 13 marked lines", "gloss": "penis, cock, dick"}
+{"id": "aligned-bho:किण्वन", "word": "किण्वन", "file": "aligned-bho.jsonl", "why": "hindi-context: bho_ratio 0.0 over 1 marked lines", "gloss": "fermentation"}
+{"id": "aligned-bho:चैपलिन", "word": "चैपलिन", "file": "aligned-bho.jsonl", "why": "hindi-context: bho_ratio 0.0 over 1 marked lines", "gloss": "Chaplin"}
+{"id": "aligned-bho:नॉकआउट", "word": "नॉकआउट", "file": "aligned-bho.jsonl", "why": "hindi-context: bho_ratio 0.0 over 4 marked lines", "gloss": "knockout"}
+{"id": "aligned-bho:बास्क", "word": "बास्क", "file": "aligned-bho.jsonl", "why": "hindi-context: bho_ratio 0.0 over 3 marked lines", "gloss": "Basque"}
+{"id": "aligned-bho:सहजीवन", "word": "सहजीवन", "file": "aligned-bho.jsonl", "why": "hindi-context: bho_ratio 0.0 over 5 marked lines", "gloss": "symbiosis"}
+{"id": "aligned-bho:सुकरवार", "word": "सुकरवार", "file": "aligned-bho.jsonl", "why": "hindi-context: bho_ratio 0.0 over 1 marked lines", "gloss": "Friday"}
