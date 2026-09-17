@@ -14,12 +14,13 @@
 # ever lost to a copy race, and the repo stays the single source of truth.
 set -euo pipefail
 cd "$(dirname "$0")"
+SELF="$PWD/$(basename "$0")"   # absolute: we have already changed directory
 
 # Pull first, then re-run the freshly pulled copy of this script: bash reads a
 # script incrementally, so updating the file underneath a running script breaks it.
 if [ -z "${PUBLISH_REEXEC:-}" ]; then
   echo "→ git pull"; git -C .. pull -q --ff-only
-  PUBLISH_REEXEC=1 exec bash "$0" "$@"
+  PUBLISH_REEXEC=1 exec bash "$SELF" "$@"
 fi
 
 exec </dev/null

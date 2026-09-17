@@ -4,6 +4,7 @@
 # build the review database from the canonical data, start the stack.
 set -euo pipefail
 cd "$(dirname "$0")"
+SELF="$PWD/$(basename "$0")"   # absolute: we have already changed directory
 
 # Deploying means running the committed code, so fetch it first — publish.sh is
 # not the only way in here, and a rebuild from a stale checkout silently ships
@@ -11,7 +12,7 @@ cd "$(dirname "$0")"
 # replacing this file underneath a running shell breaks it.
 if [ -z "${SETUP_REEXEC:-}" ]; then
   echo "→ git pull"; git -C .. pull -q --ff-only || echo "  (no fast-forward; continuing with the working tree)"
-  SETUP_REEXEC=1 exec bash "$0" "$@"
+  SETUP_REEXEC=1 exec bash "$SELF" "$@"
 fi
 
 exec </dev/null   # docker would otherwise hold an ssh session's stdin open and hang the caller
