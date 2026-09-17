@@ -35,6 +35,10 @@ CREATE TABLE IF NOT EXISTS items (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   word TEXT NOT NULL UNIQUE,
   freq INTEGER NOT NULL DEFAULT 0,
+  -- How strongly this word is attested as Bhojpuri, for batch order:
+  -- 2.0 a hand-annotated Bhojpuri lexicon lists it, 0..1 its corpus bho_ratio
+  -- (share of its sentences that are Bhojpuri-marked), -1 nothing either way.
+  evidence REAL NOT NULL DEFAULT 0,
   original TEXT NOT NULL,
   content TEXT NOT NULL,
   status TEXT NOT NULL DEFAULT 'open'
@@ -46,6 +50,7 @@ CREATE TABLE IF NOT EXISTS items (
   updated_at TEXT NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ', 'now'))
 );
 CREATE INDEX IF NOT EXISTS idx_items_status_freq ON items(status, freq DESC);
+CREATE INDEX IF NOT EXISTS idx_items_status_evidence ON items(status, evidence DESC, freq DESC);
 
 CREATE TABLE IF NOT EXISTS batches (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -134,6 +139,13 @@ def tx():
 def migrate() -> None:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     con = connect()
+    # `evidence` arrived after the first cohort started. Add it to an existing
+    # table *before* the schema runs: SCHEMA indexes that column, and the index
+    # cannot be created against a table that does not have it yet.
+    has_items = con.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='items'").fetchone()
+    if has_items and "evidence" not in {r["name"] for r in con.execute("PRAGMA table_info(items)")}:
+        con.execute("ALTER TABLE items ADD COLUMN evidence REAL NOT NULL DEFAULT 0")
     con.executescript(SCHEMA)
     con.close()
 
@@ -314,7 +326,10 @@ def create_batch(user_id: int, size: int) -> dict | None:
 
     Preference order: items that already have one verdict from someone else
     (finishing them yields a decision), then untouched items; within each
-    group the most frequent words first. Items already judged by this user
+    group the best-attested words first (`evidence`), then the most frequent.
+    Attestation leads because a speaker can answer "is this Bhojpuri?" for a
+    word a Bhojpuri lexicon lists, while the shared Indo-Aryan layer below it
+    is the part nobody can settle quickly. Items already judged by this user
     are skipped, and so are items that already have enough reviewers (votes
     plus reservations in other people's active batches) to reach a decision:
     VERIFY_VOTES for an untouched word, DELETE_VOTES once someone said
@@ -338,7 +353,7 @@ def create_batch(user_id: int, size: int) -> dict | None:
               AND NOT EXISTS (SELECT 1 FROM verdicts v WHERE v.item_id = i.id AND v.user_id = ?)
               AND (i.n_correct + i.n_incorrect + COALESCE(r.n, 0))
                   < CASE WHEN i.n_incorrect > 0 THEN {DELETE_VOTES} ELSE {VERIFY_VOTES} END
-            ORDER BY votes DESC, i.freq DESC, LENGTH(i.word), i.word
+            ORDER BY votes DESC, i.evidence DESC, i.freq DESC, LENGTH(i.word), i.word
             LIMIT ?""", (user_id, user_id, size)).fetchall()
         if not rows:
             return None

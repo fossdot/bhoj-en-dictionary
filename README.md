@@ -36,7 +36,9 @@ shared with Hindi, is tracked separately by `pipeline/triage_headwords.py`:
 
 Unverified entries also carry a `conf:` tag and a `bho_ratio` — the share of
 corpus sentences containing the word that are Bhojpuri-marked rather than
-Hindi-marked (`pipeline/score_bho_context.py`). Reviewers work lowest-first.
+Hindi-marked (`pipeline/score_bho_context.py`). The review app orders batches
+by that evidence: words a Bhojpuri lexicon lists come first, then the shared
+layer by descending `bho_ratio`.
 
 Whether the *English* is right is a separate question, and the corpus cannot
 answer it. Where an independent bho→en source covers a headword — GATITOS, or

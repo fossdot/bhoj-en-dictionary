@@ -32,6 +32,11 @@ FREQ = ROOT / "data" / "corpus" / "word-freq.json"
 # committed headwords-only copy (same one to_dictpress.py ranks the site with) —
 # without it every item imports at freq 0 and batches lose frequency ordering.
 HEADWORD_FREQ = ROOT / "dictpress" / "headword-freq.json"
+BHO_RATIO = ROOT / "data" / "bho-ratio.json"
+
+# Sources that assert "this word is Bhojpuri" rather than inferring it from a
+# shared Indo-Aryan ancestor (the same list triage_headwords.py works from).
+ATTESTING = {"wiktionary-bho", "gatitos-bho", "wiktionary-translations-bho", "community-bho"}
 
 
 def load_freq() -> dict[str, int]:
@@ -39,6 +44,18 @@ def load_freq() -> dict[str, int]:
         if path.exists():
             return json.loads(path.read_text())
     return {}
+
+
+def evidence_for(sources: set[str], ratio: float | None) -> float:
+    """Batch-order key: how strongly this word is attested as Bhojpuri.
+
+    2.0 when a hand-annotated Bhojpuri lexicon lists it, otherwise its corpus
+    bho_ratio (0..1), and -1.0 when nothing speaks either way — so reviewers
+    meet the words they can actually settle before the shared layer.
+    """
+    if sources & ATTESTING:
+        return 2.0
+    return ratio if ratio is not None else -1.0
 
 
 def review_deleted(con, row) -> bool:
@@ -52,6 +69,7 @@ def review_deleted(con, row) -> bool:
 def main() -> None:
     paths = [Path(p) for p in sys.argv[1:]] or [CANON / f"{f}.jsonl" for f in DEFAULT_FILES]
     freq = load_freq()
+    ratios = json.loads(BHO_RATIO.read_text()) if BHO_RATIO.exists() else {}
 
     by_word: dict[str, list[tuple[str, dict]]] = {}
     for path in paths:
@@ -73,18 +91,19 @@ def main() -> None:
             merged = content.merge(word, entries)
             blob = json.dumps(merged, ensure_ascii=False)
             f = int(freq.get(word, 0))
+            ev = evidence_for({stem for stem, _ in entries}, ratios.get(word))
             row = existing.get(word)
             if row is None:
-                con.execute("INSERT INTO items(word, freq, original, content) VALUES(?,?,?,?)",
-                            (word, f, blob, blob))
+                con.execute("INSERT INTO items(word, freq, evidence, original, content) "
+                            "VALUES(?,?,?,?,?)", (word, f, ev, blob, blob))
                 stats["new"] += 1
             elif row["original"] == row["content"]:
                 # no unexported local change → mirror canonical
-                con.execute("UPDATE items SET freq=?, original=?, content=?, exported_content=? WHERE id=?",
-                            (f, blob, blob, blob, row["id"]))
+                con.execute("UPDATE items SET freq=?, evidence=?, original=?, content=?, "
+                            "exported_content=? WHERE id=?", (f, ev, blob, blob, blob, row["id"]))
                 stats["updated"] += 1
             else:
-                con.execute("UPDATE items SET freq=? WHERE id=?", (f, row["id"]))
+                con.execute("UPDATE items SET freq=?, evidence=? WHERE id=?", (f, ev, row["id"]))
                 stats["kept"] += 1
             # Back in canonical: undo a tombstone, but never a review verdict.
             if row["status"] == "deleted" and not review_deleted(con, row):

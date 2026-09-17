@@ -31,6 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CANON = ROOT / "data" / "canonical"
 CORPUS = ROOT / "data" / "corpus" / "mono" / "all-dedup-lid-bho.txt"
 OUT = ROOT / "data" / "cleaning" / "context-scores.jsonl"
+BHO_RATIO = ROOT / "data" / "bho-ratio.json"
 
 BHO = re.compile(
     r"(?<![ऀ-ॿ])(बा|बाटे|बाड़े|बाड़ें|बानी|बिया|बाड़ी|भइल|गइल|रहल|कइल|"
@@ -115,7 +116,16 @@ def main():
                 "is_marker": w in MARKERS,
             }, ensure_ascii=False) + "\n")
 
-    print(f"wrote {OUT}", file=sys.stderr)
+    # Committed, headwords-only copy: the review app ranks batches by this and
+    # the server has no corpus, the same bargain as dictpress/headword-freq.json.
+    ratios = {}
+    for w in sorted(targets):
+        support = bho_hits[w] + hi_hits[w]
+        if support and w in tiers:
+            ratios[w] = round(bho_hits[w] / support, 4)
+    BHO_RATIO.write_text(json.dumps(ratios, ensure_ascii=False), encoding="utf-8")
+
+    print(f"wrote {OUT} and {BHO_RATIO} ({len(ratios)} headwords)", file=sys.stderr)
     print(json.dumps({"baseline_bho_ratio": round(baseline, 4),
                       "lines_bho": n_bho, "lines_hi": n_hi, "lines_neutral": n_neu}))
 
